@@ -11,7 +11,7 @@ This covers how Barath wants his hematology-oncology/ID/CCM fellowship interview
 
 Whenever showing the rank list, show ONE table: rank, program, specialty, composite score, and every scoring criterion's value, all in the same table. Never split the breakdown into separate per criterion tables and never show rank alone without the breakdown. Current columns: Rank, Program, Specialty, Score, Teaching/Research (53.2%), Field Preference (23.7%), Geography (13.6%), Culture (9.5%). Mark any rank decided by the tiebreak rule rather than the score. When Barath asks for "the breakdown," also show each criterion as raw score -> weighted points, plus Culture's four sub-parts, still in the same single table. If the weights or criteria change, update the column headers and percentages to match, but keep everything in one table.
 
-## Current formula (rebuilt from scratch 2026-09-29, verify against the live project doc since this changes)
+## Current formula (rebuilt from scratch 2026-09-29, verify against the latest section of the Notion Legend page since this changes)
 
 Claude based Rank = 0.532 x Teaching/Research + 0.237 x Field Preference + 0.136 x Geography + 0.095 x Culture.
 
@@ -36,7 +36,7 @@ Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. 
 
 ## Confirmed inputs snapshot (2026-09-29, verified with Barath one program at a time)
 
-Starting point for the next rescoring, not a substitute for re-verifying. Neutral = not yet known, counts as 5. Everything still pending is tracked in fellowship-rank-analysis/TBD.md in barathprashanth18196/newbierepository; keep that file current and show it when Barath asks what's still undecided.
+A dated reference copy only. The live values are in Notion and win on any difference. Neutral = not yet known, counts as 5. Pending values are tracked in the "Still to be decided" checklist of the latest Legend section (mirrored in fellowship-rank-analysis/TBD.md on GitHub); show that checklist when Barath asks what's still undecided.
 
 | Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Vacation days | Moonlighting | EMR | Score |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -65,15 +65,25 @@ Barath's tiebreak rule (2026-09-29): two programs whose composite scores are wit
 
 After any formula change, rerun TOPSIS and a +/-10% weight sensitivity check (script: fellowship-rank-analysis/rebuild.py in barathprashanth18196/newbierepository) and mention any rank that isn't stable. For a fuller picture, run montecarlo.py in the same folder: it varies the weights and every unknown input 20,000 times and reports each program's chance of finishing #1, top 3 and top 5. As of 2026-09-29, MCW is #1 in about 48% of runs; Henry Ford, LSU, Tufts and MCG form a top-5 cluster whose internal order is not settled until their interviews happen.
 
-The project doc and memory file live in Barath's Cowork project, which a Claude Code cloud session can't reach. When working from Claude Code, write paste-ready entries to fellowship-rank-analysis/PROJECT_DOC_ENTRY.md and tell Barath they need pasting.
+## Notion is the single source of truth (Barath's decision, 2026-09-29)
 
-## Every change, sync to all three places
+Every Claude session can read and write Notion, so Notion is the official record. Before doing any math, read the current state from Notion, not from this skill's snapshot or any other copy:
 
-1. Notion: update the live properties on every affected program's Interview Tracker page, then re-query the data source fresh and confirm the written values match what you intended, before telling Barath it is done. Never report a Notion write as successful without this re-verification.
-2. Project doc claude/rank-list-scoring-status.md: append a new numbered chronological entry (do not renumber or delete old entries) describing what changed, why, the exact new values, and the recomputed leaderboard. Update the "Current leaderboard" table and the scoring rubric section if the formula or scale changed.
-3. Memory file at the project's rank-list-scoring-status.md path: append a compact summary of the same change, pointing back to the project doc for full detail.
+- **Live values:** the Interview Tracker data source (collection://0c47349b-53fa-4599-9325-80a711395c44). The Culture column stores the composite Culture score.
+- **Rules, history and pending values:** the "Rank List Scoring Legend" page (https://app.notion.com/p/3d650330e23b814cbd7dd74457fd5872). Its highest-numbered section is the current formula and leaderboard; section 21 (2026-09-29) is the from-scratch rebuild. The "Still to be decided" checklist in the latest section is the official list of pending values.
 
-Do all three for every scoring change, even a small one. Barath relies on these staying in sync across sessions.
+If Notion disagrees with this skill's snapshot, Notion wins; mention the difference to Barath.
+
+## Every change, sync in this order
+
+1. **Notion Interview Tracker (required):** update the live properties on every affected program's page, then re-query the data source fresh and confirm the written values match what you intended, before telling Barath it is done. Never report a Notion write as successful without this re-verification.
+2. **Notion Legend page (required):** append a new numbered section (never renumber or delete old ones) describing what changed, why, the exact new values, and the recomputed leaderboard in the one-table format. Carry the "Still to be decided" checklist forward into the new section, ticking off anything resolved.
+3. **GitHub (when working from Claude Code):** update rebuild.py and TBD.md in barathprashanth18196/newbierepository/fellowship-rank-analysis, rerun the scripts, commit and push.
+4. **Cowork project doc and memory file (optional mirrors):** claude/rank-list-scoring-status.md and the memory file are no longer the record. Update them only when the session can reach them (a Cowork chat in that project). Never block on them or ask Barath to paste into them; a Cowork session can catch up by reading the latest Legend section.
+
+Do steps 1 and 2 for every scoring change, even a small one. Barath relies on Notion staying current across sessions.
+
+**Only a rule change needs a skill update.** Score changes live in Notion and need no skill upload. If you change a rule (formula, weights, scales, tiebreak, sync process), update this file and remind Barath he has to re-upload the skill in claude.ai Settings, since sessions can't install skills themselves.
 
 ## Verification habit
 

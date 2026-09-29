@@ -1,6 +1,6 @@
 # Paste-ready entries (2026-09-29)
 
-This cloud session can't reach the Cowork project files, so these two entries are ready to paste.
+Optional: Notion (Legend page section 21) is the single source of truth since 2026-09-29. These mirrors only matter for Cowork chats, which can also catch up by reading the Legend page directly.
 
 ## For claude/rank-list-scoring-status.md (append as the next numbered entry)
 
