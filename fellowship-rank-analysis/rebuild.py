@@ -16,19 +16,21 @@ WEIGHTS = [0.532, 0.237, 0.136, 0.095]  # AHP eigenvector rounded to 3 dp, sums 
 CULTURE_WEIGHTS = (0.5, 0.2, 0.2, 0.1)
 NEUTRAL = 5  # not yet interviewed / unknown
 
+# Confirmed with Barath program by program, 2026-09-29.
 # name: Teaching, Field, Geography, interview read (None = not interviewed),
 #       24h call (1 favorable / 0 unfavorable / None unknown), vacation days, moonlighting
+# Field tiers: Heme/Onc 10 > CCM/PCCM 7.5 > ID/CCM combined 5 > ID + optional CCM 2.5 > plain ID 0
 PROGRAMS = {
-    "MCW": (10, 6.67, 8, 10, 1, 15, "No"),
+    "MCW": (8, 7.5, 8, 10, 1, 15, "No"),
     "Henry Ford Providence": (6, 10, 10, None, None, 20, "TBD"),
-    "LSU New Orleans": (10, 10, 2, None, 0, 28, "TBD"),
-    "MCG": (10, 10, 0, 5, 0, 21, "Yes"),
-    "Tufts": (10, 0, 6, None, None, 20, "TBD"),
+    "LSU New Orleans": (8, 10, 2, 7.5, 0, 28, "TBD"),
+    "MCG": (8, 10, 0, 7.5, 0, 21, "Yes"),
+    "Tufts": (10, 2.5, 6, None, None, 20, "TBD"),
     "UMass Chan": (8, 0, 6, None, None, 20, "TBD"),
-    "NGMC": (4, 6.67, 4, None, None, 15, "No"),
-    "ETSU": (8, 3.33, 0, 0, None, 15, "No"),
-    "Ann Arbor": (0, 0, 10, 10, None, 28, "TBD"),
-    "Wayne State": (2, 0, 10, None, None, 21, "TBD"),
+    "NGMC": (4, 7.5, 4, 7.5, 0, 15, "No"),
+    "ETSU": (6, 5, 0, 7.5, None, 15, "TBD"),
+    "Ann Arbor": (4, 0, 10, 5, 1, 28, "No"),
+    "Wayne State": (6, 0, 10, None, None, 21, "TBD"),
 }
 
 

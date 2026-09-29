@@ -33,6 +33,25 @@ All criteria are on a 0 to 10 scale.
 
 Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Teaching/Research, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field, Geography and Leave follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
 
+## Confirmed inputs snapshot (2026-09-29, verified with Barath one program at a time)
+
+Starting point for the next rescoring, not a substitute for re-verifying. Neutral = not yet known, counts as 5.
+
+| Program | Teaching | Field | Geography | Interview read | 24-hr call | Vacation days | Moonlighting | Score | Rank |
+|---|---|---|---|---|---|---|---|---|---|
+| MCW | 8 | 7.5 | 8 | 10 (all four) | Favorable | 15 | No | 7.787 | 1 |
+| Henry Ford Providence | 6 | 10 | 10 | Neutral (interview 10/1) | Neutral | 20 | TBD | 7.492 | 2 (tie) |
+| LSU New Orleans | 8 | 10 | 2 | 7.5 (PD, faculty, fellows) | Unfavorable | 28 | TBD | 7.492 | 2 (tie) |
+| Tufts | 10 | 2.5 | 6 | Neutral (interview 10/6) | Neutral | 20 | TBD | 7.299 | 4 |
+| MCG | 8 | 10 | 0 | 7.5 (fellows, coordinator; PD and faculty half credit) | Unfavorable | 21 | Yes | 7.267 | 5 |
+| UMass Chan | 8 | 0 | 6 | Neutral (interview 10/16) | Neutral | 20 | TBD | 5.642 | 6 |
+| Wayne State | 6 ("has all the resources") | 0 | 10 | Neutral (interview 10/27) | Neutral | 21 | TBD | 5.122 | 7 |
+| ETSU | 6 | 5 | 0 | 7.5 (PD, faculty, fellows) | Neutral (ICU months only, 24-hr vs night float being checked with fellows) | 15 | TBD | 4.876 | 8 |
+| NGMC | 4 | 7.5 | 4 | 7.5 (PD, faculty, coordinator) | Unfavorable | 15 | No | 4.806 | 9 |
+| Ann Arbor | 4 | 0 | 10 | 5 (PD, coordinator) | Favorable | 28 | No | 4.106 | 10 |
+
+Henry Ford vs LSU is a genuine tie: the order flips depending on whether the weights are rounded to 3 decimals or kept exact, so never present either as ahead. Henry Ford's Culture is still all-neutral pending its 10/1 interview, which is the likeliest thing to break it.
+
 ## When Barath gives a tier hierarchy without exact numbers
 
 Barath often states relative order only and expects Claude to assign the actual point values. Default to even linear spacing across the criterion's established range, preserving his stated tier order and tie groupings exactly. If he says something like "you do it, best statistical way," even spacing across the full range is the right call, do not ask, just do it and show the resulting numbers.
