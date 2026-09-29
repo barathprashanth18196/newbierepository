@@ -20,10 +20,10 @@ The weights were derived with AHP from Barath's own pairwise judgments (2026-09-
 All criteria are on a 0 to 10 scale.
 
 - **Teaching/Research**: the fellowship's own faculty strength (PhD bench, research leadership, trials, faculty size). Barath assigns this per program; never leave a TBD stored as 0, since at 53% weight a placeholder 0 dominates the result. Ask him instead.
-- **Field Preference**: future salary and job-finding potential given his visa status. Order: Heme/Onc (10) > Critical Care, pure CCM or PCCM (6.67) > ID/CCM Combined (3.33, can work in either field) > pure ID (0). Heme/Onc is strictly above Critical Care, not tied.
+- **Field Preference**: future salary and job-finding potential given his visa status. Five tiers, spaced evenly: Heme/Onc 10 > Critical Care, pure CCM or PCCM 7.5 > ID/CCM Combined 5 (can work in either field) > ID with an optional Critical Care year 2.5 (Tufts is the only one as of 2026-09-29) > plain ID 0. Heme/Onc is strictly above Critical Care, not tied.
 - **Geography**: Barath's stated location order spaced evenly across 0 to 10: Michigan (Henry Ford, Ann Arbor, Wayne State) 10 > Milwaukee/MCW (close to Michigan) 8 > Boston area (Tufts, UMass Chan) 6 > Gainesville/NGMC 4 > New Orleans/LSU 2 > Augusta/MCG and Johnson City/ETSU 0. Metro status (Indian community, nightlife, transit, international airport) is already reflected in this order.
 - **Culture**: a composite, because Barath counts call, moonlighting and leave as part of a program's culture. Culture = 0.5 x interview read + 0.2 x 24-hour call + 0.2 x leave + 0.1 x moonlighting.
-  - Interview read: 2.5 points each for liking the PD, 2+ faculty, the fellows, the coordinator.
+  - Interview read: 2.5 points each for liking the PD, 2+ faculty, the fellows, the coordinator. An item he feels neutral about ("didn't like, didn't dislike") or could only partly judge (met just one faculty member, whom he liked) gets half credit, 1.25, the same as any other unknown.
   - 24-hour call: favorable (no true 24-hour in-house call) 10, unfavorable 0.
   - Leave: 20 or more vacation days 10, fewer 0 (yes/no, his choice, not a sliding scale).
   - Moonlighting: Yes 10, No 0.
@@ -31,7 +31,7 @@ All criteria are on a 0 to 10 scale.
 
 ## Verify every input with Barath, program by program
 
-Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually and confirm its Teaching/Research, interview read, 24-hour call and moonlighting with him, showing the current Notion value as the default. Field, Geography and Leave follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
+Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Teaching/Research, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field, Geography and Leave follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
 
 ## When Barath gives a tier hierarchy without exact numbers
 
