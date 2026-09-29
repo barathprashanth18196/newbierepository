@@ -12,8 +12,15 @@ PAIRWISE = [
 ]
 WEIGHTS = [0.532, 0.237, 0.136, 0.095]  # AHP eigenvector rounded to 3 dp, sums to 1
 
-# Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting
-CULTURE_WEIGHTS = (0.5, 0.2, 0.2, 0.1)
+# Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting, EMR.
+# EMR added 2026-09-29 at 10%; the original four were scaled by 0.9 to make room.
+CULTURE_WEIGHTS = (0.45, 0.18, 0.18, 0.09, 0.10)
+BAD_EMR = {"Wayne State"}  # Cerner/Oracle Health; every other program runs Epic
+
+# Scores closer than this are a tie, broken by Geography, then Field Preference,
+# then familiarity (NGMC is Barath's home program).
+TIE_BAND = 0.1
+HOME_PROGRAM = "NGMC"
 NEUTRAL = 5  # not yet interviewed / unknown
 
 # Confirmed with Barath program by program, 2026-09-29.
@@ -34,18 +41,37 @@ PROGRAMS = {
 }
 
 
-def culture(read, call, vacation, moonlighting):
+def culture(read, call, vacation, moonlighting, emr_good=True):
     parts = (
         NEUTRAL if read is None else read,
         NEUTRAL if call is None else 10 * call,
         10 if vacation >= 20 else 0,
         {"Yes": 10, "No": 0}.get(moonlighting, NEUTRAL),
+        10 if emr_good else 0,
     )
     return sum(w * p for w, p in zip(CULTURE_WEIGHTS, parts))
 
 
 def matrix():
-    return {n: (t, f, g, round(culture(*rest), 4)) for n, (t, f, g, *rest) in PROGRAMS.items()}
+    return {
+        n: (t, f, g, round(culture(*rest, emr_good=n not in BAD_EMR), 4))
+        for n, (t, f, g, *rest) in PROGRAMS.items()
+    }
+
+
+def final_order(score, m):
+    """Sort by score; adjacent programs within TIE_BAND are ordered by the tiebreak chain."""
+    order = sorted(score, key=lambda n: -score[n])
+    key = lambda n: (m[n][2], m[n][1], n == HOME_PROGRAM)
+    changed = True
+    while changed:
+        changed = False
+        for i in range(len(order) - 1):
+            a, b = order[i], order[i + 1]
+            if abs(score[a] - score[b]) < TIE_BAND and key(b) > key(a):
+                order[i], order[i + 1] = b, a
+                changed = True
+    return order
 
 
 if __name__ == "__main__":
@@ -57,8 +83,8 @@ if __name__ == "__main__":
     analysis.PROGRAMS = m
     t = analysis.topsis(WEIGHTS)
     tr = ranks({n: t[n][2] for n in t})
-    for n in sorted(score, key=lambda n: -score[n]):
-        print(f"{r[n]:>2} {n:<22} {score[n]:.3f}  T={m[n][0]:<5} F={m[n][1]:<5} G={m[n][2]:<3} C={m[n][3]:<5} TOPSIS#{tr[n]} C*={t[n][2]:.4f}")
+    for i, n in enumerate(final_order(score, m), 1):
+        print(f"{i:>2} (raw {r[n]}) {n:<22} {score[n]:.3f}  T={m[n][0]:<5} F={m[n][1]:<5} G={m[n][2]:<3} C={m[n][3]:<5} TOPSIS#{tr[n]} C*={t[n][2]:.4f}")
     # sensitivity: +/-10% per weight
     analysis.WEIGHTS = WEIGHTS
     moves = {n: set([r[n]]) for n in m}
