@@ -63,7 +63,9 @@ If a rearrange or rescale is ambiguous in a way that would meaningfully change r
 
 Barath's tiebreak rule (2026-09-29): two programs whose composite scores are within 0.1 points of each other are a tie. Break it by Geography first, then Field Preference, then familiarity (NGMC is his home program, so it wins a tie that gets that far). Always say in the reply when a tiebreak, not the score, decided an order, e.g. "Henry Ford #2 over LSU on the Geography tiebreak (7.530 vs 7.527)." If the chain still can't separate them, flag the tie explicitly rather than inventing an order.
 
-After any formula change, rerun TOPSIS and a +/-10% weight sensitivity check (script: fellowship-rank-analysis/rebuild.py in barathprashanth18196/newbierepository) and mention any rank that isn't stable.
+After any formula change, rerun TOPSIS and a +/-10% weight sensitivity check (script: fellowship-rank-analysis/rebuild.py in barathprashanth18196/newbierepository) and mention any rank that isn't stable. For a fuller picture, run montecarlo.py in the same folder: it varies the weights and every unknown input 20,000 times and reports each program's chance of finishing #1, top 3 and top 5. As of 2026-09-29, MCW is #1 in about 48% of runs; Henry Ford, LSU, Tufts and MCG form a top-5 cluster whose internal order is not settled until their interviews happen.
+
+The project doc and memory file live in Barath's Cowork project, which a Claude Code cloud session can't reach. When working from Claude Code, write paste-ready entries to fellowship-rank-analysis/PROJECT_DOC_ENTRY.md and tell Barath they need pasting.
 
 ## Every change, sync to all three places
 

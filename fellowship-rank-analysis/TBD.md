@@ -1,6 +1,6 @@
 # Rank list: values still to be decided
 
-Every input below currently counts as a neutral 5 in the Claude based Rank. Update the value and rerun `python3 rebuild.py` as each one resolves. Last updated 2026-09-29.
+Every input below currently counts as a neutral 5 in the Claude based Rank. Update the value and rerun `python3 rebuild.py` as each one resolves. Mirrored as a checklist at the end of section 21 on the Notion Rank List Scoring Legend page. Last updated 2026-09-29.
 
 | Program | What's pending | Resolves when | Current rank |
 |---|---|---|---|
