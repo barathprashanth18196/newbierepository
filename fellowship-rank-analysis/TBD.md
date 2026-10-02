@@ -4,8 +4,7 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 
 | Program | What's pending | Resolves when | Current rank |
 |---|---|---|---|
-| Henry Ford Providence | Interview read (PD, 2+ faculty, fellows, coordinator) | Interview 10/1 | 2 (ahead of LSU on the Geography tiebreak) |
-| Henry Ford Providence | 24-hour call, moonlighting | Ask at 10/1 interview | 2 |
+| Henry Ford Providence | Confirm 24-hour call score: recording describes home call only (rubric says favorable), Barath scored unfavorable | Barath | 5 (pending save) |
 | LSU New Orleans | Moonlighting | Ask at 10/9 interview | 3 |
 | Tufts | Interview read, 24-hour call, moonlighting | Interview 10/6 | 4 |
 | UMass Chan | Interview read, 24-hour call, moonlighting | Interview 10/16 | 6 |
