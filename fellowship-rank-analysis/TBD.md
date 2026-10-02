@@ -16,7 +16,7 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor.
 
 ## Close calls to recheck once the above resolves
 
-- **Henry Ford vs LSU** (7.530 vs 7.527): a tie, decided by Geography in Henry Ford's favor. Henry Ford's whole Culture score is still placeholders, so the 10/1 interview will likely settle it on score alone.
+- **Henry Ford vs LSU:** no longer close. After the 10/1 interview Henry Ford is 6.338 (proposed), LSU 7.527.
 - **Tufts vs MCG** (7.337 vs 7.298): within the tie band, Geography keeps Tufts ahead.
-- **NGMC vs ETSU** (4.865 vs 4.921): within the tie band, NGMC ahead on Geography (then Field, then home-program familiarity). ETSU's call answer could move this.
+- **ETSU vs NGMC** (4.921 vs 4.865): ETSU ahead on score; the tiebreak applies only to exact ties (clarified 10/2). ETSU's call answer could move this.
 - Places 2 to 5 (Henry Ford, LSU, Tufts, MCG) reshuffle under a 10% weight change, so treat them as a cluster until the interviews are done.
