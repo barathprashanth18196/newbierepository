@@ -7,6 +7,12 @@ description: Use when updating, rescoring, or displaying Barath's Claude based R
 
 This covers how Barath wants his hematology-oncology/ID/CCM fellowship interview rank list (the "Claude based Rank" column in the Notion "Interview Tracker" database) maintained and displayed. It does not cover adding a brand new program or verifying interview logistics, that is the fellowship-program-intake skill.
 
+## Standing reminders (added 2026-10-02)
+
+At the start of every rank-list conversation, remind Barath of both:
+1. **New weighting for the bottom five:** he said he may give a different weighting for the bottom five programs (as of 2026-10-02: UMass Chan, Wayne State, ETSU, NGMC, Ann Arbor). Ask whether it's ready; never invent one.
+2. **Culture still unfilled:** list every program with Culture inputs still counting as a neutral 5, from the "Culture still unfilled" checklist in the latest Legend section. Drop items as he fills them in.
+
 ## Display format, always
 
 Whenever showing the rank list, show ONE table: rank, program, specialty, composite score, and every scoring criterion's value, all in the same table. Never split the breakdown into separate per criterion tables and never show rank alone without the breakdown. Current columns: Rank, Program, Specialty, Score, Teaching/Research (53.2%), Field Preference (23.7%), Geography (13.6%), Culture (9.5%). Mark any rank decided by the tiebreak rule rather than the score. When Barath asks for "the breakdown," also show each criterion as raw score -> weighted points, plus Culture's four sub-parts, still in the same single table. If the weights or criteria change, update the column headers and percentages to match, but keep everything in one table.

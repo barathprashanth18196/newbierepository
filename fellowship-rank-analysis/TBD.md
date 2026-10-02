@@ -20,3 +20,8 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor.
 - **Tufts vs MCG** (7.337 vs 7.298): within the tie band, Geography keeps Tufts ahead.
 - **ETSU vs NGMC** (4.921 vs 4.865): ETSU ahead on score; the tiebreak applies only to exact ties (clarified 10/2). ETSU's call answer could move this.
 - Places 2 to 5 (Henry Ford, LSU, Tufts, MCG) reshuffle under a 10% weight change, so treat them as a cluster until the interviews are done.
+
+## Standing reminders (raise at the start of every rank-list chat)
+
+- **Bottom-five weighting:** Barath may provide a new weighting for the bottom five (UMass Chan, Wayne State, ETSU, NGMC, Ann Arbor as of 10/2). Waiting on him; don't invent one.
+- **Culture still unfilled:** Tufts (read, call, moonlighting), LSU (moonlighting), UMass Chan (read, call, moonlighting), Wayne State (read, call, moonlighting), ETSU (call, moonlighting), Henry Ford (confirm call score). Complete: MCW, MCG, NGMC, Ann Arbor.
