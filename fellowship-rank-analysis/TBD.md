@@ -9,8 +9,8 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 | Tufts | Interview read, 24-hour call, moonlighting | Interview 10/6 | 4 |
 | UMass Chan | Interview read, 24-hour call, moonlighting | Interview 10/16 | 6 |
 | Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 7 |
-| ETSU | 24-hour call: in-house call on ICU months (4 of 12), unclear whether true 24-hour or night float | Barath's meeting with the fellows | 9 |
-| ETSU | Moonlighting | Ask the fellows or PD | 9 |
+| ETSU | 24-hour call: in-house call on ICU months (4 of 12), unclear whether true 24-hour or night float | Post-interview fellows' meet-and-greet (interview itself done 9/18) | 8 |
+| ETSU | Moonlighting | Post-interview fellows' meet-and-greet | 8 |
 
 No pending inputs: MCW, MCG, NGMC, Ann Arbor.
 
@@ -24,4 +24,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor.
 ## Standing reminders (raise at the start of every rank-list chat)
 
 - **Bottom-five weighting:** Barath may provide a new weighting for the bottom five (UMass Chan, Wayne State, ETSU, NGMC, Ann Arbor as of 10/2). Waiting on him; don't invent one.
-- **Culture still unfilled:** Tufts (read, call, moonlighting), LSU (moonlighting), UMass Chan (read, call, moonlighting), Wayne State (read, call, moonlighting), ETSU (call, moonlighting), Henry Ford (confirm call score). Complete: MCW, MCG, NGMC, Ann Arbor.
+- **Culture still unfilled:** Tufts (read, call, moonlighting), LSU (moonlighting), UMass Chan (read, call, moonlighting), Wayne State (read, call, moonlighting), ETSU (call, moonlighting; ask at the post-interview fellows' meet-and-greet, interview done 9/18), Henry Ford (confirm call score). Complete: MCW, MCG, NGMC, Ann Arbor.
