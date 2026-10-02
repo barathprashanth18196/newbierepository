@@ -4,7 +4,6 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 
 | Program | What's pending | Resolves when | Current rank |
 |---|---|---|---|
-| Henry Ford Providence | Confirm 24-hour call score: recording describes home call only (rubric says favorable), Barath scored unfavorable | Barath | 5 (pending save) |
 | LSU New Orleans | Moonlighting | Ask at 10/9 interview | 3 |
 | Tufts | Interview read, 24-hour call, moonlighting | Interview 10/6 | 4 |
 | UMass Chan | Interview read, 24-hour call, moonlighting | Interview 10/16 | 6 |
@@ -24,4 +23,5 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor.
 ## Standing reminders (raise at the start of every rank-list chat)
 
 - **Bottom-five weighting:** Barath may provide a new weighting for the bottom five (UMass Chan, Wayne State, ETSU, NGMC, Ann Arbor as of 10/2). Waiting on him; don't invent one.
-- **Culture still unfilled:** Tufts (read, call, moonlighting), LSU (moonlighting), UMass Chan (read, call, moonlighting), Wayne State (read, call, moonlighting), ETSU (call, moonlighting; ask at the post-interview fellows' meet-and-greet, interview done 9/18), Henry Ford (confirm call score). Complete: MCW, MCG, NGMC, Ann Arbor.
+- **Culture still unfilled:** Tufts (read, call, moonlighting), LSU (moonlighting), UMass Chan (read, call, moonlighting), Wayne State (read, call, moonlighting), ETSU (call, moonlighting; ask at the post-interview fellows' meet-and-greet, interview done 9/18). Complete: MCW, MCG, NGMC, Ann Arbor, Henry Ford (10/2).
+- **Recheck under the clarified call rule (any call = unfavorable, 10/2):** MCW and Ann Arbor are scored favorable; confirm neither has home/pager call.

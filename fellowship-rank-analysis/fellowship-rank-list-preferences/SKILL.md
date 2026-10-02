@@ -30,7 +30,7 @@ All criteria are on a 0 to 10 scale.
 - **Geography**: Barath's stated location order spaced evenly across 0 to 10: Michigan (Henry Ford, Ann Arbor, Wayne State) 10 > Milwaukee/MCW (close to Michigan) 8 > Boston area (Tufts, UMass Chan) 6 > Gainesville/NGMC 4 > New Orleans/LSU 2 > Augusta/MCG and Johnson City/ETSU 0. Metro status (Indian community, nightlife, transit, international airport) is already reflected in this order.
 - **Culture**: a composite, because Barath counts call, moonlighting and leave as part of a program's culture. Culture = 0.45 x interview read + 0.18 x 24-hour call + 0.18 x leave + 0.09 x moonlighting + 0.10 x EMR (EMR added 2026-09-29; the original four were scaled by 0.9 to make room).
   - Interview read: 2.5 points each for liking the PD, 2+ faculty, the fellows, the coordinator. An item he feels neutral about ("didn't like, didn't dislike") or could only partly judge (met just one faculty member, whom he liked) gets half credit, 1.25, the same as any other unknown.
-  - 24-hour call: favorable (no true 24-hour in-house call) 10, unfavorable 0.
+  - 24-hour call: favorable 10 only if fellows take no call at all; unfavorable 0 if any call exists, home/pager call included (Barath, 2026-10-02: "the fact that the call exists itself is unfavorable").
   - Leave: 20 or more vacation days 10, fewer 0 (yes/no, his choice, not a sliding scale).
   - Moonlighting: Yes 10, No 0.
   - EMR: good 10, bad 0. Wayne State/DMC (Cerner/Oracle Health) is the only bad one; every other program runs Epic.
@@ -47,7 +47,7 @@ A dated reference copy only. The live values are in Notion and win on any differ
 | Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Vacation days | Moonlighting | EMR | Score |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | MCW | 8 | 7.5 | 8 | 10 (all four) | Favorable | 15 | No | Good | 7.815 |
-| 2 | Henry Ford Providence | 6 | 10 | 10 | Neutral (interview 10/1) | Neutral | 20 | TBD | Good | 7.530 |
+| 5 | Henry Ford Providence | 4 | 10 | 10 | 5 (faculty, fellows) | Unfavorable (home call) | 20 | No | Good | 6.338 |
 | 3 | LSU New Orleans | 8 | 10 | 2 | 7.5 (PD, faculty, fellows) | Unfavorable | 28 | TBD | Good | 7.527 |
 | 4 | Tufts | 10 | 2.5 | 6 | Neutral (interview 10/6) | Neutral | 20 | TBD | Good | 7.337 |
 | 5 | MCG | 8 | 10 | 0 | 7.5 (fellows, coordinator; PD and faculty half credit) | Unfavorable | 21 | Yes | Good | 7.298 |
