@@ -15,7 +15,7 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor.
 
 ## Close calls to recheck once the above resolves
 
-- **Henry Ford vs LSU:** no longer close. After the 10/1 interview Henry Ford is 6.338 (proposed), LSU 7.527.
+- **Henry Ford vs LSU:** no longer close. After the 10/1 interview Henry Ford is 6.338 (saved 10/2), LSU 7.527.
 - **Tufts vs MCG** (7.337 vs 7.298): within the tie band, Geography keeps Tufts ahead.
 - **ETSU vs NGMC** (4.921 vs 4.865): ETSU ahead on score; the tiebreak applies only to exact ties (clarified 10/2). ETSU's call answer could move this.
 - Places 2 to 5 (Henry Ford, LSU, Tufts, MCG) reshuffle under a 10% weight change, so treat them as a cluster until the interviews are done.
@@ -24,4 +24,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor.
 
 - **Bottom-five weighting:** Barath may provide a new weighting for the bottom five (UMass Chan, Wayne State, ETSU, NGMC, Ann Arbor as of 10/2). Waiting on him; don't invent one.
 - **Culture still unfilled:** Tufts (read, call, moonlighting), LSU (moonlighting), UMass Chan (read, call, moonlighting), Wayne State (read, call, moonlighting), ETSU (call, moonlighting; ask at the post-interview fellows' meet-and-greet, interview done 9/18). Complete: MCW, MCG, NGMC, Ann Arbor, Henry Ford (10/2).
-- **Recheck under the clarified call rule (any call = unfavorable, 10/2):** MCW and Ann Arbor are scored favorable; confirm neither has home/pager call.
+- ~~Recheck under the clarified call rule~~ Done 10/2: MCW uses a separate night-float system, Ann Arbor has no call after 7 PM. Both stay favorable.
