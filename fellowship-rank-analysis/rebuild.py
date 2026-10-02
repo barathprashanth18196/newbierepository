@@ -17,9 +17,10 @@ WEIGHTS = [0.532, 0.237, 0.136, 0.095]  # AHP eigenvector rounded to 3 dp, sums 
 CULTURE_WEIGHTS = (0.45, 0.18, 0.18, 0.09, 0.10)
 BAD_EMR = {"Wayne State"}  # Cerner/Oracle Health; every other program runs Epic
 
-# Scores closer than this are a tie, broken by Geography, then Field Preference,
+# Only genuinely tied scores (equal at the 3 decimals shown) go to the tiebreak:
+# Geography, then Field Preference,
 # then familiarity (NGMC is Barath's home program).
-TIE_BAND = 0.1
+TIE_BAND = 0.0005  # Barath 2026-10-02: tiebreak applies only to actual ties, not near-ties
 HOME_PROGRAM = "NGMC"
 NEUTRAL = 5  # not yet interviewed / unknown
 

@@ -61,7 +61,7 @@ If a rearrange or rescale is ambiguous in a way that would meaningfully change r
 
 ## Ties and robustness
 
-Barath's tiebreak rule (2026-09-29): two programs whose composite scores are within 0.1 points of each other are a tie. Break it by Geography first, then Field Preference, then familiarity (NGMC is his home program, so it wins a tie that gets that far). Always say in the reply when a tiebreak, not the score, decided an order, e.g. "Henry Ford #2 over LSU on the Geography tiebreak (7.530 vs 7.527)." If the chain still can't separate them, flag the tie explicitly rather than inventing an order.
+Barath's tiebreak rule (2026-09-29, clarified 2026-10-02): the tiebreak applies only when two composite scores are actually tied (equal at the 3 decimals shown), never to near-ties; a higher score always wins, however small the gap. Break a real tie by Geography first, then Field Preference, then familiarity (NGMC is his home program, so it wins a tie that gets that far). Always say in the reply when a tiebreak, not the score, decided an order, e.g. "LSU #2 over X on the Geography tiebreak (both 7.527)." If the chain still can't separate them, flag the tie explicitly rather than inventing an order.
 
 After any formula change, rerun TOPSIS and a +/-10% weight sensitivity check (script: fellowship-rank-analysis/rebuild.py in barathprashanth18196/newbierepository) and mention any rank that isn't stable. For a fuller picture, run montecarlo.py in the same folder: it varies the weights and every unknown input 20,000 times and reports each program's chance of finishing #1, top 3 and top 5. As of 2026-09-29, MCW is #1 in about 48% of runs; Henry Ford, LSU, Tufts and MCG form a top-5 cluster whose internal order is not settled until their interviews happen.
 
