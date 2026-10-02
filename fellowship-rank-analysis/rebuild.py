@@ -29,7 +29,7 @@ NEUTRAL = 5  # not yet interviewed / unknown
 # Field tiers: Heme/Onc 10 > CCM/PCCM 7.5 > ID/CCM combined 5 > ID + optional CCM 2.5 > plain ID 0
 PROGRAMS = {
     "MCW": (8, 7.5, 8, 10, 1, 15, "No"),
-    "Henry Ford Providence": (6, 10, 10, None, None, 20, "TBD"),
+    "Henry Ford Providence": (4, 10, 10, 5, 0, 20, "No"),
     "LSU New Orleans": (8, 10, 2, 7.5, 0, 28, "TBD"),
     "MCG": (8, 10, 0, 7.5, 0, 21, "Yes"),
     "Tufts": (10, 2.5, 6, None, None, 20, "TBD"),
