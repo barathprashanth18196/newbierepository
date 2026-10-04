@@ -10,7 +10,7 @@ This covers how Barath wants his hematology-oncology/ID/CCM fellowship interview
 ## Standing reminders (added 2026-10-02)
 
 At the start of every rank-list conversation, remind Barath of both:
-1. **New weighting for the bottom five:** he said he may give a different weighting for the bottom five programs (as of 2026-10-02: UMass Chan, Wayne State, ETSU, NGMC, Ann Arbor). Ask whether it's ready; never invent one.
+1. **New weighting for the bottom five:** he said he may give a different weighting for the bottom five programs (as of 2026-10-04: UMass Chan, Wayne State, NGMC, ETSU, Ann Arbor). Ask whether it's ready; never invent one.
 2. **Culture still unfilled:** list every program with Culture inputs still counting as a neutral 5, from the "Culture still unfilled" checklist in the latest Legend section. Drop items as he fills them in.
 
 ## Display format, always
@@ -27,7 +27,7 @@ All criteria are on a 0 to 10 scale.
 
 - **Teaching/Research**: the fellowship's own faculty strength (PhD bench, research leadership, trials, faculty size). Barath assigns this per program; never leave a TBD stored as 0, since at 53% weight a placeholder 0 dominates the result. Ask him instead.
 - **Field Preference**: future salary and job-finding potential given his visa status. Five tiers, spaced evenly: Heme/Onc 10 > Critical Care, pure CCM or PCCM 7.5 > ID/CCM Combined 5 (can work in either field) > ID with an optional Critical Care year 2.5 (Tufts is the only one as of 2026-09-29) > plain ID 0. Heme/Onc is strictly above Critical Care, not tied.
-- **Geography**: Barath's stated location order spaced evenly across 0 to 10: Michigan (Henry Ford, Ann Arbor, Wayne State) 10 > Milwaukee/MCW (close to Michigan) 8 > Boston area (Tufts, UMass Chan) 6 > Gainesville/NGMC 4 > New Orleans/LSU 2 > Augusta/MCG and Johnson City/ETSU 0. Metro status (Indian community, nightlife, transit, international airport) is already reflected in this order.
+- **Geography**: Barath's stated location order spaced evenly across 0 to 10 (revised 2026-10-04: "MCW Wisconsin, the geography is the same as NGMC"). Five tiers: Michigan (Henry Ford, Ann Arbor, Wayne State) 10 > Boston area (Tufts, UMass Chan) 7.5 > Milwaukee/MCW = Gainesville/NGMC 5 > New Orleans/LSU 2.5 > Augusta/MCG and Johnson City/ETSU 0. Metro status (Indian community, nightlife, transit, international airport) is already reflected in this order. If Barath moves a city between tiers, re-space all tiers evenly rather than just editing one value.
 - **Culture**: a composite, because Barath counts call, moonlighting and leave as part of a program's culture. Culture = 0.45 x interview read + 0.18 x 24-hour call + 0.18 x leave + 0.09 x moonlighting + 0.10 x EMR (EMR added 2026-09-29; the original four were scaled by 0.9 to make room).
   - Interview read: 2.5 points each for liking the PD, 2+ faculty, the fellows, the coordinator. An item he feels neutral about ("didn't like, didn't dislike") or could only partly judge (met just one faculty member, whom he liked) gets half credit, 1.25, the same as any other unknown.
   - 24-hour call: favorable 10 only if fellows take no call at all; unfavorable 0 if any call exists, home/pager call included (Barath, 2026-10-02: "the fact that the call exists itself is unfavorable"). A separate night-float system where fellows take no call counts as favorable (MCW, confirmed 2026-10-02; Ann Arbor has no call after 7 PM).
@@ -40,22 +40,22 @@ All criteria are on a 0 to 10 scale.
 
 Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Teaching/Research, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field, Geography and Leave follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
 
-## Confirmed inputs snapshot (2026-09-29, verified with Barath one program at a time)
+## Confirmed inputs snapshot (updated 2026-10-04)
 
 A dated reference copy only. The live values are in Notion and win on any difference. Neutral = not yet known, counts as 5. Pending values are tracked in the "Still to be decided" checklist of the latest Legend section (mirrored in fellowship-rank-analysis/TBD.md on GitHub); show that checklist when Barath asks what's still undecided.
 
 | Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Vacation days | Moonlighting | EMR | Score |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | MCW | 8 | 7.5 | 8 | 10 (all four) | Favorable | 15 | No | Good | 7.815 |
+| 1 | LSU New Orleans | 8 | 10 | 2.5 | 7.5 (PD, faculty, fellows) | Unfavorable | 28 | TBD | Good | 7.595 |
+| 2 | Tufts | 10 | 2.5 | 7.5 | Neutral (interview 10/6) | Neutral | 20 | No (contract: visa holders can't moonlight) | Good | 7.498 |
+| 3 | MCW | 8 | 7.5 | 5 | 10 (all four) | Favorable (separate night float) | 15 | No | Good | 7.407 |
+| 4 | MCG | 8 | 10 | 0 | 7.5 (fellows, coordinator; PD and faculty half credit) | Unfavorable | 21 | Yes | Good | 7.298 |
 | 5 | Henry Ford Providence | 4 | 10 | 10 | 5 (faculty, fellows) | Unfavorable (home call) | 20 | No | Good | 6.338 |
-| 3 | LSU New Orleans | 8 | 10 | 2 | 7.5 (PD, faculty, fellows) | Unfavorable | 28 | TBD | Good | 7.527 |
-| 4 | Tufts | 10 | 2.5 | 6 | Neutral (interview 10/6) | Neutral | 20 | TBD | Good | 7.337 |
-| 5 | MCG | 8 | 10 | 0 | 7.5 (fellows, coordinator; PD and faculty half credit) | Unfavorable | 21 | Yes | Good | 7.298 |
-| 6 | UMass Chan | 8 | 0 | 6 | Neutral (interview 10/16) | Neutral | 20 | TBD | Good | 5.680 |
+| 6 | UMass Chan | 8 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | 20 | TBD | Good | 5.884 |
 | 7 | Wayne State | 6 ("has all the resources") | 0 | 10 | Neutral (interview 10/27) | Neutral | 21 | TBD | Bad | 5.065 |
-| 8 | NGMC | 4 | 7.5 | 4 | 7.5 (PD, faculty, coordinator) | Unfavorable | 15 | No | Good | 4.865 |
-| 9 | ETSU | 6 | 5 | 0 | 7.5 (PD, faculty, fellows) | Neutral (ICU months only, 24-hr vs night float being checked with fellows) | 15 | TBD | Good | 4.921 |
-| 10 | Ann Arbor | 4 | 0 | 10 | 5 (PD, coordinator) | Favorable | 28 | No | Good | 4.139 |
+| 8 | NGMC | 4 | 7.5 | 5 | 7.5 (PD, faculty, coordinator) | Unfavorable | 15 | No | Good | 5.001 |
+| 9 | ETSU | 6 | 5 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | 15 | TBD | Good | 4.921 |
+| 10 | Ann Arbor | 4 | 0 | 10 | 5 (PD, coordinator) | Favorable (no call after 7 PM) | 28 | No | Good | 4.139 |
 
 Wayne State research note (checked 2026-09-29 on ClinicalTrials.gov): DMC Harper University Hospital is an actively recruiting site on the Phase 3 fosmanogepix vs caspofungin/fluconazole candidemia trial (NCT05421858), and Wayne State has sponsored ID trials before (e.g. a Phase 4 ceftaroline skin-infection trial, NCT02582203, completed 2016). No Wayne State-sponsored ID trial is currently recruiting.
 
