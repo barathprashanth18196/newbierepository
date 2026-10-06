@@ -15,7 +15,7 @@ At the start of every rank-list conversation, remind Barath of both:
 
 ## Display format, always
 
-Whenever showing the rank list, show ONE table: rank, program, specialty, composite score, and every scoring criterion's value, all in the same table. Never split the breakdown into separate per criterion tables and never show rank alone without the breakdown. Current columns: Rank, Program, Specialty, Score, Teaching/Research (53.2%), Field Preference (23.7%), Geography (13.6%), Culture (9.5%). Mark any rank decided by the tiebreak rule rather than the score. When Barath asks for "the breakdown," also show each criterion as raw score -> weighted points, plus Culture's four sub-parts, still in the same single table. If the weights or criteria change, update the column headers and percentages to match, but keep everything in one table.
+Whenever showing the rank list, show ONE table: rank, program, specialty, composite score, and every scoring criterion's value, all in the same table. Never split the breakdown into separate per criterion tables and never show rank alone without the breakdown. Current columns: Rank, Program, Specialty, Score, Teaching/Research (53.2%), Field Preference (23.7%), Geography (13.6%), Culture (9.5%). Mark any rank decided by the tiebreak rule rather than the score. When Barath asks for "the breakdown," also show each criterion as raw score -> weighted points, plus Culture's three sub-parts (interview read, 24-hour call, moonlighting), still in the same single table. If the weights or criteria change, update the column headers and percentages to match, but keep everything in one table.
 
 ## Current formula (rebuilt from scratch 2026-09-29, verify against the latest section of the Notion Legend page since this changes)
 
@@ -28,34 +28,34 @@ All criteria are on a 0 to 10 scale.
 - **Teaching/Research**: the fellowship's own faculty strength (PhD bench, research leadership, trials, faculty size). Barath assigns this per program; never leave a TBD stored as 0, since at 53% weight a placeholder 0 dominates the result. Ask him instead.
 - **Field Preference**: future salary and job-finding potential given his visa status. Five tiers, spaced evenly: Heme/Onc 10 > Critical Care, pure CCM or PCCM 7.5 > ID/CCM Combined 5 (can work in either field) > ID with an optional Critical Care year 2.5 (Tufts is the only one as of 2026-09-29) > plain ID 0. Heme/Onc is strictly above Critical Care, not tied.
 - **Geography**: Barath's stated location order spaced evenly across 0 to 10 (revised 2026-10-04: "MCW Wisconsin, the geography is the same as NGMC"). Five tiers: Michigan (Henry Ford, Ann Arbor, Wayne State) 10 > Boston area (Tufts, UMass Chan) 7.5 > Milwaukee/MCW = Gainesville/NGMC 5 > New Orleans/LSU 2.5 > Augusta/MCG and Johnson City/ETSU 0. Metro status (Indian community, nightlife, transit, international airport) is already reflected in this order. If Barath moves a city between tiers, re-space all tiers evenly rather than just editing one value.
-- **Culture**: a composite, because Barath counts call, moonlighting and leave as part of a program's culture. Culture = 0.45 x interview read + 0.18 x 24-hour call + 0.18 x leave + 0.09 x moonlighting + 0.10 x EMR (EMR added 2026-09-29; the original four were scaled by 0.9 to make room).
+- **Culture**: a composite, because Barath counts call and moonlighting as part of a program's culture. Culture = 0.625 x interview read + 0.25 x 24-hour call + 0.125 x moonlighting. On 2026-10-06 Barath removed leave and EMR ("Can we remove this leave policy from this equation? And the EMR."); the remaining three were rescaled in proportion from 45/18/9. Vacation days and EMR stay in Notion as reference data only and are never scored.
   - Interview read: 2.5 points each for liking the PD, 2+ faculty, the fellows, the coordinator. An item he feels neutral about ("didn't like, didn't dislike") or could only partly judge (met just one faculty member, whom he liked) gets half credit, 1.25, the same as any other unknown.
   - 24-hour call: favorable 10 only if fellows take no call at all; unfavorable 0 if any call exists, home/pager call included (Barath, 2026-10-02: "the fact that the call exists itself is unfavorable"). A separate night-float system where fellows take no call counts as favorable (MCW, confirmed 2026-10-02; Ann Arbor has no call after 7 PM). Exception (2026-10-06): light call of no more than one day a week, which Barath called "bearable", counts as favorable (Tufts).
-  - Leave: 20 or more vacation days 10, fewer 0 (yes/no, his choice, not a sliding scale).
   - Moonlighting: Yes 10, No 0.
-  - EMR: good 10, bad 0. Wayne State/DMC (Cerner/Oracle Health) is the only bad one; every other program runs Epic.
   - Anything unknown or not yet assessed, including the interview read before the interview happens, is a neutral 5. Never carry a pre-interview guess as a real score.
 
 ## Verify every input with Barath, program by program
 
-Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Teaching/Research, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field, Geography and Leave follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
+Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Teaching/Research, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field and Geography follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
 
 ## Confirmed inputs snapshot (updated 2026-10-06)
 
 A dated reference copy only. The live values are in Notion and win on any difference. Neutral = not yet known, counts as 5. Pending values are tracked in the "Still to be decided" checklist of the latest Legend section (mirrored in fellowship-rank-analysis/TBD.md on GitHub); show that checklist when Barath asks what's still undecided.
 
-| Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Vacation days | Moonlighting | EMR | Score |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Tufts | 10 | 2.5 (optional CCM year confirmed by Barath 10/6; ~6% of grads) | 7.5 | 10 (all four, 10/6) | Favorable (no more than 1 day/week, "bearable") | 20 | No (contract: visa holders can't moonlight) | Good | 7.797 |
-| 2 | LSU New Orleans | 8 | 10 | 2.5 | 7.5 (PD, faculty, fellows) | Unfavorable | 28 | TBD | Good | 7.595 |
-| 3 | MCW | 8 | 7.5 | 5 | 10 (all four) | Favorable (separate night float) | 15 | No | Good | 7.407 |
-| 4 | MCG | 8 | 10 | 0 | 7.5 (fellows, coordinator; PD and faculty half credit) | Unfavorable | 21 | Yes | Good | 7.298 |
-| 5 | Henry Ford Providence | 4 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call) | 20 | No | Good | 6.231 |
-| 6 | UMass Chan | 8 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | 20 | TBD | Good | 5.884 |
-| 7 | Wayne State | 6 ("has all the resources") | 0 | 10 | Neutral (interview 10/27) | Neutral | 21 | TBD | Bad | 5.065 |
-| 8 | NGMC | 4 | 7.5 | 5 | 7.5 (PD, faculty, coordinator) | Unfavorable | 15 | No | Good | 5.001 |
-| 9 | ETSU | 6 | 5 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | 15 | TBD | Good | 4.921 |
-| 10 | Ann Arbor | 4 | 0 | 10 | 5 (PD, coordinator) | Favorable (no call after 7 PM) | 28 | No | Good | 4.139 |
+Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are kept as reference and are not scored.
+
+| Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Moonlighting | Culture | Score |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Tufts | 10 | 2.5 (optional CCM year confirmed by Barath 10/6; ~6% of grads) | 7.5 | 10 (all four, 10/6) | Favorable (no more than 1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 7.764 |
+| 2 | MCW | 8 | 7.5 | 5 | 10 (all four) | Favorable (separate night float) | No | 8.75 | 7.545 |
+| 3 | LSU New Orleans | 8 | 10 | 2.5 | 7.5 (PD, faculty, fellows) | Unfavorable | TBD | 5.3125 | 7.471 |
+| 4 | MCG | 8 | 10 | 0 | 7.5 (fellows, coordinator; PD and faculty half credit) | Unfavorable | Yes | 5.9375 | 7.190 |
+| 5 | Henry Ford Providence | 4 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call) | No | 1.5625 | 6.006 |
+| 6 | UMass Chan | 8 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | TBD | 5.0 | 5.751 |
+| 7 | NGMC | 4 | 7.5 | 5 | 7.5 (PD, faculty, coordinator) | Unfavorable | No | 4.6875 | 5.031 |
+| 8 | Wayne State | 6 ("has all the resources") | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 5.027 |
+| 9 | ETSU | 6 | 5 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 5.000 |
+| 10 | Ann Arbor | 4 | 0 | 10 | 5 (PD, coordinator) | Favorable (no call after 7 PM) | No | 5.625 | 4.022 |
 
 Wayne State research note (checked 2026-09-29 on ClinicalTrials.gov): DMC Harper University Hospital is an actively recruiting site on the Phase 3 fosmanogepix vs caspofungin/fluconazole candidemia trial (NCT05421858), and Wayne State has sponsored ID trials before (e.g. a Phase 4 ceftaroline skin-infection trial, NCT02582203, completed 2016). No Wayne State-sponsored ID trial is currently recruiting.
 

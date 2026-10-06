@@ -13,8 +13,9 @@ PAIRWISE = [
 WEIGHTS = [0.532, 0.237, 0.136, 0.095]  # AHP eigenvector rounded to 3 dp, sums to 1
 
 # Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting, EMR.
-# EMR added 2026-09-29 at 10%; the original four were scaled by 0.9 to make room.
-CULTURE_WEIGHTS = (0.45, 0.18, 0.18, 0.09, 0.10)
+# 2026-10-06: Barath removed leave and EMR from Culture; the other three were rescaled
+# proportionally (45/18/9 -> 62.5/25/12.5). Leave and EMR stay as reference data only.
+CULTURE_WEIGHTS = (0.625, 0.25, 0.0, 0.125, 0.0)
 BAD_EMR = {"Wayne State"}  # Cerner/Oracle Health; every other program runs Epic
 
 # Only genuinely tied scores (equal at the 3 decimals shown) go to the tiebreak:
