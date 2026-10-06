@@ -46,7 +46,7 @@ A dated reference copy only. The live values are in Notion and win on any differ
 
 | Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Vacation days | Moonlighting | EMR | Score |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Tufts | 10 | 2.5 (optional CCM year unconfirmed in 10/6 recordings) | 7.5 | 10 (all four, 10/6) | Favorable (no more than 1 day/week, "bearable") | 20 | No (contract: visa holders can't moonlight) | Good | 7.797 |
+| 1 | Tufts | 10 | 2.5 (optional CCM year confirmed by Barath 10/6; ~6% of grads) | 7.5 | 10 (all four, 10/6) | Favorable (no more than 1 day/week, "bearable") | 20 | No (contract: visa holders can't moonlight) | Good | 7.797 |
 | 2 | LSU New Orleans | 8 | 10 | 2.5 | 7.5 (PD, faculty, fellows) | Unfavorable | 28 | TBD | Good | 7.595 |
 | 3 | MCW | 8 | 7.5 | 5 | 10 (all four) | Favorable (separate night float) | 15 | No | Good | 7.407 |
 | 4 | MCG | 8 | 10 | 0 | 7.5 (fellows, coordinator; PD and faculty half credit) | Unfavorable | 21 | Yes | Good | 7.298 |
