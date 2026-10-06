@@ -73,7 +73,25 @@ If a rearrange or rescale is ambiguous in a way that would meaningfully change r
 
 Barath's tiebreak rule (2026-09-29, clarified 2026-10-02): the tiebreak applies only when two composite scores are actually tied (equal at the 3 decimals shown), never to near-ties; a higher score always wins, however small the gap. Break a real tie by Geography first, then Field Preference, then familiarity (NGMC is his home program, so it wins a tie that gets that far). Always say in the reply when a tiebreak, not the score, decided an order, e.g. "LSU #2 over X on the Geography tiebreak (both 7.527)." If the chain still can't separate them, flag the tie explicitly rather than inventing an order.
 
-After any formula change, rerun TOPSIS and a +/-10% weight sensitivity check (script: fellowship-rank-analysis/rebuild.py in barathprashanth18196/newbierepository) and mention any rank that isn't stable. For a fuller picture, run montecarlo.py in the same folder: it varies the weights and every unknown input 20,000 times and reports each program's chance of finishing #1, top 3 and top 5. As of 2026-09-29, MCW is #1 in about 48% of runs; Henry Ford, LSU, Tufts and MCG form a top-5 cluster whose internal order is not settled until their interviews happen.
+## Robustness report: part of every rescore (Barath, 2026-10-06)
+
+After **every** scoring change (a new interview input, a rule change or a weight change), run `python3 robustness.py` in fellowship-rank-analysis/ (barathprashanth18196/newbierepository) before reporting. It runs eight checks:
+1. ±10% and ±20% one-at-a-time weight sensitivity.
+2. Weight stability: the smallest single-weight change that flips each adjacent pair. Under 10% is FRAGILE; over 50% is solid.
+3. Teaching break-even: the Teaching points each program needs to pass the one above.
+4. Pending inputs: best and worst-case rank for every program with unknowns.
+5. Leave-one-criterion-out.
+6. Alternative methods: equal weights, rank-order centroid, weighted product, TOPSIS.
+7. Monte Carlo, scenarios A and B (montecarlo.py).
+8. Gut check: Spearman correlation between the model rank and Barath's own "My Rank" column in Notion. Refresh MY_RANK in robustness.py from Notion first.
+
+Report it in the reply **and** in the new Legend section as a short "Robustness" block, directly under the one-table leaderboard:
+- Which adjacent pairs are FRAGILE, and what would flip them.
+- The Monte Carlo P(#1) and P(top 3) for the top programs.
+- Any pending input that could move a program, with its best and worst rank.
+- Any program whose model rank and gut rank differ by 3 or more, flagged for discussion. Never silently resolve these.
+
+Keep it to a few bullets. The full output stays in the script, not in Notion.
 
 ## Notion is the single source of truth (Barath's decision, 2026-09-29)
 
