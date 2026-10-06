@@ -15,7 +15,7 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts.
 ## Close calls to recheck once the above resolves (as of 10/6, after leave and EMR were removed from Culture)
 
 - **Tufts vs MCW vs LSU:** Tufts 7.764, MCW 7.545, LSU 7.471. MCW and LSU swap #2/#3 under ±10% weights. LSU moonlighting Yes alone adds only about +0.06 (7.530, still just behind MCW's 7.545); a higher 10/9 interview read (7.5 to 10) adds about +0.15 and would put LSU back at #2.
-- **NGMC vs Wayne State vs ETSU** (5.031 / 5.027 / 5.000): a three-way near tie, not an exact tie, so no tiebreak. Wayne State's and ETSU's pending call/moonlighting answers will decide it.
+- **NGMC vs Wayne State vs ETSU** (5.105 / 5.027 / 5.000 after NGMC's fellows item went neutral 10/6): close, but not an exact tie, so no tiebreak. Wayne State's and ETSU's pending call/moonlighting answers will decide it.
 
 ## Standing reminders (raise at the start of every rank-list chat)
 
@@ -23,3 +23,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts.
 - **Culture still unfilled:** Tufts (complete 10/6), LSU (moonlighting), UMass Chan (read, call, moonlighting), Wayne State (read, call, moonlighting), ETSU (call, moonlighting; ask at the post-interview fellows' meet-and-greet, interview done 9/18). Complete: MCW, MCG, NGMC, Ann Arbor, Henry Ford (10/2).
 - ~~Recheck under the clarified call rule~~ Done 10/2: MCW uses a separate night-float system, Ann Arbor has no call after 7 PM. Both stay favorable.
 - **Culture formula (10/6):** leave and EMR removed at Barath's request. Culture = 62.5% interview read + 25% call + 12.5% moonlighting. Vacation days and EMR are reference only.
+- **NGMC fellows (10/6):** no fellows exist (first cohort), so the fellows item is a neutral 1.25. Interview read 8.75, no longer pending.

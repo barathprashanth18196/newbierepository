@@ -38,7 +38,7 @@ PROGRAMS = {
     "MCG": (8, 10, 0, 7.5, 0, 21, "Yes"),
     "Tufts": (10, 2.5, 7.5, 10, 1, 20, "No"),
     "UMass Chan": (8, 0, 7.5, None, None, 20, "TBD"),
-    "NGMC": (4, 7.5, 5, 7.5, 0, 15, "No"),
+    "NGMC": (4, 7.5, 5, 8.75, 0, 15, "No"),  # 10/6: no fellows yet (first cohort), fellows item neutral 1.25
     "ETSU": (6, 5, 0, 7.5, None, 15, "TBD"),
     "Ann Arbor": (4, 0, 10, 5, 1, 28, "No"),
     "Wayne State": (6, 0, 10, None, None, 21, "TBD"),
