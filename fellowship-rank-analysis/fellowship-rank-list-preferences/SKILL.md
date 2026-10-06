@@ -93,6 +93,16 @@ Report it in the reply **and** in the new Legend section as a short "Robustness"
 
 Keep it to a few bullets. The full output stays in the script, not in Notion.
 
+**Status (2026-10-06):** Barath says My Rank is out of date, so check 8 is switched off (MY_RANK_CURRENT = False) until he gives a fresh gut order.
+
+## Final check before certifying the rank list (agreed 2026-10-06)
+
+After the last interview (Wayne State, 10/27) and before the Nov 18 deadline, run these in order:
+1. **Fresh gut order first:** Barath writes his gut ranking 1 to 10 **before** seeing any model scores, so the model can't anchor him. Save it to the My Rank column and set MY_RANK_CURRENT = True.
+2. **Blind re-scoring:** ask for Teaching/Research (and the interview read items) for all 10 programs **without** showing the old values. If any score moves by more than 1 from the stored value, discuss it, then rerun the model.
+3. **Regret test:** for every FRAGILE adjacent pair from robustness.py, plus every program where the model and the fresh gut order differ by 3 or more places, ask "If you matched at A instead of B, which would you regret more?" His answer sets the final order for that pair. Record each answer in the Legend.
+4. Rerun robustness.py and write the final list to Notion as a new Legend section.
+
 ## Notion is the single source of truth (Barath's decision, 2026-09-29)
 
 Every Claude session can read and write Notion, so Notion is the official record. Before doing any math, read the current state from Notion, not from this skill's snapshot or any other copy:

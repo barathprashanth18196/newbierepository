@@ -26,3 +26,5 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts.
 - **NGMC fellows (10/6):** no fellows exist (first cohort), so the fellows item is a neutral 1.25. Interview read 8.75, no longer pending.
 - **Model vs gut (10/6, robustness.py check 8):** Spearman 0.47 against the My Rank column in Notion. Gaps of 3+ places to discuss: LSU (model #3, gut #8), MCW (#2 vs #6), Henry Ford (#5 vs #1), ETSU (#9 vs #5), UMass (#6 vs #3).
 - **Every rescore:** run `python3 robustness.py` and add a Robustness block to the reply and the Legend section.
+- **My Rank is out of date (Barath, 10/6):** the gut check is off until he gives a fresh gut order.
+- **Final check after the last interview (10/27), before Nov 18:** (1) a fresh gut order before he sees any scores, (2) blind re-scoring of Teaching and interview reads, (3) a regret test on every fragile pair and every big model-vs-gut gap, (4) rerun robustness.py and certify.

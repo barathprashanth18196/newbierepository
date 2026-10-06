@@ -16,6 +16,9 @@ import rebuild as r
 NAMES = ["Teaching", "Field", "Geography", "Culture"]
 W = r.WEIGHTS
 # Barath's gut "My Rank" column from Notion, read 2026-10-06. Refresh from Notion before each run.
+# Barath 2026-10-06: My Rank is out of date. Check 8 is skipped until he writes a fresh gut order
+# (planned for the blind re-scoring after the last interview); then set MY_RANK_CURRENT = True.
+MY_RANK_CURRENT = False
 MY_RANK = {
     "Henry Ford Providence": 1, "Tufts": 2, "UMass Chan": 3, "MCG": 4, "ETSU": 5,
     "MCW": 6, "NGMC": 7, "LSU New Orleans": 8, "Ann Arbor": 9, "Wayne State": 10,
@@ -140,6 +143,9 @@ def main():
     montecarlo.report("B. Same + +/-2 noise on Teaching", montecarlo.simulate(True))
 
     print("\n8. GUT CHECK vs 'My Rank' (Notion)")
+    if not MY_RANK_CURRENT:
+        print("  skipped: My Rank is out of date (Barath, 2026-10-06). Refresh it at the blind re-scoring.")
+        return
     rho = spearman(base_rank, MY_RANK)
     print(f"  Spearman rho = {rho:.2f} (1 = identical order, 0 = unrelated)")
     gaps = sorted(base, key=lambda n: -abs(base_rank[n] - MY_RANK[n]))
