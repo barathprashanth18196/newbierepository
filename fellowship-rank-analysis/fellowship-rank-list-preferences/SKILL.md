@@ -50,7 +50,7 @@ A dated reference copy only. The live values are in Notion and win on any differ
 | 2 | LSU New Orleans | 8 | 10 | 2.5 | 7.5 (PD, faculty, fellows) | Unfavorable | 28 | TBD | Good | 7.595 |
 | 3 | MCW | 8 | 7.5 | 5 | 10 (all four) | Favorable (separate night float) | 15 | No | Good | 7.407 |
 | 4 | MCG | 8 | 10 | 0 | 7.5 (fellows, coordinator; PD and faculty half credit) | Unfavorable | 21 | Yes | Good | 7.298 |
-| 5 | Henry Ford Providence | 4 | 10 | 10 | 5 (faculty, fellows) | Unfavorable (home call) | 20 | No | Good | 6.338 |
+| 5 | Henry Ford Providence | 4 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call) | 20 | No | Good | 6.231 |
 | 6 | UMass Chan | 8 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | 20 | TBD | Good | 5.884 |
 | 7 | Wayne State | 6 ("has all the resources") | 0 | 10 | Neutral (interview 10/27) | Neutral | 21 | TBD | Bad | 5.065 |
 | 8 | NGMC | 4 | 7.5 | 5 | 7.5 (PD, faculty, coordinator) | Unfavorable | 15 | No | Good | 5.001 |
