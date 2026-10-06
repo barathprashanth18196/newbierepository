@@ -35,7 +35,7 @@ PROGRAMS = {
     "Henry Ford Providence": (4, 10, 10, 5, 0, 20, "No"),
     "LSU New Orleans": (8, 10, 2.5, 7.5, 0, 28, "TBD"),
     "MCG": (8, 10, 0, 7.5, 0, 21, "Yes"),
-    "Tufts": (10, 2.5, 7.5, None, None, 20, "No"),
+    "Tufts": (10, 2.5, 7.5, None, 1, 20, "No"),
     "UMass Chan": (8, 0, 7.5, None, None, 20, "TBD"),
     "NGMC": (4, 7.5, 5, 7.5, 0, 15, "No"),
     "ETSU": (6, 5, 0, 7.5, None, 15, "TBD"),
