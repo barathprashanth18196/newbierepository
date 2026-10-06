@@ -40,14 +40,14 @@ All criteria are on a 0 to 10 scale.
 
 Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Teaching/Research, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field, Geography and Leave follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
 
-## Confirmed inputs snapshot (updated 2026-10-04)
+## Confirmed inputs snapshot (updated 2026-10-06)
 
 A dated reference copy only. The live values are in Notion and win on any difference. Neutral = not yet known, counts as 5. Pending values are tracked in the "Still to be decided" checklist of the latest Legend section (mirrored in fellowship-rank-analysis/TBD.md on GitHub); show that checklist when Barath asks what's still undecided.
 
 | Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Vacation days | Moonlighting | EMR | Score |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | LSU New Orleans | 8 | 10 | 2.5 | 7.5 (PD, faculty, fellows) | Unfavorable | 28 | TBD | Good | 7.595 |
-| 2 | Tufts | 10 | 2.5 | 7.5 | Neutral (interview 10/6) | Favorable (no more than 1 day/week, "bearable") | 20 | No (contract: visa holders can't moonlight) | Good | 7.583 |
+| 1 | Tufts | 10 | 2.5 (optional CCM year unconfirmed in 10/6 recordings) | 7.5 | 10 (all four, 10/6) | Favorable (no more than 1 day/week, "bearable") | 20 | No (contract: visa holders can't moonlight) | Good | 7.797 |
+| 2 | LSU New Orleans | 8 | 10 | 2.5 | 7.5 (PD, faculty, fellows) | Unfavorable | 28 | TBD | Good | 7.595 |
 | 3 | MCW | 8 | 7.5 | 5 | 10 (all four) | Favorable (separate night float) | 15 | No | Good | 7.407 |
 | 4 | MCG | 8 | 10 | 0 | 7.5 (fellows, coordinator; PD and faculty half credit) | Unfavorable | 21 | Yes | Good | 7.298 |
 | 5 | Henry Ford Providence | 4 | 10 | 10 | 5 (faculty, fellows) | Unfavorable (home call) | 20 | No | Good | 6.338 |
