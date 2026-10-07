@@ -4,11 +4,11 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 
 | Program | What's pending | Resolves when | Current rank |
 |---|---|---|---|
-| LSU New Orleans | Moonlighting | Ask at 10/9 interview | 3 |
+| LSU New Orleans | Moonlighting | Ask at 10/9 interview | 2 |
 | UMass Chan | Interview read, 24-hour call, moonlighting | Interview 10/16 | 6 |
 | Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 8 |
-| ETSU | 24-hour call: in-house call on ICU months (4 of 12), unclear whether true 24-hour or night float | Post-interview fellows' meet-and-greet (interview itself done 9/18) | 9 |
-| ETSU | Moonlighting | Post-interview fellows' meet-and-greet | 9 |
+| ETSU | 24-hour call: in-house call on ICU months (4 of 12), unclear whether true 24-hour or night float | Post-interview fellows' meet-and-greet (interview itself done 9/18) | 7 |
+| ETSU | Moonlighting | Post-interview fellows' meet-and-greet | 7 |
 
 No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts.
 
@@ -29,3 +29,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts.
 - **My Rank is out of date (Barath, 10/6):** the gut check is off until he gives a fresh gut order.
 - **Final check after the last interview (10/27), before Nov 18:** (1) a fresh gut order before he sees any scores, (2) blind re-scoring of Teaching and interview reads, (3) a regret test on every fragile pair and every big model-vs-gut gap, (4) rerun robustness.py and certify.
 - **PD read (10/7):** Barath didn't like the PD at MCW, LSU, MCG, Henry Ford or Ann Arbor. PD credit removed; the order is unchanged.
+- **Field re-spaced (10/7):** MCW, NGMC and ETSU now share one Critical Care tier (6.67); Tufts moves to 3.33. New order: Tufts, LSU, MCW, MCG, Henry Ford, UMass, ETSU, Wayne State, NGMC, Ann Arbor.

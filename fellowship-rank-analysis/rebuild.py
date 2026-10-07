@@ -30,16 +30,17 @@ NEUTRAL = 5  # not yet interviewed / unknown
 #       24h call (1 favorable / 0 unfavorable / None unknown), vacation days, moonlighting
 # Geography (2026-10-04, 5 tiers evenly spaced): Michigan 10 > Boston area 7.5 >
 #   Milwaukee = Gainesville 5 > New Orleans 2.5 > Augusta, Johnson City 0
-# Field tiers: Heme/Onc 10 > CCM/PCCM 7.5 > ID/CCM combined 5 > ID + optional CCM 2.5 > plain ID 0
+# Field tiers (2026-10-07, 4 tiers evenly spaced): Heme/Onc 10 > CCM / PCCM / ID-CCM combined 6.67
+#   > ID + optional CCM 3.33 > plain ID 0
 PROGRAMS = {
-    "MCW": (8, 7.5, 5, 7.5, 1, 15, "No"),  # 10/7: PD not liked
+    "MCW": (8, 6.67, 5, 7.5, 1, 15, "No"),  # 10/7: PD not liked
     "Henry Ford Providence": (4, 10, 10, 2.5, 0, 20, "No"),
     "LSU New Orleans": (8, 10, 2.5, 5, 0, 28, "TBD"),  # 10/7: PD not liked (faculty, fellows)
     "MCG": (8, 10, 0, 6.25, 0, 21, "Yes"),  # 10/7: PD not liked (fellows, coordinator, faculty half)
-    "Tufts": (10, 2.5, 7.5, 10, 1, 20, "No"),
+    "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),
     "UMass Chan": (8, 0, 7.5, None, None, 20, "TBD"),
-    "NGMC": (4, 7.5, 5, 8.75, 0, 15, "No"),  # 10/6: no fellows yet (first cohort), fellows item neutral 1.25
-    "ETSU": (6, 5, 0, 7.5, None, 15, "TBD"),
+    "NGMC": (4, 6.67, 5, 8.75, 0, 15, "No"),  # 10/6: no fellows yet (first cohort), fellows item neutral 1.25
+    "ETSU": (6, 6.67, 0, 7.5, None, 15, "TBD"),
     "Ann Arbor": (4, 0, 10, 2.5, 1, 28, "No"),  # 10/7: PD not liked (coordinator only)
     "Wayne State": (6, 0, 10, None, None, 21, "TBD"),
 }

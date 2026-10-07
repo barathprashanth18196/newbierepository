@@ -26,7 +26,7 @@ The weights were derived with AHP from Barath's own pairwise judgments (2026-09-
 All criteria are on a 0 to 10 scale.
 
 - **Teaching/Research**: the fellowship's own faculty strength (PhD bench, research leadership, trials, faculty size). Barath assigns this per program; never leave a TBD stored as 0, since at 53% weight a placeholder 0 dominates the result. Ask him instead.
-- **Field Preference**: future salary and job-finding potential given his visa status. Five tiers, spaced evenly: Heme/Onc 10 > Critical Care, pure CCM or PCCM 7.5 > ID/CCM Combined 5 (can work in either field) > ID with an optional Critical Care year 2.5 (Tufts is the only one as of 2026-09-29) > plain ID 0. Heme/Onc is strictly above Critical Care, not tied.
+- **Field Preference**: future salary and job-finding potential given his visa status. Four tiers, spaced evenly (revised 2026-10-07; Barath: "make MCW, NGMC, ETSU the same field preference score"): Heme/Onc 10 > Critical Care, including pure CCM, PCCM and ID/CCM Combined, 6.67 > ID with an optional Critical Care year 3.33 (Tufts only) > plain ID 0. Heme/Onc is strictly above Critical Care, not tied. If Barath moves a specialty between tiers, re-space all tiers evenly.
 - **Geography**: Barath's stated location order spaced evenly across 0 to 10 (revised 2026-10-04: "MCW Wisconsin, the geography is the same as NGMC"). Five tiers: Michigan (Henry Ford, Ann Arbor, Wayne State) 10 > Boston area (Tufts, UMass Chan) 7.5 > Milwaukee/MCW = Gainesville/NGMC 5 > New Orleans/LSU 2.5 > Augusta/MCG and Johnson City/ETSU 0. Metro status (Indian community, nightlife, transit, international airport) is already reflected in this order. If Barath moves a city between tiers, re-space all tiers evenly rather than just editing one value.
 - **Culture**: a composite, because Barath counts call and moonlighting as part of a program's culture. Culture = 0.625 x interview read + 0.25 x 24-hour call + 0.125 x moonlighting. On 2026-10-06 Barath removed leave and EMR ("Can we remove this leave policy from this equation? And the EMR."); the remaining three were rescaled in proportion from 45/18/9. Vacation days and EMR stay in Notion as reference data only and are never scored.
   - Interview read: 2.5 points each for liking the PD, 2+ faculty, the fellows, the coordinator. An item he feels neutral about ("didn't like, didn't dislike") or could only partly judge (met just one faculty member, whom he liked) gets half credit, 1.25, the same as any other unknown. An item that can't exist (no fellows yet at a new program, e.g. NGMC's first cohort) is also neutral 1.25, not 0 (Barath, 2026-10-06).
@@ -46,15 +46,15 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 
 | Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Moonlighting | Culture | Score |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | Tufts | 10 | 2.5 (optional CCM year confirmed by Barath 10/6; ~6% of grads) | 7.5 | 10 (all four, 10/6) | Favorable (no more than 1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 7.764 |
-| 2 | MCW | 8 | 7.5 | 5 | 7.5 (faculty, fellows, coordinator; PD not liked 10/7) | Favorable (separate night float) | No | 7.1875 | 7.396 |
-| 3 | LSU New Orleans | 8 | 10 | 2.5 | 5 (faculty, fellows; PD not liked 10/7) | Unfavorable | TBD | 3.75 | 7.322 |
+| 1 | Tufts | 10 | 3.33 (optional CCM year confirmed by Barath 10/6; ~6% of grads) | 7.5 | 10 (all four, 10/6) | Favorable (no more than 1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 7.960 |
+| 2 | LSU New Orleans | 8 | 10 | 2.5 | 5 (faculty, fellows; PD not liked 10/7) | Unfavorable | TBD | 3.75 | 7.322 |
+| 3 | MCW | 8 | 6.67 | 5 | 7.5 (faculty, fellows, coordinator; PD not liked 10/7) | Favorable (separate night float) | No | 7.1875 | 7.200 |
 | 4 | MCG | 8 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable | Yes | 5.15625 | 7.116 |
 | 5 | Henry Ford Providence | 4 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call) | No | 1.5625 | 6.006 |
 | 6 | UMass Chan | 8 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | TBD | 5.0 | 5.751 |
-| 7 | NGMC | 4 | 7.5 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable | No | 5.46875 | 5.105 |
+| 7 | ETSU | 6 | 6.67 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 5.396 |
 | 8 | Wayne State | 6 ("has all the resources") | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 5.027 |
-| 9 | ETSU | 6 | 5 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 5.000 |
+| 9 | NGMC | 4 | 6.67 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable | No | 5.46875 | 4.908 |
 | 10 | Ann Arbor | 4 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.874 |
 
 Wayne State research note (checked 2026-09-29 on ClinicalTrials.gov): DMC Harper University Hospital is an actively recruiting site on the Phase 3 fosmanogepix vs caspofungin/fluconazole candidemia trial (NCT05421858), and Wayne State has sponsored ID trials before (e.g. a Phase 4 ceftaroline skin-infection trial, NCT02582203, completed 2016). No Wayne State-sponsored ID trial is currently recruiting.
