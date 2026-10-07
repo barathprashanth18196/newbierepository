@@ -14,7 +14,7 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts.
 
 ## Close calls to recheck once the above resolves (as of 10/6, after leave and EMR were removed from Culture)
 
-- **Tufts vs MCW vs LSU:** Tufts 7.764, MCW 7.545, LSU 7.471. MCW and LSU swap #2/#3 under ±10% weights. LSU moonlighting Yes alone adds only about +0.06 (7.530, still just behind MCW's 7.545); a higher 10/9 interview read (7.5 to 10) adds about +0.15 and would put LSU back at #2.
+- **Tufts vs MCW vs LSU:** Tufts 7.764, MCW 7.396, LSU 7.322 (after the 10/7 PD revisions). MCW and LSU swap #2/#3 under ±10% weights. LSU moonlighting Yes alone adds only about +0.06 (7.530, still just behind MCW's 7.545); a higher 10/9 interview read (7.5 to 10) adds about +0.15 and would put LSU back at #2.
 - **NGMC vs Wayne State vs ETSU** (5.105 / 5.027 / 5.000 after NGMC's fellows item went neutral 10/6): close, but not an exact tie, so no tiebreak. Wayne State's and ETSU's pending call/moonlighting answers will decide it.
 
 ## Standing reminders (raise at the start of every rank-list chat)
@@ -28,3 +28,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts.
 - **Every rescore:** run `python3 robustness.py` and add a Robustness block to the reply and the Legend section.
 - **My Rank is out of date (Barath, 10/6):** the gut check is off until he gives a fresh gut order.
 - **Final check after the last interview (10/27), before Nov 18:** (1) a fresh gut order before he sees any scores, (2) blind re-scoring of Teaching and interview reads, (3) a regret test on every fragile pair and every big model-vs-gut gap, (4) rerun robustness.py and certify.
+- **PD read (10/7):** Barath didn't like the PD at MCW, LSU, MCG, Henry Ford or Ann Arbor. PD credit removed; the order is unchanged.

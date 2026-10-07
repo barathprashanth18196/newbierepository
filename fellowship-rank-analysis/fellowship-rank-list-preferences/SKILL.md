@@ -38,7 +38,7 @@ All criteria are on a 0 to 10 scale.
 
 Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Teaching/Research, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field and Geography follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
 
-## Confirmed inputs snapshot (updated 2026-10-06)
+## Confirmed inputs snapshot (updated 2026-10-07)
 
 A dated reference copy only. The live values are in Notion and win on any difference. Neutral = not yet known, counts as 5. Pending values are tracked in the "Still to be decided" checklist of the latest Legend section (mirrored in fellowship-rank-analysis/TBD.md on GitHub); show that checklist when Barath asks what's still undecided.
 
@@ -47,15 +47,15 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Moonlighting | Culture | Score |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | Tufts | 10 | 2.5 (optional CCM year confirmed by Barath 10/6; ~6% of grads) | 7.5 | 10 (all four, 10/6) | Favorable (no more than 1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 7.764 |
-| 2 | MCW | 8 | 7.5 | 5 | 10 (all four) | Favorable (separate night float) | No | 8.75 | 7.545 |
-| 3 | LSU New Orleans | 8 | 10 | 2.5 | 7.5 (PD, faculty, fellows) | Unfavorable | TBD | 5.3125 | 7.471 |
-| 4 | MCG | 8 | 10 | 0 | 7.5 (fellows, coordinator; PD and faculty half credit) | Unfavorable | Yes | 5.9375 | 7.190 |
+| 2 | MCW | 8 | 7.5 | 5 | 7.5 (faculty, fellows, coordinator; PD not liked 10/7) | Favorable (separate night float) | No | 7.1875 | 7.396 |
+| 3 | LSU New Orleans | 8 | 10 | 2.5 | 5 (faculty, fellows; PD not liked 10/7) | Unfavorable | TBD | 3.75 | 7.322 |
+| 4 | MCG | 8 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable | Yes | 5.15625 | 7.116 |
 | 5 | Henry Ford Providence | 4 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call) | No | 1.5625 | 6.006 |
 | 6 | UMass Chan | 8 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | TBD | 5.0 | 5.751 |
 | 7 | NGMC | 4 | 7.5 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable | No | 5.46875 | 5.105 |
 | 8 | Wayne State | 6 ("has all the resources") | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 5.027 |
 | 9 | ETSU | 6 | 5 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 5.000 |
-| 10 | Ann Arbor | 4 | 0 | 10 | 5 (PD, coordinator) | Favorable (no call after 7 PM) | No | 5.625 | 4.022 |
+| 10 | Ann Arbor | 4 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.874 |
 
 Wayne State research note (checked 2026-09-29 on ClinicalTrials.gov): DMC Harper University Hospital is an actively recruiting site on the Phase 3 fosmanogepix vs caspofungin/fluconazole candidemia trial (NCT05421858), and Wayne State has sponsored ID trials before (e.g. a Phase 4 ceftaroline skin-infection trial, NCT02582203, completed 2016). No Wayne State-sponsored ID trial is currently recruiting.
 
