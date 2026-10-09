@@ -15,7 +15,15 @@ At the start of every rank-list conversation, remind Barath of both:
 
 ## Display format, always
 
-Whenever showing the rank list, show ONE table: rank, program, specialty, composite score, and every scoring criterion's value, all in the same table. Never split the breakdown into separate per criterion tables and never show rank alone without the breakdown. Current columns: Rank, Program, Specialty, Score, Teaching/Research (53.2%), Field Preference (23.7%), Geography (13.6%), Culture (9.5%). Mark any rank decided by the tiebreak rule rather than the score. When Barath asks for "the breakdown," also show each criterion as raw score -> weighted points, plus Culture's three sub-parts (interview read, 24-hour call, moonlighting), still in the same single table. If the weights or criteria change, update the column headers and percentages to match, but keep everything in one table.
+Whenever showing the rank list, show ONE table with the full per-category breakdown by default (standing rule, Barath 2026-10-09: "show me the table with scores in each category"). He should never have to ask for "the breakdown."
+
+Columns, in order: Rank | Program | Specialty | Teaching/Research (53.2%) | Field (23.7%) | Geography (13.6%) | Culture (9.5%) | Interview read | 24-hr call | Moonlighting | **Total**.
+- Each of the four weighted criteria shows **raw score → weighted points** (e.g. `8 → 4.26`), so the points visibly add up to the Total.
+- The three Culture sub-parts show their raw inputs: interview read 0–10 (mark neutral unknowns "5 (N)"), call "Fav 10" / "Unfav 0" / "N", moonlighting Yes / No / TBD.
+- Total is the composite score to 3 decimals, in bold.
+- Add a rank-change arrow (↑/↓) next to the rank when it moved since the last shown table.
+
+Never split it into separate per-criterion tables, and never show rank alone. Mark any rank decided by the tiebreak rule rather than the score. If the weights or criteria change, update the headers and percentages but keep everything in one table. Compute the cells with the script (rebuild.py) rather than by hand. The Legend page leaderboard may keep the shorter raw-score table.
 
 ## Current formula (rebuilt from scratch 2026-09-29, verify against the latest section of the Notion Legend page since this changes)
 
