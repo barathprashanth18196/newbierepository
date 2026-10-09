@@ -11,15 +11,15 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 
 No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9).
 
-## Close calls to recheck once the above resolves (as of 10/9, after the bottom-five split)
+## Close calls to recheck once the above resolves (as of 10/9, after MDA regret was added)
 
-- **#5/#6 line, LSU vs Henry Ford** (main 4.360 vs 3.767): flips if the Teaching weight drops 20%. If LSU fell into the bottom five it would be re-scored on Field + Geography (5.5) and land at #9. Check in the regret test.
-- **Wayne State vs Ann Arbor** (bottom-5 score 6.000 each): exact tie, settled by the main score (Wayne 3.257 > Ann Arbor 2.468).
-- **UMass** stays #4 whatever its 10/16 answers. Wayne State (#7) and ETSU (#10) don't move with their pending culture answers.
+- **#5/#6 line, LSU vs Henry Ford** (main 4.360 vs 3.767): flips if the Teaching weight drops 20%. Henry Ford would move to #5, and LSU would be re-scored in the bottom five (neutral regret 5 → 5.333 → #7). **Need LSU's and UMass's MDA regret %.**
+- **ETSU vs Wayne State / Ann Arbor** (bottom-5 score 3.556 vs 4.000): flips if the regret weight rises from 33% to about 39%.
+- **Wayne State vs Ann Arbor** (4.000 each): exact tie, settled by the main score.
 
 ## Standing reminders (raise at the start of every rank-list chat)
 
-- ~~**Bottom-five weighting**~~: resolved 10/9. Ranks 6–10 are re-ordered by Field 40% + Geography 60% only; ties fall back to the main score. Order: Henry Ford, Wayne State, Ann Arbor, NGMC, ETSU. Watch the #5/#6 line (LSU would drop to #9 if it slipped into the bottom five).
+- ~~**Bottom-five weighting**~~: resolved 10/9. Ranks 6–10 are re-ordered by Field 26.7% + Geography 40% + MD Anderson regret 33.3%. Regret: Henry Ford 25%, NGMC 40%, ETSU 60%, Wayne State 100%, Ann Arbor 100%. Order: Henry Ford, NGMC, Wayne State, Ann Arbor, ETSU. Membership is recomputed every run, so Henry Ford moves up if a top-five program falls below it.
 - **Culture still unfilled:** UMass Chan (read, call, moonlighting), Wayne State (read, call, moonlighting), ETSU (call, moonlighting; ask at the post-interview fellows' meet-and-greet, interview done 9/18). Complete: MCW, MCG, NGMC, Ann Arbor, Henry Ford (10/2), Tufts (10/6), LSU (10/9).
 - ~~Recheck under the clarified call rule~~ Done 10/2: MCW uses a separate night-float system, Ann Arbor has no call after 7 PM. Both stay favorable.
 - **Culture formula (10/6):** leave and EMR removed at Barath's request. Culture = 62.5% interview read + 25% call + 12.5% moonlighting. Vacation days and EMR are reference only.

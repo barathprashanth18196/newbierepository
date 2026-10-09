@@ -89,19 +89,40 @@ def matrix():
 # only Field (Heme/Onc on top) and Geography, 40/60 ("everything else doesn't matter to me").
 # Membership comes from the main score; they stay below the top five. Exact ties fall back to
 # the main score (Barath's choice; e.g. Wayne State vs Ann Arbor).
+# 2026-10-09: added a third bottom-five criterion, MD Anderson regret, at 1/3; Field and
+# Geography share the other 2/3 in their 40/60 ratio.
 BOTTOM_N = 5
-BOTTOM_WEIGHTS = (0.0, 0.4, 0.6, 0.0)  # Teaching, Field, Geography, Culture
+BOTTOM_WEIGHTS = {"field": 0.4 * 2 / 3, "geography": 0.6 * 2 / 3, "regret": 1 / 3}
+
+# How much Barath would regret matching here instead of MD Anderson leukemia (percent).
+# Henry Ford "20-30%" -> 25. Scored 0-10 by spreading his values evenly: least regret = 10,
+# most regret = 0. Programs without an answer get the neutral 5.
+MDA_REGRET_PCT = {
+    "Henry Ford Providence": 25,
+    "NGMC": 40,
+    "ETSU": 60,
+    "Wayne State": 100,
+    "Ann Arbor": 100,
+}
 
 
-def bottom_score(v):
-    return sum(a * b for a, b in zip(BOTTOM_WEIGHTS, v))
+def regret_score(name):
+    if name not in MDA_REGRET_PCT:
+        return NEUTRAL
+    lo, hi = min(MDA_REGRET_PCT.values()), max(MDA_REGRET_PCT.values())
+    return 10 * (hi - MDA_REGRET_PCT[name]) / (hi - lo)
+
+
+def bottom_score(name, v):
+    w = BOTTOM_WEIGHTS
+    return w["field"] * v[1] + w["geography"] * v[2] + w["regret"] * regret_score(name)
 
 
 def two_tier_order(score, m):
-    """Main-formula order for the top, then the bottom five re-ordered by Field + Geography."""
+    """Main-formula order for the top, then the bottom five re-ordered by Field, Geography and MDA regret."""
     main = final_order(score, m)
     top, bottom = main[:-BOTTOM_N], main[-BOTTOM_N:]
-    bottom = sorted(bottom, key=lambda n: (-round(bottom_score(m[n]), 6), -score[n]))
+    bottom = sorted(bottom, key=lambda n: (-round(bottom_score(n, m[n]), 6), -score[n]))
     return top + bottom
 
 
@@ -130,7 +151,7 @@ if __name__ == "__main__":
     t = analysis.topsis(WEIGHTS)
     tr = ranks({n: t[n][2] for n in t})
     for i, n in enumerate(two_tier_order(score, m), 1):
-        bs = f" bottom5={bottom_score(m[n]):.3f}" if i > len(m) - BOTTOM_N else ""
+        bs = f" bottom5={bottom_score(n, m[n]):.3f} regret={regret_score(n):.2f}" if i > len(m) - BOTTOM_N else ""
         print(f"{i:>2} (raw {r[n]}) {n:<22} {score[n]:.3f}{bs}  T={m[n][0]:<5.3f} F={m[n][1]:<5} G={m[n][2]:<3} C={m[n][3]:<5} TOPSIS#{tr[n]} C*={t[n][2]:.4f}")
     # sensitivity: +/-10% per weight
     analysis.WEIGHTS = WEIGHTS
