@@ -13,7 +13,7 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 
 ## Close calls to recheck once the above resolves (as of 10/6, after leave and EMR were removed from Culture)
 
-- **LSU vs MCW (#2/#3):** LSU 7.263 vs MCW 7.200 after LSU moonlighting went to No (10/9). Fragile: a 6% drop in the Field weight, or +0.12 MCW Teaching, flips them. The regret test should settle this pair.
+- **LSU Teaching 8 → 6 (10/9, "same as ETSU"):** LSU drops to #4 (6.199); MCW #2 (7.200), MCG #3 (7.116). Fragile now: MCW vs MCG (Field +8%), LSU vs Henry Ford (6.199 vs 6.006). UMass could reach #4 at best if all its answers are favorable.
 - **NGMC vs Wayne State vs ETSU** (5.105 / 5.027 / 5.000 after NGMC's fellows item went neutral 10/6): close, but not an exact tie, so no tiebreak. Wayne State's and ETSU's pending call/moonlighting answers will decide it.
 
 ## Standing reminders (raise at the start of every rank-list chat)

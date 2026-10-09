@@ -35,7 +35,7 @@ NEUTRAL = 5  # not yet interviewed / unknown
 PROGRAMS = {
     "MCW": (8, 6.67, 5, 7.5, 1, 15, "No"),  # 10/7: PD not liked
     "Henry Ford Providence": (4, 10, 10, 2.5, 0, 20, "No"),
-    "LSU New Orleans": (8, 10, 2.5, 5, 0, 28, "No"),  # 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
+    "LSU New Orleans": (6, 10, 2.5, 5, 0, 28, "No"),  # 10/9: Teaching 8 -> 6 ("same as ETSU"). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
     "MCG": (8, 10, 0, 6.25, 0, 21, "Yes"),  # 10/7: PD not liked (fellows, coordinator, faculty half)
     "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),
     "UMass Chan": (8, 0, 7.5, None, None, 20, "TBD"),

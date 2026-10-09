@@ -55,9 +55,9 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Moonlighting | Culture | Score |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | Tufts | 10 | 3.33 (optional CCM year confirmed by Barath 10/6; ~6% of grads) | 7.5 | 10 (all four, 10/6) | Favorable (no more than 1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 7.960 |
-| 2 | LSU New Orleans | 8 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call: weeknight + weekend, per 2026 manual) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 7.263 |
-| 3 | MCW | 8 | 6.67 | 5 | 7.5 (faculty, fellows, coordinator; PD not liked 10/7) | Favorable (separate night float) | No | 7.1875 | 7.200 |
-| 4 | MCG | 8 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable | Yes | 5.15625 | 7.116 |
+| 2 | MCW | 8 | 6.67 | 5 | 7.5 (faculty, fellows, coordinator; PD not liked 10/7) | Favorable (separate night float) | No | 7.1875 | 7.200 |
+| 3 | MCG | 8 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable | Yes | 5.15625 | 7.116 |
+| 4 | LSU New Orleans | 6 ("same as ETSU", 10/9; was 8) | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call: weeknight + weekend, per 2026 manual) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 6.199 |
 | 5 | Henry Ford Providence | 4 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call) | No | 1.5625 | 6.006 |
 | 6 | UMass Chan | 8 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | TBD | 5.0 | 5.751 |
 | 7 | ETSU | 6 | 6.67 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 5.396 |
