@@ -11,11 +11,11 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 
 No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9).
 
-## Close calls to recheck once the above resolves (as of 10/9, after the Teaching split)
+## Close calls to recheck once the above resolves (as of 10/9, after the bottom-five split)
 
-- **NGMC vs ETSU** (3.136 vs 3.135): effectively tied; the Geography tiebreak would favor NGMC. ETSU's call/moonlighting answers will decide it.
-- **Wayne State vs NGMC** (3.257 vs 3.136): flips with a 7% Field-weight increase. Wayne State's 10/27 answers can move it #7–9.
-- **UMass** stays #4 whatever its 10/16 answers.
+- **#5/#6 line, LSU vs Henry Ford** (main 4.360 vs 3.767): flips if the Teaching weight drops 20%. If LSU fell into the bottom five it would be re-scored on Field + Geography (5.5) and land at #9. Check in the regret test.
+- **Wayne State vs Ann Arbor** (bottom-5 score 6.000 each): exact tie, settled by the main score (Wayne 3.257 > Ann Arbor 2.468).
+- **UMass** stays #4 whatever its 10/16 answers. Wayne State (#7) and ETSU (#10) don't move with their pending culture answers.
 
 ## Standing reminders (raise at the start of every rank-list chat)
 
