@@ -21,7 +21,7 @@ Columns, in order: Rank | Program | Specialty | Teaching/Research (53.2%) | Fiel
 - Each of the four weighted criteria shows **raw score → weighted points** (e.g. `8 → 4.26`), so the points visibly add up to the Total.
 - The three Culture sub-parts show their raw inputs: interview read 0–10 (mark neutral unknowns "5 (N)"), call "Fav 10" / "Unfav 0" / "N", moonlighting Yes / No / TBD.
 - Total is the composite score to 3 decimals, in bold.
-- Add a rank-change arrow (↑/↓) next to the rank when it moved since the last shown table.
+- **No arrows or change markers in the table** (Barath, 2026-10-09). Rank shows the number only. Below the table, in text, briefly list which programs changed rank (e.g. "Changed: MCG 3→2, MCW 2→3"). Don't narrate up vs down beyond that.
 
 Never split it into separate per-criterion tables, and never show rank alone. Mark any rank decided by the tiebreak rule rather than the score. If the weights or criteria change, update the headers and percentages but keep everything in one table. Compute the cells with the script (rebuild.py) rather than by hand. The Legend page leaderboard may keep the shorter raw-score table.
 
