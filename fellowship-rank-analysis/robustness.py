@@ -2,7 +2,7 @@
 
 1. One-at-a-time weight sensitivity (+/-10% and +/-20%)
 2. Weight stability: smallest single-weight change that flips each adjacent pair
-3. Teaching break-even: Teaching points needed to pass the program above
+3. Teaching break-even: clinical or research points needed to pass the program above
 4. Pending inputs: best/worst-case rank for every program with unknowns
 5. Leave-one-criterion-out
 6. Alternative methods: equal weights, rank-order-centroid weights, weighted product, TOPSIS
@@ -47,8 +47,8 @@ def matrix_with(overrides):
     progs = dict(r.PROGRAMS)
     progs.update(overrides)
     return {
-        n: (t, f, g, r.culture(*rest, emr_good=n not in r.BAD_EMR))
-        for n, (t, f, g, *rest) in progs.items()
+        n: (r.teaching(n, c), f, g, r.culture(*rest, emr_good=n not in r.BAD_EMR))
+        for n, (c, f, g, *rest) in progs.items()
     }
 
 
@@ -100,10 +100,12 @@ def main():
         else:
             print(f"  {a} > {b}: no single-weight change flips it")
 
-    print("\n3. TEACHING BREAK-EVEN: Teaching points needed to pass the program directly above")
+    print("\n3. TEACHING BREAK-EVEN: points needed to pass the program directly above")
+    print("   (clinical carries 65% of Teaching, research 35%)")
     for above, n in zip(base, base[1:]):
         need = (s[above] - s[n]) / W[0]
-        print(f"  {n:<22} needs +{need:.2f} Teaching to pass {above}")
+        print(f"  {n:<22} needs +{need / r.TEACHING_SPLIT[0]:.2f} clinical or "
+              f"+{need / r.TEACHING_SPLIT[1]:.2f} research to pass {above}")
 
     print("\n4. PENDING INPUTS: rank if every unknown resolves best vs worst (others held at base)")
     for n, (t, f, g, read, call, vac, moon) in r.PROGRAMS.items():
@@ -140,7 +142,7 @@ def main():
     print("\n7. MONTE CARLO")
     montecarlo.random.seed(2026)
     montecarlo.report("A. Weight uncertainty + unknown inputs", montecarlo.simulate(False))
-    montecarlo.report("B. Same + +/-2 noise on Teaching", montecarlo.simulate(True))
+    montecarlo.report("B. Same + +/-1 tier noise on clinical and research", montecarlo.simulate(True))
 
     print("\n8. GUT CHECK vs 'My Rank' (Notion)")
     if not MY_RANK_CURRENT:

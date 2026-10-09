@@ -3,14 +3,28 @@ import analysis
 from analysis import ahp, ranks
 
 CRITERIA = ["Teaching/Research", "Field Preference", "Geography", "Culture"]
-# Barath's pairwise judgments, 2026-09-29 (row criterion vs column criterion)
+# Barath's pairwise judgments, 2026-09-29 (row criterion vs column criterion).
+# 2026-10-09: Field vs Geography changed from "Field a bit more" (2) to equal (1), so Geography
+# gains weight and Field loses some (Barath: "a little bit more geography, a little bit less field").
 PAIRWISE = [
     [1, 2, 5, 5],          # Teaching: a bit more than Field, much more than Geography and Culture
-    [1 / 2, 1, 2, 2],      # Field: a bit more than Geography and Culture
-    [1 / 5, 1 / 2, 1, 2],  # Geography: a bit more than Culture
+    [1 / 2, 1, 1, 2],      # Field: equal to Geography, a bit more than Culture
+    [1 / 5, 1, 1, 2],      # Geography: a bit more than Culture
     [1 / 5, 1 / 2, 1 / 2, 1],
 ]
-WEIGHTS = [0.532, 0.237, 0.136, 0.095]  # AHP eigenvector rounded to 3 dp, sums to 1
+WEIGHTS = [0.544, 0.201, 0.161, 0.094]  # AHP eigenvector rounded to 3 dp, sums to 1 (CR 0.032)
+
+# Teaching/Research composite (2026-10-09): 65% clinical + 35% research, both on 0-10.
+# Clinical = Barath's original Teaching scores (4/6/8/10), spread evenly to 0-10 (0/3.33/6.67/10).
+# Research: Barath's 5-tier order, evenly spaced 0-10.
+TEACHING_SPLIT = (0.65, 0.35)
+RESEARCH = {
+    "Tufts": 10,                                    # maximum
+    "MCG": 7.5,                                     # second top
+    "UMass Chan": 5,                                # one step below MCG
+    "MCW": 2.5, "LSU New Orleans": 2.5, "NGMC": 2.5, "Ann Arbor": 2.5,  # one step above lowest
+    "Henry Ford Providence": 0, "ETSU": 0, "Wayne State": 0,          # lowest
+}
 
 # Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting, EMR.
 # 2026-10-06: Barath removed leave and EMR from Culture; the other three were rescaled
@@ -26,24 +40,31 @@ HOME_PROGRAM = "NGMC"
 NEUTRAL = 5  # not yet interviewed / unknown
 
 # Confirmed with Barath program by program, 2026-09-29.
-# name: Teaching, Field, Geography, interview read (None = not interviewed),
+# name: Clinical, Field, Geography, interview read (None = not interviewed),
 #       24h call (1 favorable / 0 unfavorable / None unknown), vacation days, moonlighting
+# Clinical (2026-10-09, 4 tiers evenly spaced from Barath's 10/8/6/4): 10 / 6.67 / 3.33 / 0
 # Geography (2026-10-04, 5 tiers evenly spaced): Michigan 10 > Boston area 7.5 >
 #   Milwaukee = Gainesville 5 > New Orleans 2.5 > Augusta, Johnson City 0
 # Field tiers (2026-10-07, 4 tiers evenly spaced): Heme/Onc 10 > CCM / PCCM / ID-CCM combined 6.67
 #   > ID + optional CCM 3.33 > plain ID 0
 PROGRAMS = {
-    "MCW": (8, 6.67, 5, 7.5, 1, 15, "No"),  # 10/7: PD not liked
-    "Henry Ford Providence": (4, 10, 10, 2.5, 0, 20, "No"),
-    "LSU New Orleans": (6, 10, 2.5, 5, 0, 28, "No"),  # 10/9: Teaching 8 -> 6 ("same as ETSU"). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
-    "MCG": (8, 10, 0, 6.25, 0, 21, "Yes"),  # 10/7: PD not liked (fellows, coordinator, faculty half)
-    "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),
-    "UMass Chan": (8, 0, 7.5, None, None, 20, "TBD"),
-    "NGMC": (4, 6.67, 5, 8.75, 0, 15, "No"),  # 10/6: no fellows yet (first cohort), fellows item neutral 1.25
-    "ETSU": (6, 6.67, 0, 7.5, None, 15, "TBD"),
-    "Ann Arbor": (4, 0, 10, 2.5, 1, 28, "No"),  # 10/7: PD not liked (coordinator only)
-    "Wayne State": (6, 0, 10, None, None, 21, "TBD"),
+    "MCW": (6.67, 6.67, 5, 7.5, 1, 15, "No"),  # clinical 8; 10/7: PD not liked
+    "Henry Ford Providence": (0, 10, 10, 2.5, 0, 20, "No"),  # clinical 4
+    "LSU New Orleans": (3.33, 10, 2.5, 5, 0, 28, "No"),  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
+    "MCG": (6.67, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 8; 10/7: PD not liked (fellows, coordinator, faculty half)
+    "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),  # clinical 10
+    "UMass Chan": (6.67, 0, 7.5, None, None, 20, "TBD"),  # clinical 8
+    "NGMC": (0, 6.67, 5, 8.75, 0, 15, "No"),  # clinical 4; 10/6: no fellows yet (first cohort), fellows item neutral 1.25
+    "ETSU": (3.33, 6.67, 0, 7.5, None, 15, "TBD"),  # clinical 6
+    "Ann Arbor": (0, 0, 10, 2.5, 1, 28, "No"),  # clinical 4; 10/7: PD not liked (coordinator only)
+    "Wayne State": (3.33, 0, 10, None, None, 21, "TBD"),  # clinical 6
 }
+
+
+def teaching(name, clinical, research=None):
+    """Teaching/Research composite: 65% clinical + 35% research."""
+    research = RESEARCH[name] if research is None else research
+    return TEACHING_SPLIT[0] * clinical + TEACHING_SPLIT[1] * research
 
 
 def culture(read, call, vacation, moonlighting, emr_good=True):
@@ -59,8 +80,8 @@ def culture(read, call, vacation, moonlighting, emr_good=True):
 
 def matrix():
     return {
-        n: (t, f, g, round(culture(*rest, emr_good=n not in BAD_EMR), 4))
-        for n, (t, f, g, *rest) in PROGRAMS.items()
+        n: (teaching(n, c), f, g, round(culture(*rest, emr_good=n not in BAD_EMR), 4))
+        for n, (c, f, g, *rest) in PROGRAMS.items()
     }
 
 

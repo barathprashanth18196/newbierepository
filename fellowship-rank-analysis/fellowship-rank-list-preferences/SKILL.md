@@ -10,30 +10,34 @@ This covers how Barath wants his hematology-oncology/ID/CCM fellowship interview
 ## Standing reminders (added 2026-10-02)
 
 At the start of every rank-list conversation, remind Barath of both:
-1. **New weighting for the bottom five:** he said he may give a different weighting for the bottom five programs (as of 2026-10-04: UMass Chan, Wayne State, NGMC, ETSU, Ann Arbor). Ask whether it's ready; never invent one.
+1. **New weighting for the bottom five:** he said he may give a different weighting for the bottom five programs (as of 2026-10-09: Henry Ford, Wayne State, NGMC, ETSU, Ann Arbor). Ask whether it's ready; never invent one.
 2. **Culture still unfilled:** list every program with Culture inputs still counting as a neutral 5, from the "Culture still unfilled" checklist in the latest Legend section. Drop items as he fills them in.
 
 ## Display format, always
 
 Whenever showing the rank list, show ONE table with the full per-category breakdown by default (standing rule, Barath 2026-10-09: "show me the table with scores in each category"). He should never have to ask for "the breakdown."
 
-Columns, in order: Rank | Program | Specialty | Teaching/Research (53.2%) | Field (23.7%) | Geography (13.6%) | Culture (9.5%) | Interview read | 24-hr call | Moonlighting | **Total**.
+Columns, in order: Rank | Program | Clinical | Research | Teaching (54.4%) | Field (20.1%) | Geography (16.1%) | Culture (9.4%) | Interview read | 24-hr call | Moonlighting | **Total**. (Specialty may be dropped when the table gets too wide.)
 - Each of the four weighted criteria shows **raw score → weighted points** (e.g. `8 → 4.26`), so the points visibly add up to the Total.
-- The three Culture sub-parts show their raw inputs: interview read 0–10 (mark neutral unknowns "5 (N)"), call "Fav 10" / "Unfav 0" / "N", moonlighting Yes / No / TBD.
+- Clinical and Research show their raw 0–10 scores (Teaching = 0.65 × Clinical + 0.35 × Research).
+- The three Culture sub-parts show their 0–10 inputs: interview read (neutral unknowns "5 (N)"), call 10 / 0 / "5 (N)", moonlighting 10 / 0 / "5 (N)".
 - Total is the composite score to 3 decimals, in bold.
 - **No arrows or change markers in the table** (Barath, 2026-10-09). Rank shows the number only. Below the table, in text, briefly list which programs changed rank (e.g. "Changed: MCG 3→2, MCW 2→3"). Don't narrate up vs down beyond that.
 
 Never split it into separate per-criterion tables, and never show rank alone. Mark any rank decided by the tiebreak rule rather than the score. If the weights or criteria change, update the headers and percentages but keep everything in one table. Compute the cells with the script (rebuild.py) rather than by hand. The Legend page leaderboard may keep the shorter raw-score table.
 
-## Current formula (rebuilt from scratch 2026-09-29, verify against the latest section of the Notion Legend page since this changes)
+## Current formula (rebuilt from scratch 2026-09-29, revised 2026-10-09; verify against the latest section of the Notion Legend page since this changes)
 
-Claude based Rank = 0.532 x Teaching/Research + 0.237 x Field Preference + 0.136 x Geography + 0.095 x Culture.
+Claude based Rank = 0.544 x Teaching/Research + 0.201 x Field Preference + 0.161 x Geography + 0.094 x Culture.
 
-The weights were derived with AHP from Barath's own pairwise judgments (2026-09-29): Teaching a bit more than Field (2x), Teaching much more than Geography and than Culture (5x each), Field a bit more than Geography and than Culture (2x each), Geography a bit more than Culture (2x). Consistency ratio 0.025 (acceptable, under 0.10). He explicitly confirmed these supersede his 2026-09-25 "geography first" statement. If he revises any pairwise judgment, recompute the eigenvector weights and CR rather than hand-editing percentages.
+The weights were derived with AHP from Barath's own pairwise judgments: Teaching a bit more than Field (2x), Teaching much more than Geography and than Culture (5x each), **Field equal to Geography (1x; changed 2026-10-09 from "Field a bit more" 2x, because Barath wanted "a little bit more geography, a little bit less field" and confirmed "fine with 20 and 16")**, Field a bit more than Culture (2x), Geography a bit more than Culture (2x). Consistency ratio 0.032 (acceptable, under 0.10). Before 10/9 the weights were 53.2/23.7/13.6/9.5 (CR 0.025). He explicitly confirmed these supersede his 2026-09-25 "geography first" statement. If he revises any pairwise judgment, recompute the eigenvector weights and CR rather than hand-editing percentages.
 
-All criteria are on a 0 to 10 scale.
+**Every criterion and every sub-criterion runs 0 to 10, with Barath's lowest tier at 0 and his top tier at 10** (Barath, 2026-10-09: "I want everything to start from 0 to 10"). When he gives a tier order, spread the tiers evenly from 0 to 10. If he gives direct numbers that don't span 0–10, spread his distinct levels evenly to 0–10 and confirm with him.
 
-- **Teaching/Research**: the fellowship's own faculty strength (PhD bench, research leadership, trials, faculty size). Barath assigns this per program; never leave a TBD stored as 0, since at 53% weight a placeholder 0 dominates the result. Ask him instead.
+- **Teaching/Research** (split 2026-10-09) = **0.65 x Clinical + 0.35 x Research**, the fellowship's own faculty strength. Never leave a TBD stored as 0; at 54% weight a placeholder 0 dominates. Ask him instead.
+  - **Clinical**: Barath's direct clinical-teaching scores (10/8/6/4) spread evenly to 0–10: Tufts 10; MCW, MCG, UMass 6.67; LSU, ETSU, Wayne State 3.33; Henry Ford, NGMC, Ann Arbor 0.
+  - **Research**: five even tiers from Barath's order (10/9): Tufts 10 (maximum) > MCG 7.5 (second) > UMass 5 (one below MCG) > MCW, LSU, NGMC, Ann Arbor 2.5 (one above lowest) > Henry Ford, ETSU, Wayne State 0 (lowest).
+  - Notion stores Clinical, Research and the Teaching/Research composite in separate columns.
 - **Field Preference**: future salary and job-finding potential given his visa status. Four tiers, spaced evenly (revised 2026-10-07; Barath: "make MCW, NGMC, ETSU the same field preference score"): Heme/Onc 10 > Critical Care, including pure CCM, PCCM and ID/CCM Combined, 6.67 > ID with an optional Critical Care year 3.33 (Tufts only) > plain ID 0. Heme/Onc is strictly above Critical Care, not tied. If Barath moves a specialty between tiers, re-space all tiers evenly.
 - **Geography**: Barath's stated location order spaced evenly across 0 to 10 (revised 2026-10-04: "MCW Wisconsin, the geography is the same as NGMC"). Five tiers: Michigan (Henry Ford, Ann Arbor, Wayne State) 10 > Boston area (Tufts, UMass Chan) 7.5 > Milwaukee/MCW = Gainesville/NGMC 5 > New Orleans/LSU 2.5 > Augusta/MCG and Johnson City/ETSU 0. Metro status (Indian community, nightlife, transit, international airport) is already reflected in this order. If Barath moves a city between tiers, re-space all tiers evenly rather than just editing one value.
 - **Culture**: a composite, because Barath counts call and moonlighting as part of a program's culture. Culture = 0.625 x interview read + 0.25 x 24-hour call + 0.125 x moonlighting. On 2026-10-06 Barath removed leave and EMR ("Can we remove this leave policy from this equation? And the EMR."); the remaining three were rescaled in proportion from 45/18/9. Vacation days and EMR stay in Notion as reference data only and are never scored.
@@ -44,26 +48,28 @@ All criteria are on a 0 to 10 scale.
 
 ## Verify every input with Barath, program by program
 
-Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Teaching/Research, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field and Geography follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
+Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Clinical and Research scores, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field and Geography follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
 
-## Confirmed inputs snapshot (updated 2026-10-07)
+## Confirmed inputs snapshot (updated 2026-10-09)
 
 A dated reference copy only. The live values are in Notion and win on any difference. Neutral = not yet known, counts as 5. Pending values are tracked in the "Still to be decided" checklist of the latest Legend section (mirrored in fellowship-rank-analysis/TBD.md on GitHub); show that checklist when Barath asks what's still undecided.
 
 Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are kept as reference and are not scored.
 
-| Rank | Program | Teaching | Field | Geography | Interview read | 24-hr call | Moonlighting | Culture | Score |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | Tufts | 10 | 3.33 (optional CCM year confirmed by Barath 10/6; ~6% of grads) | 7.5 | 10 (all four, 10/6) | Favorable (no more than 1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 7.960 |
-| 2 | MCW | 8 | 6.67 | 5 | 7.5 (faculty, fellows, coordinator; PD not liked 10/7) | Favorable (separate night float) | No | 7.1875 | 7.200 |
-| 3 | MCG | 8 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable | Yes | 5.15625 | 7.116 |
-| 4 | LSU New Orleans | 6 ("same as ETSU", 10/9; was 8) | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call: weeknight + weekend, per 2026 manual) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 6.199 |
-| 5 | Henry Ford Providence | 4 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call) | No | 1.5625 | 6.006 |
-| 6 | UMass Chan | 8 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | TBD | 5.0 | 5.751 |
-| 7 | ETSU | 6 | 6.67 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 5.396 |
-| 8 | Wayne State | 6 ("has all the resources") | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 5.027 |
-| 9 | NGMC | 4 | 6.67 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable | No | 5.46875 | 4.908 |
-| 10 | Ann Arbor | 4 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.874 |
+| Rank | Program | Clinical | Research | Field | Geography | Interview read | 24-hr call | Moonlighting | Culture | Score |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Tufts | 10 | 10 | 3.33 (optional CCM year confirmed 10/6; ~6% of grads) | 7.5 | 10 (all four, 10/6) | Favorable (≤1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 8.139 |
+| 2 | MCG | 6.67 | 7.5 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable | Yes | 5.15625 | 6.281 |
+| 3 | MCW | 6.67 | 2.5 | 6.67 | 5 | 7.5 (faculty, fellows, coordinator; PD not liked 10/7) | Favorable (separate night float) | No | 7.1875 | 5.656 |
+| 4 | UMass Chan | 6.67 | 5 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | TBD | 5.0 | 4.988 |
+| 5 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 2.5 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call: weeknight + weekend, per 2026 manual) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.360 |
+| 6 | Henry Ford Providence | 0 | 0 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call) | No | 1.5625 | 3.767 |
+| 7 | Wayne State | 3.33 ("has all the resources") | 0 | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 3.257 |
+| 8 | NGMC | 0 | 2.5 | 6.67 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable | No | 5.46875 | 3.136 |
+| 9 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 3.135 |
+| 10 | Ann Arbor | 0 | 2.5 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 2.468 |
+
+NGMC vs ETSU is effectively tied (3.1357 vs 3.1350); if ever treated as a tie, the Geography tiebreak still puts NGMC ahead.
 
 Wayne State research note (checked 2026-09-29 on ClinicalTrials.gov): DMC Harper University Hospital is an actively recruiting site on the Phase 3 fosmanogepix vs caspofungin/fluconazole candidemia trial (NCT05421858), and Wayne State has sponsored ID trials before (e.g. a Phase 4 ceftaroline skin-infection trial, NCT02582203, completed 2016). No Wayne State-sponsored ID trial is currently recruiting.
 
@@ -129,7 +135,7 @@ If Notion disagrees with this skill's snapshot, Notion wins; mention the differe
 
 Do steps 1 and 2 for every scoring change, even a small one. Barath relies on Notion staying current across sessions.
 
-**Only a rule change needs a skill update.** Score changes live in Notion and need no skill upload. If you change a rule (formula, weights, scales, tiebreak, sync process), update this file and remind Barath he has to re-upload the skill in claude.ai Settings, since sessions can't install skills themselves.
+**Always update Notion and this skill, every change** (Barath, 2026-10-09: "always update the Notion and the skill"). Score changes go to Notion and to the inputs snapshot here; rule changes also go to the Legend rules toggle and the rule sections here. If you change a rule (formula, weights, scales, tiebreak, sync process), update this file and remind Barath he has to re-upload the skill in claude.ai Settings, since sessions can't install skills themselves.
 
 ## Verification habit
 

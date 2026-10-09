@@ -2,7 +2,8 @@
 
 Each simulation draws (1) weights from a Dirichlet centred on the AHP weights,
 (2) a random outcome for every still-unknown input (interview read, 24-hour call,
-moonlighting), and optionally (3) +/-2 noise on the subjective Teaching scores.
+moonlighting), and optionally (3) +/-1 tier of noise on the subjective clinical and research
+scores (clinical tier = 3.33, research tier = 2.5).
 It then ranks programs with the same formula and tiebreak chain.
 """
 import random
@@ -26,9 +27,12 @@ def simulate(teaching_noise):
     for _ in range(N):
         w = dirichlet([x * CONCENTRATION for x in r.WEIGHTS])
         m = {}
-        for n, (t, f, g, read, call, vac, moon) in r.PROGRAMS.items():
+        for n, (c, f, g, read, call, vac, moon) in r.PROGRAMS.items():
+            res = r.RESEARCH[n]
             if teaching_noise:
-                t = min(10, max(0, t + random.choice((-2, 0, 2))))
+                c = min(10, max(0, c + random.choice((-1, 0, 1)) * 10 / 3))
+                res = min(10, max(0, res + random.choice((-1, 0, 1)) * 2.5))
+            t = r.teaching(n, c, res)
             read = random.choice((0, 2.5, 5, 7.5, 10)) if read is None else read
             call = random.choice((0, 1)) if call is None else call
             moon = random.choice(("Yes", "No")) if moon == "TBD" else moon
@@ -53,4 +57,4 @@ def report(title, counts):
 
 if __name__ == "__main__":
     report("A. Weight uncertainty + unknown interview/call/moonlighting inputs", simulate(False))
-    report("B. Same, plus +/-2 uncertainty on every Teaching/Research score", simulate(True))
+    report("B. Same, plus +/-1 tier uncertainty on every clinical and research score", simulate(True))
