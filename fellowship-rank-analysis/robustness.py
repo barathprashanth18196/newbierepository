@@ -30,7 +30,7 @@ def scores(m, w=W):
 
 
 def order(m, w=W):
-    return r.final_order(scores(m, w), m)
+    return r.two_tier_order(scores(m, w), m)
 
 
 def rank_of(m, w=W):

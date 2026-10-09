@@ -10,7 +10,7 @@ This covers how Barath wants his hematology-oncology/ID/CCM fellowship interview
 ## Standing reminders (added 2026-10-02)
 
 At the start of every rank-list conversation, remind Barath of both:
-1. **New weighting for the bottom five:** he said he may give a different weighting for the bottom five programs (as of 2026-10-09: Henry Ford, Wayne State, NGMC, ETSU, Ann Arbor). Ask whether it's ready; never invent one.
+1. ~~New weighting for the bottom five~~: resolved 2026-10-09 (Field 40 / Geography 60, see below). No longer a reminder.
 2. **Culture still unfilled:** list every program with Culture inputs still counting as a neutral 5, from the "Culture still unfilled" checklist in the latest Legend section. Drop items as he fills them in.
 
 ## Display format, always
@@ -24,7 +24,9 @@ Columns, in order: Rank | Program | Clinical | Research | Teaching (54.4%) | Fie
 - Total is the composite score to 3 decimals, in bold.
 - **No arrows or change markers in the table** (Barath, 2026-10-09). Rank shows the number only. Below the table, in text, briefly list which programs changed rank (e.g. "Changed: MCG 3→2, MCW 2→3"). Don't narrate up vs down beyond that.
 
-Never split it into separate per-criterion tables, and never show rank alone. Mark any rank decided by the tiebreak rule rather than the score. If the weights or criteria change, update the headers and percentages but keep everything in one table. Compute the cells with the script (rebuild.py) rather than by hand. The Legend page leaderboard may keep the shorter raw-score table.
+**Split into two sections** (Barath, 2026-10-09: "bottom five, split it in the table"): a **Top five** table with the full columns above, then a **Bottom five** table with Rank | Program | Field (40%) raw → pts | Geography (60%) raw → pts | **Bottom-5 score** | Main score (reference). Note any bottom-five tie and that the main score decided it.
+
+Apart from that top/bottom split, never split it into separate per-criterion tables, and never show rank alone. Mark any rank decided by the tiebreak rule rather than the score. If the weights or criteria change, update the headers and percentages but keep everything in one table. Compute the cells with the script (rebuild.py) rather than by hand. The Legend page leaderboard may keep the shorter raw-score table.
 
 ## Current formula (rebuilt from scratch 2026-09-29, revised 2026-10-09; verify against the latest section of the Notion Legend page since this changes)
 
@@ -39,6 +41,7 @@ The weights were derived with AHP from Barath's own pairwise judgments: Teaching
   - **Research**: five even tiers from Barath's order (10/9): Tufts 10 (maximum) > MCG 7.5 (second) > UMass 5 (one below MCG) > MCW, LSU, NGMC, Ann Arbor 2.5 (one above lowest) > Henry Ford, ETSU, Wayne State 0 (lowest).
   - Notion stores Clinical, Research and the Teaching/Research composite in separate columns.
 - **Field Preference**: future salary and job-finding potential given his visa status. Four tiers, spaced evenly (revised 2026-10-07; Barath: "make MCW, NGMC, ETSU the same field preference score"): Heme/Onc 10 > Critical Care, including pure CCM, PCCM and ID/CCM Combined, 6.67 > ID with an optional Critical Care year 3.33 (Tufts only) > plain ID 0. Heme/Onc is strictly above Critical Care, not tied. If Barath moves a specialty between tiers, re-space all tiers evenly.
+- **Bottom five (2026-10-09)**: the programs ranked #6–10 by the main formula are re-ordered among themselves by **0.4 x Field + 0.6 x Geography** only (Barath: "I will weigh Heme/Onc and geography as the highest. Everything else doesn't matter to me"; he chose 40/60). Membership comes from the main score, and they always stay below the top five. Exact bottom-five ties fall back to the main score (his choice: Wayne State 3.257 over Ann Arbor 2.468, both 6.000). Watch the #5/#6 line: a program that slips into the bottom five is re-scored on Field + Geography and can drop several places (LSU would land at #9). Code: rebuild.two_tier_order.
 - **Geography**: Barath's stated location order spaced evenly across 0 to 10 (revised 2026-10-04: "MCW Wisconsin, the geography is the same as NGMC"). Five tiers: Michigan (Henry Ford, Ann Arbor, Wayne State) 10 > Boston area (Tufts, UMass Chan) 7.5 > Milwaukee/MCW = Gainesville/NGMC 5 > New Orleans/LSU 2.5 > Augusta/MCG and Johnson City/ETSU 0. Metro status (Indian community, nightlife, transit, international airport) is already reflected in this order. If Barath moves a city between tiers, re-space all tiers evenly rather than just editing one value.
 - **Culture**: a composite, because Barath counts call and moonlighting as part of a program's culture. Culture = 0.625 x interview read + 0.25 x 24-hour call + 0.125 x moonlighting. On 2026-10-06 Barath removed leave and EMR ("Can we remove this leave policy from this equation? And the EMR."); the remaining three were rescaled in proportion from 45/18/9. Vacation days and EMR stay in Notion as reference data only and are never scored.
   - Interview read: 2.5 points each for liking the PD, 2+ faculty, the fellows, the coordinator. An item he feels neutral about ("didn't like, didn't dislike") or could only partly judge (met just one faculty member, whom he liked) gets half credit, 1.25, the same as any other unknown. An item that can't exist (no fellows yet at a new program, e.g. NGMC's first cohort) is also neutral 1.25, not 0 (Barath, 2026-10-06).
@@ -65,11 +68,11 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | 5 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 2.5 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call: weeknight + weekend, per 2026 manual) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.360 |
 | 6 | Henry Ford Providence | 0 | 0 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call) | No | 1.5625 | 3.767 |
 | 7 | Wayne State | 3.33 ("has all the resources") | 0 | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 3.257 |
-| 8 | NGMC | 0 | 2.5 | 6.67 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable | No | 5.46875 | 3.136 |
-| 9 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 3.135 |
-| 10 | Ann Arbor | 0 | 2.5 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 2.468 |
+| 8 | Ann Arbor | 0 | 2.5 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 2.468 |
+| 9 | NGMC | 0 | 2.5 | 6.67 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable | No | 5.46875 | 3.136 |
+| 10 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 3.135 |
 
-NGMC vs ETSU is effectively tied (3.1357 vs 3.1350); if ever treated as a tie, the Geography tiebreak still puts NGMC ahead.
+Ranks 6–10 come from the bottom-five formula (Field 40 / Geography 60): Henry Ford 10.000, Wayne State 6.000, Ann Arbor 6.000 (tie; main score decides), NGMC 5.668, ETSU 2.668. The Score column is the main-formula score for reference.
 
 Wayne State research note (checked 2026-09-29 on ClinicalTrials.gov): DMC Harper University Hospital is an actively recruiting site on the Phase 3 fosmanogepix vs caspofungin/fluconazole candidemia trial (NCT05421858), and Wayne State has sponsored ID trials before (e.g. a Phase 4 ceftaroline skin-infection trial, NCT02582203, completed 2016). No Wayne State-sponsored ID trial is currently recruiting.
 

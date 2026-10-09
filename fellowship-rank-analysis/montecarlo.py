@@ -38,7 +38,7 @@ def simulate(teaching_noise):
             moon = random.choice(("Yes", "No")) if moon == "TBD" else moon
             m[n] = (t, f, g, r.culture(read, call, vac, moon, emr_good=n not in r.BAD_EMR))
         score = {n: sum(a * b for a, b in zip(w, v)) for n, v in m.items()}
-        for i, n in enumerate(r.final_order(score, m), 1):
+        for i, n in enumerate(r.two_tier_order(score, m), 1):
             counts[n][i] += 1
     return counts
 

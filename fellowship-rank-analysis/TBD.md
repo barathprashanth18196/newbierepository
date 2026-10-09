@@ -19,7 +19,7 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 
 ## Standing reminders (raise at the start of every rank-list chat)
 
-- **Bottom-five weighting:** Barath may provide a new weighting for the bottom five (Henry Ford, Wayne State, NGMC, ETSU, Ann Arbor as of 10/9). Waiting on him; don't invent one.
+- ~~**Bottom-five weighting**~~: resolved 10/9. Ranks 6–10 are re-ordered by Field 40% + Geography 60% only; ties fall back to the main score. Order: Henry Ford, Wayne State, Ann Arbor, NGMC, ETSU. Watch the #5/#6 line (LSU would drop to #9 if it slipped into the bottom five).
 - **Culture still unfilled:** UMass Chan (read, call, moonlighting), Wayne State (read, call, moonlighting), ETSU (call, moonlighting; ask at the post-interview fellows' meet-and-greet, interview done 9/18). Complete: MCW, MCG, NGMC, Ann Arbor, Henry Ford (10/2), Tufts (10/6), LSU (10/9).
 - ~~Recheck under the clarified call rule~~ Done 10/2: MCW uses a separate night-float system, Ann Arbor has no call after 7 PM. Both stay favorable.
 - **Culture formula (10/6):** leave and EMR removed at Barath's request. Culture = 62.5% interview read + 25% call + 12.5% moonlighting. Vacation days and EMR are reference only.

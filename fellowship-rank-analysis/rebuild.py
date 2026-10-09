@@ -85,6 +85,26 @@ def matrix():
     }
 
 
+# Bottom five (2026-10-09): Barath re-orders the programs ranked 6-10 by the main formula using
+# only Field (Heme/Onc on top) and Geography, 40/60 ("everything else doesn't matter to me").
+# Membership comes from the main score; they stay below the top five. Exact ties fall back to
+# the main score (Barath's choice; e.g. Wayne State vs Ann Arbor).
+BOTTOM_N = 5
+BOTTOM_WEIGHTS = (0.0, 0.4, 0.6, 0.0)  # Teaching, Field, Geography, Culture
+
+
+def bottom_score(v):
+    return sum(a * b for a, b in zip(BOTTOM_WEIGHTS, v))
+
+
+def two_tier_order(score, m):
+    """Main-formula order for the top, then the bottom five re-ordered by Field + Geography."""
+    main = final_order(score, m)
+    top, bottom = main[:-BOTTOM_N], main[-BOTTOM_N:]
+    bottom = sorted(bottom, key=lambda n: (-round(bottom_score(m[n]), 6), -score[n]))
+    return top + bottom
+
+
 def final_order(score, m):
     """Sort by score; adjacent programs within TIE_BAND are ordered by the tiebreak chain."""
     order = sorted(score, key=lambda n: -score[n])
@@ -109,8 +129,9 @@ if __name__ == "__main__":
     analysis.PROGRAMS = m
     t = analysis.topsis(WEIGHTS)
     tr = ranks({n: t[n][2] for n in t})
-    for i, n in enumerate(final_order(score, m), 1):
-        print(f"{i:>2} (raw {r[n]}) {n:<22} {score[n]:.3f}  T={m[n][0]:<5} F={m[n][1]:<5} G={m[n][2]:<3} C={m[n][3]:<5} TOPSIS#{tr[n]} C*={t[n][2]:.4f}")
+    for i, n in enumerate(two_tier_order(score, m), 1):
+        bs = f" bottom5={bottom_score(m[n]):.3f}" if i > len(m) - BOTTOM_N else ""
+        print(f"{i:>2} (raw {r[n]}) {n:<22} {score[n]:.3f}{bs}  T={m[n][0]:<5.3f} F={m[n][1]:<5} G={m[n][2]:<3} C={m[n][3]:<5} TOPSIS#{tr[n]} C*={t[n][2]:.4f}")
     # sensitivity: +/-10% per weight
     analysis.WEIGHTS = WEIGHTS
     moves = {n: set([r[n]]) for n in m}
