@@ -98,6 +98,7 @@ BOTTOM_WEIGHTS = {"field": 0.4 * 2 / 3, "geography": 0.6 * 2 / 3, "regret": 1 / 
 # Henry Ford "20-30%" -> 25. Scored 0-10 by spreading his values evenly: least regret = 10,
 # most regret = 0. Programs without an answer get the neutral 5.
 MDA_REGRET_PCT = {
+    "LSU New Orleans": 20,  # 10/10; in the top five now, but counts if it crosses the #5/#6 line
     "Henry Ford Providence": 25,
     "NGMC": 40,
     "ETSU": 60,
