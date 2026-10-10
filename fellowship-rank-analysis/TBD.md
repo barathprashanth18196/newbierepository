@@ -36,3 +36,5 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 - **LSU (10/10):** MDA regret 20%; all other LSU scores kept as is (PD/coordinator not liked, clinical 6). No rank change.
 - **Tufts CCM year (10/10):** ID PD's slide says ~5% of grads go into ID critical care. The 1-year CCM fellowship is a separate application; its alumni origins were not verifiable online. To do: email the CCM coordinator or ID PD.
 - **Call-frequency fairness check (10/10):** Henry Ford and MCG have call every weekday, sometimes weekends, so both stay unfavorable. LSU is done (unfavorable). NGMC: frequency TBD (ask 10/19); stays unfavorable for now. Even if NGMC qualified, no rank change.
+- **UMass MDA regret 20% (10/10)**, same as LSU. No live rank change.
+- **What-ifs (10/10, not adopted):** Teaching 40% or 35% (others rescaled in proportion) both give Tufts, MCG, MCW, Henry Ford, LSU, UMass, NGMC, Wayne State, Ann Arbor, ETSU. Decision pending: keep 54.4% or adopt 40%/35%.
