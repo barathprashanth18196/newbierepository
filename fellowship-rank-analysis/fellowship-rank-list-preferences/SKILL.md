@@ -68,7 +68,7 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | 2 | MCG | 6.67 | 7.5 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable | Yes | 5.15625 | 6.281 |
 | 3 | MCW | 6.67 | 2.5 | 6.67 | 5 | 7.5 (faculty, fellows, coordinator; PD not liked 10/7) | Favorable (separate night float) | No | 7.1875 | 5.656 |
 | 4 | UMass Chan | 6.67 | 5 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | TBD | 5.0 | 4.988 |
-| 5 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 2.5 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call: weeknight + weekend, per 2026 manual) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.360 |
+| 5 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 2.5 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call M–F 24h + ~2 weekends/month during 6–8 F1 inpatient months; confirmed in 10/9 interview recordings) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.360 |
 | 6 | Henry Ford Providence | 0 | 0 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call) | No | 1.5625 | 3.767 |
 | 7 | NGMC | 0 | 2.5 | 6.67 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable | No | 5.46875 | 3.136 |
 | 8 | Wayne State | 3.33 ("has all the resources") | 0 | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 3.257 |
