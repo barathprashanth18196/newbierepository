@@ -12,7 +12,10 @@ PAIRWISE = [
     [1 / 5, 1, 1, 2],      # Geography: a bit more than Culture
     [1 / 5, 1 / 2, 1 / 2, 1],
 ]
-WEIGHTS = [0.544, 0.201, 0.161, 0.094]  # AHP eigenvector rounded to 3 dp, sums to 1 (CR 0.032)
+# 2026-10-12: Barath set Teaching directly to 35%; Field, Geography and Culture were rescaled
+# proportionally from the AHP weights (0.544/0.201/0.161/0.094, CR 0.032). PAIRWISE above is kept
+# as the record of his judgments, but WEIGHTS is now his direct override (CR doesn't apply).
+WEIGHTS = [0.35, 0.287, 0.229, 0.134]
 
 # Teaching/Research composite (2026-10-09): 65% clinical + 35% research, both on 0-10.
 # Clinical = Barath's original Teaching scores (4/6/8/10), spread evenly to 0-10 (0/3.33/6.67/10).

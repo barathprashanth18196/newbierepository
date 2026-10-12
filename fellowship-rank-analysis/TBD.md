@@ -39,3 +39,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 - **UMass MDA regret 20% (10/10)**, same as LSU. No live rank change.
 - **What-ifs (10/10, not adopted):** Teaching 40% or 35% (others rescaled in proportion) both give Tufts, MCG, MCW, Henry Ford, LSU, UMass, NGMC, Wayne State, Ann Arbor, ETSU. Decision pending: keep 54.4% or adopt 40%/35%.
 - **MCG clinical = LSU (10/12):** 6.67 → 3.33. MCG 6.281 → 5.100, #2 → #3; MCW #2. New fragile pair: MCG vs UMass (#3/#4, 0.112 apart); UMass's 10/16 answers decide it.
+- **Teaching 35% adopted (10/12):** weights 35 / 28.7 / 22.9 / 13.4. Order: Tufts, MCW, Henry Ford, MCG, LSU | UMass, NGMC, Wayne State, Ann Arbor, ETSU. Fragile: Henry Ford vs MCG (#3/#4, Geography −5% flips); LSU vs UMass at the line (Field −11%).
