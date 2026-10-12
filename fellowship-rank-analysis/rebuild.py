@@ -51,7 +51,7 @@ PROGRAMS = {
     "MCW": (6.67, 6.67, 5, 7.5, 1, 15, "No"),  # clinical 8; 10/7: PD not liked
     "Henry Ford Providence": (0, 10, 10, 2.5, 0, 20, "No"),  # clinical 4
     "LSU New Orleans": (3.33, 10, 2.5, 5, 0, 28, "No"),  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
-    "MCG": (6.67, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 8; 10/7: PD not liked (fellows, coordinator, faculty half)
+    "MCG": (3.33, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 6 (10/12: "same as LSU", was 8); 10/7: PD not liked (fellows, coordinator, faculty half)
     "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),  # clinical 10
     "UMass Chan": (6.67, 0, 7.5, None, None, 20, "TBD"),  # clinical 8
     "NGMC": (0, 6.67, 5, 8.75, 0, 15, "No"),  # clinical 4; 10/6: no fellows yet (first cohort), fellows item neutral 1.25
