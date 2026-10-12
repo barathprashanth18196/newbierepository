@@ -58,7 +58,7 @@ PROGRAMS = {
     "LSU New Orleans": (3.33, 10, 2.5, 5, 0, 28, "No"),  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
     "MCG": (3.33, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 6 (10/12: "same as LSU", was 8); 10/7: PD not liked (fellows, coordinator, faculty half)
     "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),  # clinical 10
-    "UMass Chan": (6.67, 0, 7.5, None, None, 20, "TBD"),  # clinical 8
+    "UMass Chan": (6.67, 0, 7.5, 6.25, None, 20, "No"),  # clinical 8; 10/12: PD liked (other read items neutral 1.25 until 10/16), moonlighting not possible
     "NGMC": (0, 6.67, 5, 8.75, 0, 15, "No"),  # clinical 4; 10/6: no fellows yet (first cohort), fellows item neutral 1.25
     "ETSU": (3.33, 6.67, 0, 7.5, None, 15, "TBD"),  # clinical 6
     "Ann Arbor": (0, 0, 10, 2.5, 1, 28, "No"),  # clinical 4; 10/7: PD not liked (coordinator only)
@@ -67,7 +67,7 @@ PROGRAMS = {
 
 
 def teaching(name, clinical, research=None):
-    """Teaching/Research composite: 65% clinical + 35% research."""
+    """Teaching/Research composite: TEACHING_SPLIT clinical + research (50/50 since 10/12)."""
     research = RESEARCH[name] if research is None else research
     return TEACHING_SPLIT[0] * clinical + TEACHING_SPLIT[1] * research
 

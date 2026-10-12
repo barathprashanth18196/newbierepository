@@ -74,14 +74,14 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | 2 | MCW | 6.67 | 2.5 | 6.67 | 5 | 5 (fellows, coordinator; PD not liked 10/7, faculty not liked 10/12) | Favorable (separate night float) | No | 5.625 | 5.379 |
 | 3 | MCG | 3.33 ("same as LSU", 10/12; was 6.67) | 7.5 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable (call every weekday, sometimes weekends; 10/10) | Yes | 5.15625 | 5.277 |
 | 4 | Henry Ford Providence | 0 | 0 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call every weekday, sometimes weekends; 10/10) | No | 1.5625 | 5.057 |
-| 5 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 2.5 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call M–F 24h + ~2 weekends/month during 6–8 F1 inpatient months; confirmed in 10/9 interview recordings) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.627 |
-| 6 | UMass Chan | 6.67 | 5 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | TBD | 5.0 | 4.615 |
+| 5 | UMass Chan | 6.67 | 5 | 0 | 7.5 | 6.25 (PD liked 10/12; faculty, fellows, coordinator neutral 1.25 until the 10/16 interview) | Neutral | No (not possible; 10/12) | 5.15625 | 4.641 |
+| 6 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 2.5 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call M–F 24h + ~2 weekends/month during 6–8 F1 inpatient months; confirmed in 10/9 interview recordings) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.627 |
 | 7 | NGMC | 0 | 2.5 | 6.67 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable (24-hr call; frequency TBD, ask 10/19) | No | 5.46875 | 4.185 |
 | 8 | Wayne State | 3.33 ("has all the resources") | 0 | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 3.728 |
 | 9 | Ann Arbor | 0 | 2.5 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.422 |
 | 10 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 3.372 |
 
-Ranks 6–10 come from the bottom-five formula (Field 26.7 / Geography 40 / MDA regret 33.3): UMass 6.333, NGMC 6.279, Wayne State 4.000, Ann Arbor 4.000 (tie; main score decides), ETSU 3.445. The Score column is the main-formula score (35/25/22.9/17.1, teaching 50/50) for reference. LSU vs UMass at the #5/#6 line is only 0.012 apart.
+Ranks 6–10 come from the bottom-five formula (Field 26.7 / Geography 40 / MDA regret 33.3): LSU 7.000, NGMC 6.279, Wayne State 4.000, Ann Arbor 4.000 (tie; main score decides), ETSU 3.445. The Score column is the main-formula score (35/25/22.9/17.1, teaching 50/50) for reference. UMass vs LSU at the #5/#6 line is only 0.014 apart (10/12: UMass crossed after PD liked + moonlighting No). UMass best case #4, worst #6 after 10/16.
 
 Wayne State research note (checked 2026-09-29 on ClinicalTrials.gov): DMC Harper University Hospital is an actively recruiting site on the Phase 3 fosmanogepix vs caspofungin/fluconazole candidemia trial (NCT05421858), and Wayne State has sponsored ID trials before (e.g. a Phase 4 ceftaroline skin-infection trial, NCT02582203, completed 2016). No Wayne State-sponsored ID trial is currently recruiting.
 

@@ -101,7 +101,7 @@ def main():
             print(f"  {a} > {b}: no single-weight change flips it")
 
     print("\n3. TEACHING BREAK-EVEN: points needed to pass the program directly above")
-    print("   (clinical carries 65% of Teaching, research 35%)")
+    print(f"   (clinical carries {r.TEACHING_SPLIT[0]:.0%} of Teaching, research {r.TEACHING_SPLIT[1]:.0%})")
     for above, n in zip(base, base[1:]):
         need = (s[above] - s[n]) / W[0]
         print(f"  {n:<22} needs +{need / r.TEACHING_SPLIT[0]:.2f} clinical or "
