@@ -17,6 +17,8 @@ At the start of every rank-list conversation, remind Barath of both:
 
 Whenever showing the rank list, show ONE table with the full per-category breakdown by default (standing rule, Barath 2026-10-09: "show me the table with scores in each category"). He should never have to ask for "the breakdown."
 
+**Elaborate scores, every time (Barath, 2026-10-12: "show me elaborate scores moving forward").** Any reply that shows scores or ranks, including a quick "show me the score" or a what-if, uses the full elaborate layout below: both split tables, raw → points for every weighted criterion, Clinical and Research, all three Culture sub-parts, the "(line)" row, the bottom-five regret math, then the "Changed:" line and the Robustness block. Never shorten it to a rank list or a totals-only table unless he asks for the short version (e.g. a message to forward to his mentor).
+
 Columns, in order: Rank | Program | Clinical | Research | Teaching (35%) | Field (25%) | Geography (22.9%) | Culture (17.1%) | Interview read | 24-hr call | Moonlighting | **Total**. (Specialty may be dropped when the table gets too wide.)
 - Each of the four weighted criteria shows **raw score → weighted points** (e.g. `8 → 4.26`), so the points visibly add up to the Total.
 - Clinical and Research show their raw 0–10 scores (Teaching = 0.5 × Clinical + 0.5 × Research).
