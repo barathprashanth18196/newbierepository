@@ -21,7 +21,8 @@ WEIGHTS = [0.35, 0.25, 0.229, 0.171]
 # Teaching/Research composite (2026-10-09): 65% clinical + 35% research, both on 0-10.
 # Clinical = Barath's original Teaching scores (4/6/8/10), spread evenly to 0-10 (0/3.33/6.67/10).
 # Research: Barath's 5-tier order, evenly spaced 0-10.
-TEACHING_SPLIT = (0.65, 0.35)
+# 2026-10-12: Barath changed the split to 50/50 ("equal importance to both").
+TEACHING_SPLIT = (0.5, 0.5)
 RESEARCH = {
     "Tufts": 10,                                    # maximum
     "MCG": 7.5,                                     # second top

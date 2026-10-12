@@ -19,7 +19,7 @@ Whenever showing the rank list, show ONE table with the full per-category breakd
 
 Columns, in order: Rank | Program | Clinical | Research | Teaching (35%) | Field (25%) | Geography (22.9%) | Culture (17.1%) | Interview read | 24-hr call | Moonlighting | **Total**. (Specialty may be dropped when the table gets too wide.)
 - Each of the four weighted criteria shows **raw score → weighted points** (e.g. `8 → 4.26`), so the points visibly add up to the Total.
-- Clinical and Research show their raw 0–10 scores (Teaching = 0.65 × Clinical + 0.35 × Research).
+- Clinical and Research show their raw 0–10 scores (Teaching = 0.5 × Clinical + 0.5 × Research).
 - The three Culture sub-parts show their 0–10 inputs: interview read (neutral unknowns "5 (N)"), call 10 / 0 / "5 (N)", moonlighting 10 / 0 / "5 (N)".
 - Total is the composite score to 3 decimals, in bold.
 - **No arrows or change markers in the table** (Barath, 2026-10-09). Rank shows the number only. Below the table, in text, briefly list which programs changed rank (e.g. "Changed: MCG 3→2, MCW 2→3"). Don't narrate up vs down beyond that.
@@ -40,7 +40,7 @@ The weights were derived with AHP from Barath's own pairwise judgments: Teaching
 
 **Every criterion and every sub-criterion runs 0 to 10, with Barath's lowest tier at 0 and his top tier at 10** (Barath, 2026-10-09: "I want everything to start from 0 to 10"). When he gives a tier order, spread the tiers evenly from 0 to 10. If he gives direct numbers that don't span 0–10, spread his distinct levels evenly to 0–10 and confirm with him.
 
-- **Teaching/Research** (split 2026-10-09) = **0.65 x Clinical + 0.35 x Research**, the fellowship's own faculty strength. Never leave a TBD stored as 0; at 35% weight a placeholder 0 still dominates. Ask him instead.
+- **Teaching/Research** (split 2026-10-09; changed to 50/50 on 2026-10-12, "equal importance to both") = **0.5 x Clinical + 0.5 x Research**, the fellowship's own faculty strength. Never leave a TBD stored as 0; at 35% weight a placeholder 0 still dominates. Ask him instead.
   - **Clinical**: Barath's direct clinical-teaching scores (10/8/6/4) spread evenly to 0–10: Tufts 10; MCW, UMass 6.67; MCG (10/12, "same as LSU"), LSU, ETSU, Wayne State 3.33; Henry Ford, NGMC, Ann Arbor 0.
   - **Research**: five even tiers from Barath's order (10/9): Tufts 10 (maximum) > MCG 7.5 (second) > UMass 5 (one below MCG) > MCW, LSU, NGMC, Ann Arbor 2.5 (one above lowest) > Henry Ford, ETSU, Wayne State 0 (lowest).
   - Notion stores Clinical, Research and the Teaching/Research composite in separate columns.
@@ -69,17 +69,17 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | Rank | Program | Clinical | Research | Field | Geography | Interview read | 24-hr call | Moonlighting | Culture | Score |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Tufts | 10 | 10 | 3.33 (optional CCM year; Tufts ID PD: ~5% of grads go to ID critical care. The 1-year CCM is a separate application; alumni origins not verified) | 7.5 | 10 (all four, 10/6) | Favorable (≤1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 7.546 |
-| 2 | MCW | 6.67 | 2.5 | 6.67 | 5 | 5 (fellows, coordinator; PD not liked 10/7, faculty not liked 10/12) | Favorable (separate night float) | No | 5.625 | 5.598 |
-| 3 | MCG | 3.33 ("same as LSU", 10/12; was 6.67) | 7.5 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable (call every weekday, sometimes weekends; 10/10) | Yes | 5.15625 | 5.058 |
+| 2 | MCW | 6.67 | 2.5 | 6.67 | 5 | 5 (fellows, coordinator; PD not liked 10/7, faculty not liked 10/12) | Favorable (separate night float) | No | 5.625 | 5.379 |
+| 3 | MCG | 3.33 ("same as LSU", 10/12; was 6.67) | 7.5 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable (call every weekday, sometimes weekends; 10/10) | Yes | 5.15625 | 5.277 |
 | 4 | Henry Ford Providence | 0 | 0 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call every weekday, sometimes weekends; 10/10) | No | 1.5625 | 5.057 |
-| 5 | UMass Chan | 6.67 | 5 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | TBD | 5.0 | 4.702 |
-| 6 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 2.5 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call M–F 24h + ~2 weekends/month during 6–8 F1 inpatient months; confirmed in 10/9 interview recordings) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.671 |
-| 7 | NGMC | 0 | 2.5 | 6.67 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable (24-hr call; frequency TBD, ask 10/19) | No | 5.46875 | 4.054 |
-| 8 | Wayne State | 3.33 ("has all the resources") | 0 | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 3.903 |
-| 9 | Ann Arbor | 0 | 2.5 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.291 |
-| 10 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 3.547 |
+| 5 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 2.5 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call M–F 24h + ~2 weekends/month during 6–8 F1 inpatient months; confirmed in 10/9 interview recordings) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.627 |
+| 6 | UMass Chan | 6.67 | 5 | 0 | 7.5 | Neutral (interview 10/16) | Neutral | TBD | 5.0 | 4.615 |
+| 7 | NGMC | 0 | 2.5 | 6.67 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable (24-hr call; frequency TBD, ask 10/19) | No | 5.46875 | 4.185 |
+| 8 | Wayne State | 3.33 ("has all the resources") | 0 | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 3.728 |
+| 9 | Ann Arbor | 0 | 2.5 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.422 |
+| 10 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (ask at fellows' meet-and-greet) | TBD | 6.5625 | 3.372 |
 
-Ranks 6–10 come from the bottom-five formula (Field 26.7 / Geography 40 / MDA regret 33.3): LSU 7.000, NGMC 6.279, Wayne State 4.000, Ann Arbor 4.000 (tie; main score decides), ETSU 3.445. The Score column is the main-formula score (35/25/22.9/17.1) for reference. MCG (5.0580) vs Henry Ford (5.0572) is a near tie (0.0009); UMass vs LSU at the #5/#6 line is 0.032 apart.
+Ranks 6–10 come from the bottom-five formula (Field 26.7 / Geography 40 / MDA regret 33.3): UMass 6.333, NGMC 6.279, Wayne State 4.000, Ann Arbor 4.000 (tie; main score decides), ETSU 3.445. The Score column is the main-formula score (35/25/22.9/17.1, teaching 50/50) for reference. LSU vs UMass at the #5/#6 line is only 0.012 apart.
 
 Wayne State research note (checked 2026-09-29 on ClinicalTrials.gov): DMC Harper University Hospital is an actively recruiting site on the Phase 3 fosmanogepix vs caspofungin/fluconazole candidemia trial (NCT05421858), and Wayne State has sponsored ID trials before (e.g. a Phase 4 ceftaroline skin-infection trial, NCT02582203, completed 2016). No Wayne State-sponsored ID trial is currently recruiting.
 

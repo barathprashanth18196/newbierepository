@@ -42,3 +42,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 - **Teaching 35% adopted (10/12):** weights 35 / 28.7 / 22.9 / 13.4. Order: Tufts, MCW, Henry Ford, MCG, LSU | UMass, NGMC, Wayne State, Ann Arbor, ETSU. Fragile: Henry Ford vs MCG (#3/#4, Geography −5% flips); LSU vs UMass at the line (Field −11%).
 - **MCW faculty not liked (10/12):** read 7.5 → 5, Culture 5.625, score 5.637. Still #2; MCW vs Henry Ford is now 0.268 apart.
 - **Field capped at 25% (10/12):** weights 35 / 25 / 22.9 / 17.1. Order: Tufts, MCW, MCG, Henry Ford, UMass | LSU, NGMC, Wayne State, Ann Arbor, ETSU. Near tie: MCG vs Henry Ford (0.0009). UMass vs LSU at the line: 0.032.
+- **Teaching split 50/50 (10/12):** clinical and research each 17.5% of the total. Order: Tufts, MCW, MCG, Henry Ford, LSU | UMass, NGMC, Wayne State, Ann Arbor, ETSU. LSU vs UMass at the line: 0.012 apart (closest call).
