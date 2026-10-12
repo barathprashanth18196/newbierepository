@@ -51,7 +51,7 @@ NEUTRAL = 5  # not yet interviewed / unknown
 # Field tiers (2026-10-07, 4 tiers evenly spaced): Heme/Onc 10 > CCM / PCCM / ID-CCM combined 6.67
 #   > ID + optional CCM 3.33 > plain ID 0
 PROGRAMS = {
-    "MCW": (6.67, 6.67, 5, 7.5, 1, 15, "No"),  # clinical 8; 10/7: PD not liked
+    "MCW": (6.67, 6.67, 5, 5, 1, 15, "No"),  # clinical 8; 10/7: PD not liked; 10/12: faculty not liked (fellows, coordinator)
     "Henry Ford Providence": (0, 10, 10, 2.5, 0, 20, "No"),  # clinical 4
     "LSU New Orleans": (3.33, 10, 2.5, 5, 0, 28, "No"),  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
     "MCG": (3.33, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 6 (10/12: "same as LSU", was 8); 10/7: PD not liked (fellows, coordinator, faculty half)
