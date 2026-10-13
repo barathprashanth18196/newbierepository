@@ -25,7 +25,7 @@ WEIGHTS = [0.35, 0.25, 0.229, 0.171]
 TEACHING_SPLIT = (0.5, 0.5)
 RESEARCH = {
     # 2026-10-13: Barath put MCG and UMass in the same tier; the remaining 4 tiers were re-spaced 0-10.
-    "Tufts": 10,                                    # maximum
+    "Tufts": 10, "Ohio State": 10,                  # maximum (Ohio State added 10/13, same tier as Tufts)
     "MCG": 6.67, "UMass Chan": 6.67,                # second tier (same tier, 10/13)
     "MCW": 3.33, "LSU New Orleans": 3.33, "NGMC": 3.33, "Ann Arbor": 3.33,  # one step above lowest
     "Henry Ford Providence": 0, "ETSU": 0, "Wayne State": 0,          # lowest
@@ -50,6 +50,8 @@ NEUTRAL = 5  # not yet interviewed / unknown
 # Clinical (2026-10-09, 4 tiers evenly spaced from Barath's 10/8/6/4): 10 / 6.67 / 3.33 / 0
 # Geography (2026-10-04, 5 tiers evenly spaced): Michigan 10 > Boston area 7.5 >
 #   Milwaukee = Gainesville 5 > New Orleans 2.5 > Augusta, Johnson City 0
+# 2026-10-13: Columbus joins the Boston tier; Milwaukee alone; Gainesville moves down with New Orleans:
+#   Michigan 10 > Boston area = Columbus 7.5 > Milwaukee 5 > New Orleans = Gainesville 2.5 > Augusta, Johnson City 0
 # Field tiers (2026-10-07, 4 tiers evenly spaced): Heme/Onc 10 > CCM / PCCM / ID-CCM combined 6.67
 #   > ID + optional CCM 3.33 > plain ID 0
 PROGRAMS = {
@@ -59,10 +61,13 @@ PROGRAMS = {
     "MCG": (3.33, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 6 (10/12: "same as LSU", was 8); 10/7: PD not liked (fellows, coordinator, faculty half)
     "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),  # clinical 10
     "UMass Chan": (6.67, 0, 7.5, 6.25, None, 20, "No"),  # clinical 8; 10/12: PD liked (other read items neutral 1.25 until 10/16), moonlighting not possible
-    "NGMC": (0, 6.67, 5, 7.5, 0, 15, "No"),  # clinical 4; PD, faculty, coordinator liked; 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
+    "NGMC": (0, 6.67, 2.5, 7.5, 0, 15, "No"),  # clinical 4; PD, faculty, coordinator liked; 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
     "ETSU": (3.33, 6.67, 0, 7.5, 0, 15, "No"),  # clinical 6; read 7.5 = PD, faculty, fellows liked, coordinator not (10/13); 10/12 meet-and-greet: visa holders can't moonlight; 10/13: call unfavorable (Barath: 24-h call M-F on ID + 1 weekend/month)
     "Ann Arbor": (0, 0, 10, 2.5, 1, 28, "No"),  # clinical 4; 10/7: PD not liked (coordinator only)
     "Wayne State": (3.33, 0, 10, None, None, 21, "TBD"),  # clinical 6
+    # 10/13: new program. Barath: clinical 10, research 10 (Tufts tier), Field "similar to Tufts" (3.33),
+    # Columbus = Boston geography tier (7.5). Culture unknown until the 10/28 interview; J-1 assumed.
+    "Ohio State": (10, 3.33, 7.5, None, None, 15, "TBD"),
 }
 
 
