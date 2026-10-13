@@ -4,7 +4,7 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 
 | Program | What's pending | Resolves when | Current rank |
 |---|---|---|---|
-| UMass Chan | Faculty, fellows, coordinator read; 24-hour call (PD liked + moonlighting No in, 10/12) | Interview 10/16 | 5 |
+| UMass Chan | Faculty, fellows, coordinator read; confirm call (favorable assumed 10/13); PD liked + moonlighting No in | Interview 10/16 | 4 |
 | Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 8 |
 | Ohio State (new 10/13) | Verify provisional culture (read 8.75, call favorable, moonlighting No); coordinator; optional CCM year; MDA regret % | Interview 10/28 (virtual) | 2 |
 
@@ -52,3 +52,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 - **Research tiers re-spaced (10/13):** MCG = UMass. Tufts 10 > MCG, UMass 6.67 > MCW, LSU, NGMC, Ann Arbor 3.33 > Henry Ford, ETSU, Wayne State 0. No rank change. Fragile: MCG vs Henry Ford (0.075), Henry Ford vs UMass (0.123). J-1 assumed at every program (Barath).
 - **Ohio State scored, Geography regrouped (10/13):** Michigan 10 > Boston area = Columbus 7.5 > Milwaukee 5 > New Orleans = Gainesville 2.5 > Augusta, Johnson City 0 (NGMC 5 → 2.5). Ohio State: clinical 10, research 10, Field 3.33, Geography 7.5 → 6.905, #2. Ranks 7–11 now re-ordered by the bottom-five formula (Barath to confirm bottom five vs six). Neutral values left: 14. Division Director Susan Koletar (ACTU PI); PD Mohammad Sobhanie.
 - **Ohio State provisional culture (10/13):** Barath assumes PD, faculty, fellows nice, call favorable, moonlighting No until 10/28. Score 7.413, #2, 0.133 behind Tufts. Tufts #1 in only 64% of Monte Carlo runs with tier noise. Barath likes Susan Koletar (Division Director, ACTU PI); questions on the Ohio State Notion page.
+- **UMass call favorable, provisional (10/13):** Culture 6.406, score 5.147, #4 (0.015 ahead of MCG, the closest call). MCG 4→5, Henry Ford 5→6. Neutral values left: 11.
