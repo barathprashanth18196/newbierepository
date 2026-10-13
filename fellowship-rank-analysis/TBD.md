@@ -6,7 +6,7 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 |---|---|---|---|
 | UMass Chan | Faculty, fellows, coordinator read; 24-hour call (PD liked + moonlighting No in, 10/12) | Interview 10/16 | 5 |
 | Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 8 |
-| Ohio State (new 10/13) | Geography tier, Research tier, MDA regret % now; Clinical, Culture (read, call), moonlighting after interview | Interview 10/28 (virtual) | not yet scored |
+| Ohio State (new 10/13) | Geography tier (Columbus: = Boston 7.5, or new tier between Michigan and Boston), Research tier, MDA regret % now; Clinical, Culture (read, call), moonlighting after interview | Interview 10/28 (virtual) | not yet scored |
 
 No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9), ETSU (10/13; coordinator confirmed not liked).
 
@@ -49,3 +49,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 - **No neutral values by the end (Barath, 10/13):** standing rule. `rebuild.py` prints a NEUTRAL VALUES LEFT audit; the list isn't certified until it says 0. As of 10/13, 11 left: UMass faculty/fellows/coordinator read + call (10/16); Wayne State read, call, moonlighting (10/27); NGMC fellows read item (no fellows exist, Barath to decide how to score); MDA regret % for Tufts, MCW, MCG.
 - **NGMC fellows item 0 (10/13):** read 8.75 → 7.5, Culture 4.6875, score 4.052, still #7. Neutral values left: 10 (UMass 4, Wayne State 3, MDA regret % for Tufts/MCW/MCG).
 - **Ohio State Wexner ID added (10/13):** interview 10/28, virtual. Plain ID (Field 0 unless a CCM year exists), Epic, 15 vacation days. Not in the model until Barath gives Geography, Research and MDA regret %. Final check now starts after 10/28.
+- **Research tiers re-spaced (10/13):** MCG = UMass. Tufts 10 > MCG, UMass 6.67 > MCW, LSU, NGMC, Ann Arbor 3.33 > Henry Ford, ETSU, Wayne State 0. No rank change. Fragile: MCG vs Henry Ford (0.075), Henry Ford vs UMass (0.123). J-1 assumed at every program (Barath).

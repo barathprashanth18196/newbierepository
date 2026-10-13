@@ -44,7 +44,7 @@ The weights were derived with AHP from Barath's own pairwise judgments: Teaching
 
 - **Teaching/Research** (split 2026-10-09; changed to 50/50 on 2026-10-12, "equal importance to both") = **0.5 x Clinical + 0.5 x Research**, the fellowship's own faculty strength. Never leave a TBD stored as 0; at 35% weight a placeholder 0 still dominates. Ask him instead.
   - **Clinical**: Barath's direct clinical-teaching scores (10/8/6/4) spread evenly to 0–10: Tufts 10; MCW, UMass 6.67; MCG (10/12, "same as LSU"), LSU, ETSU, Wayne State 3.33; Henry Ford, NGMC, Ann Arbor 0.
-  - **Research**: five even tiers from Barath's order (10/9): Tufts 10 (maximum) > MCG 7.5 (second) > UMass 5 (one below MCG) > MCW, LSU, NGMC, Ann Arbor 2.5 (one above lowest) > Henry Ford, ETSU, Wayne State 0 (lowest).
+  - **Research**: even tiers from Barath's order. Since 2026-10-13 ("MCG and UMass research same tier, adjust the whole tier"), 4 tiers: Tufts 10 > MCG = UMass 6.67 > MCW, LSU, NGMC, Ann Arbor 3.33 > Henry Ford, ETSU, Wayne State 0. (Before that, 5 tiers: Tufts 10 > MCG 7.5 > UMass 5 > MCW/LSU/NGMC/AA 2.5 > HF/ETSU/WS 0.) When a tier merges or is added, re-space all tiers evenly.
   - Notion stores Clinical, Research and the Teaching/Research composite in separate columns.
 - **Field Preference**: future salary and job-finding potential given his visa status. Four tiers, spaced evenly (revised 2026-10-07; Barath: "make MCW, NGMC, ETSU the same field preference score"): Heme/Onc 10 > Critical Care, including pure CCM, PCCM and ID/CCM Combined, 6.67 > ID with an optional Critical Care year 3.33 (Tufts only) > plain ID 0. Heme/Onc is strictly above Critical Care, not tied. If Barath moves a specialty between tiers, re-space all tiers evenly.
 - **Bottom five (2026-10-09)**: the programs ranked #6–10 by the main formula are re-ordered among themselves by **0.267 x Field + 0.40 x Geography + 0.333 x MD Anderson regret** only. Barath first said "I will weigh Heme/Onc and geography as the highest. Everything else doesn't matter to me" (Field 40 / Geography 60), then added MDA regret at one-third, with Field and Geography sharing the other two-thirds in their 40/60 ratio.
@@ -62,7 +62,7 @@ The weights were derived with AHP from Barath's own pairwise judgments: Teaching
 
 Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Clinical and Research scores, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field and Geography follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
 
-## Confirmed inputs snapshot (updated 2026-10-12)
+## Confirmed inputs snapshot (updated 2026-10-13)
 
 A dated reference copy only. The live values are in Notion and win on any difference. Neutral = not yet known, counts as 5. Pending values are tracked in the "Still to be decided" checklist of the latest Legend section (mirrored in fellowship-rank-analysis/TBD.md on GitHub); show that checklist when Barath asks what's still undecided.
 
@@ -71,18 +71,18 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | Rank | Program | Clinical | Research | Field | Geography | Interview read | 24-hr call | Moonlighting | Culture | Score |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Tufts | 10 | 10 | 3.33 (optional CCM year; Tufts ID PD: ~5% of grads go to ID critical care. The 1-year CCM is a separate application; alumni origins not verified) | 7.5 | 10 (all four, 10/6) | Favorable (≤1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 7.546 |
-| 2 | MCW | 6.67 | 2.5 | 6.67 | 5 | 5 (fellows, coordinator; PD not liked 10/7, faculty not liked 10/12) | Favorable (separate night float) | No | 5.625 | 5.379 |
-| 3 | MCG | 3.33 ("same as LSU", 10/12; was 6.67) | 7.5 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable (call every weekday, sometimes weekends; 10/10) | Yes | 5.15625 | 5.277 |
+| 2 | MCW | 6.67 | 3.33 | 6.67 | 5 | 5 (fellows, coordinator; PD not liked 10/7, faculty not liked 10/12) | Favorable (separate night float) | No | 5.625 | 5.524 |
+| 3 | MCG | 3.33 ("same as LSU", 10/12; was 6.67) | 6.67 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable (call every weekday, sometimes weekends; 10/10) | Yes | 5.15625 | 5.132 |
 | 4 | Henry Ford Providence | 0 | 0 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call every weekday, sometimes weekends; 10/10) | No | 1.5625 | 5.057 |
-| 5 | UMass Chan | 6.67 | 5 | 0 | 7.5 | 6.25 (PD liked 10/12; faculty, fellows, coordinator neutral 1.25 until the 10/16 interview) | Neutral | No (not possible; 10/12) | 5.15625 | 4.641 |
-| 6 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 2.5 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call M–F 24h + ~2 weekends/month during 6–8 F1 inpatient months; confirmed in 10/9 interview recordings) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.627 |
-| 7 | NGMC | 0 | 2.5 | 6.67 | 5 | 7.5 (PD, faculty, coordinator; fellows 0 since no fellows exist yet, Barath 10/13) | Unfavorable (24-hr call; frequency TBD, ask 10/19) | No | 4.6875 | 4.052 |
+| 5 | UMass Chan | 6.67 | 6.67 | 0 | 7.5 | 6.25 (PD liked 10/12; faculty, fellows, coordinator neutral 1.25 until the 10/16 interview) | Neutral | No (not possible; 10/12) | 5.15625 | 4.934 |
+| 6 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 3.33 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call M–F 24h + ~2 weekends/month during 6–8 F1 inpatient months; confirmed in 10/9 interview recordings) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.772 |
+| 7 | NGMC | 0 | 3.33 | 6.67 | 5 | 7.5 (PD, faculty, coordinator; fellows 0 since no fellows exist yet, Barath 10/13) | Unfavorable (24-hr call; frequency TBD, ask 10/19) | No | 4.6875 | 4.197 |
 | 8 | Wayne State | 3.33 ("has all the resources") | 0 | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 3.728 |
-| 9 | Ann Arbor | 0 | 2.5 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.422 |
+| 9 | Ann Arbor | 0 | 3.33 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.567 |
 | 10 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows liked; coordinator not liked, confirmed 10/13) | Unfavorable (Barath 10/13: 24-h call M–F on ID + 1 weekend/month) | No (visa holders can't moonlight; chief fellow 10/12) | 4.6875 | 3.052 |
 | — | Ohio State Wexner (added 10/13) | TBD | TBD | 0 (plain ID; ask about a CCM year) | TBD (Columbus) | Interview 10/28 | TBD | TBD | — | not yet scored |
 
-Ranks 6–10 come from the bottom-five formula (Field 26.7 / Geography 40 / MDA regret 33.3): LSU 7.000, NGMC 6.279, Wayne State 4.000, Ann Arbor 4.000 (tie; main score decides), ETSU 3.445. The Score column is the main-formula score (35/25/22.9/17.1, teaching 50/50) for reference. UMass vs LSU at the #5/#6 line is only 0.014 apart (10/12: UMass crossed after PD liked + moonlighting No). UMass best case #4, worst #6 after 10/16.
+Ranks 6–10 come from the bottom-five formula (Field 26.7 / Geography 40 / MDA regret 33.3): LSU 7.000, NGMC 6.279, Wayne State 4.000, Ann Arbor 4.000 (tie; main score decides), ETSU 3.445. The Score column is the main-formula score (35/25/22.9/17.1, teaching 50/50) for reference. UMass vs LSU at the #5/#6 line: 0.162 apart after the 10/13 research re-spacing. UMass best case #3, worst #6 after 10/16.
 
 Wayne State research note (checked 2026-09-29 on ClinicalTrials.gov): DMC Harper University Hospital is an actively recruiting site on the Phase 3 fosmanogepix vs caspofungin/fluconazole candidemia trial (NCT05421858), and Wayne State has sponsored ID trials before (e.g. a Phase 4 ceftaroline skin-infection trial, NCT02582203, completed 2016). No Wayne State-sponsored ID trial is currently recruiting.
 
@@ -123,6 +123,10 @@ Report it in the reply **and** in the new Legend section as a short "Robustness"
 Keep it to a few bullets. The full output stays in the script, not in Notion.
 
 **Status (2026-10-06):** Barath says My Rank is out of date, so check 8 is switched off (MY_RANK_CURRENT = False) until he gives a fresh gut order.
+
+## J-1 assumption (Barath, 2026-10-13)
+
+"Assume all programs I interview at have J-1." Treat J-1 sponsorship as available at every interviewing program; don't flag it as a pending item or ask about it. (Moonlighting is still asked/scored separately; J-1 usually means no moonlighting.)
 
 ## No neutral values by the end (standing rule, Barath 2026-10-13)
 
