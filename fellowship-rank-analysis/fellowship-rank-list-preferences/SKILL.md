@@ -123,9 +123,14 @@ Keep it to a few bullets. The full output stays in the script, not in Notion.
 
 **Status (2026-10-06):** Barath says My Rank is out of date, so check 8 is switched off (MY_RANK_CURRENT = False) until he gives a fresh gut order.
 
+## No neutral values by the end (standing rule, Barath 2026-10-13)
+
+"At the end of the day, there should be no neutral values in the whole table." Neutral 5s and neutral 1.25 read items are placeholders only, never final answers. Every rescore, `python3 rebuild.py` prints a **NEUTRAL VALUES LEFT** audit (`neutral_audit()`); show its count in the reply and list the items, and keep chasing them (ask after each interview, ask Barath directly for anything that doesn't need an interview). When an item is resolved for a read sub-part, remove it from `NEUTRAL_READ_ITEMS` in rebuild.py. The list is not certified until the audit says 0. This includes MDA regret % for programs in the top five (only used if they fall to the bottom five) and items that can't exist (e.g. NGMC's fellows before its first cohort): ask Barath how he wants those scored rather than leaving them at 1.25.
+
 ## Final check before certifying the rank list (agreed 2026-10-06)
 
 After the last interview (Wayne State, 10/27) and before the Nov 18 deadline, run these in order:
+0. **Zero neutral values:** the neutral audit in rebuild.py must report 0 (see the rule above).
 1. **Fresh gut order first:** Barath writes his gut ranking 1 to 10 **before** seeing any model scores, so the model can't anchor him. Save it to the My Rank column and set MY_RANK_CURRENT = True.
 2. **Blind re-scoring:** ask for Teaching/Research (and the interview read items) for all 10 programs **without** showing the old values. If any score moves by more than 1 from the stored value, discuss it, then rerun the model.
 3. **Regret test:** for every FRAGILE adjacent pair from robustness.py, plus every program where the model and the fresh gut order differ by 3 or more places, ask "If you matched at A instead of B, which would you regret more?" His answer sets the final order for that pair. Record each answer in the Legend.

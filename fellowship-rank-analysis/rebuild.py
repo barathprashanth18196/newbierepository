@@ -113,6 +113,31 @@ MDA_REGRET_PCT = {
 }
 
 
+# Interview-read items still counted as a neutral 1.25 (unknown, not a real opinion).
+# Barath, 2026-10-13: by certification there must be no neutral values anywhere in the table.
+NEUTRAL_READ_ITEMS = {
+    "UMass Chan": ["faculty", "fellows", "coordinator"],  # interview 10/16
+    "NGMC": ["fellows (none exist yet, first cohort)"],
+}
+
+
+def neutral_audit():
+    """Every input still scored as neutral. Must be empty before the list is certified."""
+    out = []
+    for n, (c, f, g, read, call, vac, moon) in PROGRAMS.items():
+        if read is None:
+            out.append((n, "interview read"))
+        for item in NEUTRAL_READ_ITEMS.get(n, []):
+            out.append((n, f"read item: {item}"))
+        if call is None:
+            out.append((n, "24-hour call"))
+        if moon not in ("Yes", "No"):
+            out.append((n, "moonlighting"))
+        if n not in MDA_REGRET_PCT:
+            out.append((n, "MDA regret % (only used if it falls to the bottom five)"))
+    return out
+
+
 def regret_score(name):
     if name not in MDA_REGRET_PCT:
         return NEUTRAL
@@ -169,3 +194,7 @@ if __name__ == "__main__":
             for n, k in ranks(s).items():
                 moves[n].add(k)
     print("rank range under +/-10%:", {n: (min(v), max(v)) for n, v in moves.items()})
+    audit = neutral_audit()
+    print(f"NEUTRAL VALUES LEFT: {len(audit)}" + ("" if audit else " (ready to certify)"))
+    for n, what in audit:
+        print(f"  {n:<22} {what}")
