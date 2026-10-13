@@ -6,8 +6,7 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 |---|---|---|---|
 | UMass Chan | Faculty, fellows, coordinator read; 24-hour call (PD liked + moonlighting No in, 10/12) | Interview 10/16 | 5 |
 | Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 8 |
-| ETSU | 24-hour call: in-house call on ICU months (4 of 12), unclear whether true 24-hour or night float | Post-interview fellows' meet-and-greet (interview itself done 9/18) | 7 |
-| ETSU | Moonlighting | Post-interview fellows' meet-and-greet | 7 |
+| ETSU | 24-hour call: Barath to decide favorable/unfavorable (ICU 12-h shifts, no 24-h call; ID home pager call alternate weekdays + 1 weekend/month, rarely after 10 PM) | Barath's call (meet-and-greet done 10/12) | 10 |
 
 No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9).
 
@@ -45,3 +44,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 - **Teaching split 50/50 (10/12):** clinical and research each 17.5% of the total. Order: Tufts, MCW, MCG, Henry Ford, LSU | UMass, NGMC, Wayne State, Ann Arbor, ETSU. LSU vs UMass at the line: 0.012 apart (closest call).
 - **Elaborate scores always (10/12):** every reply that shows scores or ranks uses the full elaborate breakdown (split tables, raw → points, Clinical/Research, Culture sub-parts, line row, bottom-five regret math, Changed line, Robustness). Short version only when Barath asks for it.
 - **UMass PD liked + moonlighting not possible (10/12):** read 6.25, moonlighting No, Culture 5.156, score 4.641. UMass crosses to #5 (0.014 ahead); LSU drops to #6 (bottom-five 7.000). UMass after 10/16: best #4, worst #6.
+- **ETSU meet-and-greet (10/12):** moonlighting No (visa), Culture 5.9375, score 3.266, still #10. Call waits on Barath (favorable 3.479 / unfavorable 3.052; #10 either way). Debrief on the ETSU Notion page; Plaud tracker updated.
