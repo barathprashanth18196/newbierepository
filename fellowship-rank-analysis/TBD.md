@@ -7,7 +7,7 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 | UMass Chan | Faculty, fellows, coordinator read; 24-hour call (PD liked + moonlighting No in, 10/12) | Interview 10/16 | 5 |
 | Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 8 |
 
-No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9), ETSU (10/13; coordinator read to confirm).
+No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9), ETSU (10/13; coordinator confirmed not liked).
 
 ## Close calls to recheck once the above resolves (as of 10/9, after MDA regret was added)
 
@@ -44,4 +44,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 - **Elaborate scores always (10/12):** every reply that shows scores or ranks uses the full elaborate breakdown (split tables, raw → points, Clinical/Research, Culture sub-parts, line row, bottom-five regret math, Changed line, Robustness). Short version only when Barath asks for it.
 - **UMass PD liked + moonlighting not possible (10/12):** read 6.25, moonlighting No, Culture 5.156, score 4.641. UMass crosses to #5 (0.014 ahead); LSU drops to #6 (bottom-five 7.000). UMass after 10/16: best #4, worst #6.
 - **ETSU meet-and-greet (10/12):** moonlighting No (visa), Culture 5.9375, score 3.266, still #10. Call waits on Barath (favorable 3.479 / unfavorable 3.052; #10 either way). Debrief on the ETSU Notion page; Plaud tracker updated.
-- **ETSU call unfavorable (10/13):** Barath: 24-h call M–F on ID + 1 weekend/month. Culture 4.6875, score 3.052, still #10. ETSU fully scored; coordinator (scored 0) to confirm not liked vs no opinion.
+- **ETSU call unfavorable (10/13):** Barath: 24-h call M–F on ID + 1 weekend/month. Culture 4.6875, score 3.052, still #10. ETSU fully scored; coordinator confirmed not liked (read 7.5).
