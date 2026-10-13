@@ -7,7 +7,7 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 | UMass Chan | Faculty, fellows, coordinator read; 24-hour call (PD liked + moonlighting No in, 10/12) | Interview 10/16 | 5 |
 | Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 8 |
 
-No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU, ETSU (10/13; coordinator read to confirm) (moonlighting No per the 2026 manual, 10/9).
+No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9), ETSU (10/13; coordinator read to confirm).
 
 ## Close calls to recheck once the above resolves (as of 10/9, after MDA regret was added)
 
