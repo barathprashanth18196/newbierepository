@@ -59,7 +59,7 @@ PROGRAMS = {
     "MCG": (3.33, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 6 (10/12: "same as LSU", was 8); 10/7: PD not liked (fellows, coordinator, faculty half)
     "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),  # clinical 10
     "UMass Chan": (6.67, 0, 7.5, 6.25, None, 20, "No"),  # clinical 8; 10/12: PD liked (other read items neutral 1.25 until 10/16), moonlighting not possible
-    "NGMC": (0, 6.67, 5, 8.75, 0, 15, "No"),  # clinical 4; 10/6: no fellows yet (first cohort), fellows item neutral 1.25
+    "NGMC": (0, 6.67, 5, 7.5, 0, 15, "No"),  # clinical 4; PD, faculty, coordinator liked; 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
     "ETSU": (3.33, 6.67, 0, 7.5, 0, 15, "No"),  # clinical 6; read 7.5 = PD, faculty, fellows liked, coordinator not (10/13); 10/12 meet-and-greet: visa holders can't moonlight; 10/13: call unfavorable (Barath: 24-h call M-F on ID + 1 weekend/month)
     "Ann Arbor": (0, 0, 10, 2.5, 1, 28, "No"),  # clinical 4; 10/7: PD not liked (coordinator only)
     "Wayne State": (3.33, 0, 10, None, None, 21, "TBD"),  # clinical 6
@@ -117,7 +117,6 @@ MDA_REGRET_PCT = {
 # Barath, 2026-10-13: by certification there must be no neutral values anywhere in the table.
 NEUTRAL_READ_ITEMS = {
     "UMass Chan": ["faculty", "fellows", "coordinator"],  # interview 10/16
-    "NGMC": ["fellows (none exist yet, first cohort)"],
 }
 
 
