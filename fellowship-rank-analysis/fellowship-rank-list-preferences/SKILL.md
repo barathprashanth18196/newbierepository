@@ -71,7 +71,7 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | Rank | Program | Clinical | Research | Field | Geography | Interview read | 24-hr call | Moonlighting | Culture | Score |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Tufts | 10 | 10 | 3.33 (optional CCM year; Tufts ID PD: ~5% of grads go to ID critical care. The 1-year CCM is a separate application; alumni origins not verified) | 7.5 | 10 (all four, 10/6) | Favorable (≤1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 7.546 |
-| 2 | Ohio State Wexner (added 10/13) | 10 | 10 | 3.33 ("similar to Tufts"; confirm an optional CCM year 10/28) | 7.5 (Columbus = Boston tier) | Neutral (interview 10/28) | Neutral | TBD | 5.0 | 6.905 |
+| 2 | Ohio State Wexner (added 10/13) | 10 | 10 | 3.33 ("similar to Tufts"; confirm an optional CCM year 10/28) | 7.5 (Columbus = Boston tier) | 8.75 PROVISIONAL (Barath 10/13: PD, faculty, fellows assumed nice; coordinator neutral; verify 10/28) | Favorable PROVISIONAL | No (assumed) | 7.96875 | 7.413 |
 | 3 | MCW | 6.67 | 3.33 | 6.67 | 5 | 5 (fellows, coordinator; PD not liked 10/7, faculty not liked 10/12) | Favorable (separate night float) | No | 5.625 | 5.524 |
 | 4 | MCG | 3.33 ("same as LSU", 10/12; was 6.67) | 6.67 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable (call every weekday, sometimes weekends; 10/10) | Yes | 5.15625 | 5.132 |
 | 5 | Henry Ford Providence | 0 | 0 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call every weekday, sometimes weekends; 10/10) | No | 1.5625 | 5.057 |

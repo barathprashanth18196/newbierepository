@@ -67,7 +67,9 @@ PROGRAMS = {
     "Wayne State": (3.33, 0, 10, None, None, 21, "TBD"),  # clinical 6
     # 10/13: new program. Barath: clinical 10, research 10 (Tufts tier), Field "similar to Tufts" (3.33),
     # Columbus = Boston geography tier (7.5). Culture unknown until the 10/28 interview; J-1 assumed.
-    "Ohio State": (10, 3.33, 7.5, None, None, 15, "TBD"),
+    # 10/13 (later): Barath's provisional assumptions until 10/28: PD, faculty, fellows liked (coordinator neutral),
+    # call favorable, moonlighting No. Verify at the interview.
+    "Ohio State": (10, 3.33, 7.5, 8.75, 1, 15, "No"),
 }
 
 
@@ -122,6 +124,7 @@ MDA_REGRET_PCT = {
 # Barath, 2026-10-13: by certification there must be no neutral values anywhere in the table.
 NEUTRAL_READ_ITEMS = {
     "UMass Chan": ["faculty", "fellows", "coordinator"],  # interview 10/16
+    "Ohio State": ["coordinator"],  # interview 10/28 (read items otherwise provisional, see PROGRAMS)
 }
 
 
