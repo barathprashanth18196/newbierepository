@@ -6,9 +6,8 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 |---|---|---|---|
 | UMass Chan | Faculty, fellows, coordinator read; 24-hour call (PD liked + moonlighting No in, 10/12) | Interview 10/16 | 5 |
 | Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 8 |
-| ETSU | 24-hour call: Barath to decide favorable/unfavorable (ICU 12-h shifts, no 24-h call; ID home pager call alternate weekdays + 1 weekend/month, rarely after 10 PM) | Barath's call (meet-and-greet done 10/12) | 10 |
 
-No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9).
+No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU, ETSU (10/13; coordinator read to confirm) (moonlighting No per the 2026 manual, 10/9).
 
 ## Close calls to recheck once the above resolves (as of 10/9, after MDA regret was added)
 
@@ -19,7 +18,7 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 ## Standing reminders (raise at the start of every rank-list chat)
 
 - ~~**Bottom-five weighting**~~: resolved 10/9. Ranks 6–10 are re-ordered by Field 26.7% + Geography 40% + MD Anderson regret 33.3%. Regret: Henry Ford 25%, NGMC 40%, ETSU 60%, Wayne State 100%, Ann Arbor 100%. Order: Henry Ford, NGMC, Wayne State, Ann Arbor, ETSU. Membership is recomputed every run, so Henry Ford moves up if a top-five program falls below it.
-- **Culture still unfilled:** UMass Chan (faculty/fellows/coordinator read, call), Wayne State (read, call, moonlighting), ETSU (call only: Barath to decide after the 10/12 meet-and-greet; moonlighting No). Complete: MCW, MCG, NGMC, Ann Arbor, Henry Ford (10/2), Tufts (10/6), LSU (10/9).
+- **Culture still unfilled:** UMass Chan (faculty/fellows/coordinator read, call), Wayne State (read, call, moonlighting). Complete: ETSU (10/13), MCW, MCG, NGMC, Ann Arbor, Henry Ford (10/2), Tufts (10/6), LSU (10/9).
 - ~~Recheck under the clarified call rule~~ Done 10/2: MCW uses a separate night-float system, Ann Arbor has no call after 7 PM. Both stay favorable.
 - **Culture formula (10/6):** leave and EMR removed at Barath's request. Culture = 62.5% interview read + 25% call + 12.5% moonlighting. Vacation days and EMR are reference only.
 - **NGMC fellows (10/6):** no fellows exist (first cohort), so the fellows item is a neutral 1.25. Interview read 8.75, no longer pending.
@@ -45,3 +44,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 - **Elaborate scores always (10/12):** every reply that shows scores or ranks uses the full elaborate breakdown (split tables, raw → points, Clinical/Research, Culture sub-parts, line row, bottom-five regret math, Changed line, Robustness). Short version only when Barath asks for it.
 - **UMass PD liked + moonlighting not possible (10/12):** read 6.25, moonlighting No, Culture 5.156, score 4.641. UMass crosses to #5 (0.014 ahead); LSU drops to #6 (bottom-five 7.000). UMass after 10/16: best #4, worst #6.
 - **ETSU meet-and-greet (10/12):** moonlighting No (visa), Culture 5.9375, score 3.266, still #10. Call waits on Barath (favorable 3.479 / unfavorable 3.052; #10 either way). Debrief on the ETSU Notion page; Plaud tracker updated.
+- **ETSU call unfavorable (10/13):** Barath: 24-h call M–F on ID + 1 weekend/month. Culture 4.6875, score 3.052, still #10. ETSU fully scored; coordinator (scored 0) to confirm not liked vs no opinion.

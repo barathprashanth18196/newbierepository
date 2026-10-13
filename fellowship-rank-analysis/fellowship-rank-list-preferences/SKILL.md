@@ -79,7 +79,7 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | 7 | NGMC | 0 | 2.5 | 6.67 | 5 | 8.75 (PD, faculty, coordinator; fellows neutral 1.25 since no fellows exist, first cohort, 10/6) | Unfavorable (24-hr call; frequency TBD, ask 10/19) | No | 5.46875 | 4.185 |
 | 8 | Wayne State | 3.33 ("has all the resources") | 0 | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 3.728 |
 | 9 | Ann Arbor | 0 | 2.5 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.422 |
-| 10 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows; interview done 9/18) | Neutral (Barath to decide: ICU 12-h day/night shifts, no 24-h call; ID home pager call alternate weekdays + 1 weekend/month, rarely after 10 PM; 10/12 meet-and-greet) | No (visa holders can't moonlight; chief fellow 10/12) | 5.9375 | 3.266 |
+| 10 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows; coordinator never on liked list, confirm) | Unfavorable (Barath 10/13: 24-h call M–F on ID + 1 weekend/month) | No (visa holders can't moonlight; chief fellow 10/12) | 4.6875 | 3.052 |
 
 Ranks 6–10 come from the bottom-five formula (Field 26.7 / Geography 40 / MDA regret 33.3): LSU 7.000, NGMC 6.279, Wayne State 4.000, Ann Arbor 4.000 (tie; main score decides), ETSU 3.445. The Score column is the main-formula score (35/25/22.9/17.1, teaching 50/50) for reference. UMass vs LSU at the #5/#6 line is only 0.014 apart (10/12: UMass crossed after PD liked + moonlighting No). UMass best case #4, worst #6 after 10/16.
 
