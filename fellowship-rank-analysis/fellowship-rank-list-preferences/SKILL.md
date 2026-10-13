@@ -80,6 +80,7 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | 8 | Wayne State | 3.33 ("has all the resources") | 0 | 0 | 10 | Neutral (interview 10/27) | Neutral | TBD | 5.0 | 3.728 |
 | 9 | Ann Arbor | 0 | 2.5 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.422 |
 | 10 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows liked; coordinator not liked, confirmed 10/13) | Unfavorable (Barath 10/13: 24-h call M–F on ID + 1 weekend/month) | No (visa holders can't moonlight; chief fellow 10/12) | 4.6875 | 3.052 |
+| — | Ohio State Wexner (added 10/13) | TBD | TBD | 0 (plain ID; ask about a CCM year) | TBD (Columbus) | Interview 10/28 | TBD | TBD | — | not yet scored |
 
 Ranks 6–10 come from the bottom-five formula (Field 26.7 / Geography 40 / MDA regret 33.3): LSU 7.000, NGMC 6.279, Wayne State 4.000, Ann Arbor 4.000 (tie; main score decides), ETSU 3.445. The Score column is the main-formula score (35/25/22.9/17.1, teaching 50/50) for reference. UMass vs LSU at the #5/#6 line is only 0.014 apart (10/12: UMass crossed after PD liked + moonlighting No). UMass best case #4, worst #6 after 10/16.
 
@@ -129,7 +130,7 @@ Keep it to a few bullets. The full output stays in the script, not in Notion.
 
 ## Final check before certifying the rank list (agreed 2026-10-06)
 
-After the last interview (Wayne State, 10/27) and before the Nov 18 deadline, run these in order:
+After the last interview (Ohio State, 10/28; Wayne State 10/27) and before the Nov 18 deadline, run these in order:
 0. **Zero neutral values:** the neutral audit in rebuild.py must report 0 (see the rule above).
 1. **Fresh gut order first:** Barath writes his gut ranking 1 to 10 **before** seeing any model scores, so the model can't anchor him. Save it to the My Rank column and set MY_RANK_CURRENT = True.
 2. **Blind re-scoring:** ask for Teaching/Research (and the interview read items) for all 10 programs **without** showing the old values. If any score moves by more than 1 from the stored value, discuss it, then rerun the model.
