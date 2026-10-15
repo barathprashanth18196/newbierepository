@@ -6,6 +6,7 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 |---|---|---|---|
 | UMass Chan | Faculty, fellows, coordinator read; confirm call (favorable assumed 10/13); PD liked + moonlighting No in | Interview 10/16 | 4 |
 | Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 8 |
+| UMass Chan-Baystate ID (new 10/15) | BOOK interview date in Thalamus (first-come); Clinical, Research, Geography (Springfield), Field (CCM year?), MDA regret %; culture after interview | Interview TBD (virtual) | not yet scored |
 | Ohio State (new 10/13) | Verify provisional culture (read 8.75, call favorable, moonlighting No); coordinator; optional CCM year; MDA regret % | Interview 10/28 (virtual) | 2 |
 
 No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9), ETSU (10/13; coordinator confirmed not liked).
@@ -54,3 +55,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 - **Ohio State provisional culture (10/13):** Barath assumes PD, faculty, fellows nice, call favorable, moonlighting No until 10/28. Score 7.413, #2, 0.133 behind Tufts. Tufts #1 in only 64% of Monte Carlo runs with tier noise. Barath likes Susan Koletar (Division Director, ACTU PI); questions on the Ohio State Notion page.
 - **UMass call favorable, provisional (10/13):** Culture 6.406, score 5.147, #4 (0.015 ahead of MCG, the closest call). MCG 4→5, Henry Ford 5→6. Neutral values left: 11.
 - **NGMC faculty not liked (10/13):** read 5.0, Culture 3.125, main 3.357; still #8 (bottom-five 5.279). Calendar synced: Ohio State 10/28 and the 11/18 rank list deadline added; 10/28 overlaps the HS Gainesville clinical day (arrange coverage).
+- **Baystate ID added (10/15):** Thalamus invite (PD Armando Paez, APD Durane Walker), virtual, date not yet booked. Not scored yet. Comparison vs DMC/Wayne State for physician-scientist and ID-CCM is on both Notion pages.
