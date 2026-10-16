@@ -376,3 +376,18 @@ Query: `("Medical College of Wisconsin"[ad] AND "Critical Care"[ad]) AND ("cohor
 - [not retrospective] Thoracic irrigation for prevention of secondary intervention after thoracostomy tube drainage for hemothorax: A Western Trauma Association multicenter study. ([38764139](https://pubmed.ncbi.nlm.nih.gov/38764139/))
 
 </details>
+
+## UMass add-on: EBV, HIV and malaria work (any design, adult, non-COVID)
+
+Added 10/16 after Barath flagged it. These dropped out of the main UMass list because they aren't retrospective (mostly prospective field cohorts in Africa or lab work), because Burkitt lymphoma work is pediatric, and because Ann Moormann sometimes lists only "Department of Medicine" with no ID division, so the division-author check missed her. Search: UMass + ID affiliation + (HIV OR malaria OR EBV OR lymphoma OR Burkitt), excluding COVID: 58 hits, about 20 of them lab/translational (EBV genomics in Burkitt, malaria T-cell antigens, HIV envelope).
+
+| Year | Journal | Design | Title | DOI |
+|---|---|---|---|---|
+| 2025 | EClinicalMedicine | prospective cohort | Rituximab is associated with an increased risk of malaria among adult lymphoma patients in Malawi: a prospective observational cohort. | [10.1016/j.eclinm.2025.103597](https://doi.org/10.1016/j.eclinm.2025.103597) |
+| 2026 | Clin Infect Dis | prospective cohort | Antibodies targeting blood stage antigens of Plasmodium falciparum are associated with resistance to malaria infection and disease. | [10.1093/cid/ciag544](https://doi.org/10.1093/cid/ciag544) |
+| 2026 | BMJ Open Respir Res | cross-sectional cohort | Lung function impairment at pulmonary TB and HIV/TB diagnosis: a South African cross-sectional cohort analysis. | [10.1136/bmjresp-2026-004248](https://doi.org/10.1136/bmjresp-2026-004248) |
+| 2025 | Chest | prospective cohort (malnutrition is one comorbidity) | Contribution of Key Comorbidities to Unfavorable Treatment Outcomes Among Adults With Drug-Sensitive Pulmonary TB in India: A Prospective Cohort Analysis. | [10.1016/j.chest.2025.05.055](https://doi.org/10.1016/j.chest.2025.05.055) |
+| 2025 | medRxiv | prospective cohort (preprint) | Weight gain during tuberculosis treatment increases the risk of post-tuberculosis metabolic syndrome. | [10.1101/2025.11.24.25340881](https://doi.org/10.1101/2025.11.24.25340881) |
+| 2024 | AIDS Res Ther | cross-sectional | Traditional complementary and alternative medicine (TCAM) use among PLHIV on antiretroviral medication. | [10.1186/s12981-024-00673-w](https://doi.org/10.1186/s12981-024-00673-w) |
+| 2026 | BMJ Glob Health | cross-sectional | Long-acting reversible contraception, condom use and sexually transmitted infections in developing countries: a multi-country serial cross-sectional analysis using demographic and health surveys. | [10.1136/bmjgh-2025-022849](https://doi.org/10.1136/bmjgh-2025-022849) |
+| 2025 | AIDS | RCT substudy (REPRIEVE) | No evidence of a detrimental effect of pitavastatin on neurocognitive function among people with HIV. | [10.1097/QAD.0000000000004267](https://doi.org/10.1097/QAD.0000000000004267) |
