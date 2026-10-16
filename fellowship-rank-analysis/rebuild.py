@@ -25,8 +25,10 @@ WEIGHTS = [0.35, 0.25, 0.229, 0.171]
 TEACHING_SPLIT = (0.5, 0.5)
 RESEARCH = {
     # 2026-10-13: Barath put MCG and UMass in the same tier; the remaining 4 tiers were re-spaced 0-10.
-    "Tufts": 10, "Ohio State": 10,                  # maximum (Ohio State added 10/13, same tier as Tufts)
-    "MCG": 6.67, "UMass Chan": 6.67,                # second tier (same tier, 10/13)
+    # 2026-10-16: after the interview Barath moved UMass up to the top tier ("Research is 10 for UMass").
+    # Still 4 tiers, so no re-spacing; MCG stays alone in the second tier.
+    "Tufts": 10, "Ohio State": 10, "UMass Chan": 10,  # maximum (Ohio State added 10/13; UMass 10/16)
+    "MCG": 6.67,                                    # second tier (UMass shared it 10/13-10/16)
     "MCW": 3.33, "LSU New Orleans": 3.33, "NGMC": 3.33, "Ann Arbor": 3.33,  # one step above lowest
     "Henry Ford Providence": 0, "ETSU": 0, "Wayne State": 0,          # lowest
 }
