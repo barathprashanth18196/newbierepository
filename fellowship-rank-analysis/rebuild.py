@@ -29,8 +29,9 @@ RESEARCH = {
     # Still 4 tiers, so no re-spacing; MCG stays alone in the second tier.
     "Tufts": 10, "Ohio State": 10, "UMass Chan": 10,  # maximum (Ohio State added 10/13; UMass 10/16)
     "MCG": 6.67,                                    # second tier (UMass shared it 10/13-10/16)
-    "MCW": 3.33, "LSU New Orleans": 3.33, "NGMC": 3.33, "Ann Arbor": 3.33,  # one step above lowest
-    "Henry Ford Providence": 0, "ETSU": 0, "Wayne State": 0,          # lowest
+    "MCW": 3.33, "LSU New Orleans": 3.33, "NGMC": 3.33,  # one step above lowest
+    # 2026-10-16: Barath "Ann Arbor research is 0" (was 3.33). Still 4 tiers, no re-spacing.
+    "Henry Ford Providence": 0, "ETSU": 0, "Wayne State": 0, "Ann Arbor": 0,  # lowest
 }
 
 # Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting, EMR.
