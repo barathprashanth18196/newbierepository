@@ -1,15 +1,14 @@
 # Rank list: values still to be decided
 
-Mirror of the "Still to be decided" checklist on the Notion Legend page, which is the source of truth. Every input below currently counts as a neutral 5 in the Claude based Rank. Update the value and rerun `python3 rebuild.py` as each one resolves. Mirrored as a checklist at the end of the latest numbered section (26) on the Notion Rank List Scoring Legend page. Last updated 2026-10-06.
+Mirror of the "Still to be decided" checklist on the Notion Legend page, which is the source of truth. Every input below currently counts as a neutral 5 in the Claude based Rank. Update the value and rerun `python3 rebuild.py` as each one resolves. Mirrored as a checklist at the end of the latest numbered section (26) on the Notion Rank List Scoring Legend page. Last updated 2026-10-16.
 
 | Program | What's pending | Resolves when | Current rank |
 |---|---|---|---|
-| UMass Chan | Faculty, fellows, coordinator read; confirm call (favorable assumed 10/13); PD liked + moonlighting No in | Interview 10/16 | 4 |
 | Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 8 |
 | UMass Chan-Baystate ID (new 10/15) | BOOK interview date in Thalamus (first-come); Clinical, Research, Geography (Springfield), Field (CCM year?), MDA regret %; culture after interview | Interview TBD (virtual) | not yet scored |
 | Ohio State (new 10/13) | Verify provisional culture (read 8.75, call favorable, moonlighting No); coordinator; optional CCM year; MDA regret % | Interview 10/28 (virtual) | 2 |
 
-No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9), ETSU (10/13; coordinator confirmed not liked).
+No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9), ETSU (10/13; coordinator confirmed not liked).
 
 ## Close calls to recheck once the above resolves (as of 10/9, after MDA regret was added)
 
@@ -20,7 +19,7 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 ## Standing reminders (raise at the start of every rank-list chat)
 
 - ~~**Bottom-five weighting**~~: resolved 10/9. Ranks 6–10 are re-ordered by Field 26.7% + Geography 40% + MD Anderson regret 33.3%. Regret: Henry Ford 25%, NGMC 40%, ETSU 60%, Wayne State 100%, Ann Arbor 100%. Order: Henry Ford, NGMC, Wayne State, Ann Arbor, ETSU. Membership is recomputed every run, so Henry Ford moves up if a top-five program falls below it.
-- **Culture still unfilled:** UMass Chan (faculty/fellows/coordinator read, call), Wayne State (read, call, moonlighting). Complete: ETSU (10/13), MCW, MCG, NGMC, Ann Arbor, Henry Ford (10/2), Tufts (10/6), LSU (10/9).
+- **Culture still unfilled:** Wayne State (read, call, moonlighting). Complete: UMass (10/16), ETSU (10/13), MCW, MCG, NGMC, Ann Arbor, Henry Ford (10/2), Tufts (10/6), LSU (10/9).
 - ~~Recheck under the clarified call rule~~ Done 10/2: MCW uses a separate night-float system, Ann Arbor has no call after 7 PM. Both stay favorable.
 - **Culture formula (10/6):** leave and EMR removed at Barath's request. Culture = 62.5% interview read + 25% call + 12.5% moonlighting. Vacation days and EMR are reference only.
 - **NGMC fellows (10/6):** no fellows exist (first cohort), so the fellows item is a neutral 1.25. Interview read 8.75, no longer pending.
@@ -56,3 +55,4 @@ No pending inputs: MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighti
 - **UMass call favorable, provisional (10/13):** Culture 6.406, score 5.147, #4 (0.015 ahead of MCG, the closest call). MCG 4→5, Henry Ford 5→6. Neutral values left: 11.
 - **NGMC faculty not liked (10/13):** read 5.0, Culture 3.125, main 3.357; still #8 (bottom-five 5.279). Calendar synced: Ohio State 10/28 and the 11/18 rank list deadline added; 10/28 overlaps the HS Gainesville clinical day (arrange coverage).
 - **Baystate ID added (10/15):** Thalamus invite (PD Armando Paez, APD Durane Walker), virtual, date not yet booked. Not scored yet. Comparison vs DMC/Wayne State for physician-scientist and ID-CCM is on both Notion pages.
+- **UMass interviewed 10/16 (Legend 58):** both Plaud recordings read in full; debrief on the UMass page; Plaud tracker updated. Barath: faculty, fellows, coordinator liked (read 10); call favorable kept (7–8 weekends/yr, "we'll see"); Field 0 → 3.33 (a 2026 grad did 1-yr CCM at Brown). Culture 8.75, score 6.381, #4 → #3; MCW #4. Closest call now MCG vs Henry Ford (0.075, Geography +3%). Neutral values left: 8. Follow-ups by email: Theodoropoulos, MICU electives, Worcester PCCM, gonorrhea vaccine trial, BMT research, Moormann.

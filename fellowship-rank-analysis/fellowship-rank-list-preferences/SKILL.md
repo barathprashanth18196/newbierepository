@@ -62,7 +62,7 @@ The weights were derived with AHP from Barath's own pairwise judgments: Teaching
 
 Barath's explicit instruction (2026-09-29): do not rely on Notion values alone. Notion data has drifted and held placeholders before. When rescoring or rebuilding, walk through each program individually, one program per round, and confirm its Clinical and Research scores, interview read (as a pick-which-you-liked list of PD, faculty, fellows, coordinator), 24-hour call and moonlighting with him, showing the current Notion value as the default. Field and Geography follow the fixed rules above, so state them for confirmation rather than asking open-ended. Show him the resulting table for approval before writing anything to Notion.
 
-## Confirmed inputs snapshot (updated 2026-10-13)
+## Confirmed inputs snapshot (updated 2026-10-16)
 
 A dated reference copy only. The live values are in Notion and win on any difference. Neutral = not yet known, counts as 5. Pending values are tracked in the "Still to be decided" checklist of the latest Legend section (mirrored in fellowship-rank-analysis/TBD.md on GitHub); show that checklist when Barath asks what's still undecided.
 
@@ -72,8 +72,8 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Tufts | 10 | 10 | 3.33 (optional CCM year; Tufts ID PD: ~5% of grads go to ID critical care. The 1-year CCM is a separate application; alumni origins not verified) | 7.5 | 10 (all four, 10/6) | Favorable (≤1 day/week, "bearable") | No (contract: visa holders can't moonlight) | 8.75 | 7.546 |
 | 2 | Ohio State Wexner (added 10/13) | 10 | 10 | 3.33 ("similar to Tufts"; confirm an optional CCM year 10/28) | 7.5 (Columbus = Boston tier) | 8.75 PROVISIONAL (Barath 10/13: PD, faculty, fellows assumed nice; coordinator neutral; verify 10/28) | Favorable PROVISIONAL | No (assumed) | 7.96875 | 7.413 |
-| 3 | MCW | 6.67 | 3.33 | 6.67 | 5 | 5 (fellows, coordinator; PD not liked 10/7, faculty not liked 10/12) | Favorable (separate night float) | No | 5.625 | 5.524 |
-| 4 | UMass Chan | 6.67 | 6.67 | 0 | 7.5 | 6.25 (PD liked 10/12; faculty, fellows, coordinator neutral 1.25 until the 10/16 interview) | Favorable PROVISIONAL (Barath 10/13 "assume"; verify 10/16) | No (not possible; 10/12) | 6.40625 | 5.147 |
+| 3 | UMass Chan | 6.67 | 6.67 | 3.33 (ID→CCM open: a 2026 grad is doing a 1-year CCM fellowship at Brown; Barath 10/16) | 7.5 | 10 (all four; PD 10/12, faculty, fellows, coordinator liked 10/16) | Favorable (7–8 weekends/yr split among 7 fellows; Barath 10/16 "keep it favorable, we'll see") | No (not possible; 10/12) | 8.75 | 6.381 |
+| 4 | MCW | 6.67 | 3.33 | 6.67 | 5 | 5 (fellows, coordinator; PD not liked 10/7, faculty not liked 10/12) | Favorable (separate night float) | No | 5.625 | 5.524 |
 | 5 | MCG | 3.33 ("same as LSU", 10/12; was 6.67) | 6.67 | 10 | 0 | 6.25 (fellows, coordinator, faculty half credit; PD not liked 10/7) | Unfavorable (call every weekday, sometimes weekends; 10/10) | Yes | 5.15625 | 5.132 |
 | 6 | Henry Ford Providence | 0 | 0 | 10 | 10 | 2.5 (fellows only; revised 10/6) | Unfavorable (home call every weekday, sometimes weekends; 10/10) | No | 1.5625 | 5.057 |
 | 7 | LSU New Orleans | 3.33 ("same as ETSU", 10/9) | 3.33 | 10 | 2.5 | 5 (faculty, fellows; PD and coordinator not liked) | Unfavorable (home call M–F 24h + ~2 weekends/month during 6–8 F1 inpatient months; confirmed in 10/9 interview recordings) | No (manual: J-1 may not moonlight; 10/9) | 3.125 | 4.772 |
@@ -82,7 +82,7 @@ Vacation days and EMR (only Wayne State/DMC is bad, Cerner/Oracle Health) are ke
 | 10 | Ann Arbor | 0 | 3.33 | 0 | 10 | 2.5 (coordinator only; PD not liked 10/7) | Favorable (no call after 7 PM) | No | 4.0625 | 3.567 |
 | 11 | ETSU | 3.33 | 0 | 6.67 | 0 | 7.5 (PD, faculty, fellows liked; coordinator not liked, confirmed 10/13) | Unfavorable (Barath 10/13: 24-h call M–F on ID + 1 weekend/month) | No (visa holders can't moonlight; chief fellow 10/12) | 4.6875 | 3.052 |
 
-Ranks 7–11 (11 programs since 10/13) come from the bottom-five formula (Field 26.7 / Geography 40 / MDA regret 33.3): LSU 7.000, NGMC 5.279, Wayne State 4.000, Ann Arbor 4.000 (tie; main score decides), ETSU 3.445. The Score column is the main-formula score (35/25/22.9/17.1, teaching 50/50) for reference. UMass vs MCG (#4/#5) is 0.015 apart after the provisional favorable call (10/13); the closest call on the list.
+Ranks 7–11 (11 programs since 10/13) come from the bottom-five formula (Field 26.7 / Geography 40 / MDA regret 33.3): LSU 7.000, NGMC 5.279, Wayne State 4.000, Ann Arbor 4.000 (tie; main score decides), ETSU 3.445. The Score column is the main-formula score (35/25/22.9/17.1, teaching 50/50) for reference. After the 10/16 UMass interview, UMass is #3 (6.381); the closest call is now MCG vs Henry Ford (#5/#6, 0.075 apart; a 3% rise in the Geography weight flips it).
 
 Wayne State research note (checked 2026-09-29 on ClinicalTrials.gov): DMC Harper University Hospital is an actively recruiting site on the Phase 3 fosmanogepix vs caspofungin/fluconazole candidemia trial (NCT05421858), and Wayne State has sponsored ID trials before (e.g. a Phase 4 ceftaroline skin-infection trial, NCT02582203, completed 2016). No Wayne State-sponsored ID trial is currently recruiting.
 
@@ -135,7 +135,7 @@ Keep it to a few bullets. The full output stays in the script, not in Notion.
 ## Final check before certifying the rank list (agreed 2026-10-06)
 
 After the last interview (Ohio State, 10/28; Wayne State 10/27) and before the Nov 18 deadline, run these in order:
-0. **Zero neutral values and no provisional values:** the neutral audit in rebuild.py must report 0, and every value Barath said to "assume" before an interview (UMass call; Ohio State read, call, moonlighting) must be confirmed or replaced from the interview.
+0. **Zero neutral values and no provisional values:** the neutral audit in rebuild.py must report 0, and every value Barath said to "assume" before an interview (Ohio State read, call, moonlighting; UMass call was confirmed 10/16) must be confirmed or replaced from the interview.
 1. **Fresh gut order first:** Barath writes his gut ranking 1 to 10 **before** seeing any model scores, so the model can't anchor him. Save it to the My Rank column and set MY_RANK_CURRENT = True.
 2. **Blind re-scoring:** ask for Teaching/Research (and the interview read items) for all 10 programs **without** showing the old values. If any score moves by more than 1 from the stored value, discuss it, then rerun the model.
 3. **Regret test:** for every FRAGILE adjacent pair (also Tufts vs Ohio State) from robustness.py, plus every program where the model and the fresh gut order differ by 3 or more places, ask "If you matched at A instead of B, which would you regret more?" His answer sets the final order for that pair. Record each answer in the Legend.
