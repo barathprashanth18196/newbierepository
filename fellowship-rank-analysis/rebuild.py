@@ -25,10 +25,13 @@ WEIGHTS = [0.35, 0.25, 0.229, 0.171]
 TEACHING_SPLIT = (0.5, 0.5)
 RESEARCH = {
     # 2026-10-13: Barath put MCG and UMass in the same tier; the remaining 4 tiers were re-spaced 0-10.
-    "Tufts": 10, "Ohio State": 10,                  # maximum (Ohio State added 10/13, same tier as Tufts)
-    "MCG": 6.67, "UMass Chan": 6.67,                # second tier (same tier, 10/13)
-    "MCW": 3.33, "LSU New Orleans": 3.33, "NGMC": 3.33, "Ann Arbor": 3.33,  # one step above lowest
-    "Henry Ford Providence": 0, "ETSU": 0, "Wayne State": 0,          # lowest
+    # 2026-10-16: after the interview Barath moved UMass up to the top tier ("Research is 10 for UMass").
+    # Still 4 tiers, so no re-spacing; MCG stays alone in the second tier.
+    "Tufts": 10, "Ohio State": 10, "UMass Chan": 10,  # maximum (Ohio State added 10/13; UMass 10/16)
+    "MCG": 6.67,                                    # second tier (UMass shared it 10/13-10/16)
+    "MCW": 3.33, "LSU New Orleans": 3.33, "NGMC": 3.33,  # one step above lowest
+    # 2026-10-16: Barath "Ann Arbor research is 0" (was 3.33). Still 4 tiers, no re-spacing.
+    "Henry Ford Providence": 0, "ETSU": 0, "Wayne State": 0, "Ann Arbor": 0,  # lowest
 }
 
 # Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting, EMR.
@@ -60,7 +63,10 @@ PROGRAMS = {
     "LSU New Orleans": (3.33, 10, 2.5, 5, 0, 28, "No"),  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
     "MCG": (3.33, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 6 (10/12: "same as LSU", was 8); 10/7: PD not liked (fellows, coordinator, faculty half)
     "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),  # clinical 10
-    "UMass Chan": (6.67, 0, 7.5, 6.25, 1, 20, "No"),  # clinical 8; 10/12: PD liked (other read items neutral 1.25 until 10/16), moonlighting not possible; 10/13: call favorable PROVISIONAL (Barath "assume", verify 10/16)
+    # 10/16 interview: faculty, fellows, coordinator liked -> read 10; call favorable kept (7-8 weekends/yr,
+    # Barath "keep it favorable, we'll see"). Field briefly 3.33 (ID->CCM via a Brown 1-yr CCM grad), then
+    # Barath later 10/16: "UMass field score bring it back to same as Ann Arbor" -> 0 (plain ID).
+    "UMass Chan": (6.67, 0, 7.5, 10, 1, 20, "No"),  # clinical 8; 10/12: PD liked, moonlighting not possible
     "NGMC": (0, 6.67, 2.5, 5, 0, 15, "No"),  # clinical 4; PD, coordinator liked; 10/13: faculty NOT liked (was liked); 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
     "ETSU": (3.33, 6.67, 0, 7.5, 0, 15, "No"),  # clinical 6; read 7.5 = PD, faculty, fellows liked, coordinator not (10/13); 10/12 meet-and-greet: visa holders can't moonlight; 10/13: call unfavorable (Barath: 24-h call M-F on ID + 1 weekend/month)
     "Ann Arbor": (0, 0, 10, 2.5, 1, 28, "No"),  # clinical 4; 10/7: PD not liked (coordinator only)
@@ -123,7 +129,6 @@ MDA_REGRET_PCT = {
 # Interview-read items still counted as a neutral 1.25 (unknown, not a real opinion).
 # Barath, 2026-10-13: by certification there must be no neutral values anywhere in the table.
 NEUTRAL_READ_ITEMS = {
-    "UMass Chan": ["faculty", "fellows", "coordinator"],  # interview 10/16
     "Ohio State": ["coordinator"],  # interview 10/28 (read items otherwise provisional, see PROGRAMS)
 }
 
