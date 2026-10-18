@@ -730,3 +730,39 @@ Auto-screen: peds 100, review 55, edit/case 32, CAND 122, covid 11, trial 28, an
 | ❓ | 2025 | Am J Cardiol | PE intervention study; ICU days secondary; misfiled peds | Healthcare Resource Utilization and Outcomes in Intermediate-Risk Pulmonary Embolism in the United States. | [41052696](https://pubmed.ncbi.nlm.nih.gov/41052696/) · [DOI](https://doi.org/10.1016/j.amjcard.2025.09.050) |
 | ❓ | 2025 | Crit Care Med | CC workforce survey, not patient data | Attracting Emergency Medicine-Trained Residents to Surgical Critical Care: The Implications From a Nationwide Survey of Emergency Medicine Trainees Interested in Critical Care. | [41171038](https://pubmed.ncbi.nlm.nih.gov/41171038/) · [DOI](https://doi.org/10.1097/CCM.0000000000006935) |
 | ❓ | 2025 | Trauma Surg Acute Care Open | Surgeon perceptions survey, partly qualitative | Beyond capacity: an EAST multicenter mixed-methods study exploring surgeon perceptions on patient ratios in acute care surgery. | [41262852](https://pubmed.ncbi.nlm.nih.gov/41262852/) · [DOI](https://doi.org/10.1136/tsaco-2025-001937) |
+
+## Unsure decisions (Barath, 10/18)
+
+**Standing rule: always drop CDC WONDER database studies.** None of the kept papers use CDC WONDER.
+
+**Barath's calls:**
+
+| Program | Moved to kept | Dropped |
+|---|---|---|
+| Tufts | — | 40672759 (NLP to identify people who use drugs) |
+| Ohio State | 42641714 (gonorrhea spatial analysis), 42402158 (caregiver strain in HIV), 42802569 (STI testing navigation), 41575335 (gram-positive antibiotics and ovarian cancer), 40450912 (antibiotics/PPIs and ovarian cancer survival), 40080117 (urologist antibiotic practices) | 41888048 (radiology vs dermatology skin infection diagnosis) |
+| UMass Chan | 40782046 (urinary microbiome, UTI in ED patients) | — |
+| Wayne State | 39545244 (benzathine penicillin during the shortage), 42873554 (vasopressors and goals of care in septic shock), 42166901 (IV fluids and LV function in sepsis), 42067947 (cannabis use in HIV) | 40487076 (CDC WONDER) |
+| MCW (CCM) | 40054518 (opioid-associated cardiac arrest), 42013624 (benzodiazepines for status epilepticus in the ED) | — |
+
+**Claude's lean, used where Barath gave no call:**
+
+| Program | Moved to kept | Dropped |
+|---|---|---|
+| Tufts | 41549762, 40088367 | 40862215 |
+| Ohio State | — | 42321749, 41029889, 40880569, 40392911, 40062707, 39969809 |
+| UMass Chan | 41032359 | 39834750 (nonrandomized trial), 41805751 |
+| Wayne State | 41933920, 41895735, 40575241 | 40277274 |
+| MCW (CCM) | 41523893 | 40168034, 41052696, 41171038, 41262852 |
+
+**Final counts:**
+
+| Program | Kept |
+|---|---|
+| Ohio State | **53** |
+| Wayne State | **45** |
+| Tufts | **31** |
+| MCW (CCM) | **16** |
+| UMass Chan | **14** |
+
+The detailed tables above still show these papers as ❓. This section overrides them.
