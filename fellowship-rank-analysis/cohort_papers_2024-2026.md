@@ -24,7 +24,7 @@ Query: `("Tufts Medical Center"[ad] OR "Tufts University School of Medicine"[ad]
 |---|---|---|---|---|---|---|---|
 | ✅ | ✅ | 2026 | Diagn Microbiol Infect Dis | Cebulla | retro | Species-level reporting of Coagulase-negative staphylococci with MALDI-TOF does not impact clinical outcomes. | [42217282](https://pubmed.ncbi.nlm.nih.gov/42217282/) |
 | ✅ | ✅ | 2025 | Ann Allergy Asthma Immunol | Blumenthal | retro, multicenter | Racial differences in penicillin allergy delabeling in a multicenter US primary care cohort. | [41317864](https://pubmed.ncbi.nlm.nih.gov/41317864/) |
-| ✅ | ✅ | 2025 | Int J Infect Dis | De Rosa | retro | Medical source control with oritavancin in complicated gram-positive bacterial infections: A case series. | [41072854](https://pubmed.ncbi.nlm.nih.gov/41072854/) |
+| ✅ | ✅ | 2025 | Int J Infect Dis | De Rosa | retro | Medical source control with oritavancin in complicated gram-positive bacterial infections: A case series. ❌ *case series, excluded 10/18* | [41072854](https://pubmed.ncbi.nlm.nih.gov/41072854/) |
 | ✅ | ✅ | 2025 | J Heart Lung Transplant | Chow | retro | Tolerability and clinical efficacy of letermovir for primary cytomegalovirus prophylaxis after heart transplantation. | [40945548](https://pubmed.ncbi.nlm.nih.gov/40945548/) |
 | ✅ | ✅ | 2025 | Hepatobiliary Surg Nutr | Corcione | retro | Hypothermic oxygenated machine perfusion does not increase the risk of infection after liver transplantation: a retrospective cohort study. | [40893748](https://pubmed.ncbi.nlm.nih.gov/40893748/) |
 | ✅ | ✅ | 2025 | Clin Transplant | Alsoubani | case-control, retro | Risk Factors and Outcomes of Invasive Candida Infections in Heart Transplant Recipients: A Case-Control Study. | [39876633](https://pubmed.ncbi.nlm.nih.gov/39876633/) |
@@ -467,7 +467,7 @@ Screened afterwards (script, then titles by hand): CANDIDATE 180, review 144, no
 | ✅ | 2026 | JAC Antimicrob Resist | Effect of prophylactic antibiotics on days of antibiotic spectrum coverage in comatose post-cardiac arrest patients: a secondary analysis of PROTECT. | [41614001](https://pubmed.ncbi.nlm.nih.gov/41614001/) |
 | ✅ | 2025 | Ann Allergy Asthma Immunol | Racial differences in penicillin allergy delabeling in a multicenter US primary care cohort. | [41317864](https://pubmed.ncbi.nlm.nih.gov/41317864/) |
 | ✅ | 2025 | Antimicrob Steward Healthc Epidemiol | Fighting AntimicroBial Resistance in Carceral Settings (FABRICS) study on antibiotics prescribing in New England prisons. | [41079965](https://pubmed.ncbi.nlm.nih.gov/41079965/) |
-| ✅ | 2025 | Int J Infect Dis | Medical source control with oritavancin in complicated gram-positive bacterial infections: A case series. | [41072854](https://pubmed.ncbi.nlm.nih.gov/41072854/) |
+| ❌ | 2025 | Int J Infect Dis | Medical source control with oritavancin in complicated gram-positive bacterial infections: A case series. *(case series, excluded 10/18)* | [41072854](https://pubmed.ncbi.nlm.nih.gov/41072854/) |
 | ✅ | 2025 | J Heart Lung Transplant | Tolerability and clinical efficacy of letermovir for primary cytomegalovirus prophylaxis after heart transplantation. | [40945548](https://pubmed.ncbi.nlm.nih.gov/40945548/) |
 | ✅ | 2025 | Hepatobiliary Surg Nutr | Hypothermic oxygenated machine perfusion does not increase the risk of infection after liver transplantation: a retrospective cohort study. | [40893748](https://pubmed.ncbi.nlm.nih.gov/40893748/) |
 | ✅ | 2025 | Front Microbiol | Bloodstream infections epidemiology and clinical outcomes after 1 year post allogeneic hematogenous stem cell transplantation. | [40851865](https://pubmed.ncbi.nlm.nih.gov/40851865/) |
@@ -478,7 +478,7 @@ Screened afterwards (script, then titles by hand): CANDIDATE 180, review 144, no
 | ✅ | 2025 | Am J Health Syst Pharm | Incomplete documentation of β-lactam allergy in long-term care facility residents increases risk of high-risk antibiotic use for Clostridioides difficile infection. | [39726291](https://pubmed.ncbi.nlm.nih.gov/39726291/) |
 | ✅ | 2024 | J Orthop | Injection drug use is associated with repeat irrigation and debridement in native joint septic arthritis. | [39651339](https://pubmed.ncbi.nlm.nih.gov/39651339/) |
 | ✅ | 2024 | Microbiol Spectr | Antibiotic resistance genotype, phenotype, and clinical outcomes in patients with Gram-negative infections at Rabin Medical Center in Israel. | [39601576](https://pubmed.ncbi.nlm.nih.gov/39601576/) |
-| ✅ | 2024 | Int J Equity Health | Sociodemographic disparities in antibiotic-resistant outpatient urine cultures in a Boston hospital, 2015-2020: a cross-sectional analysis. | [39444033](https://pubmed.ncbi.nlm.nih.gov/39444033/) |
+| ❓ | 2024 | Int J Equity Health | Sociodemographic disparities in antibiotic-resistant outpatient urine cultures in a Boston hospital, 2015-2020: a cross-sectional analysis. *(cross-sectional, not a cohort; moved to unsure 10/18)* | [39444033](https://pubmed.ncbi.nlm.nih.gov/39444033/) |
 | ✅ | 2024 | J Heart Lung Transplant | Impact of type of mechanical circulatory support before transplant on postorthotopic heart transplantation infections. | [39393616](https://pubmed.ncbi.nlm.nih.gov/39393616/) |
 | ✅ | 2024 | J Clin Exp Hepatol | The Impact of Gender and Race on Outcomes for Hospitalized Hepatitis A Patients Stratified by Liver Disease Severity. | [39268480](https://pubmed.ncbi.nlm.nih.gov/39268480/) |
 | ✅ | 2024 | J Infect Dis | The Clinical Effectiveness of Fidaxomicin Compared to Vancomycin in the Treatment of Clostridioides difficile Infection, A Single-Center Real-World Experience. | [38779889](https://pubmed.ncbi.nlm.nih.gov/38779889/) |
@@ -486,3 +486,38 @@ Screened afterwards (script, then titles by hand): CANDIDATE 180, review 144, no
 | ❓ | 2026 | Infect Control Hosp Epidemiol | Can diagnostic stewardship reduce the harms of blood culture contamination? | [41549762](https://pubmed.ncbi.nlm.nih.gov/41549762/) |
 | ❓ | 2025 | Health Justice | Offering is not enough: an attempt to increase infectious diseases testing at a large county jail in Massachusetts. | [40088367](https://pubmed.ncbi.nlm.nih.gov/40088367/) |
 | ❓ | 2025 | Transplant Direct | Sex- and Age-based Comparison of Key Clinical Markers of Immunity After Heart and Kidney Transplantation. | [40862215](https://pubmed.ncbi.nlm.nih.gov/40862215/) |
+
+## Tufts v2 (10/18): widened term list, stewardship added, case series excluded
+
+**Checking whether single-word [tiab] terms were too narrow.** A PubMed wildcard only matches words that begin with the exact stem, so some of the v1 terms missed spellings:
+
+| v1 term | What it missed | v2 fix |
+|---|---|---|
+| `infection*` | infectious, infected, infective (`infectious[tiab]` alone = 89 Tufts hits) | `infect*` |
+| `antifungal`, `antiviral` | plurals (antifungals, antivirals) | `antifung*`, `antivir*` |
+| `bacteremia` | UK spelling bacteraemia | add `bacteraemia` |
+| `sepsis` | septic arthritis, septic shock | add `septic` |
+| (none) | stewardship papers | add `stewardship` (42 Tufts hits; most were already in v1) |
+
+Field-tag comparison on the v1 terms: [tiab] 672, [tw] 697, untagged 774. Untagged searches pull MeSH in through automatic term mapping, so v2 stays on [tiab], per "avoid MeSH".
+
+**v2 search** (2024/10/16–2026/10/16): **736 hits**, which covers all 672 v1 hits plus 64 new ones.
+`tufts[ad] AND (infect*[tiab] OR antimicrob*[tiab] OR antibiot*[tiab] OR antifung*[tiab] OR antivir*[tiab] OR bacteremia[tiab] OR bacteraemia[tiab] OR HIV[tiab] OR sepsis[tiab] OR septic[tiab] OR tuberculosis[tiab] OR stewardship[tiab])`
+
+**Also tested and not adopted:** a block of syndrome and pathogen terms, `pneumonia OR hepatitis OR cytomegalovirus OR candida OR endocarditis OR osteomyelitis OR cellulitis OR Clostridioides OR MRSA OR fungal OR viral OR bacterial` (all [tiab]). It returned 369 hits, 102 of them not in v2. None of those 102 was a Tufts-led adult clinical ID cohort; they were mostly lab, microbiome, vet and review papers. It adds screening work without adding papers.
+
+**Screening the 162 new papers:**
+- Auto-screen: candidates 79, review 38, vet/animal 14, COVID 11, editorial/case report 8, pediatric 8, trial 2.
+- Tufts-led candidates by hand: 1 kept, 1 unsure, and the rest excluded (lab, cross-sectional, QI, qualitative or ethics papers).
+
+| Status | Year | Journal | Title | PMID |
+|---|---|---|---|---|
+| ✅ new | 2025 | Addict Sci Clin Pract | Inpatient addiction care is associated with increased vaccinations, medication for opioid use disorder and naloxone prescribing among patients with infective endocarditis in a rural state. (retrospective pre/post IDU-IE; found only via `infect*`) | [41102831](https://pubmed.ncbi.nlm.nih.gov/41102831/) · [DOI](https://doi.org/10.1186/s13722-025-00614-6) |
+| ❓ new | 2025 | Open Forum Infect Dis | Sensitivity and Specificity of Natural Language Processing Systems for Identification of Hospitalized People Who Use Drugs. (retrospective Tufts MC admissions 2018–2023; diagnostic accuracy, not outcomes) | [40672759](https://pubmed.ncbi.nlm.nih.gov/40672759/) · [DOI](https://doi.org/10.1093/ofid/ofaf370) |
+
+Excluded after reading the abstract: 39791842 (cross-sectional ecological HCV/Medicaid study) and 42747102 (QI redesign of microbiology ordering).
+
+**Tufts v2 totals (Tufts-led, adult, clinical ID):**
+- **Kept: 24.** The v1 list minus the oritavancin case series (41072854) and the cross-sectional urine-culture paper (39444033), plus 41102831.
+- **Unsure: 5.** 41549762, 40088367, 40862215, 39444033, 40672759.
+- Middle-author candidates (84 from v1) are still not hand-screened.
