@@ -447,3 +447,42 @@ Added 10/16 after Barath flagged it. These dropped out of the main UMass list be
 | 2024 | AIDS Res Ther | cross-sectional | Traditional complementary and alternative medicine (TCAM) use among PLHIV on antiretroviral medication. | [10.1186/s12981-024-00673-w](https://doi.org/10.1186/s12981-024-00673-w) |
 | 2026 | BMJ Glob Health | cross-sectional | Long-acting reversible contraception, condom use and sexually transmitted infections in developing countries: a multi-country serial cross-sectional analysis using demographic and health surveys. | [10.1136/bmjgh-2025-022849](https://doi.org/10.1136/bmjgh-2025-022849) |
 | 2025 | AIDS | RCT substudy (REPRIEVE) | No evidence of a detrimental effect of pitavastatin on neurocognitive function among people with HIV. | [10.1097/QAD.0000000000004267](https://doi.org/10.1097/QAD.0000000000004267) |
+
+## Tufts re-run (10/18): institution only, keywords only, no NOT, no design filter
+
+Search (claude.ai PubMed connector; limits: 20 AND/OR/NOT, 5 wildcards): `tufts[ad] AND (infection*[tiab] OR antimicrobial*[tiab] OR antibiotic*[tiab] OR bacteremia[tiab] OR HIV[tiab] OR antifungal[tiab] OR antiviral[tiab] OR sepsis[tiab] OR tuberculosis[tiab])`, 2024/10/16–2026/10/16: **672 hits** (669 with metadata).
+
+Screened afterwards (script, then titles by hand): CANDIDATE 180, review 144, not ID topic (by title) 100, vet/animal 89, lab/basic 32, editorial/letter/case report/guideline 31, pediatric 29, COVID 26, other design (protocol/survey/qualitative/model) 19, trial 13, nutrition 5, bronchoscopy 1.
+
+**Title screen of the 96 Tufts-led (first/last author) candidates: 25 adult ID clinical retrospective/observational studies**, 3 unsure. The other 84 candidates have Tufts only as a middle author and were not hand-screened.
+
+| Status | Year | Journal | Title | PMID |
+|---|---|---|---|---|
+| ✅ | 2026 | J Med Econ | Incidence of comorbidities, healthcare resource utilization and costs among people with HIV. | [42768865](https://pubmed.ncbi.nlm.nih.gov/42768865/) |
+| ✅ | 2026 | Diagn Microbiol Infect Dis | Species-level reporting of Coagulase-negative staphylococci with MALDI-TOF does not impact clinical outcomes. | [42217282](https://pubmed.ncbi.nlm.nih.gov/42217282/) |
+| ✅ | 2026 | HCA Healthc J Med | Optimizing Antibiotic Strategies With a Clinical Pathway Approach: Enhanced Initiation and De-escalation in Community-Acquired Pneumonia. | [42158486](https://pubmed.ncbi.nlm.nih.gov/42158486/) |
+| ✅ | 2026 | Antimicrob Steward Healthc Epidemiol | Indication-based clinical decision support for inpatient urine testing: impacts on utilization, appropriateness, and antibiotic prescribing. | [42534252](https://pubmed.ncbi.nlm.nih.gov/42534252/) |
+| ✅ | 2026 | J Med Virol | Cytomegalovirus Viral Load Dynamics and Outcomes After Liver Transplantation in Moderate and Low Risk Patients Treated With Cytomegalovirus Immune Globulin Prophylaxis. | [41940596](https://pubmed.ncbi.nlm.nih.gov/41940596/) |
+| ✅ | 2026 | Open Forum Infect Dis | Penicillin Allergy Labels and High-risk Antibiotic Prescribing Among Incarcerated Individuals Receiving Antibiotics Across Four US Carceral Systems. | [41889453](https://pubmed.ncbi.nlm.nih.gov/41889453/) |
+| ✅ | 2026 | JAC Antimicrob Resist | Effect of prophylactic antibiotics on days of antibiotic spectrum coverage in comatose post-cardiac arrest patients: a secondary analysis of PROTECT. | [41614001](https://pubmed.ncbi.nlm.nih.gov/41614001/) |
+| ✅ | 2025 | Ann Allergy Asthma Immunol | Racial differences in penicillin allergy delabeling in a multicenter US primary care cohort. | [41317864](https://pubmed.ncbi.nlm.nih.gov/41317864/) |
+| ✅ | 2025 | Antimicrob Steward Healthc Epidemiol | Fighting AntimicroBial Resistance in Carceral Settings (FABRICS) study on antibiotics prescribing in New England prisons. | [41079965](https://pubmed.ncbi.nlm.nih.gov/41079965/) |
+| ✅ | 2025 | Int J Infect Dis | Medical source control with oritavancin in complicated gram-positive bacterial infections: A case series. | [41072854](https://pubmed.ncbi.nlm.nih.gov/41072854/) |
+| ✅ | 2025 | J Heart Lung Transplant | Tolerability and clinical efficacy of letermovir for primary cytomegalovirus prophylaxis after heart transplantation. | [40945548](https://pubmed.ncbi.nlm.nih.gov/40945548/) |
+| ✅ | 2025 | Hepatobiliary Surg Nutr | Hypothermic oxygenated machine perfusion does not increase the risk of infection after liver transplantation: a retrospective cohort study. | [40893748](https://pubmed.ncbi.nlm.nih.gov/40893748/) |
+| ✅ | 2025 | Front Microbiol | Bloodstream infections epidemiology and clinical outcomes after 1 year post allogeneic hematogenous stem cell transplantation. | [40851865](https://pubmed.ncbi.nlm.nih.gov/40851865/) |
+| ✅ | 2025 | PLoS One | Pseudomonas aeruginosa bloodstream infections in internal medicine wards: A large Italian multicenter retrospective study. | [40388472](https://pubmed.ncbi.nlm.nih.gov/40388472/) |
+| ✅ | 2025 | J Orthop | Risk factors for readmission and mortality after irrigation & debridement for septic arthritis in persons who inject drugs. | [40241859](https://pubmed.ncbi.nlm.nih.gov/40241859/) |
+| ✅ | 2025 | Antimicrob Steward Healthc Epidemiol | Delving into discrepancies, a single-center experience with Accelerate Pheno for gram-negative bacteremia, a rapid phenotypic susceptibility testing method. | [39911512](https://pubmed.ncbi.nlm.nih.gov/39911512/) |
+| ✅ | 2025 | Clin Transplant | Risk Factors and Outcomes of Invasive Candida Infections in Heart Transplant Recipients: A Case-Control Study. | [39876633](https://pubmed.ncbi.nlm.nih.gov/39876633/) |
+| ✅ | 2025 | Am J Health Syst Pharm | Incomplete documentation of β-lactam allergy in long-term care facility residents increases risk of high-risk antibiotic use for Clostridioides difficile infection. | [39726291](https://pubmed.ncbi.nlm.nih.gov/39726291/) |
+| ✅ | 2024 | J Orthop | Injection drug use is associated with repeat irrigation and debridement in native joint septic arthritis. | [39651339](https://pubmed.ncbi.nlm.nih.gov/39651339/) |
+| ✅ | 2024 | Microbiol Spectr | Antibiotic resistance genotype, phenotype, and clinical outcomes in patients with Gram-negative infections at Rabin Medical Center in Israel. | [39601576](https://pubmed.ncbi.nlm.nih.gov/39601576/) |
+| ✅ | 2024 | Int J Equity Health | Sociodemographic disparities in antibiotic-resistant outpatient urine cultures in a Boston hospital, 2015-2020: a cross-sectional analysis. | [39444033](https://pubmed.ncbi.nlm.nih.gov/39444033/) |
+| ✅ | 2024 | J Heart Lung Transplant | Impact of type of mechanical circulatory support before transplant on postorthotopic heart transplantation infections. | [39393616](https://pubmed.ncbi.nlm.nih.gov/39393616/) |
+| ✅ | 2024 | J Clin Exp Hepatol | The Impact of Gender and Race on Outcomes for Hospitalized Hepatitis A Patients Stratified by Liver Disease Severity. | [39268480](https://pubmed.ncbi.nlm.nih.gov/39268480/) |
+| ✅ | 2024 | J Infect Dis | The Clinical Effectiveness of Fidaxomicin Compared to Vancomycin in the Treatment of Clostridioides difficile Infection, A Single-Center Real-World Experience. | [38779889](https://pubmed.ncbi.nlm.nih.gov/38779889/) |
+| ✅ | 2026 | Clin Transl Gastroenterol | The Effect of Antifungal Therapy on Disease Activity in Patients with Inflammatory Bowel Disease: A Retrospective Matched Analysis. | [42772293](https://pubmed.ncbi.nlm.nih.gov/42772293/) |
+| ❓ | 2026 | Infect Control Hosp Epidemiol | Can diagnostic stewardship reduce the harms of blood culture contamination? | [41549762](https://pubmed.ncbi.nlm.nih.gov/41549762/) |
+| ❓ | 2025 | Health Justice | Offering is not enough: an attempt to increase infectious diseases testing at a large county jail in Massachusetts. | [40088367](https://pubmed.ncbi.nlm.nih.gov/40088367/) |
+| ❓ | 2025 | Transplant Direct | Sex- and Age-based Comparison of Key Clinical Markers of Immunity After Heart and Kidney Transplantation. | [40862215](https://pubmed.ncbi.nlm.nih.gov/40862215/) |
