@@ -20,6 +20,7 @@ Trimmed with Barath on 10/19.
    - ILD
    - Can I also do a rotation with the anesthesia team (airway/OR intubations)?
 2. **POCUS:** What does the curriculum look like? Is there image review or archiving, a path to credentialing, and support for the NBE critical care echo (CCE) exam?
+3. **Board review:** Does the program pay for a board review course for pulmonary and critical care (e.g., the CHEST or SCCM review course) or for question banks? Is there time off to attend?
 
 ## Optional (Barath hasn't decided)
 - Which ICUs fellows cover, at which campus, and whether there's a census cap
