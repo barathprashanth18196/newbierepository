@@ -65,7 +65,7 @@ UMass is fragile: it's #4, 0.015 ahead of MCG. Its read items and call decide #4
 
 ## Still open after UMass
 
-- **NGMC 10/19:** call frequency.
+- ~~**NGMC 10/19:** call frequency.~~ Done 10/19: no 24-hour call (Legend 62).
 - **Wayne State 10/27:**
   - Interview read, call and moonlighting.
   - Confirm the 1-year DMC ID→CCM path; it could raise Field to 3.33.
