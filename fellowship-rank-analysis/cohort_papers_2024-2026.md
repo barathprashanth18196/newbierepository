@@ -766,3 +766,15 @@ Auto-screen: peds 100, review 55, edit/case 32, CAND 122, covid 11, trial 28, an
 | UMass Chan | **14** |
 
 The detailed tables above still show these papers as ❓. This section overrides them.
+
+## MCW add-on terms (Barath, 10/18): hemodynamic instability, norepinephrine, angiotensin II
+
+**Add-on search** (same dates): `("Medical College of Wisconsin"[ad] OR Froedtert[ad]) AND ("hemodynamic instability"[tiab] OR "haemodynamic instability"[tiab] OR "hemodynamically unstable"[tiab] OR norepinephrine[tiab] OR noradrenaline[tiab] OR "angiotensin II"[tiab])`
+- 35 hits, of which 28 were not already in the 365.
+- **No new kept papers.** Most of the 28 are angiotensin II hypertension bench and mouse work from MCW physiology (11 animal, 8 review).
+- Borderline, not kept: three MCW trauma video-review studies (42456535, 41297275, 40472687). They cover trauma bay and OR care, not the ICU. The auto-screen labels them "review" because "review" is in the title.
+
+**Full MCW string with the add-ons** (for running on pubmed.gov; the connector's 20-operator limit means it was run there as two queries and combined):
+`("Medical College of Wisconsin"[ad] OR Froedtert[ad]) AND ("critical care"[tiab] OR "intensive care"[tiab] OR ICU[tiab] OR "critically ill"[tiab] OR "mechanical ventilation"[tiab] OR "mechanically ventilated"[tiab] OR ARDS[tiab] OR "respiratory failure"[tiab] OR sepsis[tiab] OR septic[tiab] OR shock[tiab] OR ECMO[tiab] OR "cardiac arrest"[tiab] OR vasopressor*[tiab] OR extubation[tiab] OR "hemodynamic instability"[tiab] OR "haemodynamic instability"[tiab] OR "hemodynamically unstable"[tiab] OR norepinephrine[tiab] OR noradrenaline[tiab] OR "angiotensin II"[tiab])`
+
+This gives 393 hits, and MCW stays at **16 kept**.
