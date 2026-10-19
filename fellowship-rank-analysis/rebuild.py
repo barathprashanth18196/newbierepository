@@ -27,11 +27,12 @@ RESEARCH = {
     # 2026-10-13: Barath put MCG and UMass in the same tier; the remaining 4 tiers were re-spaced 0-10.
     # 2026-10-16: after the interview Barath moved UMass up to the top tier ("Research is 10 for UMass").
     # Still 4 tiers, so no re-spacing; MCG stays alone in the second tier.
-    "Tufts": 10, "Ohio State": 10, "UMass Chan": 10,  # maximum (Ohio State added 10/13; UMass 10/16)
-    "MCG": 6.67,                                    # second tier (UMass shared it 10/13-10/16)
-    "MCW": 3.33, "LSU New Orleans": 3.33, "NGMC": 3.33,  # one step above lowest
+    # 2026-10-19: Barath "wayne state research is 10" and "mcw and umass same as mcg". Still 4 tiers.
+    "Tufts": 10, "Ohio State": 10, "Wayne State": 10,  # maximum (Ohio State 10/13; Wayne State 10/19)
+    "MCG": 6.67, "MCW": 6.67, "UMass Chan": 6.67,  # second tier (MCW from 3.33, UMass from 10, 10/19)
+    "LSU New Orleans": 3.33, "NGMC": 3.33,  # one step above lowest
     # 2026-10-16: Barath "Ann Arbor research is 0" (was 3.33). Still 4 tiers, no re-spacing.
-    "Henry Ford Providence": 0, "ETSU": 0, "Wayne State": 0, "Ann Arbor": 0,  # lowest
+    "Henry Ford Providence": 0, "ETSU": 0, "Ann Arbor": 0,  # lowest
 }
 
 # Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting, EMR.
@@ -69,13 +70,19 @@ PROGRAMS = {
     "UMass Chan": (6.67, 0, 7.5, 10, 1, 20, "No"),  # clinical 8; 10/12: PD liked, moonlighting not possible
     "NGMC": (0, 6.67, 2.5, 5, 1, 15, "No"),  # 10/19: no 24-hour call -> call favorable (Barath). clinical 4; PD, coordinator liked; 10/13: faculty NOT liked (was liked); 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
     "ETSU": (3.33, 6.67, 0, 7.5, 0, 15, "No"),  # clinical 6; read 7.5 = PD, faculty, fellows liked, coordinator not (10/13); 10/12 meet-and-greet: visa holders can't moonlight; 10/13: call unfavorable (Barath: 24-h call M-F on ID + 1 weekend/month)
-    "Ann Arbor": (0, 0, 10, 2.5, 1, 28, "No"),  # clinical 4; 10/7: PD not liked (coordinator only)
     "Wayne State": (3.33, 0, 10, None, None, 21, "TBD"),  # clinical 6
     # 10/13: new program. Barath: clinical 10, research 10 (Tufts tier), Field "similar to Tufts" (3.33),
     # Columbus = Boston geography tier (7.5). Culture unknown until the 10/28 interview; J-1 assumed.
     # 10/13 (later): Barath's provisional assumptions until 10/28: PD, faculty, fellows liked (coordinator neutral),
     # call favorable, moonlighting No. Verify at the interview.
     "Ohio State": (10, 3.33, 7.5, 8.75, 1, 15, "No"),
+}
+
+
+# 2026-10-19: Barath "remove ann arbor from scoring but keep it in table saying not ranked".
+# Its inputs are kept here for the table only; it is left out of every score, rank and audit.
+NOT_RANKED = {
+    "Ann Arbor": (0, 0, 10, 2.5, 1, 28, "No"),  # clinical 4; 10/7: PD not liked (coordinator only)
 }
 
 
@@ -109,7 +116,8 @@ def matrix():
 # the main score (Barath's choice; e.g. Wayne State vs Ann Arbor).
 # 2026-10-09: added a third bottom-five criterion, MD Anderson regret, at 1/3; Field and
 # Geography share the other 2/3 in their 40/60 ratio.
-BOTTOM_N = 5
+# 2026-10-19: retired. Barath "arrange based on score pls": the order is the main score only.
+BOTTOM_N = 0
 BOTTOM_WEIGHTS = {"field": 0.4 * 2 / 3, "geography": 0.6 * 2 / 3, "regret": 1 / 3}
 
 # How much Barath would regret matching here instead of MD Anderson leukemia (percent).
@@ -145,7 +153,7 @@ def neutral_audit():
             out.append((n, "24-hour call"))
         if moon not in ("Yes", "No"):
             out.append((n, "moonlighting"))
-        if n not in MDA_REGRET_PCT:
+        if BOTTOM_N and n not in MDA_REGRET_PCT:
             out.append((n, "MDA regret % (only used if it falls to the bottom five)"))
     return out
 
@@ -165,6 +173,8 @@ def bottom_score(name, v):
 def two_tier_order(score, m):
     """Main-formula order for the top, then the bottom five re-ordered by Field, Geography and MDA regret."""
     main = final_order(score, m)
+    if not BOTTOM_N:
+        return main
     top, bottom = main[:-BOTTOM_N], main[-BOTTOM_N:]
     bottom = sorted(bottom, key=lambda n: (-round(bottom_score(n, m[n]), 6), -score[n]))
     return top + bottom
@@ -205,6 +215,8 @@ if __name__ == "__main__":
             s = analysis.weighted_sum(analysis.perturb(i, f))
             for n, k in ranks(s).items():
                 moves[n].add(k)
+    for n in NOT_RANKED:
+        print(f" — {n:<29} not ranked (Barath 10/19)")
     print("rank range under +/-10%:", {n: (min(v), max(v)) for n, v in moves.items()})
     audit = neutral_audit()
     print(f"NEUTRAL VALUES LEFT: {len(audit)}" + ("" if audit else " (ready to certify)"))

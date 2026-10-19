@@ -1,14 +1,14 @@
 # Rank list: values still to be decided
 
-Mirror of the "Still to be decided" checklist on the Notion Legend page, which is the source of truth. Every input below currently counts as a neutral 5 in the Claude based Rank. Update the value and rerun `python3 rebuild.py` as each one resolves. Mirrored as a checklist at the end of the latest numbered section (26) on the Notion Rank List Scoring Legend page. Last updated 2026-10-16.
+Mirror of the "Still to be decided" checklist on the Notion Legend page, which is the source of truth. Every input below currently counts as a neutral 5 in the Claude based Rank. Update the value and rerun `python3 rebuild.py` as each one resolves. Mirrored as a checklist at the end of the latest numbered section (26) on the Notion Rank List Scoring Legend page. Last updated 2026-10-19.
 
 | Program | What's pending | Resolves when | Current rank |
 |---|---|---|---|
-| Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 8 |
+| Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 5 |
 | UMass Chan-Baystate ID (new 10/15) | BOOK interview date in Thalamus (first-come); Clinical, Research, Geography (Springfield), Field (CCM year?), MDA regret %; culture after interview | Interview TBD (virtual) | not yet scored |
-| Ohio State (new 10/13) | Verify provisional culture (read 8.75, call favorable, moonlighting No); coordinator; optional CCM year; MDA regret % | Interview 10/28 (virtual) | 2 |
+| Ohio State (new 10/13) | Verify provisional culture (read 8.75, call favorable, moonlighting No); coordinator; optional CCM year | Interview 10/28 (virtual) | 2 |
 
-No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9), ETSU (10/13; coordinator confirmed not liked).
+No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Henry Ford, Tufts, LSU (moonlighting No per the 2026 manual, 10/9), ETSU (10/13; coordinator confirmed not liked). Ann Arbor: not ranked (10/19). MDA regret % no longer affects ranks (bottom-five formula retired 10/19).
 
 ## Close calls to recheck once the above resolves (as of 10/9, after MDA regret was added)
 
@@ -60,3 +60,4 @@ No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Ann Arbor, Henry Ford, Tu
 - **Ann Arbor research → 0 (10/16, Legend 60):** lowest tier with Henry Ford, ETSU, Wayne State (still 4 tiers). Main score 3.567 → 2.985; still #10 (bottom-five 4.000, ties Wayne State, main score decides). No rank change.
 - **UMass Field back to 0 (10/16, Legend 61):** Barath "same as Ann Arbor" (plain ID). Score 6.963 → 6.131, still #3. UMass vs MCW now flips with Field weight +25%; add it to the final regret test.
 - **NGMC call favorable (10/19, Legend 62):** Barath "no 24 hr calls" before the interview. Call 0 → 1, Culture 3.125 → 5.625, main score 3.357 → 3.785; still #8 (bottom-five 5.279 doesn't use Culture). Moonlighting No and 4 fellows/year confirmed. NGMC call-frequency item closed.
+- **Research re-tiered, Ann Arbor not ranked, score-only order (10/19, Legend 63):** Wayne State research 0 → 10; MCW 3.33 → 6.67 and UMass 10 → 6.67 ("same as MCG"). Tiers: Tufts = Ohio State = Wayne State 10 > MCG = MCW = UMass 6.67 > LSU = NGMC 3.33 > Henry Ford = ETSU 0. Ann Arbor removed from scoring (kept in tables as "Not ranked"); no category needed rescaling. Bottom-five formula retired: order is the main score only. Teaching split stays 50/50 (60/40 previewed, not adopted). Order: Tufts 7.546, Ohio State 7.413, MCW 6.109, UMass 5.548, Wayne State 5.478, MCG 5.132, Henry Ford 5.057, LSU 4.772, NGMC 3.785, ETSU 3.052. Fragile: MCG vs Henry Ford (Geography +3%), UMass vs Wayne State (Geography +9%; Wayne State culture still neutral). Neutral values left: 4.
