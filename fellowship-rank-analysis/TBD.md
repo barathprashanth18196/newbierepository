@@ -4,7 +4,7 @@ Mirror of the "Still to be decided" checklist on the Notion Legend page, which i
 
 | Program | What's pending | Resolves when | Current rank |
 |---|---|---|---|
-| Wayne State | Interview read, 24-hour call, moonlighting | Interview 10/27 | 5 |
+| Wayne State | Scored 10/19 before the interview (Clinical 0, Culture 0); revisit after 10/27 | Interview 10/27 | 8 |
 | UMass Chan-Baystate ID (new 10/15) | BOOK interview date in Thalamus (first-come); Clinical, Research, Geography (Springfield), Field (CCM year?), MDA regret %; culture after interview | Interview TBD (virtual) | not yet scored |
 | Ohio State (new 10/13) | Verify provisional culture (read 8.75, call favorable, moonlighting No); coordinator | Interview 10/28 (virtual) | 2 |
 
@@ -63,3 +63,4 @@ No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Henry Ford, Tufts, LSU (m
 - **Research re-tiered, Ann Arbor not ranked, score-only order (10/19, Legend 63):** Wayne State research 0 → 10; MCW 3.33 → 6.67 and UMass 10 → 6.67 ("same as MCG"). Tiers: Tufts = Ohio State = Wayne State 10 > MCG = MCW = UMass 6.67 > LSU = NGMC 3.33 > Henry Ford = ETSU 0. Ann Arbor removed from scoring (kept in tables as "Not ranked"); no category needed rescaling. Bottom-five formula retired: order is the main score only. Teaching split stays 50/50 (60/40 previewed, not adopted). Order: Tufts 7.546, Ohio State 7.413, MCW 6.109, UMass 5.548, Wayne State 5.478, MCG 5.132, Henry Ford 5.057, LSU 4.772, NGMC 3.785, ETSU 3.052. Fragile: MCG vs Henry Ford (Geography +3%), UMass vs Wayne State (Geography +9%; Wayne State culture still neutral). Neutral values left: 4.
 - **NGMC interviewed (10/19):** both Plaud recordings read in full; debrief at the top of the NGMC Notion page (local copy: ngmc_debrief_2026-10-19.md); Plaud tracker updated; Status Completed. Waiting on Barath: post-interview read (PD, faculty, coordinator) and clinical teaching. To-do: tell Dr. Deshmukh before the ranking meeting whether PCCM is his real choice.
 - **Ohio State Field 0, Geography 10 (10/19, Legend 64):** plain ID (no optional CCM year) and Columbus joins the Michigan tier. Score 7.413 → 7.153, still #2. Tufts vs Ohio State now flips if the Field weight drops 40%; Ohio State vs MCW flips if Field rises 41%. No rescale needed.
+- **Wayne State Clinical 0, Culture 0 (10/19, Legend 65):** Barath, pre-interview. Teaching 6.665 → 5.0, Culture 5.0 → 0 (read 0, call unfavorable, moonlighting No). Score 5.478 → 4.040, #5 → #8; MCG #5, Henry Ford #6, LSU #7. Neutral values left: 1 (Ohio State coordinator). Revisit after 10/27.
