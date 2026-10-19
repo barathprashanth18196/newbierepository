@@ -75,7 +75,8 @@ PROGRAMS = {
     # Columbus = Boston geography tier (7.5). Culture unknown until the 10/28 interview; J-1 assumed.
     # 10/13 (later): Barath's provisional assumptions until 10/28: PD, faculty, fellows liked (coordinator neutral),
     # call favorable, moonlighting No. Verify at the interview.
-    "Ohio State": (10, 3.33, 7.5, 8.75, 1, 15, "No"),
+    # 10/19: Barath "Ohio State field preference is 0" (plain ID) and Geography 10 (Columbus joins Michigan).
+    "Ohio State": (10, 0, 10, 8.75, 1, 15, "No"),
 }
 
 
