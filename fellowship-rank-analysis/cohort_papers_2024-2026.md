@@ -796,3 +796,36 @@ Barath ran the full MCW string, add-on terms included, as a single search on pub
 Excluded after reading: 38849912 (description of an ICU buprenorphine protocol, not an outcomes study).
 
 MCW count if the window is calendar 2024–2026: **18 kept** (16 + 2). Barath dropped both unsure papers (37839660 and 38521636) on 10/19. The other programs still use the 10/16/2024–10/16/2026 window.
+
+## Trials (10/19)
+
+These come from the same search sets as the cohort pull (ID terms; CCM terms for MCW), with the same date windows.
+
+**Raw counts:** papers PubMed tags as a trial, or with "randomized" in the title, any author position:
+
+| Program | Count |
+|---|---|
+| Tufts | 21 |
+| Ohio State | 68 |
+| UMass Chan | 18 |
+| Wayne State | 19 |
+| MCW (CCM) | 29 |
+
+**Hand-checked:** trials where the program has the first or last author, in adults, non-COVID, actual human trials. Systematic reviews, vet studies, editorials and observational studies that only carry a trial tag are removed.
+
+| Program | RCTs | Other trials | Protocols / secondary analyses |
+|---|---|---|---|
+| Tufts | 3: ceftriaxone after cardiac arrest ([DOI](https://doi.org/10.1016/j.chest.2025.08.007)); HCV telemedicine in rural PWID ([DOI](https://doi.org/10.1001/jamanetworkopen.2025.55125), shared with UMass); WeChat smoking cessation in HIV ([DOI](https://doi.org/10.1007/s10461-025-04823-7)) | 1: Lyme xenodiagnosis ([DOI](https://doi.org/10.1093/cid/ciag031)) | none |
+| Ohio State | 2: XF-73 nasal gel for S. aureus carriage in cardiac surgery ([DOI](https://doi.org/10.1017/ice.2024.122)); incentives for motivational-interviewing implementation ([DOI](https://doi.org/10.1177/26334895251389475)) | none | 1 protocol (41126369); 2 secondary analyses (41586522, 39600696) |
+| UMass Chan | 1: HCV telemedicine (same paper as Tufts) | none | 2 protocols (42849959, 42470201) |
+| Wayne State | 2: ibrexafungerp for recurrent VVC, phase 3 ([DOI](https://doi.org/10.1016/j.ajog.2025.07.040)); prize incentives for smoking cessation in HIV ([DOI](https://doi.org/10.1093/ntr/ntae243)) | none | none |
+| MCW (CCM) | 1: pecto-intercostal block in cardiac surgery, an anesthesia trial ([DOI](https://doi.org/10.1136/rapm-2025-106954)) | none | none |
+
+Removed from the program-led trial list:
+- 42339770, a DOOR methods paper
+- 41997536 and 40217342, systematic reviews
+- 42789688 and 41932357, vet studies
+- 39167622, an oncology phase 1 trial
+- 42769937, an editorial
+- 41932154, a stroke trial
+- 40484419 and 40212030, observational studies
