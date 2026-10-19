@@ -778,3 +778,21 @@ The detailed tables above still show these papers as ❓. This section overrides
 `("Medical College of Wisconsin"[ad] OR Froedtert[ad]) AND ("critical care"[tiab] OR "intensive care"[tiab] OR ICU[tiab] OR "critically ill"[tiab] OR "mechanical ventilation"[tiab] OR "mechanically ventilated"[tiab] OR ARDS[tiab] OR "respiratory failure"[tiab] OR sepsis[tiab] OR septic[tiab] OR shock[tiab] OR ECMO[tiab] OR "cardiac arrest"[tiab] OR vasopressor*[tiab] OR extubation[tiab] OR "hemodynamic instability"[tiab] OR "haemodynamic instability"[tiab] OR "hemodynamically unstable"[tiab] OR norepinephrine[tiab] OR noradrenaline[tiab] OR "angiotensin II"[tiab])`
 
 This gives 393 hits, and MCW stays at **16 kept**.
+
+## MCW: Barath's pubmed.gov export, calendar years 2024–2026 (10/19)
+
+Barath ran the full MCW string, add-on terms included, as a single search on pubmed.gov and exported three files (200 + 200 + 136 = 536 papers). No merged queries this time.
+- Every one of the 393 papers in my 10/16/2024–10/16/2026 set is in the export.
+- 143 papers are extra. They are mostly Jan–Oct 2024, which is before my start date, plus one issue dated Nov 2026.
+- Screening the 143 extras: 20 MCW-led candidates. 2 kept, 2 unsure, the rest excluded (pediatric 36, review 25, edit/case 15, COVID 11, trial 10, and others).
+
+| Status | Year | Journal | Design | Title | Link |
+|---|---|---|---|---|---|
+| ✅ | 2023 (online Nov 2023) | Diagnosis (Berl) | Prospective observational cohort, MICU | Factors influencing diagnostic accuracy among intensive care unit clinicians - an observational study. | [38018397](https://pubmed.ncbi.nlm.nih.gov/38018397/) · [DOI](https://doi.org/10.1515/dx-2023-0026) |
+| ✅ | 2024 | J Cardiothorac Vasc Anesth | Retrospective cohort, CVICU | Comparison of Outcomes in Patients Requiring Mechanical Circulatory Support Who Received Cangrelor in Addition to Anticoagulation Versus Anticoagulation Alone. | [38521630](https://pubmed.ncbi.nlm.nih.gov/38521630/) · [DOI](https://doi.org/10.1053/j.jvca.2024.02.039) |
+| ❓ | 2023 | J Thorac Cardiovasc Surg | Retrospective STS database; cardiac surgery, temperature on ICU arrival | Impact of intraoperative blood products, fluid administration, and persistent hypothermia on bleeding leading to reexploration after cardiac surgery. | [37839660](https://pubmed.ncbi.nlm.nih.gov/37839660/) · [DOI](https://doi.org/10.1016/j.jtcvs.2023.10.011) |
+| ❓ | 2024 | Injury | Retrospective trauma cohort; unplanned ICU transfer is one outcome | Physiologic parameters and radiologic findings can predict pulmonary complications and guide management in traumatic rib fractures. | [38521636](https://pubmed.ncbi.nlm.nih.gov/38521636/) · [DOI](https://doi.org/10.1016/j.injury.2024.111508) |
+
+Excluded after reading: 38849912 (description of an ICU buprenorphine protocol, not an outcomes study).
+
+MCW count if the window is calendar 2024–2026: **18 kept** (16 + 2) and 2 unsure. The other programs still use the 10/16/2024–10/16/2026 window.
