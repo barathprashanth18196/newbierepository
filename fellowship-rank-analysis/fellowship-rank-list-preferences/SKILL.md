@@ -13,6 +13,10 @@ At the start of every rank-list conversation, remind Barath of both:
 1. ~~New weighting for the bottom five~~: resolved 2026-10-09 (Field 40 / Geography 60, see below). No longer a reminder.
 2. **Culture still unfilled:** list every program with Culture inputs still counting as a neutral 5, from the "Culture still unfilled" checklist in the latest Legend section. Drop items as he fills them in.
 
+## Language (Barath, 2026-10-19)
+
+Write in American English everywhere: chat, Notion, repo files. No British spellings (hemodynamic, randomized, multicenter, pediatric). Paper titles and journal names stay as published.
+
 ## Display format, always
 
 Whenever showing the rank list, show ONE table with the full per-category breakdown by default (standing rule, Barath 2026-10-09: "show me the table with scores in each category"). He should never have to ask for "the breakdown."
