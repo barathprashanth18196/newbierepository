@@ -795,4 +795,4 @@ Barath ran the full MCW string, add-on terms included, as a single search on pub
 
 Excluded after reading: 38849912 (description of an ICU buprenorphine protocol, not an outcomes study).
 
-MCW count if the window is calendar 2024–2026: **18 kept** (16 + 2) and 2 unsure. The other programs still use the 10/16/2024–10/16/2026 window.
+MCW count if the window is calendar 2024–2026: **18 kept** (16 + 2). Barath dropped both unsure papers (37839660 and 38521636) on 10/19. The other programs still use the 10/16/2024–10/16/2026 window.
