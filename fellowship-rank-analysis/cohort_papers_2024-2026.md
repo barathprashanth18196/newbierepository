@@ -841,9 +841,10 @@ Same method as the v2 run above: institution in [ad] only, keywords in [tiab], n
 |---|---|---|---|---|---|---|
 | MCG (Heme/Onc) | 674 | 664 | 148 | 59 | 12 | 15 (4 randomized: ASC4FIRST phase 3 + 3 randomized phase II; 11 nonrandomized phase 1/2) |
 | LSU New Orleans (Heme/Onc) | 331 | 331 | 73 | 25 | 12 | 1 RCT (EXACT); plus 1 protocol and 3 secondary analyses |
-| ETSU (ID + CCM) | 126 | 120 | 38 | 5 (3 ID, 2 CCM) | 2 | 0 |
+| ETSU (ID + CCM) | 126 | 120 | 38 | 4 (3 ID, 1 CCM) | 0 (2 dropped) | 0 |
 
 Notes:
+- ETSU (Barath, 10/20): dropped the rib fracture triage paper (42498688, same call as MCW's rib fracture paper) and both unsures (41149635, 41124360).
 - ETSU: 6 older PMIDs returned no record from the connector (33760562, 36256777, 31613449, 29763160, 28613673, 33760464). 41640800 was excluded as Vanderbilt-led.
 - MCG: 42389818 (ASC4FIRST tolerability) was left off the trial list as a secondary analysis.
 - LSU trial list: only 40107449 (EXACT) is a program-led results paper. 39362405 is the EXACT protocol; 39369275 (FORTE diet), 39180477 (CALGB/SWOG 80702) and 40642656 (EXACT exerkines) are secondary analyses.
@@ -1013,7 +1014,7 @@ Auto-screen: edit/case 17, CAND 53, animal/vet 18, peds 7, covid 2, review 22, n
 | ✅ | 2025 | Cureus | ID: NIS cross-sectional, RA and oral cellulitis/abscess hospitalizations | The Burden of Dental Infections Among Hospitalized Patients With Rheumatoid Arthritis: A Cross-Sectional Analysis of the National Inpatient Sample Database. | [40476111](https://pubmed.ncbi.nlm.nih.gov/40476111/) · [DOI](https://doi.org/10.7759/cureus.83568) |
 | ✅ | 2026 | J Prim Care Community Health | ID: BRFSS 2023 survey cross-sectional, determinants of lifetime HIV testing in Tennessee (ML + logistic) | Leveraging Explainable AI to Identify Determinants of Lifetime HIV Testing Among Adults in Tennessee, United States: Evidence for Targeted Public Health Strategies From BRFSS 2023. | [41840801](https://pubmed.ncbi.nlm.nih.gov/41840801/) · [DOI](https://doi.org/10.1177/21501319261428986) |
 | ✅ | 2026 | Am Surg | CCM: retrospective trauma registry, post-Hurricane Helene ICU admission/LOS and mechanical ventilation demand | Post-Disaster Critical Care Demand Exceeds Initial Acuity: Tree-Related Trauma at a Rural Appalachian Level 1 Trauma Center Following Hurricane Helene. | [42500844](https://pubmed.ncbi.nlm.nih.gov/42500844/) · [DOI](https://doi.org/10.1177/00031348261465394) |
-| ✅ | 2026 | Am Surg | CCM: pre/post protocolized rib fracture triage (RIG), ICU admissions and unplanned intubation outcomes | Protocolized Rib Fracture Triage Reduces ICU Admissions Without Compromising Outcomes in a Rural Level 1 Trauma Center. | [42498688](https://pubmed.ncbi.nlm.nih.gov/42498688/) · [DOI](https://doi.org/10.1177/00031348261471470) |
-| ❓ | 2025 | Metabolites | Severe TBI cohort; ICU LOS/vent days outcomes of creatinine | Effect of Creatinine on Various Clinical Outcomes in Patients with Severe Traumatic Brain Injury (TBI). | [41149635](https://pubmed.ncbi.nlm.nih.gov/41149635/) · [DOI](https://doi.org/10.3390/metabo15100657) |
-| ❓ | 2025 | Am Surg | Trauma tracheostomy sizing; airway procedure rather than ICU outcomes | Anthropomorphic Measurements for Improved Selection of Tracheostomy Size and Length. | [41124360](https://pubmed.ncbi.nlm.nih.gov/41124360/) · [DOI](https://doi.org/10.1177/00031348251390948) |
+| ❌ dropped (Barath, 10/20) | 2026 | Am Surg | CCM: pre/post protocolized rib fracture triage (RIG), ICU admissions and unplanned intubation outcomes | Protocolized Rib Fracture Triage Reduces ICU Admissions Without Compromising Outcomes in a Rural Level 1 Trauma Center. | [42498688](https://pubmed.ncbi.nlm.nih.gov/42498688/) · [DOI](https://doi.org/10.1177/00031348261471470) |
+| ❌ dropped (Barath, 10/20) | 2025 | Metabolites | Severe TBI cohort; ICU LOS/vent days outcomes of creatinine | Effect of Creatinine on Various Clinical Outcomes in Patients with Severe Traumatic Brain Injury (TBI). | [41149635](https://pubmed.ncbi.nlm.nih.gov/41149635/) · [DOI](https://doi.org/10.3390/metabo15100657) |
+| ❌ dropped (Barath, 10/20) | 2025 | Am Surg | Trauma tracheostomy sizing; airway procedure rather than ICU outcomes | Anthropomorphic Measurements for Improved Selection of Tracheostomy Size and Length. | [41124360](https://pubmed.ncbi.nlm.nih.gov/41124360/) · [DOI](https://doi.org/10.1177/00031348251390948) |
 
