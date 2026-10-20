@@ -1053,3 +1053,31 @@ Applied to MCG first. 20 papers whose main exposure is race/ethnicity, sex, rura
 
 **MCG: 64 → 44.** Borderline, still kept pending Barath: 42862412 (rural residence and genetic testing), 42552279 (social determinants and lymphedema), 41716784 (CHANGE screening program in underserved communities).
 
+
+## No registries, national databases or preprints, all programs (Barath, 10/20)
+
+**Rule:** drop preprints, and drop studies built on registries or large secondary databases: SEER, NCDB, state cancer registries, NIS/NRD/HCUP, CDC data (BRFSS, NHIS, NHBS, surveillance), USRDS, UNOS, claims databases (Optum, IQVIA, MarketScan), TriNetX and other multi-system EHR networks, biobanks (UK Biobank, All of Us), public genomic datasets and other nationally representative surveys. Single-system EHR studies and primary survey data that a program collected itself stay in.
+
+| Program | Before | Dropped | Final |
+|---|---|---|---|
+| Wayne State | 45 | 4 | **41** |
+| Ohio State | 36 | 4 | **32** |
+| MCG (Heme/Onc) | 44 | 14 | **30** |
+| Tufts | 27 | 2 | **25** |
+| MCW (CCM, calendar 2024–2026) | 13 | 0 | **13** |
+| UMass Chan | 14 | 4 | **10** |
+| LSU New Orleans (Heme/Onc) | 21 | 16 | **5** |
+| ETSU (ID + CCM) | 3 | 2 | **1** |
+
+Dropped:
+- **Wayne State:** 41900428, 40422668 (NIS); 40544356, 40440729 (national inpatient database)
+- **Ohio State:** 39169451 (transplant registry), 39137035 (claims), 42641714 (CDC surveillance), 40815535 (13 nationally representative surveys)
+- **MCG:** 41332804 (medRxiv preprint); 42862412, 41124332 (NHIS); 40768478, 39939485 (BRFSS); 41132022 (NIS); 40863221 (USRDS); 41244133 (Georgia Cancer Registry); 42323696 (AACR GENIE); 40399955 (population-based registry); 41458534 (Optum); 40357629 (claims); 39264434 (retrospective database); 40511494 (Loopback Analytics EHR database external control)
+- **Tufts:** 42768865 (IQVIA claims), 39268480 (NIS)
+- **UMass Chan:** 42809286 (Korean national database), 42119655 (nationwide linked cohort), 41618208 (CDC NHBS), 41357786 (NIS)
+- **LSU:** 42490638, 41595104, 40862785, 40507283, 39857989 (Louisiana Tumor Registry); 42073522 (NCDB); 39786651 (SEER); 39518530 (national database); 39816023 (retrospective database); 42217627, 41439014 (TriNetX); 41396600 (UK Biobank); 40361456 (All of Us); 42882913 (public genomic datasets); 41256337 (multicenter EHR cohort, no abstract, inferred TriNetX); 40960829 (US adults screening, no abstract, inferred national survey)
+- **ETSU:** 40476111 (NIS), 41840801 (BRFSS)
+
+Kept after checking the abstract: Tufts 39791842 and UMass/Tufts 39852668 (Rural Opioid Initiative primary survey data), Ohio State 37806839 (Rural Opioid Initiative), Ohio State 41313507 (single-system EHR), Wayne State 42016366 (STAR cohort). Kept but unverified: MCG 39366637 (no abstract), MCG 40545759 (SIMPLICITY prospective observational study).
+
+The disparities rule has been applied to MCG only so far.
