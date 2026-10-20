@@ -839,14 +839,14 @@ Same method as the v2 run above: institution in [ad] only, keywords in [tiab], n
 
 | Program | Hits | With metadata | Lead candidates screened | Kept | Unsure | Program-led trials |
 |---|---|---|---|---|---|---|
-| MCG (Heme/Onc) | 674 | 664 | 148 | 71 | 0 (all 12 kept) | 15 (4 randomized: ASC4FIRST phase 3 + 3 randomized phase II; 11 nonrandomized phase 1/2) |
+| MCG (Heme/Onc) | 674 | 664 | 148 | 70 | 0 (11 kept, 1 dropped) | 15 (4 randomized: ASC4FIRST phase 3 + 3 randomized phase II; 11 nonrandomized phase 1/2) |
 | LSU New Orleans (Heme/Onc) | 331 | 331 | 73 | 25 | 12 | 1 RCT (EXACT); plus 1 protocol and 3 secondary analyses |
 | ETSU (ID + CCM) | 126 | 120 | 38 | 4 (3 ID, 1 CCM) | 0 (2 dropped) | 0 |
 
 Notes:
 - ETSU (Barath, 10/20): dropped the rib fracture triage paper (42498688, same call as MCW's rib fracture paper) and both unsures (41149635, 41124360).
 - ETSU: 6 older PMIDs returned no record from the connector (33760562, 36256777, 31613449, 29763160, 28613673, 33760464). 41640800 was excluded as Vanderbilt-led.
-- MCG (Barath, 10/20): all 12 unsures kept, including the COVID-era pancreatic cancer paper and the post hoc trial analyses.
+- MCG (Barath, 10/20): 11 of 12 unsures kept, post hoc trial analyses included. 42005649 (COVID-era pancreatic cancer) dropped under the no-COVID rule.
 - MCG: 42389818 (ASC4FIRST tolerability) was left off the trial list as a secondary analysis.
 - LSU trial list: only 40107449 (EXACT) is a program-led results paper. 39362405 is the EXACT protocol; 39369275 (FORTE diet), 39180477 (CALGB/SWOG 80702) and 40642656 (EXACT exerkines) are secondary analyses.
 
@@ -927,7 +927,7 @@ Auto-screen: CAND 291, review 144, edit/case 74, animal/vet 66, trial 55, peds 1
 | ✅ kept (Barath, 10/20) | 2025 | J Geriatr Oncol | Program description with descriptive patient data | Preliminary experience supporting older adults with breast cancer: Successes, challenges, and next steps for a program embedded in a breast oncology center. | [40334361](https://pubmed.ncbi.nlm.nih.gov/40334361/) · [DOI](https://doi.org/10.1016/j.jgo.2025.102243) |
 | ✅ kept (Barath, 10/20) | 2024 | J Hematol | No abstract; design unclear | Allogeneic Stem Cell Transplantation for High/Ultra High-Risk Multiple Myeloma. | [39935701](https://pubmed.ncbi.nlm.nih.gov/39935701/) · [DOI](https://doi.org/10.14740/jh1380) |
 | ✅ kept (Barath, 10/20) | 2024 | J Am Acad Dermatol | No abstract; likely database research letter | Increased risk of skin cancer in solid organ transplant recipients living with HIV. | [39366637](https://pubmed.ncbi.nlm.nih.gov/39366637/) · [DOI](https://doi.org/10.1016/j.jaad.2024.09.043) |
-| ✅ kept (Barath, 10/20) | 2026 | Health Sci Rep | Pancreatic cancer database study, COVID-era framing | Racial Disparities in Time to Treatment of Pancreatic Adenocarcinoma During the COVID-19 Era: A Retrospective Database Analysis. | [42005649](https://pubmed.ncbi.nlm.nih.gov/42005649/) · [DOI](https://doi.org/10.1002/hsr2.71839) |
+| ❌ dropped (Barath, 10/20: COVID) | 2026 | Health Sci Rep | Pancreatic cancer database study, COVID-era framing | Racial Disparities in Time to Treatment of Pancreatic Adenocarcinoma During the COVID-19 Era: A Retrospective Database Analysis. | [42005649](https://pubmed.ncbi.nlm.nih.gov/42005649/) · [DOI](https://doi.org/10.1002/hsr2.71839) |
 
 **Program-led trials (first or last author at the program):**
 
