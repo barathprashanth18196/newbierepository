@@ -1081,3 +1081,26 @@ Dropped:
 Kept after checking the abstract: Tufts 39791842 and UMass/Tufts 39852668 (Rural Opioid Initiative primary survey data), Ohio State 37806839 (Rural Opioid Initiative), Ohio State 41313507 (single-system EHR), Wayne State 42016366 (STAR cohort). Kept but unverified: MCG 39366637 (no abstract), MCG 40545759 (SIMPLICITY prospective observational study).
 
 The disparities rule has been applied to MCG only so far.
+
+## Disparities rule extended to all programs (Barath, 10/20)
+
+Same rule as MCG: drop studies whose main exposure is race/ethnicity, sex, rurality, geography, socioeconomic status, language or insurance/Medicaid policy. Studies of a specific population (incarcerated people, people who inject drugs, people experiencing homelessness) stay in when they don't compare groups.
+
+Dropped:
+- **Tufts:** 41317864 (racial differences in penicillin allergy delabeling), 39444033 (sociodemographic disparities in urine cultures), 39791842 (Medicaid policy and HCV treatment in rural PWUD)
+- **MCG:** 42552279 (social determinants and lymphedema)
+
+Kept, borderline: MCG 41716784 (CHANGE screening program, an intervention), LSU 42299682 (CRC awareness survey in young Black men, no comparison group), Ohio State 39476098 (internalized homophobia and HIV testing in young Black MSM, psychosocial).
+
+**Final counts (10/20):**
+
+| Program | Cohort/observational |
+|---|---|
+| Wayne State | **41** |
+| Ohio State | **32** |
+| MCG (Heme/Onc) | **29** |
+| Tufts | **22** |
+| MCW (CCM, calendar 2024–2026) | **13** |
+| UMass Chan | **10** |
+| LSU New Orleans (Heme/Onc) | **5** |
+| ETSU (ID + CCM) | **1** |
