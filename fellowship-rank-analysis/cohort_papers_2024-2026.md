@@ -1028,7 +1028,7 @@ Auto-screen: edit/case 17, CAND 53, animal/vet 18, peds 7, covid 2, review 22, n
 |---|---|---|---|
 | Ohio State | 53 | 17 | **36** |
 | Wayne State | 45 | 0 | **45** |
-| Tufts | 31 | 3 | **28** |
+| Tufts | 31 | 4 | **27** |
 | MCW (CCM, calendar 2024–2026) | 18 | 5 | **13** |
 | UMass Chan | 14 | 0 | **14** |
 | MCG (Heme/Onc) | 70 | 6 | **64** |
@@ -1037,7 +1037,7 @@ Auto-screen: edit/case 17, CAND 53, animal/vet 18, peds 7, covid 2, review 22, n
 
 Dropped:
 - **Ohio State:** 42615905 (J Obstet Gynaecol), 42593740 (J Burn Care Res), 42361581, 40300407, 39551013 (J Surg Res), 42209417 (Surg Infect), 42062132, 41260995 (HPB), 41038054 (Am J Surg), 40497281 (J Hand Surg Glob Online), 39876855 (Plast Surg), 39679169 (Laryngoscope Investig Otolaryngol), 39389823 (Surgery), 39260414 (Am J Perinatol), 41575335 (J Gynecol Oncol), 40450912 (Gynecol Oncol), 40080117 (World J Urol)
-- **Tufts:** 40893748 (Hepatobiliary Surg Nutr), 40241859, 39651339 (J Orthop)
+- **Tufts:** 40893748 (Hepatobiliary Surg Nutr), 40241859, 39651339 (J Orthop); plus 41263438 (not a Tufts paper, see below)
 - **MCW:** 38782686 (Am J Surg), 41589734, 39225986, 40435348 (J Trauma Acute Care Surg), 41523893 (J Emerg Trauma Shock)
 - **MCG:** 42726934 (Otolaryngol Head Neck Surg), 41450282, 40501195 (Head Neck), 40996625 (Ann Surg Oncol), 41000090 (O G Open), 40121787 (gyn onc topic)
 - **LSU:** 41240676 (Surg Oncol), 39988498 (HPB), 39489004 (Am J Surg), 39713558 (J Orthop), 41440827 (Urol Pract), 41142664 (O G Open), 39671778 (Gynecol Oncol), 39323057 (Head Neck); plus 8 unsures (7 by the journal rule, 40354941 Mohs by Barath). Unsures kept: 42882913, 41499067, 41256337, 39989023
@@ -1045,5 +1045,5 @@ Dropped:
 
 Kept, borderline: MCW 38521630 (J Cardiothorac Vasc Anesth, an anesthesia journal).
 
-Found while checking: Tufts 41263438 (handgrip strength in HIV) matched `tufts[ad]` only through a co-author named Kimberly Adams Tufts (Frontier Nursing University). It is not a Tufts paper. Not yet removed; waiting on Barath.
+Found while checking: Tufts 41263438 (handgrip strength in HIV) matched `tufts[ad]` only through a co-author named Kimberly Adams Tufts (Frontier Nursing University). It is not a Tufts paper. Dropped (Barath, 10/20).
 
