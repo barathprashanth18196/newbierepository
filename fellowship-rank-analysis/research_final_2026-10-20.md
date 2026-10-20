@@ -16,6 +16,34 @@ PubMed, 10/16/2024–10/16/2026 (MCW: calendar 2024–2026). First or last autho
 | NGMC | PCCM | **3** | 0 |
 | ETSU | ID + CCM | **1** | 0 |
 
+## Who is publishing, and are they still there? (checked 10/20)
+
+PubMed author affiliations for every kept paper; current status of each first or last author from faculty profiles, search results and their newest PubMed affiliation. Hospital websites are blocked from this session, so roster counts come from search snippets or job postings where noted. "Division-led" = first or last author is a physician or researcher in the fellowship's own division (pharmacists excluded).
+
+| Program | Papers | Division-led papers | People publishing | First/last authors | ...in the division | Still there | Left | Trainee, graduated | Unknown | Division faculty (source) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Wayne State | 41 | 4 | 56 | 17 | 5 | 11 | 3 | 2 | 1 | not found |
+| Ohio State | 31 | 1 | 117 | 45 | 2 | 31 | 3 | 1 | 10 | 28 (2026 job posting) |
+| MCG | 27 | 11 | 84 | 24 | 7 | 15 | 3 | 2 | 4 | not found |
+| Tufts | 21 | 12 | 53 | 24 | 12 | 17 | 3 | 0 | 4 | "40+ attendings" (fellowship page snippet) |
+| MCW | 13 | 4 | 56 | 17 | 3 | 13 | 1 | 2 | 1 | ~34 (job posting) |
+| UMass Chan | 10 | 2 | 48 | 16 | 4 | 13 | 1 | 0 | 2 | not found |
+| LSU | 4 | 0 | 13 | 6 | 0 | 4 | 1 | 0 | 1 | 9 (fellowship manual); 9 of 13 named published anything |
+| NGMC | 3 | 2 | 13 | 5 | 2 | 4 | 0 | 1 | 0 | 5 of 12 named published anything |
+| ETSU | 1 | 0 | 2 | 2 | 0 | 1 | 0 | 1 | 0 | 10 (division page); 5 of 9 named published anything |
+
+**Who drives the output:**
+- **Wayne State:** pharmacy. Michael Veve (Henry Ford-based Wayne State pharmacy faculty, 22 papers, 15 lead) and Michael Rybak's lab (10, all last author). Only 4 papers are led by ID physicians (Chopra, Monday, Keri, Tehaili, Heisler). 7 of the 41 papers have no ID-program author. Former Rybak fellows Al Musawa, Kunz Coyne and Caniff have left.
+- **Ohio State:** ID pharmacists (Wardlow, Leininger, Coe) and other colleges (Public Health, Food Science, Nursing). ID physicians (Bazan, Koletar and others) appear as middle authors; only 1 paper is led by the ID division (Lipps/Malvestutto). Departures are all Public Health/Food Science (Lancaster, Estadt, LaPolt).
+- **MCG:** Jorge Cortes (leukemia, 7 papers) **left for UAB in April 2026**. Kota (BMT), Keruakous (myeloma) and Kutlar/Pace (sickle cell) remain. Much of the rest is Guha's cardio-oncology group; top first author Stabellini moved to Case Western. Division chief Jillella and the fellowship director appear only as middle authors.
+- **Tufts:** the most division-led output. Transplant ID (Chow, Snydman, Alsoubani), microbiology and ID pharmacy. Wurcel (to BU), Foong (to Denver Health) and Trottier (to Yale) have left. 6 lead authors are Tufts only by adjunct titles (Maine Medical Center, Turin).
+- **MCW:** mostly Froedtert pharmacy and emergency medicine; Pulm/CCM leads are Nanchal and Patel (Truwit is now emeritus).
+- **UMass Chan:** mostly emergency medicine, dermatology and informatics; ID leads are Wessolossky, Ellison and Levitz (Karlath was a fellow, now in Ontario).
+- **LSU, ETSU:** no kept paper is from the fellowship's own section (LSU: public health, surgery, cancer center; ETSU: College of Pharmacy). ETSU ID output is mostly the Moorman/Yao HCV/HIV lab.
+- **NGMC:** Ramalingam (PD) and Dhaval Patel; one of the 3 papers is Barath's.
+
+Per-person tables with evidence are in the scratchpad result files (`pm/fac/*_result.json`).
+
 ## Wayne State (41)
 
 | Year | Journal | Design | Title | Link |
