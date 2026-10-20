@@ -13,7 +13,7 @@ PubMed, 10/16/2024–10/16/2026 (MCW: calendar 2024–2026). First or last autho
 | MCW | CCM | **13** | 1 RCT |
 | UMass Chan | ID | **10** | 1 RCT (shared with Tufts) |
 | LSU | Heme/Onc | **4** | 1 RCT (EXACT) |
-| NGMC | PCCM | **4** | 0 |
+| NGMC | PCCM | **3** | 0 |
 | ETSU | ID + CCM | **1** | 0 |
 
 ## Wayne State (41)
@@ -198,13 +198,12 @@ PubMed, 10/16/2024–10/16/2026 (MCW: calendar 2024–2026). First or last autho
 | 2025 | Cancer Causes Control | Matched case-control, clinical risk factors for HCC in SE Louisiana | Clinical risk factors for hepatocellular carcinoma in Southeast Louisiana: a matched case-control study. | [40579626](https://pubmed.ncbi.nlm.nih.gov/40579626/) |
 | 2025 | Cancer | Observational analysis of CALGB trial cohorts | The association of physical activity with survival in colon cancer versus a matched general population: Data from Cancer and Leukemia Group B 89803 and 80702 (Alliance). | [39989023](https://pubmed.ncbi.nlm.nih.gov/39989023/) |
 
-## NGMC (4)
+## NGMC (3)
 
 | Year | Journal | Design | Title | Link |
 |---|---|---|---|---|
 | 2026 | Crit Care Explor | Single-center retrospective cohort, neuro ICU | Safety of Protocolized Motorized Verticalization in Critically Ill Patients With Impaired Consciousness and Invasive Devices, Including External Ventricular Drains. | [42804361](https://pubmed.ncbi.nlm.nih.gov/42804361/) · [DOI](https://doi.org/10.1097/CCE.0000000000001491) |
 | 2026 | J Hematol | Retrospective cohort, oncology ICU transfusion | Evaluating Hemoglobin Thresholds for Blood Transfusions in Oncology Patients Admitted to the Intensive Care Unit. | [41983158](https://pubmed.ncbi.nlm.nih.gov/41983158/) · [DOI](https://doi.org/10.14740/jh2178) |
-| 2025 | Am J Emerg Med | Retrospective diagnostic accuracy, echo (ED) | The diagnostic test characteristics of the "rule of thirds" on the parasternal long axis view: A cross-sectional study. | [41349275](https://pubmed.ncbi.nlm.nih.gov/41349275/) · [DOI](https://doi.org/10.1016/j.ajem.2025.11.027) |
 | 2024 | J Thorac Dis | Retrospective cohort, empyema | Who is at risk for tPA/DNase treatment failure in empyema?-protocol to identify key predictors for early surgical intervention from a retrospective study. | [39831208](https://pubmed.ncbi.nlm.nih.gov/39831208/) · [DOI](https://doi.org/10.21037/jtd-24-1256) |
 
 ## ETSU (1)
@@ -217,4 +216,4 @@ PubMed, 10/16/2024–10/16/2026 (MCW: calendar 2024–2026). First or last autho
 
 `("Northeast Georgia"[ad] OR NGMC[ad]) AND ("critical care"[tiab] OR "intensive care"[tiab] OR ICU[tiab] OR "critically ill"[tiab] OR "mechanical ventilation"[tiab] OR ARDS[tiab] OR "respiratory failure"[tiab] OR sepsis[tiab] OR septic[tiab] OR shock[tiab] OR pulmonary[tiab] OR lung[tiab] OR asthma[tiab] OR COPD[tiab] OR bronchoscopy[tiab] OR pneumonia[tiab] OR pleural[tiab])`
 
-68 hits. Most are case reports or NIS/national-database studies by NGMC residents. NGMC-led NIS/national studies dropped: 41812990, 41133091, 40757224, 40566016, 40071258, 41381827. Also dropped: 41844518 (single-operator case series), 42634221 and 42560170 (nursing culture). Not NGMC-led: 42418849 (cricothyroid RCT). Unsure: 41842738 (pre-COPD trajectory, Ann Am Thorac Soc, no abstract; likely a secondary analysis of a national research cohort).
+68 hits. Most are case reports or NIS/national-database studies by NGMC residents. NGMC-led NIS/national studies dropped: 41812990, 41133091, 40757224, 40566016, 40071258, 41381827. Also dropped: 41844518 (single-operator case series), 42634221 and 42560170 (nursing culture). Not NGMC-led: 42418849 (cricothyroid RCT). Dropped by Barath 10/20: 41842738 (pre-COPD trajectory, no abstract, likely national research cohort) and 41349275 (echo "rule of thirds", ED diagnostic study).
