@@ -1104,3 +1104,26 @@ Kept, borderline: MCG 41716784 (CHANGE screening program, an intervention), LSU 
 | UMass Chan | **10** |
 | LSU New Orleans (Heme/Onc) | **5** |
 | ETSU (ID + CCM) | **1** |
+
+## Awareness, attitude and perception surveys removed, all programs (Barath, 10/20)
+
+Dropped:
+- **LSU:** 42299682 (CRC screening awareness in young Black men)
+- **MCG:** 41911513 (hem/onc workforce perceptions of AI), 40637752 (CML SUN patient/physician survey on unmet needs)
+- **Tufts:** 41299434 (PrEP attitudes and willingness among men in jail, qualitative interviews)
+- **Ohio State:** 39661987 (PrEP messaging source among older adults)
+
+Kept, borderline (self-report surveys with a behavioral or psychosocial outcome, not awareness): Ohio State 40778518 (autism and HIV testing), 39476098 (internalized homophobia and HIV testing), 42402158 (caregiver strain in people with HIV).
+
+**Final counts (10/20):**
+
+| Program | Cohort/observational |
+|---|---|
+| Wayne State | **41** |
+| Ohio State | **31** |
+| MCG (Heme/Onc) | **27** |
+| Tufts | **21** |
+| MCW (CCM, calendar 2024–2026) | **13** |
+| UMass Chan | **10** |
+| LSU New Orleans (Heme/Onc) | **4** |
+| ETSU (ID + CCM) | **1** |
