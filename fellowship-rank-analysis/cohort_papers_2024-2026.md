@@ -840,7 +840,7 @@ Same method as the v2 run above: institution in [ad] only, keywords in [tiab], n
 | Program | Hits | With metadata | Lead candidates screened | Kept | Unsure | Program-led trials |
 |---|---|---|---|---|---|---|
 | MCG (Heme/Onc) | 674 | 664 | 148 | 64 | 0 (11 kept, 1 dropped) | 15 (4 randomized: ASC4FIRST phase 3 + 3 randomized phase II; 11 nonrandomized phase 1/2) |
-| LSU New Orleans (Heme/Onc) | 331 | 331 | 73 | 17 | 5 (7 dropped) | 1 RCT (EXACT); plus 1 protocol and 3 secondary analyses |
+| LSU New Orleans (Heme/Onc) | 331 | 331 | 73 | 21 | 0 (4 kept, 8 dropped) | 1 RCT (EXACT); plus 1 protocol and 3 secondary analyses |
 | ETSU (ID + CCM) | 126 | 120 | 38 | 3 (3 ID, 0 CCM) | 0 (2 dropped) | 0 |
 
 Notes:
@@ -982,18 +982,18 @@ Auto-screen: CAND 149, trial 14, edit/case 49, animal/vet 21, review 63, peds 25
 | ✅ | 2024 | J Clin Med | Retrospective cohort (national database), SDoH in HPV+ oropharyngeal cancer by sex | Multilevel Disparities of Sex-Differentiated Human Papilloma Virus-Positive Oropharyngeal Cancers in the United States. | [39518530](https://pubmed.ncbi.nlm.nih.gov/39518530/) · [DOI](https://doi.org/10.3390/jcm13216392) |
 | ❌ dropped (Barath, 10/20: surgery/gyn journal or gyn onc) | 2024 | Am J Surg | Louisiana Tumor Registry, disparities in surgery for nonmetastatic liver cancer | Healthcare disparities in access to surgical management and outcomes of patients with nonmetastatic primary liver cancer: A population based study from Louisiana tumor registry. | [39489004](https://pubmed.ncbi.nlm.nih.gov/39489004/) · [DOI](https://doi.org/10.1016/j.amjsurg.2024.116039) |
 | ❌ dropped (Barath, 10/20: surgery/gyn journal or gyn onc) | 2024 | Head Neck | National database, digital inequity and salivary gland cancer outcomes | The impact of digital inequities on salivary gland cancer disparities in the United States. | [39323057](https://pubmed.ncbi.nlm.nih.gov/39323057/) · [DOI](https://doi.org/10.1002/hed.27930) |
-| ❓ | 2026 | Cancers (Basel) | AML survival in public genomic cohorts; mostly bioinformatic | Expression Is Associated with Inferior Survival, Adverse-Risk Features, and Distinct Transcriptional Programs in Acute Myeloid Leukemia. | [42882913](https://pubmed.ncbi.nlm.nih.gov/42882913/) · [DOI](https://doi.org/10.3390/cancers18193219) |
+| ✅ kept (Barath, 10/20) | 2026 | Cancers (Basel) | AML survival in public genomic cohorts; mostly bioinformatic | Expression Is Associated with Inferior Survival, Adverse-Risk Features, and Distinct Transcriptional Programs in Acute Myeloid Leukemia. | [42882913](https://pubmed.ncbi.nlm.nih.gov/42882913/) · [DOI](https://doi.org/10.3390/cancers18193219) |
 | ❌ dropped (Barath, 10/20: surgery/trauma/gyn journal) | 2026 | Laryngoscope Investig Otolaryngol | H&N free-flap complications; surgical, cancer implied | A Machine Learning Model to Predict Complications Following Head and Neck Microvascular Surgery. | [42870824](https://pubmed.ncbi.nlm.nih.gov/42870824/) · [DOI](https://doi.org/10.1002/lio2.70588) |
 | ❌ dropped (Barath, 10/20: surgery/trauma/gyn journal) | 2026 | Microsurgery | TXA in breast reconstruction; bleeding/VTE, plastics topic | Preoperative Tranexamic Acid Use in Free Flap Breast Reconstruction: A Propensity-Matched Analysis of Postoperative Outcomes. | [41748481](https://pubmed.ncbi.nlm.nih.gov/41748481/) · [DOI](https://doi.org/10.1002/micr.70201) |
-| ❓ | 2026 | J Gastrointest Cancer | Tissue CD31 biomarker vs survival; partly lab | The Vascular Density/Angiogenesis Marker CD31/PECAM1 does not Correlate with Overall Survival in Neuroendocrine Tumors. | [41499067](https://pubmed.ncbi.nlm.nih.gov/41499067/) · [DOI](https://doi.org/10.1007/s12029-025-01381-y) |
+| ✅ kept (Barath, 10/20) | 2026 | J Gastrointest Cancer | Tissue CD31 biomarker vs survival; partly lab | The Vascular Density/Angiogenesis Marker CD31/PECAM1 does not Correlate with Overall Survival in Neuroendocrine Tumors. | [41499067](https://pubmed.ncbi.nlm.nih.gov/41499067/) · [DOI](https://doi.org/10.1007/s12029-025-01381-y) |
 | ❌ dropped (Barath, 10/20: surgery/trauma/gyn journal) | 2025 | Surg Obes Relat Dis | VTE risk in bariatric surgery; non-onc population | Heart failure is a major risk factor for postoperative venous thromboembolism in bariatric surgery patients. | [41402181](https://pubmed.ncbi.nlm.nih.gov/41402181/) · [DOI](https://doi.org/10.1016/j.soard.2025.10.007) |
-| ❓ | 2025 | JAAD Int | TXA and thromboembolism in melasma; dermatology population | Oral tranexamic acid use for melasma is not associated with thromboembolism: Findings from a multicenter propensity score-matched electronic health record cohort. | [41256337](https://pubmed.ncbi.nlm.nih.gov/41256337/) · [DOI](https://doi.org/10.1016/j.jdin.2025.09.005) |
+| ✅ kept (Barath, 10/20) | 2025 | JAAD Int | TXA and thromboembolism in melasma; dermatology population | Oral tranexamic acid use for melasma is not associated with thromboembolism: Findings from a multicenter propensity score-matched electronic health record cohort. | [41256337](https://pubmed.ncbi.nlm.nih.gov/41256337/) · [DOI](https://doi.org/10.1016/j.jdin.2025.09.005) |
 | ❌ dropped (Barath, 10/20: surgery/trauma/gyn journal) | 2025 | J Trauma Nurs | VTE prophylaxis timing in trauma; non-onc population | Early Versus Late Venous Thromboembolism Prophylaxis Impact on Outcomes of Blunt Solid Abdominal Organ Injuries. | [41092083](https://pubmed.ncbi.nlm.nih.gov/41092083/) · [DOI](https://doi.org/10.1097/JTN.0000000000000883) |
 | ❌ dropped (Barath, 10/20: surgery/trauma/gyn journal) | 2025 | Am J Otolaryngol | Benign vestibular schwannoma radiotherapy; neurotology topic | Early results with hypofractionated gamma knife radiotherapy for treatment of vestibular schwannoma. | [40409249](https://pubmed.ncbi.nlm.nih.gov/40409249/) · [DOI](https://doi.org/10.1016/j.amjoto.2025.104674) |
-| ❓ | 2025 | J Am Acad Dermatol | MACE after Mohs skin cancer surgery; dermatology | No risk of major adverse cardiovascular events after Mohs surgery using a large national database. | [40354941](https://pubmed.ncbi.nlm.nih.gov/40354941/) · [DOI](https://doi.org/10.1016/j.jaad.2025.05.1371) |
+| ❌ dropped (Barath, 10/20) | 2025 | J Am Acad Dermatol | MACE after Mohs skin cancer surgery; dermatology | No risk of major adverse cardiovascular events after Mohs surgery using a large national database. | [40354941](https://pubmed.ncbi.nlm.nih.gov/40354941/) · [DOI](https://doi.org/10.1016/j.jaad.2025.05.1371) |
 | ❌ dropped (Barath, 10/20: surgery/trauma/gyn journal) | 2024 | Gynecol Oncol Rep | QI trial-screening process; enrollment, not clinical outcomes | "Developing a manual clinical trials screening process in a diverse southern gynecologic oncology practice". | [39758709](https://pubmed.ncbi.nlm.nih.gov/39758709/) · [DOI](https://doi.org/10.1016/j.gore.2024.101549) |
 | ❌ dropped (Barath, 10/20: surgery/trauma/gyn journal) | 2024 | Surg Obes Relat Dis | Bleeding questionnaire screening program for endometrial pathology | High prevalence of dysfunctional uterine bleeding in candidates for metabolic/bariatric surgery: increased endometrial cancer risk? | [39129110](https://pubmed.ncbi.nlm.nih.gov/39129110/) · [DOI](https://doi.org/10.1016/j.soard.2024.07.007) |
-| ❓ | 2025 | Cancer | Observational analysis of CALGB trial cohorts | The association of physical activity with survival in colon cancer versus a matched general population: Data from Cancer and Leukemia Group B 89803 and 80702 (Alliance). | [39989023](https://pubmed.ncbi.nlm.nih.gov/39989023/) · [DOI](https://doi.org/10.1002/cncr.35727) |
+| ✅ kept (Barath, 10/20) | 2025 | Cancer | Observational analysis of CALGB trial cohorts | The association of physical activity with survival in colon cancer versus a matched general population: Data from Cancer and Leukemia Group B 89803 and 80702 (Alliance). | [39989023](https://pubmed.ncbi.nlm.nih.gov/39989023/) · [DOI](https://doi.org/10.1002/cncr.35727) |
 
 **Program-led trials (first or last author at the program):**
 
@@ -1032,7 +1032,7 @@ Auto-screen: edit/case 17, CAND 53, animal/vet 18, peds 7, covid 2, review 22, n
 | MCW (CCM, calendar 2024–2026) | 18 | 5 | **13** |
 | UMass Chan | 14 | 0 | **14** |
 | MCG (Heme/Onc) | 70 | 6 | **64** |
-| LSU New Orleans (Heme/Onc) | 25 | 8 | **17** (5 unsure still open) |
+| LSU New Orleans (Heme/Onc) | 25 | 8 | **21** (17 + 4 unsures kept) |
 | ETSU (ID + CCM) | 4 | 1 | **3** |
 
 Dropped:
@@ -1040,7 +1040,7 @@ Dropped:
 - **Tufts:** 40893748 (Hepatobiliary Surg Nutr), 40241859, 39651339 (J Orthop)
 - **MCW:** 38782686 (Am J Surg), 41589734, 39225986, 40435348 (J Trauma Acute Care Surg), 41523893 (J Emerg Trauma Shock)
 - **MCG:** 42726934 (Otolaryngol Head Neck Surg), 41450282, 40501195 (Head Neck), 40996625 (Ann Surg Oncol), 41000090 (O G Open), 40121787 (gyn onc topic)
-- **LSU:** 41240676 (Surg Oncol), 39988498 (HPB), 39489004 (Am J Surg), 39713558 (J Orthop), 41440827 (Urol Pract), 41142664 (O G Open), 39671778 (Gynecol Oncol), 39323057 (Head Neck); plus 7 unsures
+- **LSU:** 41240676 (Surg Oncol), 39988498 (HPB), 39489004 (Am J Surg), 39713558 (J Orthop), 41440827 (Urol Pract), 41142664 (O G Open), 39671778 (Gynecol Oncol), 39323057 (Head Neck); plus 8 unsures (7 by the journal rule, 40354941 Mohs by Barath). Unsures kept: 42882913, 41499067, 41256337, 39989023
 - **ETSU:** 42500844 (Am Surg)
 
 Kept, borderline: MCW 38521630 (J Cardiothorac Vasc Anesth, an anesthesia journal).
