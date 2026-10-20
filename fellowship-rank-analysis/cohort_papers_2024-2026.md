@@ -841,14 +841,14 @@ Same method as the v2 run above: institution in [ad] only, keywords in [tiab], n
 |---|---|---|---|---|---|---|
 | MCG (Heme/Onc) | 674 | 664 | 148 | 64 | 0 (11 kept, 1 dropped) | 15 (4 randomized: ASC4FIRST phase 3 + 3 randomized phase II; 11 nonrandomized phase 1/2) |
 | LSU New Orleans (Heme/Onc) | 331 | 331 | 73 | 17 | 5 (7 dropped) | 1 RCT (EXACT); plus 1 protocol and 3 secondary analyses |
-| ETSU (ID + CCM) | 126 | 120 | 38 | 4 (3 ID, 1 CCM) | 0 (2 dropped) | 0 |
+| ETSU (ID + CCM) | 126 | 120 | 38 | 3 (3 ID, 0 CCM) | 0 (2 dropped) | 0 |
 
 Notes:
 - ETSU (Barath, 10/20): dropped the rib fracture triage paper (42498688, same call as MCW's rib fracture paper) and both unsures (41149635, 41124360).
 - ETSU: 6 older PMIDs returned no record from the connector (33760562, 36256777, 31613449, 29763160, 28613673, 33760464). 41640800 was excluded as Vanderbilt-led.
 - MCG (Barath, 10/20): 11 of 12 unsures kept, post hoc trial analyses included. 42005649 (COVID-era pancreatic cancer) dropped under the no-COVID rule.
 - MCG: 42389818 (ASC4FIRST tolerability) was left off the trial list as a secondary analysis.
-- Journal rule (Barath, 10/20): exclude gyn onc, gynecology, surgery and trauma journals. Hem/onc programs only (MCG, LSU), not the ID/CCM programs. Dropped 7 LSU unsures, then 6 MCG kept and 8 LSU kept papers (ENT, orthopedic and urology journals counted as surgery).
+- Journal rule (Barath, 10/20): exclude gyn onc, gynecology, surgery and trauma journals. Extended to all programs the same day (see the next section). Dropped 7 LSU unsures, then 6 MCG kept and 8 LSU kept papers (ENT, orthopedic and urology journals counted as surgery).
 - LSU trial list: only 40107449 (EXACT) is a program-led results paper. 39362405 is the EXACT protocol; 39369275 (FORTE diet), 39180477 (CALGB/SWOG 80702) and 40642656 (EXACT exerkines) are secondary analyses.
 
 ### MCG (Heme/Onc)
@@ -1015,8 +1015,35 @@ Auto-screen: edit/case 17, CAND 53, animal/vet 18, peds 7, covid 2, review 22, n
 | ✅ | 2025 | J Pharm Technol | ID: retrospective cohort, home PPI use and SBP in hospitalized cirrhosis (pharmacy practice) | Proton Pump Inhibitor Use in Patients With Cirrhosis and Its Association With Spontaneous Bacterial Peritonitis. | [40881939](https://pubmed.ncbi.nlm.nih.gov/40881939/) · [DOI](https://doi.org/10.1177/87551225251364516) |
 | ✅ | 2025 | Cureus | ID: NIS cross-sectional, RA and oral cellulitis/abscess hospitalizations | The Burden of Dental Infections Among Hospitalized Patients With Rheumatoid Arthritis: A Cross-Sectional Analysis of the National Inpatient Sample Database. | [40476111](https://pubmed.ncbi.nlm.nih.gov/40476111/) · [DOI](https://doi.org/10.7759/cureus.83568) |
 | ✅ | 2026 | J Prim Care Community Health | ID: BRFSS 2023 survey cross-sectional, determinants of lifetime HIV testing in Tennessee (ML + logistic) | Leveraging Explainable AI to Identify Determinants of Lifetime HIV Testing Among Adults in Tennessee, United States: Evidence for Targeted Public Health Strategies From BRFSS 2023. | [41840801](https://pubmed.ncbi.nlm.nih.gov/41840801/) · [DOI](https://doi.org/10.1177/21501319261428986) |
-| ✅ | 2026 | Am Surg | CCM: retrospective trauma registry, post-Hurricane Helene ICU admission/LOS and mechanical ventilation demand | Post-Disaster Critical Care Demand Exceeds Initial Acuity: Tree-Related Trauma at a Rural Appalachian Level 1 Trauma Center Following Hurricane Helene. | [42500844](https://pubmed.ncbi.nlm.nih.gov/42500844/) · [DOI](https://doi.org/10.1177/00031348261465394) |
+| ❌ dropped (Barath, 10/20: surgery journal) | 2026 | Am Surg | CCM: retrospective trauma registry, post-Hurricane Helene ICU admission/LOS and mechanical ventilation demand | Post-Disaster Critical Care Demand Exceeds Initial Acuity: Tree-Related Trauma at a Rural Appalachian Level 1 Trauma Center Following Hurricane Helene. | [42500844](https://pubmed.ncbi.nlm.nih.gov/42500844/) · [DOI](https://doi.org/10.1177/00031348261465394) |
 | ❌ dropped (Barath, 10/20) | 2026 | Am Surg | CCM: pre/post protocolized rib fracture triage (RIG), ICU admissions and unplanned intubation outcomes | Protocolized Rib Fracture Triage Reduces ICU Admissions Without Compromising Outcomes in a Rural Level 1 Trauma Center. | [42498688](https://pubmed.ncbi.nlm.nih.gov/42498688/) · [DOI](https://doi.org/10.1177/00031348261471470) |
 | ❌ dropped (Barath, 10/20) | 2025 | Metabolites | Severe TBI cohort; ICU LOS/vent days outcomes of creatinine | Effect of Creatinine on Various Clinical Outcomes in Patients with Severe Traumatic Brain Injury (TBI). | [41149635](https://pubmed.ncbi.nlm.nih.gov/41149635/) · [DOI](https://doi.org/10.3390/metabo15100657) |
 | ❌ dropped (Barath, 10/20) | 2025 | Am Surg | Trauma tracheostomy sizing; airway procedure rather than ICU outcomes | Anthropomorphic Measurements for Improved Selection of Tracheostomy Size and Length. | [41124360](https://pubmed.ncbi.nlm.nih.gov/41124360/) · [DOI](https://doi.org/10.1177/00031348251390948) |
+
+## No-surgery journal rule, all programs (Barath, 10/20)
+
+**Rule:** exclude papers in surgery, trauma, gynecology/obstetrics and gyn onc journals, for every program. ENT, orthopedic, urology, plastics, hand, burn and HPB journals count as surgery journals. This overrides the earlier final counts.
+
+| Program | Before | Dropped | Now |
+|---|---|---|---|
+| Ohio State | 53 | 17 | **36** |
+| Wayne State | 45 | 0 | **45** |
+| Tufts | 31 | 3 | **28** |
+| MCW (CCM, calendar 2024–2026) | 18 | 5 | **13** |
+| UMass Chan | 14 | 0 | **14** |
+| MCG (Heme/Onc) | 70 | 6 | **64** |
+| LSU New Orleans (Heme/Onc) | 25 | 8 | **17** (5 unsure still open) |
+| ETSU (ID + CCM) | 4 | 1 | **3** |
+
+Dropped:
+- **Ohio State:** 42615905 (J Obstet Gynaecol), 42593740 (J Burn Care Res), 42361581, 40300407, 39551013 (J Surg Res), 42209417 (Surg Infect), 42062132, 41260995 (HPB), 41038054 (Am J Surg), 40497281 (J Hand Surg Glob Online), 39876855 (Plast Surg), 39679169 (Laryngoscope Investig Otolaryngol), 39389823 (Surgery), 39260414 (Am J Perinatol), 41575335 (J Gynecol Oncol), 40450912 (Gynecol Oncol), 40080117 (World J Urol)
+- **Tufts:** 40893748 (Hepatobiliary Surg Nutr), 40241859, 39651339 (J Orthop)
+- **MCW:** 38782686 (Am J Surg), 41589734, 39225986, 40435348 (J Trauma Acute Care Surg), 41523893 (J Emerg Trauma Shock)
+- **MCG:** 42726934 (Otolaryngol Head Neck Surg), 41450282, 40501195 (Head Neck), 40996625 (Ann Surg Oncol), 41000090 (O G Open), 40121787 (gyn onc topic)
+- **LSU:** 41240676 (Surg Oncol), 39988498 (HPB), 39489004 (Am J Surg), 39713558 (J Orthop), 41440827 (Urol Pract), 41142664 (O G Open), 39671778 (Gynecol Oncol), 39323057 (Head Neck); plus 7 unsures
+- **ETSU:** 42500844 (Am Surg)
+
+Kept, borderline: MCW 38521630 (J Cardiothorac Vasc Anesth, an anesthesia journal).
+
+Found while checking: Tufts 41263438 (handgrip strength in HIV) matched `tufts[ad]` only through a co-author named Kimberly Adams Tufts (Frontier Nursing University). It is not a Tufts paper. Not yet removed; waiting on Barath.
 
