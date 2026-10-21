@@ -20,17 +20,33 @@ PubMed, 10/16/2024–10/16/2026 (MCW: calendar 2024–2026). First or last autho
 
 PubMed author affiliations for every kept paper; current status of each first or last author from faculty profiles, search results and their newest PubMed affiliation. Hospital websites are blocked from this session, so roster counts come from search snippets or job postings where noted. "Division-led" = first or last author is a physician or researcher in the fellowship's own division (pharmacists excluded).
 
-| Program | Papers | Division-led papers | People publishing | First/last authors | ...in the division | Still there | Left | Trainee, graduated | Unknown | Division faculty (source) |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Wayne State | 41 | 4 | 56 | 17 | 5 | 11 | 3 | 2 | 1 | not found |
-| Ohio State | 31 | 1 | 117 | 45 | 2 | 31 | 3 | 1 | 10 | 28 (2026 job posting) |
-| MCG | 27 | 11 | 84 | 24 | 7 | 15 | 3 | 2 | 4 | not found |
-| Tufts | 21 | 12 | 53 | 24 | 12 | 17 | 3 | 0 | 4 | "40+ attendings" (fellowship page snippet) |
-| MCW | 13 | 4 | 56 | 17 | 3 | 13 | 1 | 2 | 1 | ~34 (job posting) |
-| UMass Chan | 10 | 2 | 48 | 16 | 4 | 13 | 1 | 0 | 2 | not found |
-| LSU | 4 | 0 | 13 | 6 | 0 | 4 | 1 | 0 | 1 | 9 (fellowship manual); 9 of 13 named published anything |
-| NGMC | 3 | 2 | 13 | 5 | 2 | 4 | 0 | 1 | 0 | 5 of 12 named published anything |
-| ETSU | 1 | 0 | 2 | 2 | 0 | 1 | 0 | 1 | 0 | 10 (division page); 5 of 9 named published anything |
+| Program | Papers | Division-led papers | People publishing | First/last authors | ...in the division | Still there | Left | Trainee, graduated | Unknown |
+|---|---|---|---|---|---|---|---|---|---|
+| Wayne State | 41 | 4 | 56 | 17 | 5 | 10 | 3 | 2 | 2 |
+| Ohio State | 31 | 1 | 117 | 45 | 2 | 31 | 3 | 1 | 10 |
+| MCG | 27 | 11 | 84 | 24 | 7 | 14 | 3 + 1 deceased (Kutlar) | 2 | 4 |
+| Tufts | 21 | 12 | 53 | 24 | 12 | 17 | 2 + 1 conflicting (Wurcel) | 0 | 4 |
+| MCW | 13 | 4 | 56 | 17 | 3 | 13 | 1 | 2 | 1 |
+| UMass Chan | 10 | 2 | 48 | 16 | 4 | 14 | 1 | 0 | 1 |
+| LSU | 4 | 0 | 13 | 6 | 0 | 4 | 1 | 0 | 1 |
+| NGMC | 3 | 2 | 13 | 5 | 2 | 4 | 0 | 1 | 0 |
+| ETSU | 1 | 0 | 2 | 2 | 0 | 1 | 0 | 1 | 0 |
+
+**Faculty pages (checked from Barath's Mac, 10/20; full tables in `faculty_check_results.md`):**
+
+| Program | Division faculty on page | Division faculty with a first/last-author kept paper | Share |
+|---|---|---|---|
+| Wayne State | 12 core (+21 Henry Ford affiliates) | 5 (Chopra, Monday, Keri, Tehaili, Heisler) | 42% |
+| Ohio State | 15 physicians/PhDs (+7 pharmacists, 3 APPs, 4 research) | 2–3 physicians (Lipps, Malvestutto; page looks incomplete) + pharmacists Leininger, Tran, Wardlow | ~15–20% |
+| Tufts | 38 | 7 | 18% |
+| MCG | 19 active (+1 in memoriam) | 3 active (Kota, Keruakous, Correia); Cortes left, Kutlar died 9/2026 | 16% |
+| MCW | 38 (+22 APPs) | 3 (Nanchal, Patel; Truwit emeritus) | 8% |
+| UMass Chan | 45 | 3 (Ellison, Wessolossky, Levitz) | 7% |
+| NGMC | 29 (+17 APPs) | 2 (Ramalingam, Dhaval Patel) | 7% |
+| LSU | 8 | 0 | 0% |
+| ETSU | 13 | 0 | 0% |
+
+"Publishing" here means first or last author on a kept paper (observational, non-registry, etc.), not any publication. Corrections from the faculty pages: Kutlar is listed In Memoriam (9/11/2026); Wurcel is still on Tufts' Faculty Investigators page although her 2026 paper and BU profile say Boston Medical Center; Van Helden (Wayne State pharmacy fellow) is not on the current lists; Denu (UMass) is cardiology, not ID.
 
 **Who drives the output:**
 - **Wayne State:** pharmacy. Michael Veve (Henry Ford-based Wayne State pharmacy faculty, 22 papers, 15 lead) and Michael Rybak's lab (10, all last author). Only 4 papers are led by ID physicians (Chopra, Monday, Keri, Tehaili, Heisler). 7 of the 41 papers have no ID-program author. Former Rybak fellows Al Musawa, Kunz Coyne and Caniff have left.
