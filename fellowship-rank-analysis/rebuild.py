@@ -28,11 +28,13 @@ RESEARCH = {
     # 2026-10-16: after the interview Barath moved UMass up to the top tier ("Research is 10 for UMass").
     # Still 4 tiers, so no re-spacing; MCG stays alone in the second tier.
     # 2026-10-19: Barath "wayne state research is 10" and "mcw and umass same as mcg". Still 4 tiers.
-    "Tufts": 10, "Ohio State": 10, "Wayne State": 10,  # maximum (Ohio State 10/13; Wayne State 10/19)
-    "MCG": 6.67, "MCW": 6.67, "UMass Chan": 6.67,  # second tier (MCW from 3.33, UMass from 10, 10/19)
+    # 2026-10-20: after the PubMed and faculty-page checks, Barath "score wayne research 0, mcg research 10".
+    # Still 4 tiers, no re-spacing.
+    "Tufts": 10, "Ohio State": 10, "MCG": 10,  # maximum (Ohio State 10/13; MCG from 6.67, 10/20)
+    "MCW": 6.67, "UMass Chan": 6.67,  # second tier (MCW from 3.33, UMass from 10, 10/19)
     "LSU New Orleans": 3.33, "NGMC": 3.33,  # one step above lowest
     # 2026-10-16: Barath "Ann Arbor research is 0" (was 3.33). Still 4 tiers, no re-spacing.
-    "Henry Ford Providence": 0, "ETSU": 0, "Ann Arbor": 0,  # lowest
+    "Henry Ford Providence": 0, "ETSU": 0, "Ann Arbor": 0, "Wayne State": 0,  # lowest (Wayne State from 10, 10/20)
 }
 
 # Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting, EMR.
