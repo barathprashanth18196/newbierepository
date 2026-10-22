@@ -31,7 +31,9 @@ RESEARCH = {
     # 2026-10-20: after the PubMed and faculty-page checks, Barath "score wayne research 0, mcg research 10".
     # Still 4 tiers, no re-spacing.
     "Tufts": 10, "Ohio State": 10, "MCG": 10,  # maximum (Ohio State 10/13; MCG from 6.67, 10/20)
-    "MCW": 6.67, "UMass Chan": 6.67,  # second tier (MCW from 3.33, UMass from 10, 10/19)
+    # 2026-10-21: Barath "UMass research is 10 ... 10 means resources, time, support all are present". Still 4 tiers.
+    "UMass Chan": 10,  # maximum again (10/16 10, 10/19 6.67, 10/21 10)
+    "MCW": 6.67,  # second tier (MCW from 3.33, 10/19)
     "LSU New Orleans": 3.33, "NGMC": 3.33,  # one step above lowest
     # 2026-10-16: Barath "Ann Arbor research is 0" (was 3.33). Still 4 tiers, no re-spacing.
     "Henry Ford Providence": 0, "ETSU": 0, "Ann Arbor": 0, "Wayne State": 0,  # lowest (Wayne State from 10, 10/20)
@@ -58,19 +60,22 @@ NEUTRAL = 5  # not yet interviewed / unknown
 #   Milwaukee = Gainesville 5 > New Orleans 2.5 > Augusta, Johnson City 0
 # 2026-10-13: Columbus joins the Boston tier; Milwaukee alone; Gainesville moves down with New Orleans:
 #   Michigan 10 > Boston area = Columbus 7.5 > Milwaukee 5 > New Orleans = Gainesville 2.5 > Augusta, Johnson City 0
+# 2026-10-21: Barath "mcw geo is 2.5, rearrange scoring" -> Milwaukee joins New Orleans and Gainesville;
+#   the empty tier is closed and the 4 tiers re-spaced: Michigan = Columbus 10 > Boston area 6.67 >
+#   Milwaukee = New Orleans = Gainesville 3.33 > Augusta, Johnson City 0
 # Field tiers (2026-10-07, 4 tiers evenly spaced): Heme/Onc 10 > CCM / PCCM / ID-CCM combined 6.67
 #   > ID + optional CCM 3.33 > plain ID 0
 PROGRAMS = {
-    "MCW": (6.67, 6.67, 5, 5, 1, 15, "No"),  # clinical 8; 10/7: PD not liked; 10/12: faculty not liked (fellows, coordinator)
+    "MCW": (6.67, 6.67, 3.33, 5, 1, 15, "No"),  # clinical 8; 10/7: PD not liked; 10/12: faculty not liked (fellows, coordinator)
     "Henry Ford Providence": (0, 10, 10, 2.5, 0, 20, "No"),  # clinical 4
-    "LSU New Orleans": (3.33, 10, 2.5, 5, 0, 28, "No"),  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
+    "LSU New Orleans": (3.33, 10, 3.33, 5, 0, 28, "No"),  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
     "MCG": (3.33, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 6 (10/12: "same as LSU", was 8); 10/7: PD not liked (fellows, coordinator, faculty half)
-    "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),  # clinical 10
+    "Tufts": (10, 3.33, 6.67, 10, 1, 20, "No"),  # clinical 10
     # 10/16 interview: faculty, fellows, coordinator liked -> read 10; call favorable kept (7-8 weekends/yr,
     # Barath "keep it favorable, we'll see"). Field briefly 3.33 (ID->CCM via a Brown 1-yr CCM grad), then
     # Barath later 10/16: "UMass field score bring it back to same as Ann Arbor" -> 0 (plain ID).
-    "UMass Chan": (6.67, 0, 7.5, 10, 1, 20, "No"),  # clinical 8; 10/12: PD liked, moonlighting not possible
-    "NGMC": (0, 6.67, 2.5, 5, 1, 15, "No"),  # 10/19: no 24-hour call -> call favorable (Barath). clinical 4; PD, coordinator liked; 10/13: faculty NOT liked (was liked); 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
+    "UMass Chan": (6.67, 0, 6.67, 10, 1, 20, "No"),  # clinical 8; 10/12: PD liked, moonlighting not possible
+    "NGMC": (0, 6.67, 3.33, 5, 1, 15, "No"),  # 10/19: no 24-hour call -> call favorable (Barath). clinical 4; PD, coordinator liked; 10/13: faculty NOT liked (was liked); 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
     "ETSU": (3.33, 6.67, 0, 7.5, 0, 15, "No"),  # clinical 6; read 7.5 = PD, faculty, fellows liked, coordinator not (10/13); 10/12 meet-and-greet: visa holders can't moonlight; 10/13: call unfavorable (Barath: 24-h call M-F on ID + 1 weekend/month)
     # 10/19 (before the 10/27 interview): Barath "wayne state clinic 0 and culture 0" -> clinical 0 (was 3.33),
     # read 0, call unfavorable, moonlighting No. Pre-interview call by Barath's choice; revisit after 10/27.
