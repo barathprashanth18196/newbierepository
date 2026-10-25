@@ -67,7 +67,7 @@ NEUTRAL = 5  # not yet interviewed / unknown
 #   > ID + optional CCM 3.33 > plain ID 0
 PROGRAMS = {
     "MCW": (6.67, 6.67, 3.33, 5, 1, 15, "No"),  # clinical 8; 10/7: PD not liked; 10/12: faculty not liked (fellows, coordinator)
-    "Henry Ford Providence": (0, 10, 10, 2.5, 0, 20, "No"),  # clinical 4
+    # 2026-10-25: Barath "henry ford not ranking, remove it from the table" -> dropped entirely.
     "LSU New Orleans": (3.33, 10, 3.33, 5, 0, 28, "No"),  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
     "MCG": (3.33, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 6 (10/12: "same as LSU", was 8); 10/7: PD not liked (fellows, coordinator, faculty half)
     "Tufts": (10, 3.33, 6.67, 10, 1, 20, "No"),  # clinical 10
@@ -75,7 +75,6 @@ PROGRAMS = {
     # Barath "keep it favorable, we'll see"). Field briefly 3.33 (ID->CCM via a Brown 1-yr CCM grad), then
     # Barath later 10/16: "UMass field score bring it back to same as Ann Arbor" -> 0 (plain ID).
     "UMass Chan": (6.67, 0, 6.67, 10, 1, 20, "No"),  # clinical 8; 10/12: PD liked, moonlighting not possible
-    "NGMC": (0, 6.67, 3.33, 5, 0, 15, "No"),  # 10/21: call unfavorable (Barath: "these ppl wont follow the acgme rules"); 10/19 had been favorable. clinical 4; PD, coordinator liked; 10/13: faculty NOT liked (was liked); 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
     "ETSU": (3.33, 6.67, 0, 7.5, 1, 15, "No"),  # 10/21: call favorable (Barath, after the 10/12 meet-and-greet detail: ID call is home pager only, ICU is shifts);  # clinical 6; read 7.5 = PD, faculty, fellows liked, coordinator not (10/13); 10/12 meet-and-greet: visa holders can't moonlight; 10/13: call unfavorable (Barath: 24-h call M-F on ID + 1 weekend/month)
     # 10/19 (before the 10/27 interview): Barath "wayne state clinic 0 and culture 0" -> clinical 0 (was 3.33),
     # read 0, call unfavorable, moonlighting No. Pre-interview call by Barath's choice; revisit after 10/27.
@@ -92,6 +91,8 @@ PROGRAMS = {
 # 2026-10-19: Barath "remove ann arbor from scoring but keep it in table saying not ranked".
 # Its inputs are kept here for the table only; it is left out of every score, rank and audit.
 NOT_RANKED = {
+    # 2026-10-25: Barath "NGMC im not ranking" -> shown as Not ranked, like Ann Arbor.
+    "NGMC": (0, 6.67, 3.33, 5, 0, 15, "No"),  # 10/21: call unfavorable (Barath: "these ppl wont follow the acgme rules"); 10/19 had been favorable. clinical 4; PD, coordinator liked; 10/13: faculty NOT liked (was liked); 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
     "Ann Arbor": (0, 0, 10, 2.5, 1, 28, "No"),  # clinical 4; 10/7: PD not liked (coordinator only)
 }
 
