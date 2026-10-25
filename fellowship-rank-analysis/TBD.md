@@ -71,3 +71,4 @@ No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Henry Ford, Tufts, LSU (m
 - 2026-10-25: UMass Baystate Geography 3.33 (same tier as MCW/Milwaukee). Still needs Clinical, PD/faculty/coordinator read, call.
 - 2026-10-25: LSU Geography 3.33 -> 0 (New Orleans joins Augusta/Johnson City). LSU 4.962 -> 4.200, still #6.
 - 2026-10-25: UMass Baystate Clinical 3.33 ("same as mcg"); Teaching 1.665. Still needs PD/faculty/coordinator read and 24-hr call to score.
+- 2026-10-25: UMass Baystate scored provisionally: read 7.5 assumed, call unknown (neutral). 3.193, #8 (fav call 3.407 / unfav 2.979, #8 either way). Wayne State #9. Confirm read and call after interview.

@@ -36,7 +36,7 @@ RESEARCH = {
     "MCW": 6.67,  # second tier (MCW from 3.33, 10/19)
     "LSU New Orleans": 3.33, "NGMC": 3.33,  # one step above lowest
     # 2026-10-16: Barath "Ann Arbor research is 0" (was 3.33). Still 4 tiers, no re-spacing.
-    "Henry Ford Providence": 0, "ETSU": 0, "Ann Arbor": 0, "Wayne State": 0,  # lowest (Wayne State from 10, 10/20)
+    "Henry Ford Providence": 0, "ETSU": 0, "Ann Arbor": 0, "Wayne State": 0, "UMass Baystate": 0,  # lowest (Wayne State from 10, 10/20)
 }
 
 # Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting, EMR.
@@ -85,6 +85,10 @@ PROGRAMS = {
     # call favorable, moonlighting No. Verify at the interview.
     # 10/19: Barath "Ohio State field preference is 0" (plain ID) and Geography 10 (Columbus joins Michigan).
     "Ohio State": (10, 0, 10, 8.75, 1, 15, "No"),
+    # 2026-10-25: UMass Baystate (Springfield, ID with optional CCM). Barath: clinical "same as mcg", research 0,
+    # field 3.33 (optional CCM), geography "same as mcw", moonlighting No, 4 weeks vacation. Read 7.5 ASSUMED
+    # ("assume i like pd faculty and pc; fellows 0, small program"). 24-hour call unknown -> neutral.
+    "UMass Baystate": (3.33, 3.33, 3.33, 7.5, None, 20, "No"),
 }
 
 
