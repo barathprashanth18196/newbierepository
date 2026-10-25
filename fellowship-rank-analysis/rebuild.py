@@ -68,7 +68,7 @@ NEUTRAL = 5  # not yet interviewed / unknown
 PROGRAMS = {
     "MCW": (6.67, 6.67, 3.33, 5, 1, 15, "No"),  # clinical 8; 10/7: PD not liked; 10/12: faculty not liked (fellows, coordinator)
     # 2026-10-25: Barath "henry ford not ranking, remove it from the table" -> dropped entirely.
-    "LSU New Orleans": (3.33, 10, 3.33, 5, 0, 28, "No"),  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
+    "LSU New Orleans": (3.33, 10, 0, 5, 0, 28, "No"),  # 10/25: geography 0 (Barath "lsu geography change to 0"; New Orleans joins Augusta/Johnson City tier)  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
     "MCG": (3.33, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 6 (10/12: "same as LSU", was 8); 10/7: PD not liked (fellows, coordinator, faculty half)
     "Tufts": (10, 3.33, 6.67, 10, 1, 20, "No"),  # clinical 10
     # 10/16 interview: faculty, fellows, coordinator liked -> read 10; call favorable kept (7-8 weekends/yr,

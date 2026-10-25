@@ -69,3 +69,4 @@ No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Henry Ford, Tufts, LSU (m
 - 2026-10-25: UMass Baystate: PGY-4 $84,581 confirmed, optional CCM (Field 3.33), 4 weeks vacation. Still needs Clinical, Research, Geography (Springfield), read, call, moonlighting.
 - 2026-10-25: UMass Baystate: Research 0, fellows read item 0, moonlighting No. Still needs Clinical, Geography (Springfield), PD/faculty/coordinator read, call.
 - 2026-10-25: UMass Baystate Geography 3.33 (same tier as MCW/Milwaukee). Still needs Clinical, PD/faculty/coordinator read, call.
+- 2026-10-25: LSU Geography 3.33 -> 0 (New Orleans joins Augusta/Johnson City). LSU 4.962 -> 4.200, still #6.
