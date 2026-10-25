@@ -13,9 +13,9 @@ At the start of every rank-list conversation, remind Barath of both:
 1. ~~New weighting for the bottom five~~: resolved 2026-10-09 (Field 40 / Geography 60, see below). No longer a reminder.
 2. **Culture still unfilled:** list every program with Culture inputs still counting as a neutral 5, from the "Culture still unfilled" checklist in the latest Legend section. Drop items as he fills them in.
 
-## Notion writes need approval (Barath, 2026-10-19)
+## Notion writes: just do them (Barath, 2026-10-25)
 
-Before changing anything in Notion (tracker rows, Legend, pages, memory), show Barath the exact change and wait for his yes.
+Notion permission is pre-granted ("Notion permissions were auto enabled, why do you keep asking"). Apply rescores and page updates to Notion directly, then report what changed. This replaces the 10/19 rule to show changes first.
 
 ## Language (Barath, 2026-10-19)
 
