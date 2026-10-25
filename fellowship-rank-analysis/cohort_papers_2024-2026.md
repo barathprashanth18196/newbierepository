@@ -1127,3 +1127,17 @@ Kept, borderline (self-report surveys with a behavioral or psychosocial outcome,
 | UMass Chan | **10** |
 | LSU New Orleans (Heme/Onc) | **4** |
 | ETSU (ID + CCM) | **1** |
+
+## UMass Baystate ID (10/25)
+Query: `Baystate[ad] AND (infect*[tiab] OR antimicrob*[tiab] OR antibiot*[tiab] OR antifung*[tiab] OR antivir*[tiab] OR bacteremia[tiab] OR HIV[tiab] OR sepsis[tiab] OR septic[tiab] OR tuberculosis[tiab] OR stewardship[tiab])`, 2024/10/16–2026/10/16. 79 hits, 44 Baystate-led (first or last author), **4 kept, 1 ID-division-led**, 1 program-led trial (not ID).
+
+| PMID | Journal | Design | Lead (dept) | Note |
+|---|---|---|---|---|
+| 39576997 | R I Med J 2024 | Retrospective cohort, neurosyphilis | Mariano (Baystate ID) / Gillani (Brown) | ID-led; Rhode Island data (kept, like OSU's Karachi paper) |
+| 40228320 | J Pharm Pract 2025 | Retrospective cohort, MSSA bacteremia E/C resistance and mortality, n=114 | Russo / Lorenzo (Pharmacy) | DOI 10.1177/08971900251335106 |
+| 42838625 | BMJ Open Qual 2026 | Pooled prospective studies (APOLLO, JUNO), host-protein test vs antibiotics | Antkowiak (EM) | DOI 10.1136/bmjoq-2026-004217; industry studies, borderline |
+| 41722885 | Am Heart J 2026 | MINT RCT age substudy | Goldsweig (Cardiology) | DOI 10.1016/j.ahj.2026.107381 |
+
+Trial: 41587029 JAMA Netw Open 2026, HCV mobile telemedicine RCT for rural PWID (Friedmann, IHDPS). DOI 10.1001/jamanetworkopen.2025.55125.
+Excluded ID-faculty work: 39703078 tape-use beliefs survey (Fischer / Haessler, attitude survey). ID faculty otherwise middle authors: Paez (COMBO 1 influenza RCT), Skiest (REPRIEVE), Haessler (procalcitonin CAP cohort).
+Other exclusions: case reports 9, reviews/editorials/guidelines 13, NIS/NRD 5, NHBS 1, COVID/Premier 2, peds/neonatal 4, OB/Gyn 1, preprint 1, no patient data 3, not Baystate-led (shared affiliation string) 2, Rural Opioid Initiative survey 1.

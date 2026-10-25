@@ -1,0 +1,237 @@
+LEAD 42857632 | JTCVS Struct Endovasc 2026 | Journal Article | Enhanced recovery after surgery turnkey order set for periprocedural care of the patient undergoing transcatheter aortic valve rep
+     F: Engelman (Heart and Vascular Program, Baystate Health, University of Massachusetts Ch)
+     L: {} ()
+LEAD 42852417 | Cureus 2026 | Case Reports,Journal Article | Spontaneous Tumor Lysis Syndrome in Refractory Metastatic Esophageal Adenocarcinoma Presenting With Septic Shock.
+     F: Ng (Department of Internal Medicine, University of Massachusetts Chan Medical S)
+     L: Orenstein (Department of Critical Care Medicine, University of Massachusetts Chan Medi)
+LEAD 42838625 | BMJ Open Qual 2026 | Journal Article | Antibiotic prescribing that aligns with a host-protein test at US acute care settings is associated with fewer subsequent hospital
+     F: Antkowiak (Emergency Medicine, UMass Chan Medical School-Baystate, Springfield, Massac)
+     L: Bien-Willner (Palmetto GBA LLC, Columbia, South Carolina, USA gbwillner@bwpgprecisionmed.)
+LEAD 42791515 | Int J Emerg Med 2026 | Journal Article | Meeting people where they are, whenever they are here: the implementation of harm reduction programs in two U.S. emergency departm
+     F: Weisenthal (Department of Emergency Medicine, Boston Medical Center, One Boston Medical)
+     L: Schoenfeld (Department of Emergency Medicine, Baystate Medical Center, 759 Chestnut Str)
+LEAD 42769937 | J Soc Cardiovasc Angiogr Interv 2026 | Editorial | Percutaneous Mechanical Aspiration for Right-Sided Endocarditis: A Step Forward While Awaiting Randomized Data.
+     F: Engel Gonzalez (Division of Cardiology, Department of Medicine, Henry Ford Health, Detroit,)
+     L: Saadat (Department of Surgery, UMass Chan Medical School - Baystate, Springfield, M)
+mid  42767114 | Drug Alcohol Depend 2026 | Journal Article | Higher prevalence of non-fatal overdose with opioid and stimulant use compared to use of opioids alone.
+     F: Drumright (University of Washington, Seattle, WA, United States. Electronic address: l)
+     L: Tsui (University of Washington, Seattle, WA, United States.)
+mid  42765200 | Am J Ind Med 2026 | Journal Article | Characteristics Associated With Persistent Long COVID Symptoms in Healthcare Personnel Infected With SARS-CoV-2 Between August 202
+     F: Kontowicz (Department of Emergency Medicine, University of Iowa Health Care, Iowa City)
+     L: {} ()
+mid  42726508 | J Forensic Nurs 2026 | Journal Article | Comprehensive Care of Patients Following Sexual Assault: A Cross-Sectional Survey of Services Provided by Forensic Nursing Program
+     F: Draughon Moret (Betty Irene Moore School of Nursing, University of California Davis, CA, US)
+     L: Anderson (College of Nursing, University of Arkansas for Medical Sciences, Little Roc)
+LEAD 42647300 | Reports (MDPI) 2026 | Case Reports,Journal Article | Nivolumab Induced Reactivation of Hepatitis B in a Patient with Metastatic Gastric Adenocarcinoma-A Case Report.
+     F: Kaur (Department of Microbiology and Immunology, College of Osteopathic Medicine,)
+     L: Dodeja (Department of Internal Medicine, Baystate Health, Springfield, MA 01199, US)
+mid  42634378 | Antivir Ther 2026 | Journal Article,Randomized Controlled Trial,Multicenter Study | COMbination therapy with baloxavir and oseltamivir 1 for hospitalized patients with influenza: The pragmatic COMBO 1 randomized co
+     F: Victory (Bassett Research Institute, Bassett Medical Center, Cooperstown, NY, USA.)
+     L: Freilich (Department of Internal Medicine, Bassett Medical Center, Cooperstown, NY, U)
+LEAD 42578696 | Microbiol Spectr 2026 | Journal Article | Evaluating the nationwide availability of essential diagnostics for tuberculosis toward achieving a TB-free India.
+     F: Chakraborty (Foundation for Advancement of Essential Diagnostics, Bio-NEST Bio-Incubatio)
+     L: Barbhuiya (Foundation for Advancement of Essential Diagnostics, Bio-NEST Bio-Incubatio)
+LEAD 42487835 | Cureus 2026 | Journal Article,Review | Purulent Pericardial Effusion: An Elusive Diagnosis.
+     F: Al-Nabulsi (Medicine, Royal College of Surgeons in Ireland - Bahrain, Muharraq, BHR.)
+     L: Ladna (Cardiovascular Medicine, Baystate Medical Center, Springfield, USA.)
+LEAD 42471103 | Curr Probl Cardiol 2026 | Journal Article,Review | In-hospital outcomes of sepsis hospitalizations among patients with cardiac amyloidosis: A 2022 National inpatient sample analysis
+     F: Saad (Department of Emergency Medicine, Montefiore Einstein, Albert Einstein Coll)
+     L: Goldsweig (Division of Cardiovascular Medicine, Baystate Medical Center, University of)
+mid  42437032 | Subst Use 2026 | Journal Article | Injection Drug Use and Sexual Behaviors Associated With Infection Transmission and Access to Harm Reduction for People Who Use Dru
+     F: Mixson (Department of Medicine, School of Medicine, University of Washington, Seatt)
+     L: Crane (Department of Medicine, School of Medicine, University of Washington, Seatt)
+LEAD 42269044 | Proc (Bayl Univ Med Cent) 2026 | Journal Article | The burden and outcomes of vaccine-preventable infections among adult congenital heart disease patients: a nationwide analysis.
+     F: Hamza (Department of Cardiovascular Medicine, University of Texas Medical Branch, )
+     L: Goldsweig (Department of Cardiovascular Medicine, Baystate Medical Center and Universi)
+LEAD 42131645 | Cureus 2026 | Case Reports,Journal Article | Fatal Pulmonary Mucormycosis in a Renal Transplant Recipient: A Missed Opportunistic Infection.
+     F: Correa (Department of Internal Medicine, University of Massachusetts Chan Medical S)
+     L: Khan (Department of Nephrology, University of Massachusetts Chan Medical School -)
+LEAD 42091163 | Inquiry 2026 | Journal Article,Review | Six-Domain Moral Ecology Framework for Quality Leadership in Healthcare: A Conceptual Synthesis.
+     F: Lotfi (Department of Cardiovascular Medicine, Baystate Medical Centerand Division )
+     L: Lotfi (Department of Cardiovascular Medicine, Baystate Medical Centerand Division )
+mid  42078403 | medRxiv 2026 | Journal Article,Preprint | Addition of Bupropion or Varenicline to Nicotine Replacement Therapy After Acute Coronary Syndrome: A Propensity-Matched Real-Worl
+     F: Qadeer (Department of Cardiovascular Medicine, University of Texas Medical Branch, )
+     L: Gaalema (Department of Cardiovascular Medicine, University of Texas Medical Branch, )
+mid  41981820 | Clin Infect Dis 2026 | Journal Article,Multicenter Study,Research Support, N.I.H., Extramural | Impact of Procalcitonin Testing on Antibiotic Use in Patients Hospitalized With Community-Acquired Pneumonia: A Multi-Hospital Coh
+     F: Deshpande (Center for Value-Based Care Research, Cleveland Clinic, Cleveland, Ohio, US)
+     L: Rothberg (Center for Value-Based Care Research, Cleveland Clinic, Cleveland, Ohio, US)
+mid  41952794 | J Am Coll Emerg Physicians Open 2026 | Journal Article | Impact of a Cellular Host-Response Sepsis Diagnostic on Clinical Decision Making in the Emergency Department: A Vignette-Based Stu
+     F: Sheybani (Cytovale, Inc, San Francisco, California, USA.)
+     L: Kraus (Department of Emergency and Hospital Medicine, at Lehigh Valley Health Netw)
+LEAD 41894980 | J Surg Res 2026 | Journal Article | Neighborhood Disadvantage Lacks Correlation With Delayed Orchiopexy for Congenital Cryptorchidism.
+     F: Rosenberg (Department of Surgery, University of Massachusetts Chan Medical School-Bays)
+     L: Tirabassi (Division of Pediatric Surgery, Department of Surgery, University of Massach)
+mid  41887242 | Lancet Respir Med 2026 | Journal Article,Multicenter Study,Clinical Trial, Phase III,Randomized Controlled Trial | Polymyxin B haemoadsorption in endotoxic septic shock (Tigris): a multicentre, open-label, Bayesian, randomised, controlled, phase
+     F: Neyra (Department of Medicine, Division of Nephrology, University of Alabama at Bi)
+     L: Kellum (Department of Critical Care Medicine, University of Pittsburgh, Pittsburgh,)
+mid  41823938 | J Am Coll Radiol 2026 | Journal Article,Practice Guideline | ACR Appropriateness Criteria® Autosomal Dominant Polycystic Kidney Disease.
+     F: {} ()
+     L: Khatri (Specialty Chair, UT Southwestern Medical Center, Dallas, Texas.)
+LEAD 41722885 | Am Heart J 2026 | Journal Article,Randomized Controlled Trial | Effect of age on restrictive and liberal transfusion outcomes in patients with anemia and myocardial infarction.
+     F: Goldsweig (Department of Cardiovascular Medicine, Baystate Medical Center and Division)
+     L: {} ()
+LEAD 41649533 | Pediatr Radiol 2026 | Journal Article,Review | Ultrasonography of palpable masses in the pediatric head and neck.
+     F: Sideris (Baystate Medical Center, 759 Chestnut Street, Springfield, MA, 01107, USA. )
+     L: Makris (Baystate Medical Center, 759 Chestnut Street, Springfield, MA, 01107, USA.)
+LEAD 41635014 | Surg Infect (Larchmt) 2026 | Journal Article,Case Reports | Rapidly Progressive Necrotizing Soft Tissue Infection of the Chest Wall After Skeletal Muscle Injury in a Healthy Young Adult Lead
+     F: Rivet (Department of Surgery, Baystate Medical Center, MA, USA.)
+     L: Kamine (Department of Surgery, Baystate Medical Center, MA, USA.)
+LEAD 41618208 | BMC Public Health 2026 | Journal Article | Incarceration history and HIV testing among people who inject drugs in the Boston metro area: a pooled cross-sectional study.
+     F: Bovell-Ammon (UMass Chan Medical School-Baystate and Baystate Medical Center, Springfield)
+     L: Klevens (Massachusetts Department of Public Health, Boston, MA, USA.)
+LEAD 41587029 | JAMA Netw Open 2026 | Journal Article,Multicenter Study,Randomized Controlled Trial,Research Support, N.I.H., Extramural | Mobile Telemedicine for Treating Chronic Hepatitis C Among Rural People Who Inject Drugs: A Randomized Clinical Trial.
+     F: Friedmann (Department of Population & Quantitative Health Sciences, University of Mass)
+     L: Stopka (Department of Public Health and Community Medicine, Tufts University School)
+LEAD 41574117 | CHEST Crit Care 2025 | Journal Article | Ascorbate for Organ Dysfunction in Critically Ill Patients With Sepsis: The Phase 2b ASTER Trial.
+     F: Files (Wake Forest University School of Medicine (D. C. F., K. W. G., and C. M.), )
+     L: Fowler (Wake Forest University School of Medicine (D. C. F., K. W. G., and C. M.), )
+LEAD 41357786 | J Arrhythm 2025 | Journal Article | Safety and Clinical Outcomes of Transvenous Lead Extraction for Cardiac Device Infections in the Very Elderly.
+     F: Sawalha (Department of Cardiology UMass Chan Medical School-Baystate Springfield Mas)
+     L: Chalhoub (Department of Cardiology UMass Chan Medical School-Baystate Springfield Mas)
+mid  41335438 | JAMA Netw Open 2025 | Journal Article,Observational Study,Research Support, N.I.H., Extramural | Presenteeism Among Health Care Personnel With COVID-19.
+     F: Crosby (Department of Emergency Medicine, University of Alabama at Birmingham.)
+     L: Kemble (School of Medicine, University of Missouri, Kansas City.)
+LEAD 41313863 | Eur J Obstet Gynecol Reprod Biol 2025 | Editorial | Infectious morbidity associated with early amniotomy during labor induction.
+     F: Schoen (Division of Maternal Fetal Medicine, Department of Obstetrics and Gynecolog)
+     L: Knee (Office of Research, Epidemiology/Biostatistics Research Core, Baystate Medi)
+mid  41226913 | J Clin Med 2025 | Journal Article | Nationwide Trends in Hospitalizations for Sudden Cardiac Arrest Before and During the COVID Outbreak.
+     F: Daoudi (Division of Cardiology, Tufts Medical Center, Boston, MA 02111, USA.)
+     L: Rozen (Division of Cardiology, Tufts Medical Center, Boston, MA 02111, USA.)
+mid  41195062 | J Infect Prev 2025 | Journal Article,Review | D-Mannose for prevention of recurrent urinary tract infection in adult women: An updated systematic review and meta-analysis of ra
+     F: Murali Krishna (Department of Medicine, Medical College Thiruvananthapuram, Thiruvananthapu)
+     L: Sadasivan Sreemathy (Director of ReAct - Action on Antibiotic Resistance Asia-Pacific, Thiruvana)
+mid  41028541 | Nat Med 2025 | Journal Article,Observational Study,Validation Study,Validation Study | Clinical validation of an AI-based blood testing device for diagnosis and prognosis of acute infection and sepsis.
+     F: Liesenfeld (Clinical Affairs, Inflammatix, Inc., Sunnyvale, CA, USA. oliver.liesenfeld@)
+     L: Shapiro (Department of Emergency Medicine, Beth Israel Deaconess Medical Center, Bos)
+mid  41025083 | World J Virol 2025 | Journal Article | Pre-hospital proton pump inhibitor use and clinical outcomes in hospitalized COVID-19 patients: A retrospective case-control study
+     F: Shanmugavel Geetha (Department of Internal Medicine, Saint Vincent Hospital, Worcester, MA 0160)
+     L: Batta (Department of Cardiology, Dayanand Medical College and Hospital, Ludhiana 1)
+mid  40992542 | Contemp Clin Trials 2025 | Journal Article,Clinical Trial Protocol | Protocol for a randomized trial of self-management support for people with chronic obstructive pulmonary disease using lay health 
+     F: Agrawal (Division of Pulmonary Critical Care and Sleep Medicine, Department of Medic)
+     L: Federman (Division of General Internal Medicine, Icahn School of Medicine at Mount Si)
+mid  40962335 | BMJ Open 2025 | Clinical Trial Protocol,Journal Article | Developing an approach to enhance recruitment for a cluster-randomised implementation trial: leveraging deliberative participation
+     F: Vaughn (Department of Internal Medicine, Division of General Internal Medicine, The)
+     L: Szymczak (Department of Internal Medicine, Division of Epidemiology, The University o)
+LEAD 40959049 | Case Rep Infect Dis 2025 | Case Reports,Journal Article | Human T-Lymphotropic Virus Type 1-Associated Myelopathy With Autoimmune Cholangiopathy: An Unusual Immune Conundrum in a Young Pat
+     F: Saad (Department of Medicine, University of Massachusetts Chan Medical School-Bay)
+     L: Sabir (Department of Medicine, University of Massachusetts Chan Medical School-Bay)
+mid  40935385 | Pediatrics 2025 | Journal Article,Multicenter Study | Predicting Severe Short-Term Neurologic Outcomes in Human Parechovirus Meningoencephalitis.
+     F: Shah (University of Kansas School of Medicine-Wichita, Wichita, Kansas.)
+     L: Teran (University of Kansas School of Medicine-Wichita, Wichita, Kansas.)
+mid  40909073 | Cureus 2025 | Case Reports,Journal Article | An Atypical Case of Varicella Meningitis in a Young Immunocompetent Male Patient With a Possible Concomitant Case of Ramsay-Hunt S
+     F: Harrington (Graduate Medical Education, University of Pittsburgh Medical Center, Altoon)
+     L: DeStefino (Graduate Medical Education, University of Pittsburgh Medical Center, Altoon)
+mid  40875608 | Crit Care Explor 2025 | Journal Article,Observational Study,Multicenter Study | Organ Failure, Endotoxin Activity, and Mortality in Septic Shock.
+     F: Molinari (Department of Translational Medicine, Università degli Studi del Piemonte O)
+     L: Kellum (Department of Critical Care Medicine, University of Pittsburgh, Pittsburgh,)
+LEAD 40795809 | Neonatology 2025 | Journal Article,Systematic Review,Meta-Analysis | Azithromycin for Prevention of Bronchopulmonary Dysplasia and Other Neonatal Adverse Outcomes in Preterm Infants: An Updated Syste
+     F: Joseph (Department of Medicine, Medical College Thiruvananthapuram, Thiruvananthapu)
+     L: Ezenna (Department of Medicine, University of Massachusetts - Baystate Medical Cent)
+mid  40733698 | Vaccines (Basel) 2025 | Journal Article | Evaluation of Anti-HPV18 Antibody Titers Preceding an Incident Cervical HPV18/45 Infection.
+     F: Wiek (Department of Pediatrics, Albert Einstein College of Medicine, 1300 Morris )
+     L: Burk (Department of Pediatrics, Albert Einstein College of Medicine, 1300 Morris )
+LEAD 40718334 | Cureus 2025 | Journal Article | Correlation of Bacterial Infections in Women With and Without Intrauterine Devices.
+     F: Golden (Obstetrics and Gynecology, Baystate Medical Center, Springfield, USA.)
+     L: Cipriano (Obstetrics and Gynecology, Healthy Woman OBGYN, Freehold, USA.)
+LEAD 40714714 | Heart Lung 2025 | Journal Article,Multicenter Study | Socioeconomic disparities in In-hospital outcomes and readmission rates among patients hospitalized with infective endocarditis: A
+     F: Abdallah (Department of Medicine, Hennepin Healthcare, Minneapolis, MN, USA. Electron)
+     L: Goldsweig (Department of Cardiovascular Medicine, Baystate Medical Center and Division)
+mid  40708527 | Clin Infect Dis 2026 | Journal Article,Research Support, N.I.H., Intramural,Research Support, N.I.H., Extramural | Multimorbidity Profiles and Severe In-Hospital Outcomes in Adults With Respiratory Syncytial Virus.
+     F: Ma (Coronavirus and Other Respiratory Viruses Division, National Center for Imm)
+     L: Dawood (Coronavirus and Other Respiratory Viruses Division, National Center for Imm)
+LEAD 40681263 | JACC Case Rep 2025 | Case Reports,Journal Article | Comprehensive Care Approach to Drug-Related Tricuspid Valve Endocarditis Using Percutaneous Vegectomy.
+     F: McAuliffe (Division of Internal Medicine, University of Massachusetts Chan School of M)
+     L: Saadat (Division of Surgery, University of Massachusetts Chan School of Medicine-Ba)
+mid  40596804 | J Surg Res 2025 | Journal Article,Comparative Study | Comparing Perspectives About the Informed Consent Conversation for Laparoscopic Cholecystectomy.
+     F: Cohen (Department of Surgery, Beth Israel Deaconess Medical Center, Boston, Massac)
+     L: Kent (Department of Surgery, Beth Israel Deaconess Medical Center, Boston, Massac)
+LEAD 40589619 | Case Rep Oncol Med 2025 | Case Reports,Journal Article | Mit-O-My I Can't Breath! Mitomycin C-Induced Pneumonitis Leading to Acute Respiratory Distress Syndrome, a Rare Case.
+     F: Steve (Department of Internal Medicine, University of Massachusetts Chan Medical S)
+     L: Bhardwaj (Department of Hematology Oncology, Baystate Medical Center, Springfield, Ma)
+LEAD 40581098 | J Pediatr 2025 | Journal Article,Multicenter Study,Research Support, N.I.H., Extramural | Count of Neonatal Morbidities Predicts Outcomes at Age 10 and 15 Years in Infants Born Extremely Preterm.
+     F: Vaidya (Department of Pediatrics, University of Massachusetts Chan Medical School -)
+     L: {} ()
+mid  40528406 | AIDS 2025 | Journal Article,Randomized Controlled Trial,Observational Study | No evidence of a detrimental effect of pitavastatin on neurocognitive function among people with HIV.
+     F: Erlandson (Department of Medicine, University of Colorado Denver- Anschutz Medical Cam)
+     L: Grinspoon (Metabolism Unit, Massachusetts General Hospital and Harvard Medical School,)
+LEAD 40517828 | Curr Probl Cardiol 2025 | Journal Article,Review | Coronary artery disease and human immunodeficiency virus.
+     F: Sharma (University of Nebraska Medical Center, Omaha, NE. Electronic address: tshar)
+     L: Goldsweig (University of Nebraska Medical Center, Omaha, NE; Department of Cardiovascu)
+mid  40449061 | Int J Drug Policy 2025 | Journal Article,Research Support, N.I.H., Extramural | Prevalence and correlates of multiple injections per injection episode among people who inject drugs in rural U.S. communities.
+     F: Mixson (Department of Medicine, University of Washington School of Medicine, 1959 N)
+     L: Delaney (Department of Medicine, University of Washington School of Medicine, 1959 N)
+LEAD 40421227 | Med Int (Lond) 2025 | Journal Article,Review | Venous access devices (Review).
+     F: Abdulelah (Department of Medicine, University of Massachusetts Chan Medical School - B)
+     L: Higgins (Department of Medicine, University of Massachusetts Chan Medical School - B)
+LEAD 40414153 | J Surg Res 2025 | Journal Article | Long-Term Efficacy of Pediatric Anti-reflux Surgery in Reduction of Acid-Reducing Medication.
+     F: Rosenberg (Department of General Surgery, University of Massachusetts Chan Medical Sch)
+     L: Tirabassi (Division of Pediatric Surgery, Department of Surgery, University of Massach)
+mid  40397521 | Clin J Am Soc Nephrol 2025 | Journal Article | A Home Hemodialysis Objective Structured Clinical Examination for Formative Assessment of Nephrology Fellows.
+     F: Jones (Walter Reed National Military Medical Center, Bethesda, Maryland.)
+     L: Yuan (Walter Reed National Military Medical Center, Bethesda, Maryland.)
+LEAD 40388163 | JAMA Netw Open 2025 | Journal Article,Research Support, N.I.H., Extramural | Antibiotic Treatment in Patients Hospitalized for Nonsevere COVID-19.
+     F: Pulia (BerbeeWalsh Department of Emergency Medicine, University of Wisconsin-Madis)
+     L: Lindenauer (Department Healthcare Delivery and Population Sciences, University of Massa)
+LEAD 40265354 | Medicines (Basel) 2025 | Journal Article,Review | Common Bacterial Infections in Persons Who Inject Drugs.
+     F: Lorenzo (Baystate Medical Center, Springfield, MA 01199, USA.)
+     L: Housman (Baystate Medical Center, Springfield, MA 01199, USA.)
+LEAD 40228320 | J Pharm Pract 2025 | Journal Article | Association Between Erythromycin or Clindamycin Resistance and 30-Day Mortality in Patients With MSSA Bacteremia.
+     F: Russo (Department of Pharmacy, Baystate Medical Center, Springfield, MA, USA.)
+     L: Lorenzo (Department of Pharmacy, Baystate Medical Center, Springfield, MA, USA.)
+LEAD 40207858 | Clin Infect Dis 2025 | Journal Article | Why I Did Not Become a Cardiologist.
+     F: Fischer (Department of Internal Medicine, Baystate Medical Center, Springfield, Mass)
+     L: Fischer (Department of Internal Medicine, Baystate Medical Center, Springfield, Mass)
+LEAD 39963703 | Open Forum Infect Dis 2025 | Journal Article | National Trends in Antibiotic Prescribing for Adults Hospitalized With Coronavirus Disease 2019 and Other Viral Respiratory Infect
+     F: Pulia (BerbeeWalsh Department of Emergency Medicine, University of Wisconsin-Madis)
+     L: Lindenauer (Department Healthcare Delivery and Population Sciences, University of Massa)
+mid  39961160 | Drug Alcohol Depend 2025 | Journal Article | Influence of insurance type on healthcare utilization among rural people who use drugs.
+     F: Jenkins (Department of Public Health Sciences, Clemson University, 535-A Edwards Hal)
+     L: Choudhary (Department of Population Science and Policy, SIU School of Medicine, 201 E.)
+mid  39875013 | J Subst Use Addict Treat 2025 | Journal Article,Research Support, U.S. Gov't, P.H.S. | Sexual identity, sexual behavior, and drug use behaviors among people who use drugs in the rural U.S.
+     F: Jenkins (Department of Public Health Sciences, Clemson University, Clemson, SC, Unit)
+     L: Winer (Department of Medicine, Oregon Health & Sciences University, Portland, OR, )
+mid  39859060 | Medicina (Kaunas) 2025 | Journal Article,Review | Ventilator-Associated Pneumonia After Cardiac Arrest and Prevention Strategies: A Narrative Review.
+     F: Shanmugavel Geetha (Department of Internal Medicine, Saint Vincent Hospital, Worcester, MA 0160)
+     L: Lal (Division of Pulmonary and Critical Care Medicine Mayo Clinic, Rochester, MN)
+LEAD 39855743 | Ann Clin Lab Sci 2024 | Journal Article,Review | Critical Perspectives on Global Health Policy, Diagnostic Access and Practice Gaps towards a Tuberculosis Free India.
+     F: Chakraborty (Foundation for Advancement of Essential Diagnostics, Guwahati, Assam, India)
+     L: Barbhuiya (Foundation for Advancement of Essential Diagnostics, Guwahati, Assam, India)
+LEAD 39852668 | Trop Med Infect Dis 2025 | Journal Article | Serious Bacterial Infections and Hepatitis C Virus Among People Who Inject Drugs: A Syndemic or Intertwined Epidemics?
+     F: Stopka (Department of Public Health and Community Medicine, Tufts University School)
+     L: Friedmann (Office of Research and Department of Healthcare Delivery & Population Scien)
+mid  39832831 | Emerg Med J 2025 | Journal Article,Observational Study | Epidemiology and outcomes of patients with cardiac arrest in the emergency department of a lower middle-income country.
+     F: Edmond (Department of Emergency Medicine, Hôpital Universitaire de Mirebalais, Mire)
+     L: Rouhani (Department of Emergency Medicine, Hôpital Universitaire de Mirebalais, Mire)
+mid  39821743 | Ultrasound J 2025 | Journal Article | Comparison of two point-of-care lung ultrasound techniques and their associated outcomes for bronchiolitis in the pediatric emerge
+     F: Smith (Department of Emergency Medicine, Phoenix Children's Hospital, 1919 E Thoma)
+     L: Stone (Department of Pediatrics, Division of Emergency Medicine, University of Tex)
+LEAD 39764124 | Res Sq 2024 | Journal Article,Preprint | Incarceration history and HIV testing among people who inject drugs in the Boston metro area: a pooled cross-sectional study.
+     F: Bovell-Ammon (UMass Chan Medical School-Baystate and Baystate Medical Center.)
+     L: Klevens (Harvard University.)
+LEAD 39703078 | Infect Control Hosp Epidemiol 2024 | Journal Article | Bad habits that stick: adhesive tape use practices and beliefs.
+     F: Fischer (Department of Internal Medicine, Baystate Medical Center, Springfield, MA, )
+     L: Haessler (Department of Internal Medicine, Baystate Medical Center, Springfield, MA, )
+LEAD 39654323 | J Thorac Imaging 2025 | Journal Article,Review | Acute Lung Injury.
+     F: Verma (Department of Radiology, University of Massachusetts - Baystate, Springfiel)
+     L: Mohammed (Department of Radiology, New York University - Langone Health, New York, NY)
+mid  39625722 | JAMA Netw Open 2024 | Journal Article,Randomized Controlled Trial,Multicenter Study,Clinical Trial, Phase III,Research Support, N.I.H., Extramural,Research Support, Non-U.S. Gov't | Fostamatinib for Hospitalized Adults With COVID-19 and Hypoxemia: A Randomized Clinical Trial.
+     F: Collins (Department of Emergency Medicine, Vanderbilt University Medical Center, Nas)
+     L: {} ()
+mid  39607747 | Clin Infect Dis 2025 | Journal Article,Observational Study,Multicenter Study,Research Support, N.I.H., Extramural | Benefit of Early Oseltamivir Therapy for Adults Hospitalized With Influenza A: An Observational Study.
+     F: Lewis (Influenza Division, National Center for Immunization and Respiratory Diseas)
+     L: {} ()
+mid  39580899 | Drug Alcohol Depend 2024 | Journal Article | Rural houselessness among people who use drugs in the United States: Results from the National Rural Opioid Initiative.
+     F: Ballard (School of Public Health, Georgia State University, 140 Decatur Street SE, A)
+     L: Cooper (Rollins School of Public Health, Emory University, 1518 Clifton Road, Atlan)
+LEAD 39576997 | R I Med J (2013) 2024 | Journal Article | Demographics and Clinical Characteristics of Patients with Neurosyphilis in Rhode Island.
+     F: Mariano (Departments of Infectious Disease and General Medicine and Community Health)
+     L: Gillani (Division of Infectious Diseases, Warren Alpert Medical School of Brown Univ)
+LEAD 39540360 | Leuk Lymphoma 2024 | Journal Article,Review | When and how to transplant in myelofibrosis - recent trends.
+     F: Sharma (Department of Hematology and Oncology, University of Massachusetts-Baystate)
+     L: Ho (Department of Medical Oncology, Division of Hematologic Malignancies, Dana-)
+LEAD 38574802 | J Thorac Cardiovasc Surg 2024 | Journal Article,Practice Guideline | Enhanced Recovery After Surgery Cardiac Society turnkey order set for surgical-site infection prevention: Proceedings from the Ame
+     F: Crisafi (Heart & Vascular Program Baystate Health, University of Massachusetts Chan )
+     L: {} ()
+mid  37806839 | Int J Drug Policy 2023 | Journal Article,Research Support, N.I.H., Extramural | Associations of hepatitis C virus (HCV) antibody positivity with opioid, stimulant, and polysubstance injection among people who i
+     F: Estadt (Ohio State University, College of Public Health, Division of Epidemiology, )
+     L: Lancaster (Ohio State University, College of Public Health, Division of Epidemiology, )
