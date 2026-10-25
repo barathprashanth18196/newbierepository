@@ -70,3 +70,4 @@ No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Henry Ford, Tufts, LSU (m
 - 2026-10-25: UMass Baystate: Research 0, fellows read item 0, moonlighting No. Still needs Clinical, Geography (Springfield), PD/faculty/coordinator read, call.
 - 2026-10-25: UMass Baystate Geography 3.33 (same tier as MCW/Milwaukee). Still needs Clinical, PD/faculty/coordinator read, call.
 - 2026-10-25: LSU Geography 3.33 -> 0 (New Orleans joins Augusta/Johnson City). LSU 4.962 -> 4.200, still #6.
+- 2026-10-25: UMass Baystate Clinical 3.33 ("same as mcg"); Teaching 1.665. Still needs PD/faculty/coordinator read and 24-hr call to score.
