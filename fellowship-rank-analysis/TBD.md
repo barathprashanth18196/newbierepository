@@ -66,3 +66,4 @@ No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Henry Ford, Tufts, LSU (m
 - **Wayne State Clinical 0, Culture 0 (10/19, Legend 65):** Barath, pre-interview. Teaching 6.665 → 5.0, Culture 5.0 → 0 (read 0, call unfavorable, moonlighting No). Score 5.478 → 4.040, #5 → #8; MCG #5, Henry Ford #6, LSU #7. Neutral values left: 1 (Ohio State coordinator). Revisit after 10/27.
 - 2026-10-21: **UMass Baystate ID (Springfield, MA)**: new interview offered. Not scored yet; needs Clinical, Research, Geography tier (Springfield vs Boston area), interview read, call, moonlighting, and interview date.
 - 2026-10-25: Henry Ford removed from scoring and table; NGMC not ranked (shown like Ann Arbor). Ranked list is now 8 programs.
+- 2026-10-25: UMass Baystate: PGY-4 $84,581 confirmed, optional CCM (Field 3.33), 4 weeks vacation. Still needs Clinical, Research, Geography (Springfield), read, call, moonlighting.
