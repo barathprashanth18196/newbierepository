@@ -84,11 +84,11 @@ PROGRAMS = {
     # 10/13 (later): Barath's provisional assumptions until 10/28: PD, faculty, fellows liked (coordinator neutral),
     # call favorable, moonlighting No. Verify at the interview.
     # 10/19: Barath "Ohio State field preference is 0" (plain ID) and Geography 10 (Columbus joins Michigan).
-    "Ohio State": (10, 0, 10, 8.75, 1, 15, "No"),
+    "Ohio State": (10, 0, 10, 10, 1, 15, "No"),  # 10/25: coordinator liked ("ohio coordinator i liked them") -> read 10
     # 2026-10-25: UMass Baystate (Springfield, ID with optional CCM). Barath: clinical "same as mcg", research 0,
     # field 3.33 (optional CCM), geography "same as mcw", moonlighting No, 4 weeks vacation. Read 7.5 ASSUMED
     # ("assume i like pd faculty and pc; fellows 0, small program"). 24-hour call unknown -> neutral.
-    "UMass Baystate": (3.33, 3.33, 3.33, 7.5, None, 20, "No"),
+    "UMass Baystate": (3.33, 3.33, 3.33, 7.5, 0, 20, "No"),  # 10/25: "24 hr present unfav"
 }
 
 
@@ -152,7 +152,6 @@ MDA_REGRET_PCT = {
 # Interview-read items still counted as a neutral 1.25 (unknown, not a real opinion).
 # Barath, 2026-10-13: by certification there must be no neutral values anywhere in the table.
 NEUTRAL_READ_ITEMS = {
-    "Ohio State": ["coordinator"],  # interview 10/28 (read items otherwise provisional, see PROGRAMS)
 }
 
 
