@@ -6,7 +6,7 @@ Source: Plaud interview transcripts (Wayne State from its brochure; Ohio State n
 |---|---|---|---|
 | Tufts | 2.5 research | 7 research + 2-wk micro | Fellowship director: Y1 8.5 mo consults; Y2 3.5 mo consults |
 | Ohio State | ? | ? | Interview 10/28 |
-| UMass Chan | few (micro, IC, stewardship) | more research | PD: "second year more dedicated research time"; no count given |
+| UMass Chan | 3.5 (15–15.5 wk) | 4 (17–19 wk) | Counted from the 2026–27 fellow master schedule (Barath's photos, 10/27): 3 first-years, 4 second-years; inpatient 29–33 wk; vacation 4–5 wk |
 | MCW (CCM) | ~6.5 | ~6.5 | 1st-yr CCM fellow: 3.5 mo core call, 6.5 mo ICU electives/research |
 | MCG (Heme/Onc) | some | some | PD: Y1–2 front-loaded core, last months elective/research; Y3 tailored |
 | LSU (Heme/Onc) | 0 | few | PD: Y1 clinically heavy; fellow: Y3 ~2 required months, rest elective |
@@ -15,3 +15,5 @@ Source: Plaud interview transcripts (Wayne State from its brochure; Ohio State n
 | Wayne State | 6 | 5–6 | Brochure |
 | NGMC (PCCM) | 2 wk research | 6 wk research + ICU electives | PD; Y3 6 wk research + advanced electives |
 | Ann Arbor | ~6 | ~6 | PD: 12 clinical months over 2 yrs; fellow: "six and six", interspersed |
+
+Board shows counts only (Barath 10/27: "dont write research word in the elective count"); details live in the board notes.
