@@ -77,3 +77,4 @@ No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Henry Ford, Tufts, LSU (m
 - 2026-10-27: Baystate Field 3.33 -> 0 (Barath; PD said no combined ID+CCM). 2.574, #8.
 - 2026-10-27: UMass Chan research 10 -> 6.67 (Barath "umass research 6.6"). 5.358, #5; MCW #3, MCG #4. Tiers: Tufts=OSU=MCG 10 > MCW=UMass 6.67 > LSU=NGMC 3.33 > 0.
 - 2026-10-27: Wayne State: field 3.33 (optional CCM), research 6.67 ("6.67 works"), clinical neutral 5 ("teaching decided during the iv"), read 3.75 (PC not liked; PD, faculty, fellows TBD). 5.566, #5. Fill clinical + read items after today's interview.
+- 2026-10-27: Wayne State clinical 6.67 ("same as mcw clinical for now", provisional). 5.858, #3; MCW #4, MCG #5. Neutral left: Wayne State PD, faculty, fellows.

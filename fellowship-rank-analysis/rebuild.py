@@ -81,7 +81,7 @@ PROGRAMS = {
     "ETSU": (3.33, 6.67, 0, 7.5, 1, 15, "No"),  # 10/21: call favorable (Barath, after the 10/12 meet-and-greet detail: ID call is home pager only, ICU is shifts);  # clinical 6; read 7.5 = PD, faculty, fellows liked, coordinator not (10/13); 10/12 meet-and-greet: visa holders can't moonlight; 10/13: call unfavorable (Barath: 24-h call M-F on ID + 1 weekend/month)
     # 10/19 (before the 10/27 interview): Barath "wayne state clinic 0 and culture 0" -> clinical 0 (was 3.33),
     # read 0, call unfavorable, moonlighting No. Pre-interview call by Barath's choice; revisit after 10/27.
-    "Wayne State": (NEUTRAL, 3.33, 10, 3.75, 0, 21, "No"),  # 10/27: field 3.33 (optional CCM); clinical neutral until the interview; read: PC not liked, PD/faculty/fellows neutral 1.25 each
+    "Wayne State": (6.67, 3.33, 10, 3.75, 0, 21, "No"),  # 10/27: clinical 6.67 ("same as mcw clinical for now"); field 3.33 (optional CCM); read: PC not liked, PD/faculty/fellows neutral 1.25 each
     # 10/13: new program. Barath: clinical 10, research 10 (Tufts tier), Field "similar to Tufts" (3.33),
     # Columbus = Boston geography tier (7.5). Culture unknown until the 10/28 interview; J-1 assumed.
     # 10/13 (later): Barath's provisional assumptions until 10/28: PD, faculty, fellows liked (coordinator neutral),
@@ -159,7 +159,6 @@ NEUTRAL_READ_ITEMS = {
 }
 # Other inputs still neutral (not a real score yet).
 NEUTRAL_OTHER = {
-    "Wayne State": ["clinical"],  # 10/27: "teaching team will be decided during the iv"
 }
 
 
