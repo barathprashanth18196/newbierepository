@@ -17,6 +17,26 @@
 - American English, a little sarcasm, smiley faces.
 - Start every message with the timestamp marker.
 
+**How to keep the Fellowship Rank Board going** (https://claude.ai/artifact/9PD9iRMe48Y3k2ewkEJuGt, v21):
+
+1. **Start each new session** with Artifact `action: "read"` on that URL. It returns the saved full page; treat that as the live version, since Barath may have edited it. Copy it to the scratchpad. `fellowship-rank-analysis/rank-board.html` is the repo copy, current as of v21.
+2. **Publish** with Artifact `file_path` set to the scratchpad copy plus `url` set to the board URL. Without `url` you get a new artifact. Don't pass `icon`. After each publish, copy the file back to `fellowship-rank-analysis/rank-board.html` and commit it.
+3. **Page layout:** one `<table>` with a sticky Program column and sticky header. Column groups:
+   - Program
+   - Teaching & research: Clinical, Research, Papers kept, Division-led, Trials, Faculty publishing, CCM research (`td.ccm`), Electives Y1/Y2 (`td.elec`), Teaching
+   - Field & place: Field, Geography
+   - Culture: Interview read, 24-hr call, Moonlighting, Culture
+   - Total (`td.total`)
+   - Money: PGY-4 salary (+3%), Take-home, Rent 30%, Max rent
+   - Tamil Sangam (`td.tam`)
+4. **Rows** are `<tr><td class="prog"><span class="rk">N</span><b>Name</b><small>…</small></td>…</tr>`. Unranked rows use `<tr class="off">` with rank "—".
+   - Edit rows with a small Python script keyed on `<b>Name</b>`, and assert every replacement actually happened.
+   - After a rescore, change the cell values, the `rk` numbers and the row order to match `rebuild.py` output.
+   - Cell classes: `prov` = provisional, `fav`/`unfav` = call, `est` + `*` = estimated salary.
+5. **Notes** are the `.notes` `<p>` paragraphs under the table. They cover the formula, research counts, CCM research, electives sources, money assumptions and estimate footnotes. Update the matching note when a column's meaning changes.
+6. **Money:** compute with `fellowship-rank-analysis/takehome.py` `month(state, salary*1.03, city)`, using salaries from `pgy4_salaries_2026-10-25.json`. Then: rent = 30% of take-home, max rent = take-home − $3,000.
+7. **Electives cells** hold numbers only ("2.5 / 7", "—" when the program gave no number). Details go in the notes and in `electives_by_program_2026-10-27.md`.
+
 **Upcoming:**
 - **Ohio State interview 10/28.** Its read and call (10 / favorable) are assumptions; re-score from the Plaud recording. Fill its electives cell, now "? / ?", and confirm the salary (2025-26 figure).
 - Electives counts live in `electives_by_program_2026-10-27.md`. The board shows numbers only, never the word "research" in the cell.
