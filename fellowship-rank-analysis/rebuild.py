@@ -32,12 +32,14 @@ RESEARCH = {
     # Still 4 tiers, no re-spacing.
     "Tufts": 10, "Ohio State": 10, "MCG": 10,  # maximum (Ohio State 10/13; MCG from 6.67, 10/20)
     # 2026-10-21: Barath "UMass research is 10 ... 10 means resources, time, support all are present". Still 4 tiers.
+    # 2026-10-27: Barath "6.67 works" for Wayne State (papers + 11-12 elective months; was 0). Joins MCW/UMass tier.
+    "Wayne State": 6.67,
     # 2026-10-27: Barath "umass research 6.6" -> joins MCW in the second tier. Still 4 tiers.
     "UMass Chan": 6.67,  # (10/16 10, 10/19 6.67, 10/21 10, 10/27 6.67)
     "MCW": 6.67,  # second tier (MCW from 3.33, 10/19)
     "LSU New Orleans": 3.33, "NGMC": 3.33,  # one step above lowest
     # 2026-10-16: Barath "Ann Arbor research is 0" (was 3.33). Still 4 tiers, no re-spacing.
-    "Henry Ford Providence": 0, "ETSU": 0, "Ann Arbor": 0, "Wayne State": 0, "UMass Baystate": 0,  # lowest (Wayne State from 10, 10/20)
+    "Henry Ford Providence": 0, "ETSU": 0, "Ann Arbor": 0, "UMass Baystate": 0,  # lowest (Wayne State from 10, 10/20)
 }
 
 # Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting, EMR.
@@ -79,7 +81,7 @@ PROGRAMS = {
     "ETSU": (3.33, 6.67, 0, 7.5, 1, 15, "No"),  # 10/21: call favorable (Barath, after the 10/12 meet-and-greet detail: ID call is home pager only, ICU is shifts);  # clinical 6; read 7.5 = PD, faculty, fellows liked, coordinator not (10/13); 10/12 meet-and-greet: visa holders can't moonlight; 10/13: call unfavorable (Barath: 24-h call M-F on ID + 1 weekend/month)
     # 10/19 (before the 10/27 interview): Barath "wayne state clinic 0 and culture 0" -> clinical 0 (was 3.33),
     # read 0, call unfavorable, moonlighting No. Pre-interview call by Barath's choice; revisit after 10/27.
-    "Wayne State": (0, 0, 10, 0, 0, 21, "No"),
+    "Wayne State": (NEUTRAL, 3.33, 10, 3.75, 0, 21, "No"),  # 10/27: field 3.33 (optional CCM); clinical neutral until the interview; read: PC not liked, PD/faculty/fellows neutral 1.25 each
     # 10/13: new program. Barath: clinical 10, research 10 (Tufts tier), Field "similar to Tufts" (3.33),
     # Columbus = Boston geography tier (7.5). Culture unknown until the 10/28 interview; J-1 assumed.
     # 10/13 (later): Barath's provisional assumptions until 10/28: PD, faculty, fellows liked (coordinator neutral),
@@ -153,6 +155,11 @@ MDA_REGRET_PCT = {
 # Interview-read items still counted as a neutral 1.25 (unknown, not a real opinion).
 # Barath, 2026-10-13: by certification there must be no neutral values anywhere in the table.
 NEUTRAL_READ_ITEMS = {
+    "Wayne State": ["PD", "faculty", "fellows"],  # 10/27, pre-interview
+}
+# Other inputs still neutral (not a real score yet).
+NEUTRAL_OTHER = {
+    "Wayne State": ["clinical"],  # 10/27: "teaching team will be decided during the iv"
 }
 
 
@@ -164,6 +171,8 @@ def neutral_audit():
             out.append((n, "interview read"))
         for item in NEUTRAL_READ_ITEMS.get(n, []):
             out.append((n, f"read item: {item}"))
+        for item in NEUTRAL_OTHER.get(n, []):
+            out.append((n, item))
         if call is None:
             out.append((n, "24-hour call"))
         if moon not in ("Yes", "No"):
