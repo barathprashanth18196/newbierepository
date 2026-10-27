@@ -75,3 +75,4 @@ No pending inputs: UMass Chan (10/16), MCW, MCG, NGMC, Henry Ford, Tufts, LSU (m
 - 2026-10-25: Baystate 24-hr call unfavorable (2.979, #8). Ohio State coordinator liked -> read 10, 7.286, #2. Neutral values left: 0.
 - 2026-10-26: **UMass Baystate interviewed.** Call favorable (Barath); read 7.5 confirmed (PD, coordinator, faculty liked; fellows not); research 0, clinical 3.33 unchanged. 3.407, #8 (0.072 behind ETSU). Open: PD said no combined ID+CCM track (sequential only), so check Field 3.33 "optional CCM" with Barath. Notes in baystate_interview_2026-10-26.md.
 - 2026-10-27: Baystate Field 3.33 -> 0 (Barath; PD said no combined ID+CCM). 2.574, #8.
+- 2026-10-27: UMass Chan research 10 -> 6.67 (Barath "umass research 6.6"). 5.358, #5; MCW #3, MCG #4. Tiers: Tufts=OSU=MCG 10 > MCW=UMass 6.67 > LSU=NGMC 3.33 > 0.

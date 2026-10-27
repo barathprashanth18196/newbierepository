@@ -32,7 +32,8 @@ RESEARCH = {
     # Still 4 tiers, no re-spacing.
     "Tufts": 10, "Ohio State": 10, "MCG": 10,  # maximum (Ohio State 10/13; MCG from 6.67, 10/20)
     # 2026-10-21: Barath "UMass research is 10 ... 10 means resources, time, support all are present". Still 4 tiers.
-    "UMass Chan": 10,  # maximum again (10/16 10, 10/19 6.67, 10/21 10)
+    # 2026-10-27: Barath "umass research 6.6" -> joins MCW in the second tier. Still 4 tiers.
+    "UMass Chan": 6.67,  # (10/16 10, 10/19 6.67, 10/21 10, 10/27 6.67)
     "MCW": 6.67,  # second tier (MCW from 3.33, 10/19)
     "LSU New Orleans": 3.33, "NGMC": 3.33,  # one step above lowest
     # 2026-10-16: Barath "Ann Arbor research is 0" (was 3.33). Still 4 tiers, no re-spacing.
