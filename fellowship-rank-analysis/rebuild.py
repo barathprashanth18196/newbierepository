@@ -88,7 +88,7 @@ PROGRAMS = {
     # 2026-10-25: UMass Baystate (Springfield, ID with optional CCM). Barath: clinical "same as mcg", research 0,
     # field 3.33 (optional CCM), geography "same as mcw", moonlighting No, 4 weeks vacation. Read 7.5 ASSUMED
     # ("assume i like pd faculty and pc; fellows 0, small program"). 24-hour call unknown -> neutral.
-    "UMass Baystate": (3.33, 3.33, 3.33, 7.5, 1, 20, "No"),  # 10/26 interview: call favorable; read 7.5 CONFIRMED (PD, coordinator, faculty liked; fellows not). Was 10/25 "24 hr present unfav"
+    "UMass Baystate": (3.33, 0, 3.33, 7.5, 1, 20, "No"),  # 10/27: field 0 (Barath "drop it to 0"; PD: no combined ID+CCM, sequential only). 10/26 interview: call favorable; read 7.5 CONFIRMED (PD, coordinator, faculty liked; fellows not). Was 10/25 "24 hr present unfav"
 }
 
 
