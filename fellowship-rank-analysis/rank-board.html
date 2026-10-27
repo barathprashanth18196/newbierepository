@@ -1,0 +1,96 @@
+<title>Fellowship Rank Board</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single wide ledger; program names pinned left, header pinned top, everything else scrolls under them. */
+:root{
+  --bg:#f6f7f9; --surface:#ffffff; --fg:#1b2230; --muted:#5d6878; --line:#dde2ea;
+  --pin:#eef2f8; --accent:#2f5d8a; --good:#2e7d4f; --warn:#a4651a; --bad:#b23a3a; --chip:#e7edf5;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12161d; --surface:#181d26; --fg:#e4e8ef; --muted:#9aa5b5; --line:#2b3341;
+  --pin:#1f2632; --accent:#8db6e0; --good:#6cc28f; --warn:#e0a35a; --bad:#ec8a8a; --chip:#243042; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12161d; --surface:#181d26; --fg:#e4e8ef; --muted:#9aa5b5; --line:#2b3341;
+  --pin:#1f2632; --accent:#8db6e0; --good:#6cc28f; --warn:#e0a35a; --bad:#ec8a8a; --chip:#243042; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:14px;line-height:1.45}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 40px;display:grid;gap:16px}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(22px,4vw,30px);margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:0;max-width:70ch}
+.scroller{overflow:auto;max-height:78vh;border:1px solid var(--line);border-radius:10px;background:var(--surface);min-width:0}
+table{border-collapse:separate;border-spacing:0;font-variant-numeric:tabular-nums;min-width:1500px;width:100%}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);white-space:nowrap;text-align:right;vertical-align:top}
+thead th{position:sticky;top:0;z-index:2;background:var(--pin);font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);font-weight:600;text-align:right}
+thead th.grp{text-align:center;color:var(--accent);border-bottom:1px solid var(--line)}
+thead tr:nth-child(2) th{top:33px}
+th.prog,td.prog{position:sticky;left:0;z-index:1;text-align:left;background:var(--pin);border-right:1px solid var(--line);min-width:170px}
+thead th.prog{z-index:3}
+td.prog .rk{display:inline-block;min-width:1.6em;font-family:var(--mono);color:var(--muted)}
+td.prog b{font-weight:600}
+td.prog small{display:block;color:var(--muted);font-size:11.5px}
+td.total{font-weight:600;color:var(--accent)}
+td.money{font-family:var(--mono)}
+td.rent{font-family:var(--mono);font-weight:600}
+.fav{color:var(--good)} .unfav{color:var(--bad)} .prov{color:var(--warn)}
+tr.off td{color:var(--muted)} tr.off td.prog{font-style:italic}
+.est{color:var(--warn)}
+th.tam,td.tam{text-align:left;white-space:normal;min-width:240px;max-width:300px}
+td.tam .y{color:var(--good);font-weight:600} td.tam .m{color:var(--warn);font-weight:600} td.tam .n{color:var(--bad);font-weight:600}
+th.ccm,td.ccm{white-space:normal;min-width:130px}
+th.elec,td.elec{white-space:nowrap;font-family:var(--mono)}
+td.ccm.na{color:var(--muted)}
+.notes{display:grid;gap:6px;color:var(--muted);max-width:90ch;font-size:13px}
+.notes p{margin:0}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto}}
+</style>
+<div class="wrap">
+  <h1>Fellowship Rank Board</h1>
+  <p class="sub">Score, research and money for every program as of Oct 25, 2026. Henry Ford is off the list; NGMC and Ann Arbor are shown but not ranked. Baystate interviewed 10/26. Program names stay pinned on the left while you scroll right.</p>
+  <div class="scroller" tabindex="0" aria-label="Scoring table, scrolls horizontally">
+  <table>
+    <thead>
+      <tr>
+        <th class="prog" rowspan="2">Program</th>
+        <th class="grp" colspan="9">Teaching &amp; research</th>
+        <th class="grp" colspan="2">Field &amp; place</th>
+        <th class="grp" colspan="4">Culture</th>
+        <th rowspan="2">Total</th>
+        <th class="grp" colspan="4">Money</th>
+        <th rowspan="2" class="tam">Tamil Sangam</th>
+      </tr>
+      <tr>
+        <th>Clinical</th><th>Research</th><th>Papers kept</th><th>Division-led</th><th>Trials</th><th>Faculty publishing</th><th class="ccm">CCM research<br>(PCCM-led, 2 yrs)</th><th class="elec">Electives ± research<br>Y1 / Y2 (months)</th><th>Teaching (35%)</th>
+        <th>Field (25%)</th><th>Geography (22.9%)</th>
+        <th>Interview read</th><th>24-hr call</th><th>Moonlighting</th><th>Culture (17.1%)</th>
+        <th>PGY-4 salary /yr<br>(+3% at start)</th><th>Take-home /mo<br>(after tax &amp; $300)</th><th>Rent /mo (30%)</th><th>Max rent /mo<br>(after $3,000 living)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="prog"><span class="rk">1</span><b>Tufts</b><small>ID, optional CCM year</small></td><td>10</td><td>10</td><td>21</td><td>12</td><td>3 RCTs + 1</td><td>7/38</td><td class="ccm"><b>7</b> papers + 3 trials</td><td class="elec">2.5 / 7</td><td>10</td><td>3.33</td><td>6.67</td><td>10</td><td class="fav">Favorable</td><td>No</td><td>8.75</td><td class="total">7.356</td><td class="money">$98,268</td><td class="money">$5,791</td><td class="rent">$1,737</td><td class="rent">$2,791</td><td class="tam"><span class="y">Yes</span> · New England Tamil Sangam (since 1970s) + Tamil Makkal Mandram; Sri Lakshmi Temple</td></tr>
+      <tr><td class="prog"><span class="rk">2</span><b>Ohio State</b><small>ID</small></td><td>10</td><td>10</td><td>31</td><td>1</td><td>2 RCTs</td><td>2–3/15</td><td class="ccm"><b>5</b> papers + 1 trial (protocol)</td><td class="elec">? / ?</td><td>10</td><td>0</td><td>10</td><td class="prov">10 prov.</td><td class="prov">Favorable prov.</td><td>No</td><td>8.75</td><td class="total">7.286</td><td class="money est">$77,873*</td><td class="money">$4,744</td><td class="rent">$1,423</td><td class="rent">$1,744</td><td class="tam"><span class="m">Partly</span> · Tamil Nadu Foundation Central Ohio + OSU student Tamil Sangam; no city sangam found (Cincinnati's ~1.5 h)</td></tr>
+      <tr><td class="prog"><span class="rk">3</span><b>Wayne State</b><small>ID, optional CCM, Detroit</small></td><td class="prov">6.67 prov.</td><td>6.67</td><td>41</td><td>4</td><td>2 RCTs</td><td>5/12</td><td class="ccm"><b>0</b> papers + 0 ICU trials</td><td class="elec">6 / 5–6</td><td>6.67</td><td>3.33</td><td>10</td><td class="prov">3.75 prov.</td><td class="unfav">Unfavorable</td><td>No</td><td>2.34</td><td class="total">5.858</td><td class="money est">$73,495*</td><td class="money">$4,383</td><td class="rent">$1,315</td><td class="rent">$1,383</td><td class="tam"><span class="y">Yes</span> · Michigan Tamil Sangam (since 1975, Tamil schools); state Tamil Heritage Month</td></tr>
+      <tr><td class="prog"><span class="rk">4</span><b>MCW</b><small>CCM</small></td><td>6.67</td><td>6.67</td><td>13</td><td>4</td><td>1 RCT</td><td>3/38</td><td class="ccm na">n/a</td><td class="elec">6.5 / 6.5</td><td>6.67</td><td>6.67</td><td>3.33</td><td>5</td><td class="fav">Favorable</td><td>No</td><td>5.63</td><td class="total">5.726</td><td class="money">$84,140</td><td class="money">$5,101</td><td class="rent">$1,530</td><td class="rent">$2,101</td><td class="tam"><span class="y">Yes</span> · Greater Milwaukee Tamil Sangam (since 2005); Hindu Temple of Wisconsin</td></tr>
+      <tr><td class="prog"><span class="rk">5</span><b>MCG</b><small>Heme/Onc</small></td><td>3.33</td><td>10</td><td>27</td><td>11</td><td>15</td><td>3/19</td><td class="ccm na">n/a</td><td class="elec">— / —</td><td>6.67</td><td>10</td><td>0</td><td>6.25</td><td class="unfav">Unfavorable</td><td>Yes</td><td>5.16</td><td class="total">5.714</td><td class="money">$68,001</td><td class="money">$4,220</td><td class="rent">$1,266</td><td class="rent">$1,220</td><td class="tam"><span class="n">No</span> · none found; Hindu Temple Society (Venkateshwara); Atlanta ~2.5 h</td></tr>
+      <tr><td class="prog"><span class="rk">6</span><b>UMass Chan</b><small>ID, Worcester</small></td><td>6.67</td><td>6.67</td><td>10</td><td>2</td><td>1 RCT</td><td>3/45</td><td class="ccm na">n/a</td><td class="elec">3.5 / 4</td><td>6.67</td><td>0</td><td>6.67</td><td>10</td><td class="fav">Favorable</td><td>No</td><td>8.75</td><td class="total">5.358</td><td class="money est">$82,796*</td><td class="money">$4,955</td><td class="rent">$1,486</td><td class="rent">$1,955</td><td class="tam"><span class="y">Yes</span> · New England Tamil Sangam covers MA (Boston ~45 min); big Indian hub in Shrewsbury</td></tr>
+      <tr><td class="prog"><span class="rk">7</span><b>LSU</b><small>Heme/Onc</small></td><td>3.33</td><td>3.33</td><td>4</td><td>0</td><td>1 RCT</td><td>0/8</td><td class="ccm na">n/a</td><td class="elec">0 / —</td><td>3.33</td><td>10</td><td>0</td><td>5</td><td class="unfav">Unfavorable</td><td>No</td><td>3.13</td><td class="total">4.200</td><td class="money">$71,139</td><td class="money">$4,483</td><td class="rent">$1,345</td><td class="rent">$1,483</td><td class="tam"><span class="n">No</span> · none found in New Orleans or Louisiana</td></tr>
+      <tr><td class="prog"><span class="rk">8</span><b>ETSU</b><small>ID + CCM</small></td><td>3.33</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0/13</td><td class="ccm"><b>0</b> papers + 0 trials (all 1 kept is ID)</td><td class="elec">2 / 2</td><td>1.67</td><td>6.67</td><td>0</td><td>7.5</td><td class="fav">Favorable</td><td>No</td><td>7.19</td><td class="total">3.479</td><td class="money est">~$72,343*</td><td class="money">$4,700</td><td class="rent">$1,410</td><td class="rent">$1,700</td><td class="tam"><span class="n">No</span> · none in East Tennessee; Tennessee Tamil Sangam is in Nashville (~4.5 h)</td></tr>
+      <tr><td class="prog"><span class="rk">9</span><b>UMass Baystate</b><small>ID, Springfield · 4 wks vacation</small></td><td>3.33</td><td>0</td><td>4</td><td>1</td><td>1 RCT</td><td>—</td><td class="ccm"><b>1</b> paper + 0 trials</td><td class="elec">6 / 6</td><td>1.67</td><td>0</td><td>3.33</td><td>7.5</td><td class="fav">Favorable</td><td>No</td><td>7.19</td><td class="total">2.574</td><td class="money">$87,118</td><td class="money">$5,188</td><td class="rent">$1,557</td><td class="rent">$2,188</td><td class="tam"><span class="m">Nearby</span> · Connecticut Tamil Sangam events in Newington, CT (~35 min); Boston's ~1.5 h</td></tr>
+      <tr class="off"><td class="prog"><span class="rk">—</span><b>NGMC</b><small>PCCM · not ranked</small></td><td>0</td><td>3.33</td><td>3</td><td>2</td><td>0</td><td>2/29</td><td class="ccm na">n/a</td><td class="elec">0.5 / 1.5</td><td>1.67</td><td>6.67</td><td>3.33</td><td>5</td><td class="unfav">Unfavorable</td><td>No</td><td>3.13</td><td>—</td><td class="money">$82,400</td><td class="money">$5,010</td><td class="rent">$1,503</td><td class="rent">$2,010</td><td class="tam"><span class="m">Nearby</span> · Atlanta ~1 h (Greater Atlanta Tamil Sangam; recent activity unclear)</td></tr>
+      <tr class="off"><td class="prog"><span class="rk">—</span><b>Ann Arbor</b><small>ID, Trinity · not ranked</small></td><td>0</td><td>0</td><td>—</td><td>—</td><td>—</td><td>—</td><td class="ccm na">n/a</td><td class="elec">6 / 6</td><td>0</td><td>0</td><td>10</td><td>2.5</td><td class="fav">Favorable</td><td>No</td><td>4.06</td><td>—</td><td class="money">$75,117</td><td class="money">$4,618</td><td class="rent">$1,385</td><td class="rent">$1,618</td><td class="tam"><span class="y">Yes</span> · Michigan Tamil Sangam (metro Detroit, ~40 min)</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="notes">
+    <p><b>Total</b> = 0.35 × Teaching + 0.25 × Field + 0.229 × Geography + 0.171 × Culture. Teaching = half Clinical, half Research. Culture = 62.5% interview read + 25% call + 12.5% moonlighting.</p>
+    <p><b>Research counts</b>: program-led observational papers from Oct 16, 2024 to Oct 16, 2026 after all exclusion rules; division-led means the first or last author is in the fellowship's own division; faculty publishing is division faculty with a first- or last-author paper over the number on the faculty page.</p>
+    <p><b>CCM research</b> (optional-CCM programs only): papers and trials led by the PCCM / critical care division, same window and rules. Ohio State's trial is a published protocol (OPTI-OXYGEN). Wayne State PCCM's 15 led papers were all NIS, reviews or case reports; its one trial is a VA sleep study, not ICU. Ohio State: Brummel (ICU survivorship) is the main mentor. Baystate: Steingrub and Tidswell are site investigators only. ETSU (ID + CCM) was one combined search: 1 kept paper, ID (pharmacy-led), 0 CCM.</p>
+    <p><b>Baystate ID</b> (screened 10/25): 79 hits, 44 Baystate-led, 4 kept: neurosyphilis cohort (Mariano, ID; Rhode Island data), MSSA bacteremia (pharmacy), host-protein test and antibiotics (EM), MINT age substudy (cardiology). Trial: HCV mobile telemedicine RCT (Friedmann, health services research, not ID). Research score stays 0 per Barath.</p>
+    <p><b>Electives ± research</b> = months off inpatient service (research plus non-inpatient electives, no vacation) in fellowship years 1 and 2. Sources, 10/27: Plaud interview transcripts; Wayne State from its brochure; UMass Chan counted week by week from the 2026–27 fellow master schedule Barath photographed (3 first-years 15–15.5 weeks, 4 second-years 17–19 weeks; inpatient 29–33 weeks; MGH transplant, Bolivia and STI course counted as electives). Tufts 2.5 / 7 research months (Y2 also a 2-week micro block). MCW: CCM fellow said 3.5 months core ICU, 6.5 elective. ETSU: 1 research + 1 VA scholarly month a year (PD said 3–4). Baystate: alternates monthly; about half of the off months are research, the rest micro, TB, wound, peds ID, transplant. NGMC: 2 weeks / 6 weeks research (year 3: 6 weeks + advanced electives). LSU: year 1 none, year 3 about 10 months. MCG and LSU year 2: electives mentioned, no number given (—). Ohio State: interview 10/28.</p>
+    <p><b>Money</b>: single filer, taxed as a resident (J-1 after two years, so FICA applies), projected 2027 federal brackets, plus state and city tax (Columbus 2.5%, Detroit 2.4% for residents). Take-home is what's left each month after all taxes and $300 for health insurance and other deductions. Rent is 30% of take-home. Max rent is take-home minus Barath's $3,000 average monthly living costs. Wayne State if you live outside Detroit: take-home $4,455, rent $1,336, max rent $1,455. Salaries include a 3% raise on the latest published figure (Barath 10/27: expect at least 3% by the time he starts).</p>
+    <p><span class="est">*</span> Estimate or older year: Ohio State (likely 2025–26), UMass Worcester (2024–25), ETSU (2025–26 plus raise), Wayne State (2025–26). NGMC $80,000 per Barath.</p>
+  </div>
+</div>

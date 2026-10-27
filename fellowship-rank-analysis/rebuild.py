@@ -25,10 +25,21 @@ WEIGHTS = [0.35, 0.25, 0.229, 0.171]
 TEACHING_SPLIT = (0.5, 0.5)
 RESEARCH = {
     # 2026-10-13: Barath put MCG and UMass in the same tier; the remaining 4 tiers were re-spaced 0-10.
-    "Tufts": 10, "Ohio State": 10,                  # maximum (Ohio State added 10/13, same tier as Tufts)
-    "MCG": 6.67, "UMass Chan": 6.67,                # second tier (same tier, 10/13)
-    "MCW": 3.33, "LSU New Orleans": 3.33, "NGMC": 3.33, "Ann Arbor": 3.33,  # one step above lowest
-    "Henry Ford Providence": 0, "ETSU": 0, "Wayne State": 0,          # lowest
+    # 2026-10-16: after the interview Barath moved UMass up to the top tier ("Research is 10 for UMass").
+    # Still 4 tiers, so no re-spacing; MCG stays alone in the second tier.
+    # 2026-10-19: Barath "wayne state research is 10" and "mcw and umass same as mcg". Still 4 tiers.
+    # 2026-10-20: after the PubMed and faculty-page checks, Barath "score wayne research 0, mcg research 10".
+    # Still 4 tiers, no re-spacing.
+    "Tufts": 10, "Ohio State": 10, "MCG": 10,  # maximum (Ohio State 10/13; MCG from 6.67, 10/20)
+    # 2026-10-21: Barath "UMass research is 10 ... 10 means resources, time, support all are present". Still 4 tiers.
+    # 2026-10-27: Barath "6.67 works" for Wayne State (papers + 11-12 elective months; was 0). Joins MCW/UMass tier.
+    "Wayne State": 6.67,
+    # 2026-10-27: Barath "umass research 6.6" -> joins MCW in the second tier. Still 4 tiers.
+    "UMass Chan": 6.67,  # (10/16 10, 10/19 6.67, 10/21 10, 10/27 6.67)
+    "MCW": 6.67,  # second tier (MCW from 3.33, 10/19)
+    "LSU New Orleans": 3.33, "NGMC": 3.33,  # one step above lowest
+    # 2026-10-16: Barath "Ann Arbor research is 0" (was 3.33). Still 4 tiers, no re-spacing.
+    "Henry Ford Providence": 0, "ETSU": 0, "Ann Arbor": 0, "UMass Baystate": 0,  # lowest (Wayne State from 10, 10/20)
 }
 
 # Culture sub-weights: interview read, 24-hour call, leave (>=20 days), moonlighting, EMR.
@@ -52,24 +63,44 @@ NEUTRAL = 5  # not yet interviewed / unknown
 #   Milwaukee = Gainesville 5 > New Orleans 2.5 > Augusta, Johnson City 0
 # 2026-10-13: Columbus joins the Boston tier; Milwaukee alone; Gainesville moves down with New Orleans:
 #   Michigan 10 > Boston area = Columbus 7.5 > Milwaukee 5 > New Orleans = Gainesville 2.5 > Augusta, Johnson City 0
+# 2026-10-21: Barath "mcw geo is 2.5, rearrange scoring" -> Milwaukee joins New Orleans and Gainesville;
+#   the empty tier is closed and the 4 tiers re-spaced: Michigan = Columbus 10 > Boston area 6.67 >
+#   Milwaukee = New Orleans = Gainesville 3.33 > Augusta, Johnson City 0
 # Field tiers (2026-10-07, 4 tiers evenly spaced): Heme/Onc 10 > CCM / PCCM / ID-CCM combined 6.67
 #   > ID + optional CCM 3.33 > plain ID 0
 PROGRAMS = {
-    "MCW": (6.67, 6.67, 5, 5, 1, 15, "No"),  # clinical 8; 10/7: PD not liked; 10/12: faculty not liked (fellows, coordinator)
-    "Henry Ford Providence": (0, 10, 10, 2.5, 0, 20, "No"),  # clinical 4
-    "LSU New Orleans": (3.33, 10, 2.5, 5, 0, 28, "No"),  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
+    "MCW": (6.67, 6.67, 3.33, 5, 1, 15, "No"),  # clinical 8; 10/7: PD not liked; 10/12: faculty not liked (fellows, coordinator)
+    # 2026-10-25: Barath "henry ford not ranking, remove it from the table" -> dropped entirely.
+    "LSU New Orleans": (3.33, 10, 0, 5, 0, 28, "No"),  # 10/25: geography 0 (Barath "lsu geography change to 0"; New Orleans joins Augusta/Johnson City tier)  # clinical 6 (10/9: "same as ETSU", was 8). 10/7: PD not liked; coordinator not liked (faculty, fellows). 10/9: moonlighting No (manual: J-1 may not moonlight)
     "MCG": (3.33, 10, 0, 6.25, 0, 21, "Yes"),  # clinical 6 (10/12: "same as LSU", was 8); 10/7: PD not liked (fellows, coordinator, faculty half)
-    "Tufts": (10, 3.33, 7.5, 10, 1, 20, "No"),  # clinical 10
-    "UMass Chan": (6.67, 0, 7.5, 6.25, 1, 20, "No"),  # clinical 8; 10/12: PD liked (other read items neutral 1.25 until 10/16), moonlighting not possible; 10/13: call favorable PROVISIONAL (Barath "assume", verify 10/16)
-    "NGMC": (0, 6.67, 2.5, 5, 0, 15, "No"),  # clinical 4; PD, coordinator liked; 10/13: faculty NOT liked (was liked); 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
-    "ETSU": (3.33, 6.67, 0, 7.5, 0, 15, "No"),  # clinical 6; read 7.5 = PD, faculty, fellows liked, coordinator not (10/13); 10/12 meet-and-greet: visa holders can't moonlight; 10/13: call unfavorable (Barath: 24-h call M-F on ID + 1 weekend/month)
-    "Ann Arbor": (0, 0, 10, 2.5, 1, 28, "No"),  # clinical 4; 10/7: PD not liked (coordinator only)
-    "Wayne State": (3.33, 0, 10, None, None, 21, "TBD"),  # clinical 6
+    "Tufts": (10, 3.33, 6.67, 10, 1, 20, "No"),  # clinical 10
+    # 10/16 interview: faculty, fellows, coordinator liked -> read 10; call favorable kept (7-8 weekends/yr,
+    # Barath "keep it favorable, we'll see"). Field briefly 3.33 (ID->CCM via a Brown 1-yr CCM grad), then
+    # Barath later 10/16: "UMass field score bring it back to same as Ann Arbor" -> 0 (plain ID).
+    "UMass Chan": (6.67, 0, 6.67, 10, 1, 20, "No"),  # clinical 8; 10/12: PD liked, moonlighting not possible
+    "ETSU": (3.33, 6.67, 0, 7.5, 1, 15, "No"),  # 10/21: call favorable (Barath, after the 10/12 meet-and-greet detail: ID call is home pager only, ICU is shifts);  # clinical 6; read 7.5 = PD, faculty, fellows liked, coordinator not (10/13); 10/12 meet-and-greet: visa holders can't moonlight; 10/13: call unfavorable (Barath: 24-h call M-F on ID + 1 weekend/month)
+    # 10/19 (before the 10/27 interview): Barath "wayne state clinic 0 and culture 0" -> clinical 0 (was 3.33),
+    # read 0, call unfavorable, moonlighting No. Pre-interview call by Barath's choice; revisit after 10/27.
+    "Wayne State": (6.67, 3.33, 10, 3.75, 0, 21, "No"),  # 10/27: clinical 6.67 ("same as mcw clinical for now"); field 3.33 (optional CCM); read: PC not liked, PD/faculty/fellows neutral 1.25 each
     # 10/13: new program. Barath: clinical 10, research 10 (Tufts tier), Field "similar to Tufts" (3.33),
     # Columbus = Boston geography tier (7.5). Culture unknown until the 10/28 interview; J-1 assumed.
     # 10/13 (later): Barath's provisional assumptions until 10/28: PD, faculty, fellows liked (coordinator neutral),
     # call favorable, moonlighting No. Verify at the interview.
-    "Ohio State": (10, 3.33, 7.5, 8.75, 1, 15, "No"),
+    # 10/19: Barath "Ohio State field preference is 0" (plain ID) and Geography 10 (Columbus joins Michigan).
+    "Ohio State": (10, 0, 10, 10, 1, 15, "No"),  # 10/25: coordinator liked ("ohio coordinator i liked them") -> read 10
+    # 2026-10-25: UMass Baystate (Springfield, ID with optional CCM). Barath: clinical "same as mcg", research 0,
+    # field 3.33 (optional CCM), geography "same as mcw", moonlighting No, 4 weeks vacation. Read 7.5 ASSUMED
+    # ("assume i like pd faculty and pc; fellows 0, small program"). 24-hour call unknown -> neutral.
+    "UMass Baystate": (3.33, 0, 3.33, 7.5, 1, 20, "No"),  # 10/27: field 0 (Barath "drop it to 0"; PD: no combined ID+CCM, sequential only). 10/26 interview: call favorable; read 7.5 CONFIRMED (PD, coordinator, faculty liked; fellows not). Was 10/25 "24 hr present unfav"
+}
+
+
+# 2026-10-19: Barath "remove ann arbor from scoring but keep it in table saying not ranked".
+# Its inputs are kept here for the table only; it is left out of every score, rank and audit.
+NOT_RANKED = {
+    # 2026-10-25: Barath "NGMC im not ranking" -> shown as Not ranked, like Ann Arbor.
+    "NGMC": (0, 6.67, 3.33, 5, 0, 15, "No"),  # 10/21: call unfavorable (Barath: "these ppl wont follow the acgme rules"); 10/19 had been favorable. clinical 4; PD, coordinator liked; 10/13: faculty NOT liked (was liked); 10/13: fellows item 0 (none exist yet; Barath "ngmc 0", was neutral 1.25)
+    "Ann Arbor": (0, 0, 10, 2.5, 1, 28, "No"),  # clinical 4; 10/7: PD not liked (coordinator only)
 }
 
 
@@ -103,7 +134,8 @@ def matrix():
 # the main score (Barath's choice; e.g. Wayne State vs Ann Arbor).
 # 2026-10-09: added a third bottom-five criterion, MD Anderson regret, at 1/3; Field and
 # Geography share the other 2/3 in their 40/60 ratio.
-BOTTOM_N = 5
+# 2026-10-19: retired. Barath "arrange based on score pls": the order is the main score only.
+BOTTOM_N = 0
 BOTTOM_WEIGHTS = {"field": 0.4 * 2 / 3, "geography": 0.6 * 2 / 3, "regret": 1 / 3}
 
 # How much Barath would regret matching here instead of MD Anderson leukemia (percent).
@@ -123,8 +155,10 @@ MDA_REGRET_PCT = {
 # Interview-read items still counted as a neutral 1.25 (unknown, not a real opinion).
 # Barath, 2026-10-13: by certification there must be no neutral values anywhere in the table.
 NEUTRAL_READ_ITEMS = {
-    "UMass Chan": ["faculty", "fellows", "coordinator"],  # interview 10/16
-    "Ohio State": ["coordinator"],  # interview 10/28 (read items otherwise provisional, see PROGRAMS)
+    "Wayne State": ["PD", "faculty", "fellows"],  # 10/27, pre-interview
+}
+# Other inputs still neutral (not a real score yet).
+NEUTRAL_OTHER = {
 }
 
 
@@ -136,11 +170,13 @@ def neutral_audit():
             out.append((n, "interview read"))
         for item in NEUTRAL_READ_ITEMS.get(n, []):
             out.append((n, f"read item: {item}"))
+        for item in NEUTRAL_OTHER.get(n, []):
+            out.append((n, item))
         if call is None:
             out.append((n, "24-hour call"))
         if moon not in ("Yes", "No"):
             out.append((n, "moonlighting"))
-        if n not in MDA_REGRET_PCT:
+        if BOTTOM_N and n not in MDA_REGRET_PCT:
             out.append((n, "MDA regret % (only used if it falls to the bottom five)"))
     return out
 
@@ -160,6 +196,8 @@ def bottom_score(name, v):
 def two_tier_order(score, m):
     """Main-formula order for the top, then the bottom five re-ordered by Field, Geography and MDA regret."""
     main = final_order(score, m)
+    if not BOTTOM_N:
+        return main
     top, bottom = main[:-BOTTOM_N], main[-BOTTOM_N:]
     bottom = sorted(bottom, key=lambda n: (-round(bottom_score(n, m[n]), 6), -score[n]))
     return top + bottom
@@ -200,6 +238,8 @@ if __name__ == "__main__":
             s = analysis.weighted_sum(analysis.perturb(i, f))
             for n, k in ranks(s).items():
                 moves[n].add(k)
+    for n in NOT_RANKED:
+        print(f" — {n:<29} not ranked (Barath 10/19)")
     print("rank range under +/-10%:", {n: (min(v), max(v)) for n, v in moves.items()})
     audit = neutral_audit()
     print(f"NEUTRAL VALUES LEFT: {len(audit)}" + ("" if audit else " (ready to certify)"))

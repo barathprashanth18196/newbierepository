@@ -1,0 +1,505 @@
+{
+ "query": "(\"Ohio State\"[ad]) AND (critical care terms)",
+ "date_range": "2024/10/16-2026/10/16",
+ "counts": {
+  "pubmed_hits": 575,
+  "metadata_retrieved": 572,
+  "osu_first_or_last_candidates": 307,
+  "pccm_led_candidates_screened": 28,
+  "kept_all_departments": 24,
+  "kept_pccm_led": 5,
+  "program_led_trials": 1,
+  "program_led_trials_pccm": 1
+ },
+ "kept": [
+  {
+   "pmid": "41532817",
+   "year": "2026",
+   "journal": "Critical care medicine",
+   "title": "Agreement Between Patient and Surrogate Assessments of Pre-Critical Illness Physical Function.",
+   "doi": "10.1097/CCM.0000000000007030",
+   "design": "Prospective observational cohort",
+   "first_author": "Joshua I Gordon",
+   "first_dept": "OSU PCCM",
+   "last_author": "Nathan E Brummel",
+   "last_dept": "OSU PCCM",
+   "pccm_led": true,
+   "group": "PCCM",
+   "kind": "observational"
+  },
+  {
+   "pmid": "42732705",
+   "year": "2026",
+   "journal": "Heart & lung : the journal of critical care",
+   "title": "Optimizing daily spontaneous breathing trial timing to expedite extubation.",
+   "doi": "10.1016/j.hrtlng.2026.102950",
+   "design": "QI pre-post implementation (retrospective, patient data)",
+   "first_author": "Nathan Nesbitt",
+   "first_dept": "OSU PCCM",
+   "last_author": "Emily Amin",
+   "last_dept": "OSU PCCM",
+   "pccm_led": true,
+   "group": "PCCM",
+   "kind": "observational"
+  },
+  {
+   "pmid": "42526703",
+   "year": "2026",
+   "journal": "Respiratory medicine",
+   "title": "Use of dual targeting during volume control ventilation is associated with increased delivery of non-lung-protective tidal volumes.",
+   "doi": "10.1016/j.rmed.2026.109068",
+   "design": "Single-center retrospective cohort",
+   "first_author": "Meghana Moodabagil",
+   "first_dept": "OSU PCCM",
+   "last_author": "Gregory Eisinger",
+   "last_dept": "OSU PCCM",
+   "pccm_led": true,
+   "group": "PCCM",
+   "kind": "observational"
+  },
+  {
+   "pmid": "41739187",
+   "year": "2026",
+   "journal": "Intensive care medicine",
+   "title": "Association between ABCDE bundle compliance and long-term outcomes: a secondary longitudinal analysis.",
+   "doi": "10.1007/s00134-026-08346-0",
+   "design": "Secondary longitudinal analysis of MIND-USA RCT cohort",
+   "first_author": "Leanne M Boehm",
+   "first_dept": "Vanderbilt (non-OSU)",
+   "last_author": "Nathan E Brummel",
+   "last_dept": "OSU PCCM",
+   "pccm_led": true,
+   "group": "PCCM",
+   "kind": "observational"
+  },
+  {
+   "pmid": "40837197",
+   "year": "2024",
+   "journal": "CHEST critical care",
+   "title": "Associations Among Skeletal Muscle Health, Disability, and Self-Reported Physical Function in Survivors of Critical Illness: A Secondary Analysis of the Bringing to Light the Risk Factors and Incidence of Neuropsychological Dysfunction in ICU Survivors Study.",
+   "doi": "10.1016/j.chstcc.2024.100115",
+   "design": "Secondary analysis of BRAIN-ICU prospective cohort",
+   "first_author": "Kimberly F Rengel",
+   "first_dept": "Vanderbilt (non-OSU)",
+   "last_author": "Nathan E Brummel",
+   "last_dept": "OSU PCCM",
+   "pccm_led": true,
+   "group": "PCCM",
+   "kind": "observational"
+  },
+  {
+   "pmid": "42145111",
+   "year": "2026",
+   "journal": "Circulation",
+   "title": "Resuscitation From Out-of-Hospital Cardiac Arrest: When Is EtCOReliably Associated With ROSC?",
+   "doi": "10.1161/CIRCULATIONAHA.125.077980",
+   "design": "Secondary analysis of PART cluster-RCT data (observational)",
+   "first_author": "Michelle M J Nassal",
+   "first_dept": "OSU Emergency Medicine",
+   "last_author": "Henry E Wang",
+   "last_dept": "OSU Emergency Medicine",
+   "pccm_led": false,
+   "group": "Emergency Medicine",
+   "kind": "observational"
+  },
+  {
+   "pmid": "40952743",
+   "year": "2025",
+   "journal": "JAMA network open",
+   "title": "Advanced Airway Devices and End-Tidal Capnography Trends in Cardiac Arrest: A Secondary Analysis of a Randomized Clinical Trial.",
+   "doi": "10.1001/jamanetworkopen.2025.31511",
+   "design": "Secondary analysis of PART RCT data (observational)",
+   "first_author": "Michelle M J Nassal",
+   "first_dept": "OSU Emergency Medicine",
+   "last_author": "Henry E Wang",
+   "last_dept": "OSU Emergency Medicine",
+   "pccm_led": false,
+   "group": "Emergency Medicine",
+   "kind": "observational"
+  },
+  {
+   "pmid": "40688246",
+   "year": "2025",
+   "journal": "Resuscitation plus",
+   "title": "Effect of prehospital advanced airway management on arterial blood gases in the pragmatic airway resuscitation trial.",
+   "doi": "10.1016/j.resplu.2025.101018",
+   "design": "Secondary analysis of PART RCT data (observational)",
+   "first_author": "Grace C Sullivan",
+   "first_dept": "OSU College of Medicine (student)",
+   "last_author": "Michelle M J Nassal",
+   "last_dept": "OSU Emergency Medicine",
+   "pccm_led": false,
+   "group": "Emergency Medicine",
+   "kind": "observational"
+  },
+  {
+   "pmid": "39486473",
+   "year": "2024",
+   "journal": "Resuscitation",
+   "title": "Vasopressor or advanced airway first in cardiac arrest?",
+   "doi": "10.1016/j.resuscitation.2024.110422",
+   "design": "Secondary analysis of PART RCT data (observational)",
+   "first_author": "Henry E Wang",
+   "first_dept": "OSU Emergency Medicine",
+   "last_author": "Graham Nichol",
+   "last_dept": "Univ. of Washington (non-OSU)",
+   "pccm_led": false,
+   "group": "Emergency Medicine",
+   "kind": "observational"
+  },
+  {
+   "pmid": "42005606",
+   "year": "2026",
+   "journal": "Resuscitation plus",
+   "title": "Association between end tidal capnography dynamics following vasopressor administration.",
+   "doi": "10.1016/j.resplu.2026.101297",
+   "design": "Secondary analysis of PART RCT data (observational)",
+   "first_author": "Banu Priya Raya Krishnamoorthy",
+   "first_dept": "OSU Emergency Medicine",
+   "last_author": "Michelle M J Nassal",
+   "last_dept": "OSU Emergency Medicine",
+   "pccm_led": false,
+   "group": "Emergency Medicine",
+   "kind": "observational"
+  },
+  {
+   "pmid": "40783098",
+   "year": "2025",
+   "journal": "Resuscitation",
+   "title": "Does the effectiveness of advanced airway management depend on initial cardiac arrest rhythm? A secondary analysis of the pragmatic airway resuscitation trial.",
+   "doi": "10.1016/j.resuscitation.2025.110760",
+   "design": "Secondary analysis of PART RCT data (observational)",
+   "first_author": "Kianna Eurick-Bering",
+   "first_dept": "Corewell Health (non-OSU)",
+   "last_author": "Henry E Wang",
+   "last_dept": "OSU Emergency Medicine",
+   "pccm_led": false,
+   "group": "Emergency Medicine",
+   "kind": "observational"
+  },
+  {
+   "pmid": "40699283",
+   "year": "2025",
+   "journal": "Internal and emergency medicine",
+   "title": "Effect of a multi-component palliative care intervention on goals of care discussions for critical patients in the emergency department.",
+   "doi": "10.1007/s11739-025-04048-5",
+   "design": "Retrospective cohort (single-site sub-study of PRIM-ER stepped-wedge trial)",
+   "first_author": "Julia Murray",
+   "first_dept": "OSU College of Medicine",
+   "last_author": "Lauren Talanda-Fath Southerland",
+   "last_dept": "OSU Emergency Medicine",
+   "pccm_led": false,
+   "group": "Emergency Medicine",
+   "kind": "observational"
+  },
+  {
+   "pmid": "41063464",
+   "year": "2025",
+   "journal": "The Annals of pharmacotherapy",
+   "title": "Predictive Value of Methicillin-ResistantNasal Swab PCR Assay for MRSA Pneumonia in Critically Ill Stroke Patients.",
+   "doi": "10.1177/10600280251372245",
+   "design": "Retrospective cohort (diagnostic accuracy)",
+   "first_author": "Mikayla K Gerdes",
+   "first_dept": "OSU Pharmacy",
+   "last_author": "Casey C May",
+   "last_dept": "OSU College of Pharmacy",
+   "pccm_led": false,
+   "group": "Pharmacy",
+   "kind": "observational"
+  },
+  {
+   "pmid": "38486351",
+   "year": "2024",
+   "journal": "The Annals of pharmacotherapy",
+   "title": "The Effect of Albumin Replacement on Vasopressor Duration in Septic Shock in Patients With Hypoalbuminemia.",
+   "doi": "10.1177/10600280241236507",
+   "design": "Retrospective cohort",
+   "first_author": "Jacob P Counts",
+   "first_dept": "OSU Pharmacy",
+   "last_author": "Bruce Doepker",
+   "last_dept": "OSU Pharmacy",
+   "pccm_led": false,
+   "group": "Pharmacy",
+   "kind": "observational"
+  },
+  {
+   "pmid": "41027656",
+   "year": "2025",
+   "journal": "Journal of pharmacy practice",
+   "title": "Efficacy of Intravenous Buprenorphine for Acute Pain in Critically Ill Patients in a Medical Intensive Care Unit.",
+   "doi": "10.1177/08971900251384153",
+   "design": "Retrospective cohort (MICU)",
+   "first_author": "Kennedi Satterfield",
+   "first_dept": "OSU Pharmacy",
+   "last_author": "Brookeanne Magrum",
+   "last_dept": "OSU Pharmacy",
+   "pccm_led": false,
+   "group": "Pharmacy",
+   "kind": "observational"
+  },
+  {
+   "pmid": "42234961",
+   "year": "2026",
+   "journal": "Alcohol and alcoholism (Oxford, Oxfordshire)",
+   "title": "Evaluation of risk factors associated with phenobarbital dose escalation for the treatment of alcohol withdrawal in the critically ill.",
+   "doi": "10.1093/alcalc/agag040",
+   "design": "Single-center retrospective cohort",
+   "first_author": "Madison Puryear",
+   "first_dept": "OSU Wexner (Pharmacy)",
+   "last_author": "BrookeAnne Magrum",
+   "last_dept": "OSU Wexner (Pharmacy)",
+   "pccm_led": false,
+   "group": "Pharmacy",
+   "kind": "observational"
+  },
+  {
+   "pmid": "39945448",
+   "year": "2025",
+   "journal": "Pharmacotherapy",
+   "title": "Establishing discordance rate of estimated glomerular filtration rate between serum creatinine-based calculations and cystatin-C-based calculations in critically ill patients.",
+   "doi": "10.1002/phar.70000",
+   "design": "Single-center observational cohort (critically ill)",
+   "first_author": "Victoria L Williams",
+   "first_dept": "OSU Wexner (Pharmacy)",
+   "last_author": "Anthony T Gerlach",
+   "last_dept": "OSU Wexner (Pharmacy)",
+   "pccm_led": false,
+   "group": "Pharmacy",
+   "kind": "observational"
+  },
+  {
+   "pmid": "39569676",
+   "year": "2024",
+   "journal": "Journal of pharmacy practice",
+   "title": "Incidence of Thrombocytopenia With Different Continuous Renal Replacement Systems and Modalities in a Cardiac Intensive Care Unit.",
+   "doi": "10.1177/08971900241302388",
+   "design": "Retrospective comparative cohort (cardiac ICU)",
+   "first_author": "Jessica C Brumit",
+   "first_dept": "OSU Pharmacy",
+   "last_author": "Kevin T Kissling",
+   "last_dept": "OSU Pharmacy",
+   "pccm_led": false,
+   "group": "Pharmacy",
+   "kind": "observational"
+  },
+  {
+   "pmid": "42697486",
+   "year": "2026",
+   "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
+   "title": "Impact of Hybrid Continuous Glucose Monitoring on Glycemic Control in a Medical Intensive Care Unit.",
+   "doi": "10.1016/j.eprac.2026.08.021",
+   "design": "Prospective intervention cohort vs matched historical controls (MICU)",
+   "first_author": "Eileen R Faulds",
+   "first_dept": "OSU College of Nursing",
+   "last_author": "Kathleen M Dungan",
+   "last_dept": "OSU Endocrinology",
+   "pccm_led": false,
+   "group": "Nursing / Endocrinology",
+   "kind": "observational"
+  },
+  {
+   "pmid": "42746746",
+   "year": "2026",
+   "journal": "Diabetes technology & therapeutics",
+   "title": "Continuous Glucose Monitoring Hypoglycemia Alarms in Critical Care: Clinical Utility and Workflow Integration.",
+   "doi": "10.1177/15209156261487821",
+   "design": "Prespecified secondary analysis of prospective MICU implementation study",
+   "first_author": "Eileen R Faulds",
+   "first_dept": "OSU College of Nursing",
+   "last_author": "Kathleen M Dungan",
+   "last_dept": "OSU Endocrinology",
+   "pccm_led": false,
+   "group": "Nursing / Endocrinology",
+   "kind": "observational"
+  },
+  {
+   "pmid": "39546958",
+   "year": "2024",
+   "journal": "Heart & lung : the journal of critical care",
+   "title": "Preliminary efficacy of the vidatalkcommunication application on family psychological symptoms in the intensive care unit: A pilot study.",
+   "doi": "10.1016/j.hrtlng.2024.11.001",
+   "design": "Prospective pilot controlled study (family caregivers, attention control)",
+   "first_author": "Ji Won Shin",
+   "first_dept": "OSU College of Nursing",
+   "last_author": "Mary Beth Happ",
+   "last_dept": "OSU College of Nursing",
+   "pccm_led": false,
+   "group": "Nursing",
+   "kind": "observational"
+  },
+  {
+   "pmid": "40583005",
+   "year": "2025",
+   "journal": "American journal of critical care : an official publication, American Association of Critical-Care Nurses",
+   "title": "Delirium Among Critically Ill Patients With Stroke: Prevalence, Severity, and Outcomes.",
+   "doi": "10.4037/ajcc2025153",
+   "design": "Prospective observational cohort (neuro ICU)",
+   "first_author": "Thomas N Lawson",
+   "first_dept": "OSU Neurocritical Care Unit (APP)",
+   "last_author": "Judith A Tate",
+   "last_dept": "OSU College of Nursing",
+   "pccm_led": false,
+   "group": "Neuro ICU / Nursing",
+   "kind": "observational"
+  },
+  {
+   "pmid": "40202402",
+   "year": "2025",
+   "journal": "Shock (Augusta, Ga.)",
+   "title": "PRE-ADMISSION BARIATRIC SURGERY IS ASSOCIATED WITH REDUCED MORTALITY IN SURGICAL PATIENTS WITH SEPSIS.",
+   "doi": "10.1097/SHK.0000000000002568",
+   "design": "Single-institution retrospective cohort",
+   "first_author": "Anahita Jalilvand",
+   "first_dept": "OSU Surgery - Trauma, Critical Care & Burn",
+   "last_author": "Jon Wisler",
+   "last_dept": "OSU Surgery - Trauma, Critical Care & Burn",
+   "pccm_led": false,
+   "group": "Surgery / Trauma CC",
+   "kind": "observational"
+  },
+  {
+   "pmid": "40880569",
+   "year": "2025",
+   "journal": "World journal of critical care medicine",
+   "title": "Acute liver failure etiology, clinical manifestation and outcomes in adults: Experience of tertiary care hospital in Karachi.",
+   "doi": "10.5492/wjccm.v14.i3.105428",
+   "design": "Retrospective cohort (Karachi tertiary center)",
+   "first_author": "Nazish Butt",
+   "first_dept": "Jinnah PMC, Karachi (non-OSU)",
+   "last_author": "Khalid Mumtaz",
+   "last_dept": "OSU Gastroenterology/Hepatology",
+   "pccm_led": false,
+   "group": "Gastroenterology/Hepatology",
+   "kind": "observational"
+  }
+ ],
+ "trials": [
+  {
+   "pmid": "40473278",
+   "year": "2025",
+   "journal": "BMJ open",
+   "title": "Optimization of Inspired Oxygen during Mechanical Ventilation (OPTI-OXYGEN): rationale and design of a pragmatic randomised controlled trial.",
+   "doi": "10.1136/bmjopen-2024-094924",
+   "design": "Pragmatic RCT - protocol/rationale (OPTI-OXYGEN)",
+   "first_author": "Sonal R Pannu",
+   "first_dept": "OSU PCCM",
+   "last_author": "Elliott D Crouser",
+   "last_dept": "OSU PCCM",
+   "pccm_led": true,
+   "group": "PCCM",
+   "kind": "trial"
+  }
+ ],
+ "pccm_led_excluded": [
+  {
+   "pmid": "42664046",
+   "title": "IFITM3 Is Elevated in BAL and Plasma Following Infection in ICU Setting.",
+   "reason": "translational biomarker (IFITM3 BAL/plasma EVs) - lab"
+  },
+  {
+   "pmid": "42126874",
+   "title": "Heterogeneous Causes of Acute Respiratory Distress Syndrome Correlate With Distinct Peripheral Polyunsaturated Fatty Acid Metabolites.",
+   "reason": "translational biomarker (ARDS plasma PUFA/oxylipins) - lab"
+  },
+  {
+   "pmid": "41176818",
+   "title": "SARS-CoV-2 innate immune recognition and implications for respiratory health.",
+   "reason": "review (COVID)"
+  },
+  {
+   "pmid": "40084266",
+   "title": "Diagnostic Performance of Monocyte Distribution Width for the Detection of Sepsis: A Systematic Review and Meta-Analysis.",
+   "reason": "systematic review/meta-analysis"
+  },
+  {
+   "pmid": "39137035",
+   "title": "Healthcare Use and Expenditures in Rural Survivors of Hospitalization for Sepsis.",
+   "reason": "MarketScan/Medicare claims; rural (disparities)"
+  },
+  {
+   "pmid": "42878611",
+   "title": "Association of Tele-Critical Care Capability With Interhospital Transfers and Potentially Low-Value Transfers Among Critically Ill Medicare Beneficiaries.",
+   "reason": "Medicare claims (tele-critical care transfers)"
+  },
+  {
+   "pmid": "42671306",
+   "title": "Disparities in employment opportunities for critical care physicians from non-pulmonary training backgrounds: a nationwide cross-sectional study.",
+   "reason": "workforce disparities, job postings (no patient data)"
+  },
+  {
+   "pmid": "42605049",
+   "title": "From Adoption to Optimization: APCCMPD Recommendations for PCCM Program Signaling.",
+   "reason": "APCCMPD recommendations (consensus/education)"
+  },
+  {
+   "pmid": "42161358",
+   "title": "What We Took With Us: Six Intensivists Reflect on COVID-19 at the Five-Year Anniversary.",
+   "reason": "COVID reflection"
+  },
+  {
+   "pmid": "42139072",
+   "title": "A Novel Medicare Claims-Based Approach to Identifying Tele-ICU Capability and Utilization Across US Hospitals.",
+   "reason": "Medicare claims methods (tele-ICU identification)"
+  },
+  {
+   "pmid": "41934627",
+   "title": "Addressing the procedural mismatch: individualized learning plans to align internal medicine residency training with pulmonary and critical care medicine fellowship procedural expectations.",
+   "reason": "education perspective, no abstract"
+  },
+  {
+   "pmid": "41860327",
+   "title": "Executive Summary: Society of Critical Care Medicine Guidelines on Caring for Older Adults in the ICU.",
+   "reason": "SCCM guideline (executive summary)"
+  },
+  {
+   "pmid": "41860322",
+   "title": "Society of Critical Care Medicine Guidelines on Caring for Older Adults in the ICU.",
+   "reason": "SCCM guideline"
+  },
+  {
+   "pmid": "41849412",
+   "title": "Rurality and long-term outcomes after critical illness.",
+   "reason": "rurality/area deprivation - disparities"
+  },
+  {
+   "pmid": "41738270",
+   "title": "Extracellular vesicle lipid cargo orchestrates lung inflammation and resolution.",
+   "reason": "review"
+  },
+  {
+   "pmid": "41459342",
+   "title": "The Role of Calibration Practices in Optimizing Continuous Glucose Monitor Accuracy in Critically Ill Patients.",
+   "reason": "endocrine-led CGM feasibility; pools a COVID-19 ICU cohort (shared multi-division affiliation string)"
+  },
+  {
+   "pmid": "41428207",
+   "title": "Challenges and strategies in the care of older adults across the continuum of intensive and post-intensive care medicine.",
+   "reason": "review"
+  },
+  {
+   "pmid": "40960277",
+   "title": "The Bethesda Declaration Demands Action by All Members of the Pulmonary, Critical Care, and Sleep Disciplines to Safeguard Public Health.",
+   "reason": "commentary"
+  },
+  {
+   "pmid": "40800009",
+   "title": "Cardiac arrest in the pregnant patient - Using simulation to improve internal medicine resident competency.",
+   "reason": "resident simulation curriculum (education)"
+  },
+  {
+   "pmid": "40170544",
+   "title": "Plasma proteomic profiles correlate with organ dysfunction in COVID-19 ARDS.",
+   "reason": "COVID ARDS proteomics"
+  },
+  {
+   "pmid": "39927442",
+   "title": "A Survey of Program Directors on Procedural Competence and Volume in the US Pulmonary and Critical Care Fellowships.",
+   "reason": "program director survey; bronchoscopy procedures"
+  },
+  {
+   "pmid": "39905778",
+   "title": "Muscle Dysfunction and Physical Recovery After Critical Illness.",
+   "reason": "review"
+  }
+ ]
+}

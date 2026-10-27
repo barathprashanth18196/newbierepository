@@ -1,0 +1,110 @@
+[
+ {
+  "program": "Tufts (ID)",
+  "institution": "Tufts Medical Center / Tufts Medicine GME (Boston, MA)",
+  "pgy4_salary": 95406,
+  "academic_year": "2026-2027",
+  "source_url": "https://www.tuftsmedicine.org/sites/default/files/2026-03/TM-Salaries-2026-2027.pdf",
+  "notes": "Notion Tufts page (NRMP Binder for Applicants 2027): PGY-4 $95,406, PGY-5 $100,602, PGY-6 $105,701 (the optional CCM year). The 2026-27 salary PDF is posted by Tufts Medicine; its contents weren't fetched (site blocked). Tufts isn't unionized. Extras: 3% retirement match, moving stipend paid in August, subsidized MBTA pass and parking, program education funds (amount not stated). No meal stipend.",
+  "confidence": "confirmed"
+ },
+ {
+  "program": "Ohio State University Wexner Medical Center (ID)",
+  "institution": "The Ohio State University Wexner Medical Center GME (Columbus, OH)",
+  "pgy4_salary": 75605,
+  "academic_year": "Probably 2025-2026 (year not stated on the source page)",
+  "source_url": "https://medicine.osu.edu/departments/sports-medicine/education/fellowships/sports-medicine/stipends-and-benefits",
+  "notes": "OSU's own sports medicine fellowship page lists the 'current' PGY4 stipend as $75,605 and says stipends are uniform across clinical departments and set annually. The page gives no year. OSU radiology lists 2025-26 PGY2 $70,935 and PGY3 $73,100, which fits $75,605 as the 2025-26 PGY4 step. No 2026-27 OSU scale was found, so the 2026-27 figure is probably somewhat higher. Extras: about a $1,500 education fund appears in several OSU FREIDA listings.",
+  "confidence": "estimated"
+ },
+ {
+  "program": "UMass Chan (ID)",
+  "institution": "UMass Chan Medical School / UMass Memorial (Worcester, MA), CIR-SEIU unit",
+  "pgy4_salary": 80384,
+  "academic_year": "2024-2025 (FY25; latest published Worcester memo found)",
+  "source_url": "https://www.umassmed.edu/globalassets/graduate-medical-education/documents/2025-stipend-memo-final-with-cir-increase.pdf",
+  "notes": "The FY25 memo (7/1/2024-6/30/2025) lists PGY4 $80,384. No FY26 or FY27 memo was found. A tentative CIR-SEIU deal (Oct 2025) gives a 9.5% raise over 3 years and an education allowance rising to $1,500/yr, so the 2026-27 figure should be higher, but no number is published. Extras: $1,000/yr education allowance (unused amount up to $1,000 carries over); 50% MPH tuition support (from the interview).",
+  "confidence": "estimated"
+ },
+ {
+  "program": "Medical College of Wisconsin (CCM)",
+  "institution": "Medical College of Wisconsin Affiliated Hospitals (MCWAH) / Froedtert (Milwaukee, WI)",
+  "pgy4_salary": 81689,
+  "academic_year": "2026-2027 (AY starting 7/1/2026)",
+  "source_url": "https://www.mcw.edu/education/graduate-medical-education/mcwah-gme-residency-and-fellowship-programs",
+  "notes": "From the official MCWAH 'Benefits, Conditions & Terms of Employment' document as captured on the Notion MCW page: PGY4 $81,689, PGY5 $85,490, PGY6 $88,570. Set at the AAMC 75th percentile plus about 2%. The source URL is the MCWAH GME section; the exact benefits page path wasn't verified. Extras: $100/month 403(b) employer contribution ($1,200/yr), free vision, free 24-hour fitness center, on-call meals.",
+  "confidence": "confirmed"
+ },
+ {
+  "program": "Medical College of Georgia / Augusta University (Heme-Onc)",
+  "institution": "Medical College of Georgia at Augusta University / Wellstar MCG Health (Augusta, GA)",
+  "pgy4_salary": 66020,
+  "academic_year": "2026-2027 (FY27, 7/1/2026-6/30/2027)",
+  "source_url": "https://www.augusta.edu/colleges/medicine/residents/documents/housestaffsalaries_fy27.pdf",
+  "notes": "The official FY27 house staff salary sheet lists PGY4 $66,020 ($5,501.67/mo) and PGY1 $60,000. These are the same as FY26, so there was apparently no raise at these levels. Extra money: moonlighting is allowed from January of the first year (about $800 per 8-hour Heme/Onc or BMT shift, per the interview).",
+  "confidence": "confirmed"
+ },
+ {
+  "program": "Henry Ford Providence (Heme/Onc)",
+  "institution": "Henry Ford Health GME (Southfield/Novi, MI)",
+  "pgy4_salary": 76367,
+  "academic_year": "2026-2027 (effective 7/1/2026)",
+  "source_url": "https://www.salarydr.com/residency-salary/institutions/henry-ford-health",
+  "notes": "The Notion Henry Ford Providence page lists the stipend scale effective 7/1/2026: PGY4 $76,367, PGY5 $78,729, PGY6 $81,865. SalaryDr (a third-party aggregator) gives the same PGY-4 2026-27 figure. Henry Ford's own page wasn't reached. Extras: $1,500/yr meal stipend loaded onto the badge, $1,650/yr education allowance (PGY3+), $2,000/yr research fund (program), up to $1,500 travel funding, 403(b) match up to 3.5%.",
+  "confidence": "confirmed"
+ },
+ {
+  "program": "Louisiana State University New Orleans (Heme/Onc)",
+  "institution": "LSU Health Sciences Center New Orleans GME",
+  "pgy4_salary": 69067,
+  "academic_year": "2026-2027 (rate published for 7/1/2026-12/31/2026)",
+  "source_url": "https://lsugme.atlassian.net/wiki/spaces/PAYROLL/pages/11698396/House+Officer+Pay+Scale",
+  "notes": "House Officer Pay Scale lists HO 4 at $69,067 (about $5,756/mo). The published scale covers only Jul-Dec 2026, and no Jan-Jun 2027 rates were found. Also on the GME site: https://www.medschool.lsuhsc.edu/medical_education/graduate/applicants/pay_scale.aspx. Extras: about a $125/month meal card at UMC and West Jefferson (about $1,500/yr), free food and a free apartment during the Baton Rouge BMT rotation, free parking, and 5 days of educational leave. The program doesn't pay board review or dues.",
+  "confidence": "confirmed"
+ },
+ {
+  "program": "Northeast Georgia Pulmonary and Critical Care Medicine",
+  "institution": "Northeast Georgia Medical Center GME (Gainesville, GA)",
+  "pgy4_salary": 80000,
+  "academic_year": "2027-28 (per Barath)",
+  "source_url": "Barath",
+  "notes": "Barath, 10/25: \"ngmc will be 80k\"",
+  "confidence": "confirmed"
+ },
+ {
+  "program": "East Tennessee State University (ID/CCM)",
+  "institution": "ETSU Quillen College of Medicine GME (Johnson City, TN)",
+  "pgy4_salary": 70236,
+  "academic_year": "2026-2027 (ESTIMATE; confirmed 2025-2026 PGY4 = $68,247)",
+  "source_url": "https://www.etsu.edu/com/psychiatry/residents/benefits.php",
+  "notes": "No 2026-27 PGY-4 figure is published in search results. The Notion note confirms 2026-27 PGY1 $63,417 and PGY6 $75,572, and the ETSU pediatrics page confirms 2026-27 PGY1-3 ($63,417 / $65,311 / $67,648). The confirmed 2025-26 scale (psychiatry and family medicine pages) is PGY4 $68,247, PGY5 $70,748, PGY6 $73,432. ESTIMATE: applying the PGY6 2025-26 to 2026-27 raise (+2.91%) to PGY4 gives about $70,236. Treat as an estimate until the ETSU GME 2026-27 table is seen. Extras: free taxi service for fatigued residents; no meal or housing stipend found.",
+  "confidence": "estimated"
+ },
+ {
+  "program": "Wayne State University / Detroit Medical Center (ID)",
+  "institution": "Wayne State University School of Medicine GME (Alliance of Resident Physicians contract) / Detroit Medical Center (Detroit, MI)",
+  "pgy4_salary": 71354,
+  "academic_year": "2025-2026 (latest published; 2026-27 not posted)",
+  "source_url": "https://gme.med.wayne.edu/resident-info",
+  "notes": "The WSU GME resident page lists 2025-26 PGY4 $71,354 (2024-25: $69,276, a +3% step). The 2024-27 Alliance of Resident Physicians agreement should set the 2026-27 rate, but no figure was found; applying the same ~3% gives about $73,500 (unconfirmed). Caveat: FREIDA lists the ID fellowship as a 'Detroit Medical Center/Wayne State University Program'. If the fellowship is DMC-employed (not WSU), the pay scale may differ. Confirm the employer at the 10/27 interview. Extras (Notion): $600/yr meal plus $2,600/yr education stipend ($3,200 total, tax-free).",
+  "confidence": "estimated"
+ },
+ {
+  "program": "Ann Arbor (ID)",
+  "institution": "Trinity Health Ann Arbor Hospital GME (formerly St. Joseph Mercy Ann Arbor; Trinity Health Michigan, NOT University of Michigan) (Ypsilanti/Ann Arbor, MI)",
+  "pgy4_salary": 72929,
+  "academic_year": "2026-2027",
+  "source_url": "https://www.trinityhealthmichigan.org/graduate-medical-education/ann-arbor/compensation-and-benefits/salaries",
+  "notes": "The Notion tracker identifies the program as Trinity Health Ann Arbor Hospital. The Notion figure (PGY4 $70,560, PGY5 $72,755) is the 2025-26 scale. The Trinity Ann Arbor salary page's '2026 - 2027 Financial Support' lists PGY-4 $72,929, and the Trinity Livonia page shows the same figure for 7/1/2026-6/30/2027. Extras (THAA GME benefits doc in Notion): $3,000/yr meal stipend, $500 education/device fund, $2,500/yr conference funding (fellows), board review and board exam fee covered, free parking, funded elective month in Nepal.",
+  "confidence": "confirmed"
+ },
+ {
+  "program": "UMass Chan - Baystate (ID)",
+  "institution": "UMass Chan Medical School-Baystate / Baystate Medical Center GME (Springfield, MA)",
+  "pgy4_salary": 84581,
+  "academic_year": "2026-2027",
+  "source_url": "https://www.baystatehealth.org/education-research/education/graduate-medical-education/salary-benefits",
+  "notes": "Baystate GME 'Salaries for GME Programs Academic Year 2026-2027' lists PG1 $74,551, PG4 $84,581, PG9 $104,434. Targets the 75th percentile nationally. Baystate sets its own scale; it isn't the UMass Worcester CIR scale. Other stipends weren't captured (page couldn't be fetched).",
+  "confidence": "confirmed"
+ }
+]
